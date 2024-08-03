@@ -1,0 +1,17 @@
+services:
+  arma-reforger:
+    image: ghcr.io/acemod/arma-reforger:latest
+    platform: linux/amd64
+    container_name: arma-reforger
+    ports:
+      - "2001:2001/udp"
+      - "17777:17777/udp"
+      - "19999:19999/udp"  # RCON
+    volumes:
+      - ./reforger/configs:/reforger/Configs
+      - ./reforger/profile:/home/profile
+      - ./reforger/workshop:/reforger/workshop
+    environment:
+      - ARMA_CONFIG=redshore.json
+      - ARMA_MAX_FPS=60
+      - ARMA_PARAMS=-autoreload 10 -loadSessionSave

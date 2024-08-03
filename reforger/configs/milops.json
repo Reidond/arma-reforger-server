@@ -1,0 +1,55 @@
+{
+        "a2s": {
+                "address": "0.0.0.0",
+                "port": 17777
+        },
+        "game": {
+                "name": "Красный Берег",
+                "password": "1525",
+                "passwordAdmin": "1525",
+                "admins": [],
+                "scenarioId": "{3AF863BEDF4B019B}Missions/MilOpsModernWarfare.conf",
+                "maxPlayers": 32,
+                "visible": true,
+                "supportedPlatforms": [
+                        "PLATFORM_PC",
+                        "PLATFORM_XBL"
+                ],
+                "gameProperties": {
+                        "serverMaxViewDistance": 5000,
+                        "serverMinGrassDistance": 150,
+                        "networkViewDistance": 5000,
+                        "battlEye": true
+                },
+                "mods": [
+			{
+				"modId": "595F2BF2F44836FB",
+				"name": "RHS - Status Quo"
+			},
+			{
+				"modId": "61DACC848B8E8066",
+				"name": "MilOps Modern Warfare Addon"
+			},
+			{
+				"modId": "5D0551624969C92E",
+				"name": "Zeliks Character"
+			},
+			{
+				"modId": "60729BD13FB6FC3C",
+				"name": "Phoenix Studios Equipment"
+			},
+			{
+				"modId": "61D600CFB64F9B28",
+				"name": "MilOps Everon Modern Warfare"
+			},
+			{
+				"modId": "617EB0013539C88E",
+				"name": "Phoenix Studios Common"
+			},
+			{
+				"modId": "59A30ACC02650E71",
+				"name": "Night Vision System"
+			}
+                ]
+        }
+}

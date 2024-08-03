@@ -1,0 +1,202 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-07-26_14-00-45/script.log started at 2024-07-26 14:00:46 (2024-07-26 14:00:46 UTC)
+
+14:00:46.124 SCRIPT       : SCRIPT       : Initializing scripts
+14:00:46.124  SCRIPT       : SCRIPT       : ScriptProjectManager init
+14:00:46.182 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+14:00:46.212  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+14:00:46.216 SCRIPT       : SCRIPT       : Compiling Game scripts
+14:00:47.653  SCRIPT       : Module: Game; loaded 4190x files; 8559x classes; used 18386/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 9568150c
+14:00:56.443 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+14:00:56.468  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+14:00:56.472 SCRIPT       : SCRIPT       : Compiling Game scripts
+14:00:56.999 SCRIPT       : Compiling Game scripts
+14:00:56.999  SCRIPT    (W): @"scripts/Game/GREG_WIP_NightVisionComponent.c,53": Possible variable name conflict 'a'
+14:00:58.072  SCRIPT       : Module: Game; loaded 4433x files; 9149x classes; used 19314/41943 kB (46%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,SCRIPTED_AIM_MODIFIER_DEBUG,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING"; CRC32: cc7e3640
+14:01:00.354  SCRIPT    (E): declarations(2346): error: Multiple declaration of variable 's_Layer111'
+14:01:00.354  SCRIPT    (E): declarations(2347): error: Multiple declaration of variable 's_Slot1'
+14:01:00.354  SCRIPT    (E): declarations(2348): error: Multiple declaration of variable 's_Layer115'
+14:01:00.354  SCRIPT    (E): declarations(2349): error: Multiple declaration of variable 's_Slot62'
+14:01:00.354  SCRIPT    (E): declarations(2350): error: Multiple declaration of variable 's_Layer117'
+14:01:00.354  SCRIPT    (E): declarations(2351): error: Multiple declaration of variable 's_Slot66'
+14:01:28.899     SCRIPT    (W): Catalog Entry: '{B591C94754DB4893}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered_Multicam.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+14:01:28.900     SCRIPT    (W): Catalog Entry: '{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+14:01:28.900     SCRIPT    (W): Catalog Entry: '{B9C41AAC90570E50}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+14:01:29.037     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+14:01:29.037     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+14:01:29.995      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+14:01:34.068 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA26D4A49F0> @"ENTITY:272896" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.068 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA258937E58> @"ENTITY:463500" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.068 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA258DF4030> @"ENTITY:463506" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921278> @"ENTITY:858977" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA2349213B0> @"ENTITY:858982" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA2349214E8> @"ENTITY:858987" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921620> @"ENTITY:858992" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921758> @"ENTITY:858997" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921890> @"ENTITY:859002" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA2349219C8> @"ENTITY:859007" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921B00> @"ENTITY:859012" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921C38> @"ENTITY:859017" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921D70> @"ENTITY:859022" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921EA8> @"ENTITY:859027" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234921FE0> @"ENTITY:859032" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA234922118> @"ENTITY:859037" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA237043228> @"ENTITY:908889" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA237043360> @"ENTITY:908895" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.069 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007CA237043498> @"ENTITY:908901" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.097 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007CA1DD53D9B0> @"ENTITY:2305843009213700317" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:34.106   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+14:01:37.763 SCRIPT       : ScenarioFramework: ---------------------- Generating tasks -------------------
+14:01:37.766 SCRIPT       : ScenarioFramework: Creating area AirbaseTasks with Layer Task LayerTaskClearArea3
+14:01:37.766 SCRIPT       : ScenarioFramework: Creating area RepBaseTasks with Layer Task LayerTaskClearArea23
+14:01:37.766 SCRIPT       : ScenarioFramework: Creating area HQBaseTask with Layer Task HQBaseClearTask
+14:01:37.766 SCRIPT       : ScenarioFramework: ---------------------- Generation of tasks completed -------------------
+14:01:37.775 SCRIPT       : GetResourceName 'scripts/Game/ScenarioFramework/Components/SCR_ScenarioFrameworkSlotBase.c,558'
+14:01:37.778 SCRIPT    (E): ScenarioFramework: SlotTrigger - The selected prefab is not trigger!
+14:01:37.778 SCRIPT       : GetResourceName 'scripts/Game/ScenarioFramework/Components/SCR_ScenarioFrameworkSlotBase.c,558'
+14:01:37.779 SCRIPT       : GetResourceName 'scripts/Game/ScenarioFramework/Components/SCR_ScenarioFrameworkSlotBase.c,558'
+14:01:37.819 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask  - generating task DO NOT USE COMPOSITION TEST. Description: ScenarioFramework: -> LayerTask: SlotTask  - generating task DO NOT USE COMPOSITION TEST. Description: 
+14:01:37.856 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotClearArea11 - generating task DO NOT USE COMPONENTS TEST. Description: ScenarioFramework: -> LayerTask: SlotTask SlotClearArea11 - generating task DO NOT USE COMPONENTS TEST. Description: ork: -> LayerTask: SlotTask  - generating task DO NOT USE COMPOSITION TEST. Description: 
+14:01:38.615     SCRIPT    (E): Missing BaseLoadoutClothComponent
+14:01:38.616     SCRIPT    (E): Missing BaseLoadoutClothComponent
+14:01:38.616     SCRIPT    (E): Missing BaseLoadoutClothComponent
+14:01:38.616     SCRIPT    (E): Missing BaseLoadoutClothComponent
+14:01:38.699 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007CA2AF503000> @"ENTITY:4611686018427389313" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:01:38.770   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotClearArea6 - generating task OPORD 210200ZMAY24. Description: ScenarioFramework: -> LayerTask: SlotTask SlotClearArea6 - generating task OPORD 210200ZMAY24. Description: P/LZ location. 
+4. Determine attack axis. 
+5.  Perform reconnoiter of the AO. 
+6.  Launch attack. 
+NOTE: This will unlock all assets. 
+14:01:38.875 SCRIPT    (E): ScenarioFramework: SlotTrigger - The selected prefab is not trigger!
+14:01:40.521 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotClearArea8 - generating task OPORD 210100ZMAY24. Description: ScenarioFramework: -> LayerTask: SlotTask SlotClearArea8 - generating task OPORD 210100ZMAY24. Description: rmine ORP/LZ location. 
+4. Determine attack axis. 
+5.  Perform reconnoiter of the AO. 
+6.  Launch attack. 
+NOTE: This will unlock rotary wing assets.
+14:01:41.720 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotClearArea31 - generating task OPORD 210500ZMAY24. Description: ScenarioFramework: -> LayerTask: SlotTask SlotClearArea31 - generating task OPORD 210500ZMAY24. Description: mine ORP/LZ location. 
+4. Determine attack axis. 
+5.  Perform reconnoiter of the AO. 
+6.  Launch attack. 
+NOTE: This will unlock repair assets.
+14:02:36.937 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:03:36.955 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:04:36.949 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:05:36.954 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:06:05.729     SCRIPT       : RHS_RadialMenu Initiated
+14:06:07.290   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+14:06:32.495       SCRIPT       : Weapon is already equipped!
+14:06:37.367 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:06:47.014   SCRIPT       : Weapon is already equipped!
+14:06:59.212   SCRIPT       : Weapon is already equipped!
+14:07:37.367 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:08:37.382 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:09:37.377 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:10:37.393 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:11:37.390 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:12:37.408 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:13:37.418 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:14:37.430 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:15:37.449 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:16:37.464 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:16:37.957   SCRIPT       : Weapon is already equipped!
+14:16:41.789   SCRIPT       : Weapon is already equipped!
+14:16:45.622   SCRIPT       : Weapon is already equipped!
+14:16:51.489   SCRIPT       : Weapon is already equipped!
+14:17:08.088   SCRIPT       : Weapon is already equipped!
+14:17:19.788   SCRIPT       : Weapon is already equipped!
+14:17:26.355   SCRIPT       : Weapon is already equipped!
+14:17:37.474 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:17:38.520   SCRIPT       : Weapon is already equipped!
+14:17:42.486   SCRIPT       : Weapon is already equipped!
+14:17:46.320   SCRIPT       : Weapon is already equipped!
+14:17:50.671   SCRIPT       : Weapon is already equipped!
+14:17:54.236   SCRIPT       : Weapon is already equipped!
+14:17:58.869   SCRIPT       : Weapon is already equipped!
+14:18:05.770   SCRIPT       : Weapon is already equipped!
+14:18:15.903   SCRIPT       : Weapon is already equipped!
+14:18:19.702   SCRIPT       : Weapon is already equipped!
+14:18:23.602   SCRIPT       : Weapon is already equipped!
+14:18:28.169   SCRIPT       : Weapon is already equipped!
+14:18:35.621     SCRIPT       : RHS_RadialMenu Initiated
+14:18:37.489 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:18:43.468   SCRIPT       : Weapon is already equipped!
+14:18:51.967   SCRIPT       : Weapon is already equipped!
+14:18:56.300   SCRIPT       : Weapon is already equipped!
+14:19:00.634   SCRIPT       : Weapon is already equipped!
+14:19:18.351   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+14:19:37.505 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:20:06.548   SCRIPT    (E): Invalid SmartAction id!
+14:20:37.525 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:21:28.946   SCRIPT    (E): Invalid SmartAction id!
+14:21:35.692       SCRIPT       : Weapon is already equipped!
+14:21:37.522     SCRIPT       : Weapon is already equipped!
+14:21:37.528 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:21:39.062   SCRIPT    (E): Invalid SmartAction id!
+14:21:46.928   SCRIPT    (E): Invalid SmartAction id!
+14:22:03.764    SCRIPT       : Weapon is already equipped!
+14:22:06.218       SCRIPT       : Weapon is already equipped!
+14:22:37.518 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:23:37.530 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:24:37.541 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:25:37.574 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:26:04.636   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+14:26:37.552 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:26:42.057       SCRIPT       : Weapon is already equipped!
+14:27:37.576 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:27:47.771       SCRIPT       : Weapon is already equipped!
+14:27:47.803       SCRIPT       : Weapon is already equipped!
+14:27:47.827       SCRIPT       : Weapon is already equipped!
+14:27:47.936       SCRIPT       : Weapon is already equipped!
+14:27:47.964       SCRIPT       : Weapon is already equipped!
+14:27:48.018       SCRIPT       : Weapon is already equipped!
+14:27:48.040       SCRIPT       : Weapon is already equipped!
+14:28:37.579 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:29:37.585 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:30:37.606 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:31:37.609 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:32:37.605 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:33:05.601   SCRIPT       : No items found to pick up by SCR_ChimeraCharacter<0x00007CA309172670> @"ENTITY:4611686018427392459" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <6293.442871 180.127640 7548.598633> @"{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"!
+14:33:37.625 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:33:40.701    SCRIPT       : Weapon is already equipped!
+14:34:04.071       SCRIPT       : Weapon is already equipped!
+14:34:04.150       SCRIPT       : Weapon is already equipped!
+14:34:04.184       SCRIPT       : Weapon is already equipped!
+14:34:13.170       SCRIPT       : Weapon is already equipped!
+14:34:13.230       SCRIPT       : Weapon is already equipped!
+14:34:13.265       SCRIPT       : Weapon is already equipped!
+14:34:13.343       SCRIPT       : Weapon is already equipped!
+14:34:13.373       SCRIPT       : Weapon is already equipped!
+14:34:13.395       SCRIPT       : Weapon is already equipped!
+14:34:13.415       SCRIPT       : Weapon is already equipped!
+14:34:37.619 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:35:04.900    SCRIPT       : Weapon is already equipped!
+14:35:36.796    SCRIPT       : Weapon is already equipped!
+14:35:37.631 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave

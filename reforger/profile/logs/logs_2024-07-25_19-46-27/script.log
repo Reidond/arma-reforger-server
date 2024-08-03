@@ -1,0 +1,55 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-07-25_19-46-27/script.log started at 2024-07-25 19:46:28 (2024-07-25 19:46:28 UTC)
+
+19:46:28.647 SCRIPT       : SCRIPT       : Initializing scripts
+19:46:28.647  SCRIPT       : SCRIPT       : ScriptProjectManager init
+19:46:28.712 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+19:46:28.746  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+19:46:28.749 SCRIPT       : SCRIPT       : Compiling Game scripts
+19:46:30.292  SCRIPT       : Module: Game; loaded 4190x files; 8559x classes; used 18386/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 9568150c
+19:46:33.903 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+19:46:33.928  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+19:46:33.932 SCRIPT       : SCRIPT       : Compiling Game scripts
+19:46:35.601  SCRIPT       : Module: Game; loaded 4404x files; 9101x classes; used 19244/41943 kB (45%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 71daec59
+19:47:01.027     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+19:47:01.027     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+19:47:01.065     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+19:47:01.065     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+19:47:02.013      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x0000739560D13D20> @"ENTITY:272896" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x0000739557AB3228> @"ENTITY:463500" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x0000739557AB3360> @"ENTITY:463506" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A8648> @"ENTITY:858977" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A8780> @"ENTITY:858982" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A88B8> @"ENTITY:858987" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A89F0> @"ENTITY:858992" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A8B28> @"ENTITY:858997" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A8C60> @"ENTITY:859002" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A8D98> @"ENTITY:859007" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A8ED0> @"ENTITY:859012" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A9008> @"ENTITY:859017" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A9140> @"ENTITY:859022" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A9278> @"ENTITY:859027" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A93B0> @"ENTITY:859032" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952C0A94E8> @"ENTITY:859037" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952E5D65F8> @"ENTITY:908889" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952E5D6730> @"ENTITY:908895" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000073952E5D6868> @"ENTITY:908901" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:06.758   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+19:47:11.674 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007395A33D7880> @"ENTITY:6917529027641092069" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:11.675 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007395A34C18A0> @"ENTITY:6917529027641092121" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:11.675 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000073959BBC3660> @"ENTITY:6917529027641092234" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:11.676 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007395A26E5460> @"ENTITY:6917529027641092348" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:47:11.676 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007395A10B4140> @"ENTITY:6917529027641092494" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+19:49:10.031 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:51:10.041 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:53:10.048 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:55:10.059 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:57:10.070 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:59:10.086 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:01:10.114 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:03:10.105 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:05:10.132 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:07:02.133     SCRIPT       : RHS_RadialMenu Initiated
+20:07:02.403   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+20:07:10.116 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave

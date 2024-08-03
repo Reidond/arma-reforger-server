@@ -1,0 +1,58 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-07-24_13-21-27/script.log started at 2024-07-24 13:21:28 (2024-07-24 13:21:28 UTC)
+
+13:21:28.249 SCRIPT       : SCRIPT       : Initializing scripts
+13:21:28.249  SCRIPT       : SCRIPT       : ScriptProjectManager init
+13:21:28.399 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+13:21:28.430  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+13:21:28.433 SCRIPT       : SCRIPT       : Compiling Game scripts
+13:21:29.860  SCRIPT       : Module: Game; loaded 4190x files; 8559x classes; used 18386/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 26229ce5
+13:21:40.090      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+13:21:43.007 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000078DBFE2A2AD8> @"ENTITY:59112" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:21:43.007 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000078DBFE2A2C10> @"ENTITY:59118" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:21:43.007 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000078DBFE2A2D48> @"ENTITY:59124" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:21:43.007 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000078DBFE2A2E80> @"ENTITY:59130" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:21:43.008 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000078DBF639A5F8> @"ENTITY:109411" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:21:43.008 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x000078DBF639A730> @"ENTITY:109416" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:21:43.014   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+13:21:44.104 SCRIPT       : ScenarioFramework: ---------------------- Generating tasks -------------------
+13:21:44.105 SCRIPT       : ScenarioFramework: Creating area Area_E with Layer Task E_Destroy
+13:21:44.105 SCRIPT       : ScenarioFramework: Creating area Area_D with Layer Task D_Documents
+13:21:44.105 SCRIPT       : ScenarioFramework: Creating area Area_B with Layer Task B_Kill
+13:21:44.105 SCRIPT       : ScenarioFramework: ---------------------- Generation of tasks completed -------------------
+13:21:44.412 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotKill_3 - generating task Eliminate target. Description: ScenarioFramework: -> LayerTask: SlotTask SlotKill_3 - generating task Eliminate target. Description: 
+13:21:44.544 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000078DBE7B72340> @"ENTITY:4611686018427388165" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:21:44.628 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotPick_6 - generating task Recover intel. Description: ScenarioFramework: -> LayerTask: SlotTask SlotPick_6 - generating task Recover intel. Description:  an enemy unit may be carrying it on them, or it may be securely stored away somewhere.
+13:21:44.654 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_3 - generating task Destroy vehicle. Description: ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_3 - generating task Destroy vehicle. Description:  Armored Personnel Carrier
+13:21:45.019 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000EC41350> @"ENTITY:4611686018427388357" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:23:43.123 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:25:43.124 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:27:43.129 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:29:43.131 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:31:43.136 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:33:43.139 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:35:43.161 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:37:43.146 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:39:43.157 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:41:43.152 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:43:43.171 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:45:43.158 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:47:43.166 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:49:43.166 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:51:43.177 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:53:43.179 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:55:43.176 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:57:43.180 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+13:59:43.202 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:01:43.201 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:02:10.125 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000078DC31563CC0> @"ENTITY:4611686018427388478" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:02:10.596 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000EC43990> @"ENTITY:4611686018427388688" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:02:10.596 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000FA85240> @"ENTITY:4611686018427388737" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:02:10.597 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000FA87CC0> @"ENTITY:4611686018427388801" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:02:10.597 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000FE1E010> @"ENTITY:4611686018427388868" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:02:10.597 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000FEA8250> @"ENTITY:4611686018427388936" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:02:10.598 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000FEAABC0> @"ENTITY:4611686018427389006" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:02:10.708 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00000000103DCCF0> @"ENTITY:4611686018427389067" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:03:43.332 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:05:43.336 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+14:07:43.345 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
