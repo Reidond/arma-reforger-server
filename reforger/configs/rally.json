@@ -7,7 +7,10 @@
         "name": "Красный Берег",
         "password": "1525",
         "passwordAdmin": "1525",
-        "admins": [],
+        "admins": [
+            "25c9bb9d-fdd7-4be9-898e-cac20a551dd2",
+            "78439c51-f388-4fee-aa65-aca9cde8b061"
+        ],
         "scenarioId": "{2BBBE828037C6F4C}Missions/RallyTest.conf",
         "maxPlayers": 32,
         "visible": true,
