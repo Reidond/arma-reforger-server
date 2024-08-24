@@ -1,0 +1,31 @@
+{
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 17777
+    },
+    "game": {
+        "name": "Красный Берег",
+        "password": "1525",
+        "passwordAdmin": "1525",
+        "admins": [],
+        "scenarioId": "{2BBBE828037C6F4C}Missions/RallyTest.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "supportedPlatforms": [
+            "PLATFORM_PC",
+            "PLATFORM_XBL"
+        ],
+        "gameProperties": {
+            "serverMaxViewDistance": 5000,
+            "serverMinGrassDistance": 150,
+            "networkViewDistance": 5000,
+            "battlEye": true
+        },
+        "mods": [
+            {
+                "modId": "60E734A26A19663A",
+                "name": "RALLY ARMA"
+            }
+        ]
+    }
+}
