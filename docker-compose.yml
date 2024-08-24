@@ -2,7 +2,7 @@ services:
   arma-reforger:
     image: ghcr.io/acemod/arma-reforger:latest
     platform: linux/amd64
-    container_name: arma-reforger
+    container_name: arma-reforger-server
     ports:
       - "2001:2001/udp"
       - "17777:17777/udp"
