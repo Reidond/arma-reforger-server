@@ -1,0 +1,926 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-08-19_13-42-31/error.log started at 2024-08-19 13:42:32 (2024-08-19 13:42:32 UTC)
+
+13:42:32.968 ENGINE       : GameProject load
+13:42:32.968  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+13:42:32.968   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+13:42:41.888 BACKEND      : Loading dedicated server config.
+13:42:41.888  RESOURCES    : GetResourceObject @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+13:42:41.888   RESOURCES (E): Failed to open
+13:42:41.888  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/RHS_Conflict.conf'!
+13:42:42.074 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+13:42:42.074  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+13:46:29.340 ENGINE       : GameProject load
+13:46:29.340  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+13:46:29.340   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+13:46:29.341  INIT         : GameProject load project data @"/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj"
+13:46:29.341   RESOURCES (E): Wrong GUID/name for resource @"{0AFDD005CD669892}Language/rhs_localization.st" in property "StringTableSource"
+13:46:37.418 BACKEND      : Loading dedicated server config.
+13:46:37.418  RESOURCES    : GetResourceObject @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+13:46:37.418   DEFAULT      : Config load @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+13:46:37.419    DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+13:46:37.623 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+13:46:37.623  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+13:46:40.055 WORLD        : Entities load @"{EEF09465C62534F7}Worlds/MP/Conflict/CTI_Campaign_Eden_RHS.ent"
+13:46:40.055  WORLD        : Subscene load @"{3448EA6E8B6B10CE}Worlds/MP/Conflict/CTI_Campaign_Eden_base.ent"
+13:46:40.055   WORLD        : Subscene load @"{853E92315D1D9EFE}worlds/Eden/Eden.ent"
+13:46:40.055    RESOURCES    : GetResourceObject @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+13:46:40.055     WORLD        : Entity prefab load @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+13:46:40.055      RESOURCES (E): Wrong GUID/name for resource @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat" in property "AssignedMaterial"
+13:46:40.783   WORLD        : Entity layer load @"Worlds/MP/Conflict/CTI_Campaign_Eden_base_Layers/AI.layer"
+13:46:40.784    RESOURCES (E): Wrong GUID/name for resource @"{79CD7F0D5DB62D18}worlds/MP/Navmeshes/RoadNetworkStates/CTI_Campaign_Eden_RoadNetwork.rnw" in property "Road Network File"
+13:46:42.351 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD1.ptc"
+13:46:42.351  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+13:46:42.351 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine.ptc"
+13:46:42.351  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+13:46:42.351 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD2.ptc"
+13:46:42.351  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+13:46:45.922 WORLD        : Game::LoadEntities
+13:46:45.922  WORLD        : CreateEntities
+13:46:45.922   WORLD        : CreateEntities
+13:46:45.922    WORLD        : NotifyBeforeEntitiesCreated
+13:46:45.923     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict.conf'
+13:46:45.923      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict.conf'
+13:46:45.923       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+13:46:45.923     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_ConflictWithoutAIs.conf'
+13:46:45.923      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_ConflictWithoutAIs.conf'
+13:46:45.923       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 256(0x100)
+13:46:45.923     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict_Arland.conf'
+13:46:45.924      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict_Arland.conf'
+13:46:45.924       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 766(0x2fe)
+13:46:45.924     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict_East.conf'
+13:46:45.924      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict_East.conf'
+13:46:45.924       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 278(0x116)
+13:46:45.925     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict_West.conf'
+13:46:45.925      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict_West.conf'
+13:46:45.925       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 276(0x114)
+13:46:46.189    ENTITY       : Create entity @"ENTITY:1" ('world', GenericWorldEntity) at <0.000000 0.000000 0.000000>
+13:46:46.189     RESOURCES (E):   Failed to decompress memory image data. Data is not DXT.
+13:46:46.189     WORLD     (E): Shore map CPU data creation failed - decompression of DF near atlas texture failed.
+13:46:46.190     WORLD     (E): Loading of shore map failed - creation of CPU data failed
+13:46:46.190     WORLD     (E): Loading of shore map failed - post load checks failed
+13:46:57.690    ENTITY       : Create entity @"ENTITY:6" ('GodRays', GenericWorldPPEffect) at <0.000000 0.000000 0.000000>
+13:46:57.690     MATERIAL     : Material load @"{90C363AB5243A434}Common/Postprocess/Sun_GodRays.emat"
+13:46:57.690      MATERIAL     : Material load @"{90C363AB5243A434}Common/Postprocess/Sun_GodRays.emat"
+13:46:57.690       MATERIAL  (E): Unknown keyword/data 'HorizonDisableY' at offset 46(0x2e)
+13:46:58.660    ENTITY       : Create entity @"ENTITY:47511" ('PreloadManager1', BasePreloadManager) at <0.033000 0.000000 -0.021000> @"{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et"
+13:46:58.660     ENTITY       : SpawnEntityPrefab @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+13:46:58.660      ENTITY       : Create entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+13:46:58.660       ENTITY       : SpawnEntityPrefab @"{88BA5F3224A6C834}Prefabs/Characters/Thermal/CharacterBasebody_Thermal.et"
+13:46:58.660        ENTITY       : Create entity @"ENTITY:9" ('GameEntity') at <0.000000 0.000000 0.000000>
+13:46:58.660         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Arms' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+13:46:58.660         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Arms_wound' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+13:46:58.660         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Body' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+13:46:58.660         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Body_wound' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+13:46:58.934      WORLD        : InitEntities 'PreloadWorld'
+13:46:58.934       ENTITY       : Init entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+13:46:58.935        INVENTORY (E): Couldn't insert item @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:23" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:58.935        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:58.935        INVENTORY (E): Couldn't insert item @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:23" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:58.935        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:58.935        INVENTORY (E): Couldn't insert item @"ENTITY:58" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:23" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:58.935        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:58" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.019     ENTITY       : SpawnEntityPrefab @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+13:46:59.019      WORLD        : InitEntities 'PreloadWorld'
+13:46:59.019       ENTITY       : Init entity @"ENTITY:62" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+13:46:59.019        INVENTORY (E): Couldn't insert item @"ENTITY:105" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" into storage @"ENTITY:80" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.xob') at <-0.160200 1.020957 0.135574> @"{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et" while spawning initial items inside the storage.
+13:46:59.019        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:105" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.062     ENTITY       : SpawnEntityPrefab @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+13:46:59.062      WORLD        : InitEntities 'PreloadWorld'
+13:46:59.062       ENTITY       : Init entity @"ENTITY:107" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+13:46:59.062        INVENTORY (E): Couldn't insert item @"ENTITY:156" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.063        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:156" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.063        INVENTORY (E): Couldn't insert item @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.063        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.064        INVENTORY (E): Couldn't insert item @"ENTITY:158" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.064        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:158" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.064        INVENTORY (E): Couldn't insert item @"ENTITY:159" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.064        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:159" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.065        INVENTORY (E): Couldn't insert item @"ENTITY:160" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.065        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:160" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.108     ENTITY       : SpawnEntityPrefab @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+13:46:59.108      WORLD        : InitEntities 'PreloadWorld'
+13:46:59.108       ENTITY       : Init entity @"ENTITY:181" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+13:46:59.108        INVENTORY (E): Couldn't insert item @"ENTITY:232" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:203" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.108        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:232" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.108        INVENTORY (E): Couldn't insert item @"ENTITY:233" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:203" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.108        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:233" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.108        INVENTORY (E): Couldn't insert item @"ENTITY:234" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:203" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.108        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:234" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.158     ENTITY       : SpawnEntityPrefab @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+13:46:59.158      WORLD        : InitEntities 'PreloadWorld'
+13:46:59.158       ENTITY       : Init entity @"ENTITY:238" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+13:46:59.158        INVENTORY (E): Couldn't insert item @"ENTITY:312" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:260" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.158        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:312" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.159        INVENTORY (E): Couldn't insert item @"ENTITY:313" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:260" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.159        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:313" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.240     ENTITY       : SpawnEntityPrefab @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+13:46:59.241      WORLD        : InitEntities 'PreloadWorld'
+13:46:59.241       ENTITY       : Init entity @"ENTITY:363" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+13:46:59.241        INVENTORY (E): Couldn't insert item @"ENTITY:412" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:383" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.241        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:412" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.241        INVENTORY (E): Couldn't insert item @"ENTITY:413" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:383" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.241        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:413" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.241        INVENTORY (E): Couldn't insert item @"ENTITY:414" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:383" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:46:59.241        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:414" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.266     ENTITY       : SpawnEntityPrefab @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+13:46:59.266      WORLD        : InitEntities 'PreloadWorld'
+13:46:59.266       ENTITY       : Init entity @"ENTITY:418" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+13:46:59.266        INVENTORY (E): Couldn't insert item @"ENTITY:469" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.266        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:469" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.266        INVENTORY (E): Couldn't insert item @"ENTITY:470" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.266        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:470" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.267        INVENTORY (E): Couldn't insert item @"ENTITY:471" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.267        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:471" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.267        INVENTORY (E): Couldn't insert item @"ENTITY:472" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.267        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:472" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.268        INVENTORY (E): Couldn't insert item @"ENTITY:473" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+13:46:59.268        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:473" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.390     ENTITY       : SpawnEntityPrefab @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+13:46:59.390      WORLD        : InitEntities 'PreloadWorld'
+13:46:59.390       ENTITY       : Init entity @"ENTITY:542" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+13:46:59.390        INVENTORY (E): Couldn't insert item @"ENTITY:583" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+13:46:59.390        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:583" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.390        INVENTORY (E): Couldn't insert item @"ENTITY:584" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+13:46:59.390        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:584" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.391        INVENTORY (E): Couldn't insert item @"ENTITY:585" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+13:46:59.391        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:585" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:46:59.391        INVENTORY (E): Couldn't insert item @"ENTITY:586" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+13:46:59.391        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:586" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:47:11.256    ENTITY       : Create entity @"ENTITY:617227" ('StaticModelEntity','Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.xob') at <1931.796021 81.777000 5138.725098> @"{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et"
+13:47:11.257     DEFAULT   (W): World doesn't contain RadioManagerEntity to support any BaseRadioComponent.
+13:47:22.237    ENTITY       : Create entity @"ENTITY:1108685" ('StaticModelEntity') at <8831.291016 95.934265 2673.487061>
+13:47:22.238     MATERIAL     : Material load @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat"
+13:47:22.238      MATERIAL  (E): Material file not found
+13:47:22.238     MATERIAL  (E): Object @"Assets/Structures/Cultural/Calvaries/CalvaryLarge_01/CalvaryLarge_01.xob" - cannot load material @"system/wbdata/PreviewWindow/TransparentMat.emat", creating default one (class MatPBRBasic)
+13:47:33.615    ENTITY       : Create entity @"ENTITY:2305843009213697452" ('GenericEntity','Assets/Props/Military/Antennas/Antenna_R161_01/Antenna_R161_01.xob') at <9354.231445 204.427994 1162.372070>
+13:47:33.615     DEFAULT   (W): BaseRadioComponent does not have any transceiver. (Entity: @"ENTITY:2305843009213697452" ('GenericEntity','Assets/Props/Military/Antennas/Antenna_R161_01/Antenna_R161_01.xob') at <9354.231445 204.427994 1162.372070>). Only printing this message once. There're possibly more nodes with this requirement.
+13:47:34.689    ENTITY       : Create entity @"ENTITY:4611686018427387909" ('CampaignFactionManager_RHS1', SCR_CampaignFactionManager) at <10.381000 0.000000 11.292000> @"{08D7B29AEC960674}Prefabs/MP/Campaign/CampaignFactionManager_RHS.et"
+13:47:34.689     RESOURCES    : GetResourceObject @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+13:47:34.689      WORLD        : Entity prefab load @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+13:47:34.689       RESOURCES    : GetResourceObject @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+13:47:34.689        WORLD        : Entity prefab load @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+13:47:34.689         WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 16561(0x40b1)
+13:47:34.841     ENTITY       : SpawnEntityPrefab @"{0723C05E6B3DE4D7}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_MC_wear.et"
+13:47:34.841      ENTITY       : Create entity @"ENTITY:12" ('GenericEntity') at <0.000000 0.000000 0.000000>
+13:47:34.841       RESOURCES (E): Can't remap 'Assets/Characters/Uniforms/Crye_Combat_Shirt/Crye_g3_Shirt_Rolled.xob' material from 'Crye_longsleeve_multicam' to 'Assets/Characters/Uniforms/Crye_Combat_Shirt/Data/Crye_longsleeve_AOR2.emat'. Source material do not exist
+13:47:34.856     ENTITY       : SpawnEntityPrefab @"{C1628374B0558405}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_MARPAT_Arid_wear.et"
+13:47:34.856      ENTITY       : Create entity @"ENTITY:22" ('GenericEntity') at <0.000000 0.000000 0.000000>
+13:47:34.856       RESOURCES (E): Can't remap 'Assets/Characters/Uniforms/Crye_Combat_Shirt/Crye_g3_Shirt_Rolled.xob' material from 'Crye_longsleeve_multicam' to 'Assets/Characters/Uniforms/Crye_Combat_Shirt/Data/Crye_longsleeve_AOR2.emat'. Source material do not exist
+13:47:34.867     ENTITY       : SpawnEntityPrefab @"{B8E4D2BA7D891181}Prefabs/Characters/Uniforms/Jacket_Waffletop/Jacket_Waffletop_wear.et"
+13:47:34.867      ENTITY       : Create entity @"ENTITY:29" ('GenericEntity') at <0.000000 0.000000 0.000000>
+13:47:34.867       RESOURCES (E): Can't remap 'Assets/Characters/Uniforms/Jacket_Waffletop/rhs_waffletop.xob' material from 'FROG_top_Temperate' to 'Assets/Characters/Uniforms/FROG_Combat_Shirt/data/FROG_top_Arid.emat'. Source material do not exist
+13:47:35.129     RESOURCES    : GetResourceObject @"{C9D4FE9DDCBA82A1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_XM664.et"
+13:47:35.129      WORLD        : Entity prefab load @"{C9D4FE9DDCBA82A1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_XM664.et"
+13:47:35.129       RESOURCES    : GetResourceObject @"{51A3B99DCE59C8E1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_M585.et"
+13:47:35.129        WORLD        : Entity prefab load @"{51A3B99DCE59C8E1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_M585.et"
+13:47:35.129         RESOURCES (E): Wrong GUID/name for resource @"{C5131112CC1B6469}Sounds/Weapons/_SharedData/BulletFlybys/UGL/Weapons_BulletFlybys_UGL.acp" in property "SubsonicFlybys"
+13:47:35.129       RESOURCES (E): Wrong GUID/name for resource @"{C5131112CC1B6469}Sounds/Weapons/_SharedData/BulletFlybys/UGL/Weapons_BulletFlybys_UGL.acp" in property "SubsonicFlybys"
+13:47:35.129     RESOURCES    : GetResourceObject @"{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et"
+13:47:35.130      WORLD        : Entity prefab load @"{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et"
+13:47:35.130       RESOURCES    : GetResourceObject @"{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et"
+13:47:35.130        WORLD        : Entity prefab load @"{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et"
+13:47:35.130         RESOURCES (E): Wrong GUID/name for resource @"{C5131112CC1B6469}Sounds/Weapons/_SharedData/BulletFlybys/UGL/Weapons_BulletFlybys_UGL.acp" in property "SubsonicFlybys"
+13:47:35.263     RESOURCES    : GetResourceObject @"{3E3A6EE8E87C44CC}Prefabs/Weapons/Launchers/RPG7/BaconBlunderbuss_Cannon.et"
+13:47:35.263      WORLD        : Entity prefab load @"{3E3A6EE8E87C44CC}Prefabs/Weapons/Launchers/RPG7/BaconBlunderbuss_Cannon.et"
+13:47:35.263       RESOURCES (E): Wrong GUID/name for resource @"{929BA3C16E409C76}UI/Textures/WeaponIcons/weapon_RPG-7.edds" in property "Icon"
+13:47:35.308     RESOURCES    : GetResourceObject @"{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et"
+13:47:35.308      WORLD        : Entity prefab load @"{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et"
+13:47:35.308       RESOURCES    : GetResourceObject @"{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et"
+13:47:35.309        WORLD        : Entity prefab load @"{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et"
+13:47:35.309         RESOURCES    : GetResourceObject @"{B6B8C164FD6377EA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_base.et"
+13:47:35.309          WORLD        : Entity prefab load @"{B6B8C164FD6377EA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_base.et"
+13:47:35.309           RESOURCES    : GetResourceObject @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+13:47:35.309            WORLD        : Entity prefab load @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+13:47:35.309             RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+13:47:35.309              WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+13:47:35.309               RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+13:47:35.309                WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+13:47:35.309                 WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 19148(0x4acc)
+13:47:35.498     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+13:47:35.499     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+13:47:35.626     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+13:47:35.626     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+13:47:35.665    ENTITY       : Create entity @"ENTITY:4611686018427387918" ('PreloadManager_Campaign1', BasePreloadManager) at <27.209000 0.000000 10.918000> @"{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et"
+13:47:35.666     ENTITY       : SpawnEntityPrefab @"{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Campaign_US_Player.et"
+13:47:35.666      WORLD        : InitEntities 'PreloadWorld'
+13:47:35.666       ENTITY       : Init entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Campaign_US_Player.et"
+13:47:35.666        INVENTORY (E): Couldn't insert item @"ENTITY:51" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:47:35.666        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:51" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:47:35.666        INVENTORY (E): Couldn't insert item @"ENTITY:52" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:47:35.666        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:52" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:47:35.666        INVENTORY (E): Couldn't insert item @"ENTITY:53" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:47:35.666        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:53" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:47:35.803     ENTITY       : SpawnEntityPrefab @"{07B92B5E1A781635}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_US_Player_Variant_1.et"
+13:47:35.803      WORLD        : InitEntities 'PreloadWorld'
+13:47:35.803       ENTITY       : Init entity @"ENTITY:107" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{07B92B5E1A781635}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_US_Player_Variant_1.et"
+13:47:35.803        INVENTORY (E): Couldn't insert item @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:128" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:47:35.803        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:47:35.804        INVENTORY (E): Couldn't insert item @"ENTITY:158" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:128" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:47:35.804        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:158" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:47:35.804        INVENTORY (E): Couldn't insert item @"ENTITY:159" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:128" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+13:47:35.804        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:159" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+13:47:37.038    WORLD        : InitEntities 'world'
+13:47:37.038     ENTITY       : Init entity @"ENTITY:3" ('SCR_MapEntity1', SCR_MapEntity) at <6400.000000 0.000000 6400.000000> @"{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et"
+13:47:37.038      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+13:47:40.066     ENTITY       : Init entity @"ENTITY:4611686018427387906" ('GameMode_Campaign1', SCR_GameModeCampaign) at <26.726000 0.000000 10.962000>
+13:47:40.067      SCRIPT    (W): ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API URL or Token not specified. Events will be logged but not submitted anywhere.
+13:47:43.956 ENTITY       : SpawnEntityPrefab @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+13:47:43.956  WORLD        : InitEntities 'world'
+13:47:43.956   ENTITY       : Init entity @"ENTITY:6917529027641085702" ('GenericEntity') at <3931.011963 15.148357 8488.539062> @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+13:47:43.957    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:44.049 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:44.049  WORLD        : InitEntities 'world'
+13:47:44.050   ENTITY       : Init entity @"ENTITY:6917529027641086176" ('GenericEntity') at <3908.856445 15.343848 8441.521484> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:44.050    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:44.242 ENTITY       : SpawnEntityPrefab @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+13:47:44.242  WORLD        : InitEntities 'world'
+13:47:44.242   ENTITY       : Init entity @"ENTITY:6917529027641087195" ('GenericEntity') at <5763.820801 7.919692 9629.669922> @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+13:47:44.242    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:45.226 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:45.226  WORLD        : InitEntities 'world'
+13:47:45.226   ENTITY       : Init entity @"ENTITY:6917529027641095250" ('GenericEntity') at <4812.690918 24.823425 11993.978516> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:45.226    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:45.756 ENTITY       : SpawnEntityPrefab @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+13:47:45.757  WORLD        : InitEntities 'world'
+13:47:45.757   ENTITY       : Init entity @"ENTITY:6917529027641099184" ('GenericEntity') at <4545.004883 19.876129 9814.588867> @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+13:47:45.757    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:46.237 ENTITY       : SpawnEntityPrefab @"{DA380948C0CE5990}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_USSR_01.et"
+13:47:46.237  WORLD        : InitEntities 'world'
+13:47:46.237   ENTITY       : Init entity @"ENTITY:6917529027641104089" ('GenericEntity') at <3934.442383 15.492491 8467.672852> @"{DA380948C0CE5990}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_USSR_01.et"
+13:47:46.237    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:47.041 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:47.041  WORLD        : InitEntities 'world'
+13:47:47.041   ENTITY       : Init entity @"ENTITY:6917529027641110084" ('GenericEntity') at <5800.319336 1.021584 9507.989258> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:47.041    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:47.095 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:47.095  WORLD        : InitEntities 'world'
+13:47:47.095   ENTITY       : Init entity @"ENTITY:6917529027641110378" ('GenericEntity') at <4404.414062 1.593021 11082.112305> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+13:47:47.095    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+13:47:48.132 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0D9093D20> @"ENTITY:272896" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.132 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0C49C7228> @"ENTITY:463500" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.133 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0C49C7360> @"ENTITY:463506" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.134 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB54648> @"ENTITY:858977" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.134 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB54780> @"ENTITY:858982" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.134 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB548B8> @"ENTITY:858987" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.134 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB549F0> @"ENTITY:858992" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.134 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB54B28> @"ENTITY:858997" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.134 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB54C60> @"ENTITY:859002" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.134 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB54D98> @"ENTITY:859007" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB54ED0> @"ENTITY:859012" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB55008> @"ENTITY:859017" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB55140> @"ENTITY:859022" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB55278> @"ENTITY:859027" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB553B0> @"ENTITY:859032" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0ACB554E8> @"ENTITY:859037" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0AF0665F8> @"ENTITY:908889" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.135 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0AF066730> @"ENTITY:908895" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.136 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FA0AF066868> @"ENTITY:908901" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.304 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007FA0F042E340> @"ENTITY:6917529027641086350" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.318 SCRIPT    (W): 'SCR_SupportStationAreaMeshComponent' (GenericEntity<0x00007FA0FFBC0AD0> @"ENTITY:6917529027641087185" ('GenericEntity') at <5748.053711 8.592275 9628.955078>) Component must be attached to enity with SCR_BaseSupportStationComponent! BasePrefab should not have a support Station component
+13:47:48.436 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007FA142DB8470> @"ENTITY:6917529027641095424" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.682 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000E155F00> @"ENTITY:6917529027641110258" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.694 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000E1A4F10> @"ENTITY:6917529027641110552" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.770 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000E853CC0> @"ENTITY:6917529027641116395" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:47:48.781 SCRIPT    (W): 'SCR_SupportStationAreaMeshComponent' (GenericEntity<0x000000000E853770> @"ENTITY:6917529027641116377" ('GenericEntity') at <3906.988037 14.413651 8498.759766>) Component must be attached to enity with SCR_BaseSupportStationComponent! BasePrefab should not have a support Station component
+13:50:35.843 WORLD        : UpdateEntities
+13:50:35.844  RPL          : rpl::Pip::ProcessNetToGame
+13:50:35.844   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+13:50:35.957 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+13:50:35.958 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+13:50:35.960 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+13:51:11.468 ENTITY       : SpawnEntityPrefab @"{F72E33A56F1F47FE}Prefabs/Characters/HeadGear/Helmet_TOR/variants/Helmet_TOR_small_green_sordin_Arsenal.et"
+13:51:11.468  ENTITY       : Create entity @"ENTITY:6917529027641147745" ('GameEntity') at <4011.100342 32.442245 7879.832520>
+13:51:11.468   RESOURCES    : GetResourceObject @"{7B92BEF419BC9D97}Assets/Characters/HeadGear/Helmet_TORnew/tor_s_sordin.xob"
+13:51:11.468    RESOURCES (E): Wrong GUID/name for resource @"{4B95F21AD8C57CCE}Hard_aramid_7_CF50027087BA3402.gamemat" in property "UTM_S"
+13:51:11.469    RESOURCES    : GetResourceObject @"{4B95F21AD8C57CCE}Hard_aramid_7_CF50027087BA3402.gamemat"
+13:51:11.469     RESOURCES (E): Failed to open
+13:51:11.526 ENTITY       : SpawnEntityPrefab @"{4C5535098D6DAC7C}Prefabs/Items/Equipment/Nightvision/Vlite/vlite.et"
+13:51:11.526  ENTITY       : Create entity @"ENTITY:6917529027641147753" ('GameEntity') at <4011.100342 32.442245 7879.832520>
+13:51:11.527   RESOURCES    : GetResourceObject @"{6BF10655FC67AF47}Assets/Items/Equipment/NVG/vlite/vlite.xob"
+13:51:11.527    RESOURCES (E): Wrong GUID/name for resource @"{A5DD387F98D4D4CF}Fabric_0_5mm_9B1C2BC43561D8C2.gamemat" in property "UBX_vlite"
+13:51:11.527    RESOURCES    : GetResourceObject @"{A5DD387F98D4D4CF}Fabric_0_5mm_9B1C2BC43561D8C2.gamemat"
+13:51:11.527     RESOURCES (E): Failed to open
+13:51:12.739 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000039222BC0> @"ENTITY:6917529027641147872" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:51:13.416 WORLD        : UpdateEntities
+13:51:13.416  WORLD        : FixedFrame
+13:51:13.416   ENTITY       : SpawnEntityPrefab @"{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et"
+13:51:13.417    ENTITY       : Create entity @"ENTITY:6917529027641147907" ('Vehicle','Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob') at <4642.511230 111.787003 8235.296875> @"{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et"
+13:51:13.417     RESOURCES    : GetResourceObject @"{2096570A3B9E831E}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_FIA_repair_box.et"
+13:51:13.417      WORLD        : Entity prefab load @"{2096570A3B9E831E}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_FIA_repair_box.et"
+13:51:13.417       RESOURCES    : GetResourceObject @"{2F088A1CDD3FB2F1}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_repair_box.et"
+13:51:13.417        WORLD        : Entity prefab load @"{2F088A1CDD3FB2F1}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_repair_box.et"
+13:51:13.417         RESOURCES    : GetResourceObject @"{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.et"
+13:51:13.417          WORLD        : Entity prefab load @"{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.et"
+13:51:13.417           RESOURCES    : GetResourceObject @"{28AA7AC34FC02DC8}Prefabs/Components/SupportStations/Repair/FieldRepairSupportStation_Vehicle.ct"
+13:51:13.417            ENTITY       : Prefab load @"{28AA7AC34FC02DC8}Prefabs/Components/SupportStations/Repair/FieldRepairSupportStation_Vehicle.ct"
+13:51:13.417             RESOURCES    : GetResourceObject @"{7D67AF7165CBE2A3}Prefabs/Components/SupportStations/Repair/BaseFieldRepairSupportStation.ct"
+13:51:13.417              ENTITY       : Prefab load @"{7D67AF7165CBE2A3}Prefabs/Components/SupportStations/Repair/BaseFieldRepairSupportStation.ct"
+13:51:13.417               ENTITY    (E): Unknown keyword/data 'm_bCanMoveWithPhysics' at offset 151(0x97)
+13:51:13.433     ENTITY       : SpawnEntityPrefab @"{2096570A3B9E831E}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_FIA_repair_box.et"
+13:51:13.433      ENTITY       : Create entity @"ENTITY:6917529027641147935" ('GenericEntity','Assets/Vehicles/Wheeled/Ural4320/VehParts/Ural_4320_repair_box.xob') at <4642.511230 111.787003 8235.296875> @"{2096570A3B9E831E}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_FIA_repair_box.et"
+13:51:13.433       ENTITY    (W): Converted from old-style index parent surface, please resave
+13:51:13.433       ENTITY    (W): Converted from old-style index parent surface, please resave
+13:51:13.433       ENTITY    (W): Converted from old-style index parent surface, please resave
+13:51:13.433       ENTITY    (W): Converted from old-style index parent surface, please resave
+13:51:13.452 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000003A020360> @"ENTITY:6917529027641147918" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:51:47.042 WORLD        : UpdateEntities
+13:51:47.043  WORLD        : Frame
+13:51:47.043   SCRIPT    (E): Invalid SmartAction id!
+13:51:47.132 WORLD        : UpdateEntities
+13:51:47.133  WORLD        : Frame
+13:51:47.133   SCRIPT    (E): Invalid SmartAction id!
+13:54:20.806 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+13:54:20.806 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+13:54:20.808 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+13:54:43.735 WORLD        : UpdateEntities
+13:54:43.735  WORLD        : Frame
+13:54:43.735   SCRIPT    (E): Invalid SmartAction id!
+13:57:32.929 WORLD        : UpdateEntities
+13:57:32.929  WORLD        : Frame
+13:57:32.929   SCRIPT    (E): Invalid SmartAction id!
+13:57:35.077 WORLD        : UpdateEntities
+13:57:35.078  WORLD        : Frame
+13:57:35.078   SCRIPT    (E): Invalid SmartAction id!
+13:57:46.827 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 3
+13:57:46.828 SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 3
+13:57:52.649 WORLD        : UpdateEntities
+13:57:52.649  RPL          : rpl::Pip::ProcessNetToGame
+13:57:52.649   RESOURCES    : GetResourceObject @"{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+13:57:52.649    WORLD        : Entity prefab load @"{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+13:57:52.649     RESOURCES (E): Wrong GUID/name for resource @"{5867F54677FD496E}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_gp_1p87.et" in property "WeaponTemplate"
+13:57:52.651   SCRIPT    (W): Loadout: '{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et' is not in catalog so supply cost is 0!
+13:57:53.646 WORLD        : UpdateEntities
+13:57:53.646  RPL          : rpl::Pip::ProcessNetToGame
+13:57:53.646   SCRIPT    (W): Loadout: '{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et' is not in catalog so supply cost is 0!
+13:57:54.646 WORLD        : UpdateEntities
+13:57:54.646  RPL          : rpl::Pip::ProcessNetToGame
+13:57:54.646   SCRIPT    (W): Loadout: '{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et' is not in catalog so supply cost is 0!
+13:57:55.725 WORLD        : UpdateEntities
+13:57:55.726  RPL          : rpl::Pip::ProcessNetToGame
+13:57:55.726   SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:57:56.646 WORLD        : UpdateEntities
+13:57:56.646  RPL          : rpl::Pip::ProcessNetToGame
+13:57:56.646   SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:57:57.647 WORLD        : UpdateEntities
+13:57:57.647  RPL          : rpl::Pip::ProcessNetToGame
+13:57:57.647   SCRIPT    (W): Loadout: '{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et' is not in catalog so supply cost is 0!
+13:57:58.645 WORLD        : UpdateEntities
+13:57:58.645  RPL          : rpl::Pip::ProcessNetToGame
+13:57:58.646   SCRIPT    (W): Loadout: '{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et' is not in catalog so supply cost is 0!
+13:57:59.646 WORLD        : UpdateEntities
+13:57:59.646  RPL          : rpl::Pip::ProcessNetToGame
+13:57:59.646   SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:58:00.646 WORLD        : UpdateEntities
+13:58:00.646  RPL          : rpl::Pip::ProcessNetToGame
+13:58:00.646   SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:58:01.581 WORLD        : UpdateEntities
+13:58:01.581  RPL          : rpl::Pip::ProcessNetToGame
+13:58:01.581   SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:58:02.612 WORLD        : UpdateEntities
+13:58:02.612  RPL          : rpl::Pip::ProcessNetToGame
+13:58:02.613   SCRIPT    (W): Loadout: '{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et' is not in catalog so supply cost is 0!
+13:58:03.613 WORLD        : UpdateEntities
+13:58:03.613  RPL          : rpl::Pip::ProcessNetToGame
+13:58:03.613   SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:58:04.613 WORLD        : UpdateEntities
+13:58:04.613  RPL          : rpl::Pip::ProcessNetToGame
+13:58:04.613   SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:58:04.813 WORLD        : UpdateEntities
+13:58:04.813  RPL          : rpl::Pip::ProcessNetToGame
+13:58:04.813   SCRIPT    (W): Loadout: '{4F7E0952D726FB43}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_USSR_Player_Variant_1.et' is not in catalog so supply cost is 0!
+13:58:04.822   ENTITY       : SpawnEntityPrefab @"{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+13:58:04.822    ENTITY       : Create entity @"ENTITY:6917529027641148092" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <4011.664062 32.265999 7883.361816> @"{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+13:58:04.822     RESOURCES    : GetResourceObject @"{5867F54677FD496E}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_gp_1p87.et"
+13:58:04.822      RESOURCES (E): Failed to open
+13:58:09.012 SCRIPT    (W): Loadout: '{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et' is not in catalog so supply cost is 0!
+13:58:57.413 WORLD        : UpdateEntities
+13:58:57.413  RPL          : rpl::Pip::ProcessNetToGame
+13:58:57.413   ENTITY       : SpawnEntityPrefab @"{71C1862C3317E775}Prefabs/Characters/HeadGear/Helmet_TOR/variants/Helmet_TOR_small_green_Arsenal.et"
+13:58:57.413    ENTITY       : Create entity @"ENTITY:6917529027641148163" ('GameEntity') at <4005.929932 32.160000 7889.700195>
+13:58:57.413     RESOURCES    : GetResourceObject @"{9E986C431C669554}Assets/Characters/HeadGear/Helmet_TORnew/tor_s.xob"
+13:58:57.413      RESOURCES (E): Wrong GUID/name for resource @"{4B95F21AD8C57CCE}Hard_aramid_7_CF50027087BA3402.gamemat" in property "UTM_S"
+13:58:57.413      RESOURCES    : GetResourceObject @"{4B95F21AD8C57CCE}Hard_aramid_7_CF50027087BA3402.gamemat"
+13:58:57.413       RESOURCES (E): Failed to open
+13:59:35.128 WORLD        : UpdateEntities
+13:59:35.128  RPL          : rpl::Pip::ProcessNetToGame
+13:59:35.128   ENTITY       : SpawnEntityPrefab @"{285C5B6CBBBBAF0F}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
+13:59:35.128    ENTITY       : Create entity @"ENTITY:6917529027641148176" ('GameEntity') at <4005.929932 32.160000 7889.700195>
+13:59:35.128     RESOURCES    : GetResourceObject @"{1E1D0BB5A92A3E1A}Assets/Characters/Uniforms/Crye_Combat_Shirt/Crye_g3_Shirt_Rolled_item.xob"
+13:59:35.128      RESOURCES (E): Wrong GUID/name for resource @"{536BF67B2052B869}material/metal.gamemat" in property "UBX_shirt"
+13:59:35.129      RESOURCES    : GetResourceObject @"{536BF67B2052B869}material/metal.gamemat"
+13:59:35.129       RESOURCES (E): Failed to open
+14:00:17.089 WORLD        : UpdateEntities
+14:00:17.089  WORLD        : Frame
+14:00:17.089   SCRIPT    (E): Invalid SmartAction id!
+14:03:03.733 WORLD        : UpdateEntities
+14:03:03.734  WORLD        : Frame
+14:03:03.734   SCRIPT    (E): Invalid SmartAction id!
+14:03:08.200 WORLD        : UpdateEntities
+14:03:08.200  WORLD        : Frame
+14:03:08.200   SCRIPT    (E): Invalid SmartAction id!
+14:06:12.058 WORLD        : UpdateEntities
+14:06:12.059  WORLD        : Frame
+14:06:12.059   SCRIPT    (E): Invalid SmartAction id!
+14:09:05.170 WORLD        : UpdateEntities
+14:09:05.170  WORLD        : Frame
+14:09:05.170   SCRIPT    (E): Invalid SmartAction id!
+14:09:06.888 WORLD        : UpdateEntities
+14:09:06.888  WORLD        : Frame
+14:09:06.888   SCRIPT    (E): Invalid SmartAction id!
+14:11:51.179 WORLD        : UpdateEntities
+14:11:51.179  WORLD        : Frame
+14:11:51.179   SCRIPT    (E): Invalid SmartAction id!
+14:12:47.587 WORLD        : UpdateEntities
+14:12:47.587  RPL          : rpl::Pip::ProcessNetToGame
+14:12:47.587   RESOURCES    : GetResourceObject @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587    WORLD        : Entity prefab load @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587     RESOURCES    : GetResourceObject @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587      WORLD        : Entity prefab load @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587       RESOURCES    : GetResourceObject @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587        WORLD        : Entity prefab load @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587         RESOURCES    : GetResourceObject @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587          WORLD        : Entity prefab load @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+14:12:47.587           RESOURCES    : GetResourceObject @"{28ACD0C845BE4967}Configs/Editor/PlaceableEntities/Objects/Structures_Military.conf"
+14:12:47.587            DEFAULT      : Config load @"{28ACD0C845BE4967}Configs/Editor/PlaceableEntities/Objects/Structures_Military.conf"
+14:12:47.587             RESOURCES (E): Wrong GUID/name for resource @"{57708D2841D05A01}PrefabsEditable/Auto/Structures/Military/Training/E_TargetVehicleBase_01.et" in property "m_Prefabs"
+14:14:08.758 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000040FE5BD0> @"ENTITY:6917529027641148409" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:14:51.105 WORLD        : UpdateEntities
+14:14:51.105  WORLD        : Frame
+14:14:51.105   SCRIPT    (E): Invalid SmartAction id!
+14:15:00.620 WORLD        : UpdateEntities
+14:15:00.620  WORLD        : Frame
+14:15:00.620   SCRIPT    (E): Invalid SmartAction id!
+14:16:48.632 WORLD        : UpdateEntities
+14:16:48.632  WORLD        : Frame
+14:16:48.632   SCRIPT    (E): Invalid SmartAction id!
+14:17:07.929 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000003482ECD0> @"ENTITY:6917529027641148541" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:17:36.415 PATHFINDING(W): Failed to create instance of custom link! Tile: [194, 288], link_idx: 1
+14:19:11.691 PATHFINDING(W): Failed to create instance of custom link! Tile: [160, 263], link_idx: 8
+14:19:26.797 WORLD        : UpdateEntities
+14:19:26.797  WORLD        : Frame
+14:19:26.797   SCRIPT    (E): Invalid SmartAction id!
+14:19:51.713 PATHFINDING(W): Failed to create instance of custom link! Tile: [195, 290], link_idx: 7
+14:20:09.312 WORLD        : UpdateEntities
+14:20:09.312  WORLD        : Frame
+14:20:09.312   SCRIPT    (E): Invalid SmartAction id!
+14:20:35.138 WORLD        : UpdateEntities
+14:20:35.138  WORLD        : Frame
+14:20:35.138   SCRIPT    (W): Trying to allocate same component twice!
+14:21:03.208 WORLD        : UpdateEntities
+14:21:03.208  WORLD        : Frame
+14:21:03.208   SCRIPT    (E): Invalid SmartAction id!
+14:21:11.672 WORLD        : UpdateEntities
+14:21:11.672  WORLD        : Frame
+14:21:11.672   SCRIPT    (W): Trying to allocate same component twice!
+14:21:11.672   SCRIPT    (W): Trying to allocate same component twice!
+14:21:27.877 WORLD        : UpdateEntities
+14:21:27.877  WORLD        : Frame
+14:21:27.877   SCRIPT    (W): Trying to allocate same component twice!
+14:21:36.738 WORLD        : UpdateEntities
+14:21:36.738  WORLD        : Frame
+14:21:36.738   SCRIPT    (E): Invalid SmartAction id!
+14:22:08.070 WORLD        : UpdateEntities
+14:22:08.070  WORLD        : Frame
+14:22:08.070   SCRIPT    (E): Invalid SmartAction id!
+14:23:31.167 WORLD        : UpdateEntities
+14:23:31.168  WORLD        : Frame
+14:23:31.168   SCRIPT    (E): Invalid SmartAction id!
+14:24:01.215 WORLD        : UpdateEntities
+14:24:01.215  WORLD        : Frame
+14:24:01.215   SCRIPT    (E): Invalid SmartAction id!
+14:24:34.314 WORLD        : UpdateEntities
+14:24:34.314  WORLD        : Frame
+14:24:34.314   SCRIPT    (E): Invalid SmartAction id!
+14:24:48.546 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:24:48.547 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:24:48.547 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:25:12.008 BACKEND   (E): Curl error=Timeout was reached
+14:25:12.027 BACKEND   (E): Http Error (TIMEOUT)
+14:25:12.038 BACKEND   (E): DS Room Heartbeat fail Timeout=300 sec
+14:25:12.038 BACKEND   (E): [RestApi] ID:[64] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Timeout
+14:25:26.854 WORLD        : UpdateEntities
+14:25:26.854  WORLD        : Frame
+14:25:26.854   SCRIPT    (E): Invalid SmartAction id!
+14:25:59.165 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:25:59.166 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:25:59.166 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:27:44.713 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:27:44.714 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 9
+14:28:33.221 WORLD        : UpdateEntities
+14:28:33.222  WORLD        : Frame
+14:28:33.222   SCRIPT    (E): Invalid SmartAction id!
+14:28:44.340 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:28:44.340 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:28:44.341 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:28:53.940 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:28:53.940 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:28:53.941 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:30:29.052 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:30:29.053 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 10
+14:31:28.448 WORLD        : UpdateEntities
+14:31:28.449  WORLD        : Frame
+14:31:28.449   SCRIPT    (E): Invalid SmartAction id!
+14:32:36.642 SCRIPT    (W): 'SCR_SupportStationAreaMeshComponent' (GenericEntity<0x000000002EF5D8A0> @"ENTITY:6917529027641152283" ('GenericEntity') at <3853.435303 63.823906 6981.238770>) Component must be attached to enity with SCR_BaseSupportStationComponent! BasePrefab should not have a support Station component
+14:34:35.922 WORLD        : UpdateEntities
+14:34:35.922  WORLD        : Frame
+14:34:35.922   SCRIPT    (E): Invalid SmartAction id!
+14:35:23.583 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000003EA49130> @"ENTITY:6917529027641154165" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:35:37.412 WORLD        : UpdateEntities
+14:35:37.412  WORLD        : Frame
+14:35:37.412   SCRIPT    (E): Invalid SmartAction id!
+14:36:59.616 WORLD        : UpdateEntities
+14:36:59.617  WORLD        : Frame
+14:36:59.617   SCRIPT    (E): Invalid SmartAction id!
+14:37:10.855 WORLD        : UpdateEntities
+14:37:10.855  RPL          : rpl::Pip::ProcessNetToGame
+14:37:10.855   SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+14:37:48.098 WORLD        : UpdateEntities
+14:37:48.098  RPL          : rpl::Pip::ProcessNetToGame
+14:37:48.098   SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+14:38:19.051 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000042D59BD0> @"ENTITY:6917529027641154601" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:38:22.501 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:38:22.502 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:38:22.502 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:39:47.047 WORLD        : UpdateEntities
+14:39:47.047  WORLD        : Frame
+14:39:47.047   SCRIPT    (E): Invalid SmartAction id!
+14:40:04.247 WORLD        : UpdateEntities
+14:40:04.247  WORLD        : Frame
+14:40:04.247   SCRIPT    (E): Invalid SmartAction id!
+14:40:28.190 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000042DA88B0> @"ENTITY:6917529027641154674" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:40:32.977 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000042DABEE0> @"ENTITY:6917529027641154741" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:40:36.860 PATHFINDING(W): Failed to create instance of custom link! Tile: [132, 297], link_idx: 2
+14:40:42.026 WORLD        : UpdateEntities
+14:40:42.026  WORLD        : Frame
+14:40:42.026   SCRIPT    (E): Invalid SmartAction id!
+14:40:45.053 WORLD        : UpdateEntities
+14:40:45.053  WORLD        : Frame
+14:40:45.053   SCRIPT    (E): Invalid SmartAction id!
+14:41:02.066 WORLD        : UpdateEntities
+14:41:02.066  WORLD        : Frame
+14:41:02.066   SCRIPT    (E): Invalid SmartAction id!
+14:41:08.171 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:41:08.171 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:41:08.171 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:41:13.140 WORLD        : UpdateEntities
+14:41:13.141  WORLD        : Frame
+14:41:13.141   SCRIPT    (E): Invalid SmartAction id!
+14:41:13.880 PATHFINDING(W): Failed to create instance of custom link! Tile: [128, 215], link_idx: 0
+14:41:18.678 WORLD        : UpdateEntities
+14:41:18.679  WORLD        : Frame
+14:41:18.679   SCRIPT    (E): Invalid SmartAction id!
+14:41:29.795 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:41:29.795 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:41:29.795 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:41:46.316 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:41:46.316 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:41:46.317 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:42:03.243 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:42:03.244 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:42:03.245 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:42:11.427 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:42:11.427 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:42:11.427 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:42:23.630 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:42:23.630 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:42:23.630 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:42:32.927 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:42:32.927 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:42:32.927 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:42:39.039 PATHFINDING(W): Failed to create instance of custom link! Tile: [143, 229], link_idx: 7
+14:42:41.141 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:42:41.142 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:42:41.142 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:42:54.593 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:42:54.593 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:42:54.593 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:43:02.833 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:43:02.833 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:43:02.833 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:43:13.502 PATHFINDING(W): Failed to create instance of custom link! Tile: [116, 262], link_idx: 7
+14:43:24.245 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:43:24.246 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:43:24.246 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:43:32.727 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:43:32.727 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:43:32.727 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:43:35.390 PATHFINDING(W): Failed to create instance of custom link! Tile: [116, 262], link_idx: 7
+14:43:41.162 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:43:41.162 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:43:41.162 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:43:44.038 PATHFINDING(W): Failed to create instance of custom link! Tile: [143, 230], link_idx: 0
+14:43:46.838 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:43:46.838 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:43:46.839 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:43:54.309 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 265], link_idx: 20
+14:44:08.835 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:44:08.835 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:44:08.836 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:44:33.456 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:44:33.456 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:44:33.457 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:44:33.953 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:44:33.953 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:44:33.953 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:44:59.457 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000044393440> @"ENTITY:6917529027641156342" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:45:02.346 PATHFINDING(W): Failed to create instance of custom link! Tile: [132, 299], link_idx: 6
+14:45:06.414 WORLD        : UpdateEntities
+14:45:06.414  WORLD        : Frame
+14:45:06.414   SCRIPT    (E): Invalid SmartAction id!
+14:45:12.457 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:45:12.457 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:45:12.458 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:45:20.934 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:45:20.934 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:45:20.934 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:45:35.410 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:45:35.410 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:45:35.410 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:45:47.960 PATHFINDING(W): Failed to create instance of custom link! Tile: [116, 262], link_idx: 7
+14:45:49.204 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 261], link_idx: 2
+14:45:53.167 PATHFINDING(W): Failed to create instance of custom link! Tile: [132, 299], link_idx: 6
+14:45:57.025 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007FA131AE58A0> @"ENTITY:6917529027641156666" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:46:00.096 WORLD        : UpdateEntities
+14:46:00.096  WORLD        : Frame
+14:46:00.096   SCRIPT    (E): Invalid SmartAction id!
+14:46:01.753 PATHFINDING(W): Failed to create instance of custom link! Tile: [132, 299], link_idx: 6
+14:46:03.120 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 261], link_idx: 2
+14:46:09.936 WORLD        : UpdateEntities
+14:46:09.937  WORLD        : Frame
+14:46:09.937   SCRIPT    (E): Invalid SmartAction id!
+14:46:11.350 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 261], link_idx: 2
+14:46:19.011 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 261], link_idx: 2
+14:46:39.047 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 261], link_idx: 2
+14:47:48.763 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 261], link_idx: 2
+14:47:54.462 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 261], link_idx: 2
+14:48:23.604 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 263], link_idx: 2
+14:49:01.059 PATHFINDING(W): Failed to create instance of custom link! Tile: [119, 263], link_idx: 2
+14:49:07.728 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:49:07.728 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:49:07.729 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:49:33.802 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000044393990> @"ENTITY:6917529027641157480" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:49:43.108 WORLD        : UpdateEntities
+14:49:43.108  WORLD        : Frame
+14:49:43.108   SCRIPT    (W): Trying to allocate same component twice!
+14:50:12.490 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:50:12.490 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:50:12.490 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:50:29.540 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:50:29.541 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:50:29.541 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:51:18.236 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000004547E780> @"ENTITY:6917529027641158563" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:51:21.396 PATHFINDING(W): Failed to create instance of custom link! Tile: [132, 297], link_idx: 2
+14:51:21.882 PATHFINDING(W): Failed to create instance of custom link! Tile: [133, 298], link_idx: 7
+14:51:35.543 WORLD        : UpdateEntities
+14:51:35.543  WORLD        : Frame
+14:51:35.543   SCRIPT    (E): Invalid SmartAction id!
+14:51:44.304 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:51:44.305 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:51:44.305 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:51:52.573 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:51:52.573 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:51:52.573 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:54:33.558 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000034DD0BE0> @"ENTITY:6917529027641159165" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+14:54:33.779 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+14:54:33.779 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+14:54:33.780 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+14:54:44.917 PATHFINDING(W): Failed to create instance of custom link! Tile: [125, 216], link_idx: 0
+14:54:52.856 PATHFINDING(W): Failed to create instance of custom link! Tile: [125, 216], link_idx: 0
+14:55:10.443 WORLD        : UpdateEntities
+14:55:10.443  WORLD        : Frame
+14:55:10.443   SCRIPT    (E): Invalid SmartAction id!
+14:55:16.001 PATHFINDING(W): Failed to create instance of custom link! Tile: [125, 216], link_idx: 0
+14:57:31.869 WORLD        : UpdateEntities
+14:57:31.869  WORLD        : Frame
+14:57:31.869   SCRIPT    (E): Invalid SmartAction id!
+14:59:35.564 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000032486CD0> @"ENTITY:6917529027641159985" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:00:09.112 WORLD        : UpdateEntities
+15:00:09.112  WORLD        : Frame
+15:00:09.113   SCRIPT    (E): Invalid SmartAction id!
+15:00:13.825 PATHFINDING(W): Failed to create instance of custom link! Tile: [128, 215], link_idx: 0
+15:00:57.742 WORLD        : UpdateEntities
+15:00:57.743  WORLD        : Frame
+15:00:57.743   SCRIPT    (E): Invalid SmartAction id!
+15:01:58.883 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000027BD07A0> @"ENTITY:6917529027641160423" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:01:59.223 WORLD        : UpdateEntities
+15:01:59.224  WORLD        : Frame
+15:01:59.224   SCRIPT    (E): Invalid SmartAction id!
+15:02:04.284 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000042EFFDD0> @"ENTITY:6917529027641160520" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:02:13.306 WORLD        : UpdateEntities
+15:02:13.306  WORLD        : Frame
+15:02:13.306   SCRIPT    (E): Invalid SmartAction id!
+15:02:44.508 WORLD        : UpdateEntities
+15:02:44.508  WORLD        : Frame
+15:02:44.508   SCRIPT    (E): Invalid SmartAction id!
+15:03:11.232 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 2
+15:03:11.232 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 1
+15:03:22.114 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 2
+15:03:22.114 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 1
+15:03:33.280 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 2
+15:03:33.280 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 1
+15:03:41.018 WORLD        : UpdateEntities
+15:03:41.018  WORLD        : Frame
+15:03:41.019   SCRIPT    (E): Invalid SmartAction id!
+15:03:45.596 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 2
+15:03:45.596 PATHFINDING(W): Failed to create instance of custom link! Tile: [185, 207], link_idx: 1
+15:05:22.299 WORLD        : UpdateEntities
+15:05:22.299  WORLD        : Frame
+15:05:22.299   SCRIPT    (E): Invalid SmartAction id!
+15:05:53.050 WORLD        : UpdateEntities
+15:05:53.051  WORLD        : Frame
+15:05:53.051   SCRIPT    (W): Trying to allocate same component twice!
+15:05:53.051   SCRIPT    (W): Trying to allocate same component twice!
+15:06:20.036 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000046E3F660> @"ENTITY:6917529027641163536" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:07:27.744 WORLD        : UpdateEntities
+15:07:27.744  WORLD        : Frame
+15:07:27.744   SCRIPT    (E): Invalid SmartAction id!
+15:07:45.760 WORLD        : UpdateEntities
+15:07:45.760  WORLD        : Frame
+15:07:45.760   SCRIPT    (E): Invalid SmartAction id!
+15:07:57.836 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000004741ECD0> @"ENTITY:6917529027641164558" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:08:13.946 WORLD        : UpdateEntities
+15:08:13.946  WORLD        : Frame
+15:08:13.946   SCRIPT    (E): Invalid SmartAction id!
+15:09:12.057 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000001457CE00> @"ENTITY:6917529027641164616" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:09:12.264 WORLD        : UpdateEntities
+15:09:12.264  WORLD        : Frame
+15:09:12.265   SCRIPT    (E): Invalid SmartAction id!
+15:09:13.175 PATHFINDING(W): Failed to create instance of custom link! Tile: [132, 299], link_idx: 6
+15:09:33.761 PATHFINDING(W): Failed to create instance of custom link! Tile: [200, 187], link_idx: 4
+15:10:23.512 PATHFINDING(W): Failed to create instance of custom link! Tile: [200, 187], link_idx: 4
+15:10:42.508 WORLD        : UpdateEntities
+15:10:42.508  WORLD        : Frame
+15:10:42.508   SCRIPT    (E): Invalid SmartAction id!
+15:10:59.979 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:10:59.979 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:10:59.979 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:11:10.749 WORLD        : UpdateEntities
+15:11:10.749  WORLD        : Frame
+15:11:10.749   SCRIPT    (E): Invalid SmartAction id!
+15:11:42.557 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:11:42.557 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:11:42.557 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:11:55.999 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:11:56.000 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:11:56.000 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:12:07.195 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:12:07.195 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:12:07.195 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:12:16.436 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:12:16.436 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:12:16.437 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:13:18.051 WORLD        : UpdateEntities
+15:13:18.051  WORLD        : Frame
+15:13:18.051   SCRIPT    (E): Invalid SmartAction id!
+15:13:33.475 WORLD        : UpdateEntities
+15:13:33.475  WORLD        : Frame
+15:13:33.475   SCRIPT    (E): Invalid SmartAction id!
+15:13:59.756 PATHFINDING(W): Failed to create instance of custom link! Tile: [134, 299], link_idx: 4
+15:14:06.048 WORLD        : UpdateEntities
+15:14:06.048  WORLD        : Frame
+15:14:06.049   SCRIPT    (E): Invalid SmartAction id!
+15:14:33.377 WORLD        : UpdateEntities
+15:14:33.377  WORLD        : Frame
+15:14:33.377   SCRIPT    (E): Invalid SmartAction id!
+15:16:22.063 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:16:22.064 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:16:22.064 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:16:34.196 WORLD        : UpdateEntities
+15:16:34.196  WORLD        : Frame
+15:16:34.196   SCRIPT    (E): Invalid SmartAction id!
+15:16:58.504 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:16:58.505 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:16:58.505 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:17:10.942 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:17:10.942 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:17:10.942 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:17:14.448 WORLD        : UpdateEntities
+15:17:14.448  WORLD        : Frame
+15:17:14.448   SCRIPT    (E): Invalid SmartAction id!
+15:17:25.034 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:17:25.034 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:17:25.034 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:17:38.704 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:17:38.705 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:17:38.705 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:18:16.298 PATHFINDING(W): Failed to create instance of custom link! Tile: [132, 299], link_idx: 6
+15:18:26.890 WORLD        : UpdateEntities
+15:18:26.890  WORLD        : Frame
+15:18:26.890   SCRIPT    (E): Invalid SmartAction id!
+15:18:33.418 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:18:33.418 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:18:33.418 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:18:56.797 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:18:56.797 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:18:56.797 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:19:02.674 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:19:02.674 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:19:02.674 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:19:08.503 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:19:08.504 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:19:08.504 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:19:14.113 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:19:14.114 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:19:14.114 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:19:19.296 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:19:19.296 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:19:19.297 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:19:20.027 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:19:20.027 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:19:20.028 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:19:23.298 WORLD        : UpdateEntities
+15:19:23.299  WORLD        : Frame
+15:19:23.299   SCRIPT    (E): Invalid SmartAction id!
+15:19:25.745 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:19:25.745 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:19:25.745 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:19:31.014 WORLD        : UpdateEntities
+15:19:31.014  WORLD        : Frame
+15:19:31.014   SCRIPT    (E): Invalid SmartAction id!
+15:19:31.419 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 2
+15:19:31.420 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 6
+15:19:31.420 PATHFINDING(W): Failed to create instance of custom link! Tile: [161, 262], link_idx: 7
+15:20:17.900 PATHFINDING(W): Failed to create instance of custom link! Tile: [216, 209], link_idx: 2
+15:20:23.700 PATHFINDING(W): Failed to create instance of custom link! Tile: [216, 209], link_idx: 2
+15:20:26.196 WORLD        : UpdateEntities
+15:20:26.196  WORLD        : Frame
+15:20:26.196   SCRIPT    (E): Invalid SmartAction id!
+15:20:29.533 PATHFINDING(W): Failed to create instance of custom link! Tile: [216, 209], link_idx: 2
+15:20:35.066 PATHFINDING(W): Failed to create instance of custom link! Tile: [216, 209], link_idx: 2
+15:20:40.900 PATHFINDING(W): Failed to create instance of custom link! Tile: [216, 209], link_idx: 2
+15:20:47.432 PATHFINDING(W): Failed to create instance of custom link! Tile: [216, 209], link_idx: 2
+15:20:51.532 PATHFINDING(W): Failed to create instance of custom link! Tile: [216, 209], link_idx: 2
+15:22:01.278 WORLD        : UpdateEntities
+15:22:01.278  WORLD        : Frame
+15:22:01.278   SCRIPT    (E): Invalid SmartAction id!
+15:23:09.127 WORLD        : UpdateEntities
+15:23:09.127  WORLD        : Frame
+15:23:09.127   SCRIPT    (E): Invalid SmartAction id!
+15:23:24.009 WORLD        : UpdateEntities
+15:23:24.010  WORLD        : Frame
+15:23:24.010   SCRIPT    (E): Invalid SmartAction id!
+15:23:39.636 PATHFINDING(W): Failed to create instance of custom link! Tile: [219, 220], link_idx: 11
+15:24:09.441 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000004743A560> @"ENTITY:6917529027641165442" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:29.919 WORLD        : UpdateEntities
+15:24:29.920  WORLD        : Frame
+15:24:29.920   SCRIPT    (E): Invalid SmartAction id!
+15:24:47.840 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:24:57.657 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:25:03.890 WORLD        : UpdateEntities
+15:25:03.890  WORLD        : Frame
+15:25:03.890   SCRIPT    (E): Invalid SmartAction id!
+15:25:09.993 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:25:18.975 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:25:32.288 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:25:45.770 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:25:56.338 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:26:09.935 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:26:24.651 PATHFINDING(W): Failed to create instance of custom link! Tile: [198, 185], link_idx: 2
+15:26:33.585 PATHFINDING(W): Failed to create instance of custom link! Tile: [200, 184], link_idx: 6
+15:27:02.775 PATHFINDING(W): Failed to create instance of custom link! Tile: [200, 184], link_idx: 6
+15:28:33.944 WORLD        : UpdateEntities
+15:28:33.944  WORLD        : Frame
+15:28:33.944   SCRIPT    (E): Invalid SmartAction id!
+15:28:52.499 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 166], link_idx: 4
+15:29:15.779 WORLD        : UpdateEntities
+15:29:15.779  WORLD        : Frame
+15:29:15.779   SCRIPT    (E): Invalid SmartAction id!
+15:29:31.328 PATHFINDING(W): Failed to create instance of custom link! Tile: [208, 159], link_idx: 0
+15:29:44.857 WORLD        : UpdateEntities
+15:29:44.857  WORLD        : Frame
+15:29:44.857   SCRIPT    (E): Invalid SmartAction id!
+15:29:47.327 PATHFINDING(W): Failed to create instance of custom link! Tile: [208, 159], link_idx: 0
+15:29:55.227 PATHFINDING(W): Failed to create instance of custom link! Tile: [208, 159], link_idx: 0
+15:30:01.340 PATHFINDING(W): Failed to create instance of custom link! Tile: [206, 155], link_idx: 0
+15:30:10.017 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 167], link_idx: 14
+15:30:10.017 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 167], link_idx: 5
+15:30:55.259 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 7
+15:30:55.260 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 1
+15:30:55.260 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 3
+15:30:55.291 PATHFINDING(W): Failed to create instance of custom link! Tile: [208, 159], link_idx: 0
+15:31:03.940 PATHFINDING(W): Failed to create instance of custom link! Tile: [200, 187], link_idx: 3
+15:31:09.304 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 7
+15:31:09.305 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 1
+15:31:09.305 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 3
+15:31:17.174 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 7
+15:31:17.174 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 1
+15:31:17.174 PATHFINDING(W): Failed to create instance of custom link! Tile: [215, 168], link_idx: 3
+15:31:18.259 PATHFINDING(W): Failed to create instance of custom link! Tile: [204, 162], link_idx: 0
+15:32:10.368 WORLD        : UpdateEntities
+15:32:10.368  WORLD        : Frame
+15:32:10.368   SCRIPT    (E): Invalid SmartAction id!
+15:32:24.584 WORLD        : UpdateEntities
+15:32:24.584  WORLD        : Frame
+15:32:24.584   SCRIPT    (E): Invalid SmartAction id!
+15:32:48.054 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 167], link_idx: 13
+15:32:49.521 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 167], link_idx: 13
+15:33:40.601 PATHFINDING(W): Failed to create instance of custom link! Tile: [200, 184], link_idx: 6
+15:35:27.881 PATHFINDING(W): Failed to create instance of custom link! Tile: [200, 184], link_idx: 6
+15:37:09.427 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 164], link_idx: 6
+15:37:09.427 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 164], link_idx: 7
+15:37:18.401 RPL       (E): RpcError: Calling a RPC from an unregistered item! itemType='script::Game::SCR_BudgetEditorComponent', rpc='OnEntityCoreBudgetUpdatedOwner'
+15:37:26.628 RPL       (E): RpcError: Calling a RPC from an unregistered item! itemType='script::Game::SCR_BudgetEditorComponent', rpc='OnEntityCoreBudgetUpdatedOwner'
+15:38:23.059 RPL       (E): RpcError: Calling a RPC from an unregistered item! itemType='script::Game::SCR_BudgetEditorComponent', rpc='OnEntityCoreBudgetUpdatedOwner'
+08:52:53.995 DEFAULT   (W): BattlEye Server: 'Failed to receive from BE Master (0)'
+08:52:53.995 DEFAULT   (W): BattlEye Server: 'Disconnected from BE Master'

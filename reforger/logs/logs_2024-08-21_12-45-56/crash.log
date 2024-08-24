@@ -1,0 +1,213 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-08-21_12-45-56/crash.log started at 2024-08-21 13:14:54 (2024-08-21 13:14:54 UTC)
+
+
+
+------------------------------------
+21.08 2024 13:14:54
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'character'
+
+Class:      'SCR_CallsignGroupComponent'
+Function: 'OnAIAddedToGroup'
+Stack trace:
+Scripts/Game/Callsign/SCR_CallsignGroupComponent.c:285 Function OnAIAddedToGroup
+Scripts/Game/Entities/SCR_AIGroup.c:2009 Function OnAgentAdded
+Scripts/Game/Entities/SCR_AIGroup.c:1524 Function AddAIEntityToGroup
+Scripts/Game/Entities/SCR_AIGroup.c:1356 Function SpawnGroupMember
+Scripts/Game/Entities/SCR_AIGroup.c:226 Function SpawnDelayedGroupMember
+Scripts/Game/Entities/SCR_AIGroup.c:211 Function EOnFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:14:55
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'character'
+
+Class:      'SCR_CallsignGroupComponent'
+Function: 'OnAIAddedToGroup'
+Stack trace:
+Scripts/Game/Callsign/SCR_CallsignGroupComponent.c:285 Function OnAIAddedToGroup
+Scripts/Game/Entities/SCR_AIGroup.c:2009 Function OnAgentAdded
+Scripts/Game/Entities/SCR_AIGroup.c:1524 Function AddAIEntityToGroup
+Scripts/Game/Entities/SCR_AIGroup.c:1356 Function SpawnGroupMember
+Scripts/Game/Entities/SCR_AIGroup.c:226 Function SpawnDelayedGroupMember
+Scripts/Game/Entities/SCR_AIGroup.c:211 Function EOnFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:38
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:39
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:41
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:41
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:43
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:44
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:46
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:46
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:48
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+21.08 2024 13:16:49
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'Bacon_ParachuteTestLmao'
+Function: 'OnLanded'
+Stack trace:
+Scripts/Game/Bacon_ParachuteTestLmao.c:357 Function OnLanded
+Scripts/Game/Bacon_ParachuteTestLmao.c:362 Function Undeploy
+Scripts/Game/EM/SpecialEvents/EM_ParadropEvent.c:221 Function EOnPostFrame
+
+Runtime mode
+CLI params: config /reforger/Configs/escapists.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  

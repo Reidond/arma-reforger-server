@@ -1,0 +1,1087 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-08-04_15-18-28/console.log started at 2024-08-04 15:18:28 (2024-08-04 15:18:28 UTC)
+
+15:18:28.565 ENGINE       : FileSystem: Adding relative directory '/home/profile/logs/logs_2024-08-04_15-18-28' to filesystem under name logs
+15:18:28.565 ENGINE       : FileSystem: Adding relative directory '/home/profile/profile' to filesystem under name profile
+15:18:28.567 ENGINE       : Initializing engine.
+15:18:28.567 ENGINE       : CLI Params: -config /reforger/Configs/redshore.json -backendlog -nothrow -maxFPS 60 -profile /home/profile -addonDownloadDir /reforger/workshop -addonsDir /reforger/workshop -autoreload 10 -loadSessionSave 
+15:18:28.570 ENGINE       : Addon dirs:
+15:18:28.570  ENGINE       : dir: '/reforger/workshop'
+15:18:28.570  ENGINE       : dir: './addons'
+15:18:28.570  ENGINE       : dir: '/home/profile/addons'
+15:18:28.570 ENGINE       : Available addons:
+15:18:28.570  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+15:18:28.570  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+15:18:28.766 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+15:18:28.768 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+15:18:28.768 RESOURCES    : ResourceDB: loading cache (id=0 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+15:18:29.225 RESOURCES    : ResourceDB: loading cache (id=1 name=core path=./addons/core/resourceDatabase.rdb)
+15:18:29.229 RESOURCES    : ResourceDB: loading cache (id=2 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+15:18:29.229 RESOURCES    : ResourceDB: loading cache (id=3 name=logs path=/home/profile/logs/logs_2024-08-04_15-18-28/resourceDatabase.rdb)
+15:18:29.470 ENGINE       : GameProject load
+15:18:29.470  ENGINE       : Loaded addons:
+15:18:29.470   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+15:18:29.470   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+15:18:29.472 ENGINE       : GameProject load
+15:18:29.472  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+15:18:29.472   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+15:18:29.473 ENGINE       : Loading custom engine user config '$profile:.save/settings/ReforgerEngineSettings.conf'
+15:18:29.473 INIT         : GameProject engine user settings load @"$profile:.save/settings/ReforgerEngineSettings.conf"
+15:18:29.473  ENGINE       : Engine user settings config loaded
+15:18:29.474 RENDER       : Basic screen setup:
+15:18:29.474 RENDER       :   Back buffer width x height: 0x0
+15:18:29.474 RENDER       :   Back buffer format	       : TEXFMT_UNKNOWN (0)
+15:18:29.474 RENDER       :   MSAA                      : none
+15:18:29.474 RENDER       : GPU_DUMMY (0xFFFF) (Enfusion dummy render) with 1 GPU detected, VRAM 128MB (fast 128MB), shared 128MB, driver version Unknown version, stereo not available
+15:18:29.474 RENDER       : Detected output devices:
+15:18:29.474 RENDER       :  * 1 device/s connected to Dummy:
+15:18:29.474 RENDER       :    Dummy output (Dummy device for our dummy render.), 1920x1080 (offset 0x0), 60Hz
+15:18:29.474 RENDER       :   Concurrent frames limit 2
+15:18:29.474 ENGINE       : Job system settings: coreCount=4, shortJobContextCount=4, shortJobThreadCount=3, longJobThreadCount=1
+15:18:29.858 AUDIO        : Audio device created
+15:18:29.867 ENGINE       : Initializing inputs.
+15:18:29.876 NETWORK      : Initializing networking.
+15:18:29.876 SCRIPT       : SCRIPT       : Initializing scripts
+15:18:29.876  SCRIPT       : SCRIPT       : ScriptProjectManager init
+15:18:29.877  PROFILING    : ScriptProjectManager init took: 0.039000 ms
+15:18:29.932 PROFILING    : Initializing scripts took: 55.479000 ms
+15:18:29.932 ENGINE       : Enfusion engine successfully created.
+15:18:29.937 GUI          : Using default language (en_us)
+15:18:29.937 GUI          : Loading 'en_us' localization file.
+15:18:29.938 INIT         : INIT         : Loading StringTable
+15:18:29.983 PROFILING    : Loading StringTable took: 45.367000 ms
+15:18:29.983 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+15:18:30.067  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+15:18:30.074 PROFILING    : Compiling GameLib scripts took: 91.007000 ms
+15:18:30.074 SCRIPT       : SCRIPT       : Compiling Game scripts
+15:18:33.451  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18390/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 25719fa1
+15:18:36.180 PROFILING    : Compiling Game scripts took: 6105.789000 ms
+15:18:36.183 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.0.102 built 2024-07-25 1:53:18 UTC.
+15:18:36.216 BACKEND      : Loading dedicated server config.
+15:18:36.216  BACKEND      : Server config loaded.
+15:18:36.217  BACKEND      : JSON Schema Validation:
+15:18:36.217   BACKEND      : JSON is Valid
+15:18:36.217 BACKEND      : Loading dedicated server config.
+15:18:36.217  RESOURCES    : GetResourceObject @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+15:18:36.217   RESOURCES (E): Failed to open
+15:18:36.217  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/RHS_Conflict.conf'!
+15:18:36.236 ENGINE       : Game successfully created.
+15:18:36.303 PLATFORM     : Save data from container 'settings' have been loaded
+15:18:36.403 PLATFORM     : Save data from container 'sessions' have been loaded
+15:18:36.403 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+15:18:36.403  ENGINE       : Game user settings config loaded
+15:18:36.403 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+15:18:36.403  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+15:18:36.403 NETWORK      : Starting dedicated server using command line args.
+15:18:38.292 BACKEND      : Addon Download started 5CF4A61BE1D960C6 - RHS - Status Quo Dev
+15:18:38.293 BACKEND      : Downloading 5CF4A61BE1D960C6 version 0.9.3113
+15:18:46.546 BACKEND      : Download
+15:18:46.546  BACKEND      : Downloading 1 addons:
+15:18:46.546  BACKEND      : RHS - Status Quo Dev: ==>__________________ 2% 112/5246 MB
+15:18:46.546  BACKEND      : Download speed 8243.12 KB/s
+15:19:06.647 BACKEND      : Download
+15:19:06.647  BACKEND      : Downloading 1 addons:
+15:19:06.647  BACKEND      : RHS - Status Quo Dev: ====>________________ 12% 645/5246 MB
+15:19:06.647  BACKEND      : Download speed 13747.99 KB/s
+15:19:36.808 BACKEND      : Download
+15:19:36.809  BACKEND      : Downloading 1 addons:
+15:19:36.809  BACKEND      : RHS - Status Quo Dev: ======>______________ 26% 1410/5246 MB
+15:19:36.809  BACKEND      : Download speed 10517.71 KB/s
+15:19:56.914 BACKEND      : Download
+15:19:56.914  BACKEND      : Downloading 1 addons:
+15:19:56.914  BACKEND      : RHS - Status Quo Dev: ========>____________ 36% 1936/5246 MB
+15:19:56.914  BACKEND      : Download speed 12532.79 KB/s
+15:20:17.021 BACKEND      : Download
+15:20:17.021  BACKEND      : Downloading 1 addons:
+15:20:17.021  BACKEND      : RHS - Status Quo Dev: ==========>__________ 46% 2461/5246 MB
+15:20:17.021  BACKEND      : Download speed 13315.25 KB/s
+15:20:37.127 BACKEND      : Download
+15:20:37.128  BACKEND      : Downloading 1 addons:
+15:20:37.128  BACKEND      : RHS - Status Quo Dev: ============>________ 56% 2988/5246 MB
+15:20:37.128  BACKEND      : Download speed 13536.37 KB/s
+15:20:57.226 BACKEND      : Download
+15:20:57.226  BACKEND      : Downloading 1 addons:
+15:20:57.226  BACKEND      : RHS - Status Quo Dev: ==============>______ 62% 3295/5246 MB
+15:20:57.226  BACKEND      : Download speed 0.00 KB/s
+15:21:07.262 BACKEND      : Download
+15:21:07.262  BACKEND      : Downloading 1 addons:
+15:21:07.262  BACKEND      : RHS - Status Quo Dev: ==============>______ 62% 3295/5246 MB
+15:21:07.262  BACKEND      : Download speed 0.00 KB/s
+15:21:17.302 BACKEND      : Download
+15:21:17.302  BACKEND      : Downloading 1 addons:
+15:21:17.302  BACKEND      : RHS - Status Quo Dev: ==============>______ 67% 3522/5246 MB
+15:21:17.303  BACKEND      : Download speed 15703.44 KB/s
+15:21:37.395 BACKEND      : Download
+15:21:37.395  BACKEND      : Downloading 1 addons:
+15:21:37.395  BACKEND      : RHS - Status Quo Dev: ================>____ 77% 4059/5246 MB
+15:21:37.395  BACKEND      : Download speed 12046.71 KB/s
+15:21:47.434 BACKEND      : Download
+15:21:47.434  BACKEND      : Downloading 1 addons:
+15:21:47.434  BACKEND      : RHS - Status Quo Dev: ================>____ 79% 4149/5246 MB
+15:21:47.434  BACKEND      : Download speed 0.00 KB/s
+15:21:57.470 BACKEND      : Download
+15:21:57.471  BACKEND      : Downloading 1 addons:
+15:21:57.471  BACKEND      : RHS - Status Quo Dev: ================>____ 79% 4149/5246 MB
+15:21:57.471  BACKEND      : Download speed 0.00 KB/s
+15:22:07.519 BACKEND      : Download
+15:22:07.519  BACKEND      : Downloading 1 addons:
+15:22:07.519  BACKEND      : RHS - Status Quo Dev: ==================>__ 82% 4307/5246 MB
+15:22:07.519  BACKEND      : Download speed 11989.12 KB/s
+15:22:37.656 BACKEND      : Download
+15:22:37.656  BACKEND      : Downloading 1 addons:
+15:22:37.656  BACKEND      : RHS - Status Quo Dev: ====================> 91% 4808/5246 MB
+15:22:37.656  BACKEND      : Download speed 77.43 KB/s
+15:22:47.705 BACKEND      : Download
+15:22:47.706  BACKEND      : Downloading 1 addons:
+15:22:47.706  BACKEND      : RHS - Status Quo Dev: ====================> 91% 4810/5246 MB
+15:22:47.706  BACKEND      : Download speed 84.41 KB/s
+15:22:57.752 BACKEND      : Download
+15:22:57.753  BACKEND      : Downloading 1 addons:
+15:22:57.753  BACKEND      : RHS - Status Quo Dev: ====================> 94% 4976/5246 MB
+15:22:57.753  BACKEND      : Download speed 11892.55 KB/s
+15:23:27.889 BACKEND      : Download
+15:23:27.889  BACKEND      : Downloading 1 addons:
+15:23:27.889  BACKEND      : RHS - Status Quo Dev: ====================> 100% 5246/5246 MB
+15:23:27.889  BACKEND      : Download speed 0.00 KB/s
+15:23:32.162 BACKEND      : Required addons are ready to use.
+15:23:32.473 ENGINE       : Game destroyed.
+15:23:32.809 ENGINE       : Addon dirs:
+15:23:32.809  ENGINE       : dir: '/reforger/workshop'
+15:23:32.809  ENGINE       : dir: './addons'
+15:23:32.809  ENGINE       : dir: '/home/profile/addons'
+15:23:32.809  ENGINE       : dir: '/reforger/workshop/addons/'
+15:23:32.809 ENGINE       : Available addons:
+15:23:32.809  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+15:23:32.809  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+15:23:32.809  ENGINE       : gproj: '/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj' guid: '5CF4A61BE1D960C6' (packed)
+15:23:32.825 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/' (pak count: 3) to filesystem under name RHSStatusQuoExperimental
+15:23:32.967 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+15:23:32.968 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+15:23:32.969 RESOURCES    : ResourceDB: loading cache (id=0 name=RHSStatusQuoExperimental path=/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/resourceDatabase.rdb)
+15:23:33.003 RESOURCES    : ResourceDB: loading cache (id=1 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+15:23:33.408 RESOURCES    : ResourceDB: loading cache (id=2 name=core path=./addons/core/resourceDatabase.rdb)
+15:23:33.411 RESOURCES    : ResourceDB: loading cache (id=3 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+15:23:33.411 RESOURCES    : ResourceDB: loading cache (id=4 name=logs path=/home/profile/logs/logs_2024-08-04_15-18-28/resourceDatabase.rdb)
+15:23:33.704 ENGINE       : GameProject load
+15:23:33.704  ENGINE       : Loaded addons:
+15:23:33.704   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+15:23:33.704   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+15:23:33.704   ENGINE       : gproj: '/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj' guid: '5CF4A61BE1D960C6'
+15:23:33.707 ENGINE       : GameProject load
+15:23:33.707  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+15:23:33.707   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+15:23:33.707  INIT         : GameProject load project data @"/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj"
+15:23:33.707   RESOURCES (E): Wrong GUID/name for resource @"{0AFDD005CD669892}Language/rhs_localization.st" in property "StringTableSource"
+15:23:33.708 GUI          : Using default language (en_us)
+15:23:33.708 GUI          : Loading 'en_us' localization file.
+15:23:33.708 INIT         : INIT         : Loading StringTable
+15:23:33.754 PROFILING    : Loading StringTable took: 46.332000 ms
+15:23:33.755 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+15:23:33.823  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+15:23:33.832 PROFILING    : Compiling GameLib scripts took: 76.230000 ms
+15:23:33.832 SCRIPT       : SCRIPT       : Compiling Game scripts
+15:23:37.458  SCRIPT       : Module: Game; loaded 4405x files; 9105x classes; used 19254/41943 kB (45%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 69377d6d
+15:23:41.308 PROFILING    : Compiling Game scripts took: 7475.845000 ms
+15:23:41.310 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.0.102 built 2024-07-25 1:53:18 UTC.
+15:23:41.339 BACKEND      : Loading dedicated server config.
+15:23:41.339  BACKEND      : Server config loaded.
+15:23:41.340  BACKEND      : JSON Schema Validation:
+15:23:41.340   BACKEND      : JSON is Valid
+15:23:41.340 BACKEND      : Loading dedicated server config.
+15:23:41.340  RESOURCES    : GetResourceObject @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+15:23:41.340   DEFAULT      : Config load @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+15:23:41.340    DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+15:23:41.360 ENGINE       : Game successfully created.
+15:23:41.404 PLATFORM     : Save data from container 'settings' have been loaded
+15:23:41.503 PLATFORM     : Save data from container 'sessions' have been loaded
+15:23:41.504 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+15:23:41.504  ENGINE       : Game user settings config loaded
+15:23:41.504 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+15:23:41.504  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+15:23:41.505 WORLD        : WORLD        : Entities load @"{EEF09465C62534F7}Worlds/MP/Conflict/CTI_Campaign_Eden_RHS.ent"
+15:23:44.409 WORLD        : Entities load @"{EEF09465C62534F7}Worlds/MP/Conflict/CTI_Campaign_Eden_RHS.ent"
+15:23:44.409  WORLD        : Subscene load @"{3448EA6E8B6B10CE}Worlds/MP/Conflict/CTI_Campaign_Eden_base.ent"
+15:23:44.409   WORLD        : Subscene load @"{853E92315D1D9EFE}worlds/Eden/Eden.ent"
+15:23:44.409    RESOURCES    : GetResourceObject @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+15:23:44.409     WORLD        : Entity prefab load @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+15:23:44.409      RESOURCES (E): Wrong GUID/name for resource @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat" in property "AssignedMaterial"
+15:23:45.293   WORLD        : Entity layer load @"Worlds/MP/Conflict/CTI_Campaign_Eden_base_Layers/AI.layer"
+15:23:45.293    RESOURCES (E): Wrong GUID/name for resource @"{79CD7F0D5DB62D18}worlds/MP/Navmeshes/RoadNetworkStates/CTI_Campaign_Eden_RoadNetwork.rnw" in property "Road Network File"
+15:23:45.401 PROFILING    : Entities load took: 3896.206000 ms
+15:23:45.401 WORLD        : WORLD        : Game::LoadEntities
+15:23:45.460  NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+15:23:45.460  WORLD        : WORLD        : Preload
+15:23:46.780 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD1.ptc"
+15:23:46.780  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+15:23:46.781 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine.ptc"
+15:23:46.781  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+15:23:46.781 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD2.ptc"
+15:23:46.781  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+15:23:46.852  PROFILING    : Preload took: 1391.439000 ms
+15:23:46.852  WORLD        : WORLD        : Wait for preloading data
+15:23:51.111  PROFILING    : Wait for preloading data took: 4259.563000 ms
+15:23:51.111  WORLD        : WORLD        : CreateEntities
+15:23:51.112   WORLD        : WORLD        : CreateEntities
+15:23:51.112    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+15:23:51.115 WORLD        : Game::LoadEntities
+15:23:51.115  WORLD        : CreateEntities
+15:23:51.115   WORLD        : CreateEntities
+15:23:51.115    WORLD        : NotifyBeforeEntitiesCreated
+15:23:51.116     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict.conf'
+15:23:51.116      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict.conf'
+15:23:51.116       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+15:23:51.117     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_ConflictWithoutAIs.conf'
+15:23:51.117      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_ConflictWithoutAIs.conf'
+15:23:51.117       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 256(0x100)
+15:23:51.118     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict_Arland.conf'
+15:23:51.118      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict_Arland.conf'
+15:23:51.118       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 766(0x2fe)
+15:23:51.119     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict_East.conf'
+15:23:51.119      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict_East.conf'
+15:23:51.119       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 278(0x116)
+15:23:51.120     RESOURCES    : GetResourceObject '$RHSStatusQuoExperimental:Missions/RHS_Conflict_West.conf'
+15:23:51.120      DEFAULT      : Config load '$RHSStatusQuoExperimental:Missions/RHS_Conflict_West.conf'
+15:23:51.120       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 276(0x114)
+15:23:51.121     RESOURCES    : Loaded mission headers from 3 addon(s)!
+15:23:51.122    PROFILING    : NotifyBeforeEntitiesCreated took: 10.120000 ms
+15:23:51.313    ENTITY       : Create entity @"ENTITY:1" ('world', GenericWorldEntity) at <0.000000 0.000000 0.000000>
+15:23:51.313     RESOURCES (E):   Failed to decompress memory image data. Data is not DXT.
+15:23:51.314     WORLD     (E): Shore map CPU data creation failed - decompression of DF near atlas texture failed.
+15:23:51.315     WORLD     (E): Loading of shore map failed - creation of CPU data failed
+15:23:51.315     WORLD     (E): Loading of shore map failed - post load checks failed
+15:23:51.321    ENTITY       : Create entity @"ENTITY:2" ('Eden', GenericTerrainEntity) at <0.000000 0.000000 0.000000>
+15:23:51.321     PROFILING    : PROFILING    : Terrain load
+15:24:01.304     PROFILING    : Terrain load took: 9983.179000 ms
+15:24:01.308    ENTITY       : Create entity @"ENTITY:6" ('GodRays', GenericWorldPPEffect) at <0.000000 0.000000 0.000000>
+15:24:01.308     MATERIAL     : Material load @"{90C363AB5243A434}Common/Postprocess/Sun_GodRays.emat"
+15:24:01.308      MATERIAL     : Material load @"{90C363AB5243A434}Common/Postprocess/Sun_GodRays.emat"
+15:24:01.308       MATERIAL  (E): Unknown keyword/data 'HorizonDisableY' at offset 46(0x2e)
+15:24:02.367    ENTITY       : Create entity @"ENTITY:47511" ('PreloadManager1', BasePreloadManager) at <0.033000 0.000000 -0.021000> @"{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et"
+15:24:02.367     ENTITY       : SpawnEntityPrefab @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+15:24:02.367      ENTITY       : Create entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+15:24:02.367       ENTITY       : SpawnEntityPrefab @"{88BA5F3224A6C834}Prefabs/Characters/Thermal/CharacterBasebody_Thermal.et"
+15:24:02.367        ENTITY       : Create entity @"ENTITY:9" ('GameEntity') at <0.000000 0.000000 0.000000>
+15:24:02.367         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Arms' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+15:24:02.367         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Arms_wound' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+15:24:02.367         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Body' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+15:24:02.367         RESOURCES (E): Can't remap 'Assets/Characters/Common/ThermalGuy/ThermalDude.xob' material from 'Basebody_01_Male_Body_wound' to 'Prefabs/Characters/Thermal/Thermal.emat'. Source material do not exist
+15:24:02.550      WORLD        : InitEntities 'PreloadWorld'
+15:24:02.550       ENTITY       : Init entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+15:24:02.550        INVENTORY (E): Couldn't insert item @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:23" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.550        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.551        INVENTORY (E): Couldn't insert item @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:23" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.551        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.551        INVENTORY (E): Couldn't insert item @"ENTITY:58" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:23" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.551        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:58" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.622     ENTITY       : SpawnEntityPrefab @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+15:24:02.622      WORLD        : InitEntities 'PreloadWorld'
+15:24:02.622       ENTITY       : Init entity @"ENTITY:62" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+15:24:02.622        INVENTORY (E): Couldn't insert item @"ENTITY:105" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" into storage @"ENTITY:80" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.xob') at <-0.160200 1.020957 0.135574> @"{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et" while spawning initial items inside the storage.
+15:24:02.622        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:105" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.675     ENTITY       : SpawnEntityPrefab @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+15:24:02.675      WORLD        : InitEntities 'PreloadWorld'
+15:24:02.676       ENTITY       : Init entity @"ENTITY:107" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+15:24:02.676        INVENTORY (E): Couldn't insert item @"ENTITY:156" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.676        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:156" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.676        INVENTORY (E): Couldn't insert item @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.676        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.677        INVENTORY (E): Couldn't insert item @"ENTITY:158" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.677        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:158" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.677        INVENTORY (E): Couldn't insert item @"ENTITY:159" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.677        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:159" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.678        INVENTORY (E): Couldn't insert item @"ENTITY:160" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:127" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.678        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:160" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.728     ENTITY       : SpawnEntityPrefab @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+15:24:02.728      WORLD        : InitEntities 'PreloadWorld'
+15:24:02.728       ENTITY       : Init entity @"ENTITY:181" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+15:24:02.728        INVENTORY (E): Couldn't insert item @"ENTITY:232" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:203" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.728        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:232" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.728        INVENTORY (E): Couldn't insert item @"ENTITY:233" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:203" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.728        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:233" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.729        INVENTORY (E): Couldn't insert item @"ENTITY:234" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:203" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.729        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:234" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.777     ENTITY       : SpawnEntityPrefab @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+15:24:02.777      WORLD        : InitEntities 'PreloadWorld'
+15:24:02.777       ENTITY       : Init entity @"ENTITY:238" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+15:24:02.777        INVENTORY (E): Couldn't insert item @"ENTITY:312" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:260" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.777        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:312" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.777        INVENTORY (E): Couldn't insert item @"ENTITY:313" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:260" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.777        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:313" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.865     ENTITY       : SpawnEntityPrefab @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+15:24:02.865      WORLD        : InitEntities 'PreloadWorld'
+15:24:02.865       ENTITY       : Init entity @"ENTITY:363" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+15:24:02.865        INVENTORY (E): Couldn't insert item @"ENTITY:412" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:383" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.865        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:412" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.865        INVENTORY (E): Couldn't insert item @"ENTITY:413" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:383" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.865        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:413" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.865        INVENTORY (E): Couldn't insert item @"ENTITY:414" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:383" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:02.865        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:414" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.897     ENTITY       : SpawnEntityPrefab @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+15:24:02.897      WORLD        : InitEntities 'PreloadWorld'
+15:24:02.897       ENTITY       : Init entity @"ENTITY:418" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+15:24:02.897        INVENTORY (E): Couldn't insert item @"ENTITY:469" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.897        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:469" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.897        INVENTORY (E): Couldn't insert item @"ENTITY:470" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.897        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:470" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.898        INVENTORY (E): Couldn't insert item @"ENTITY:471" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.898        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:471" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.899        INVENTORY (E): Couldn't insert item @"ENTITY:472" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.899        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:472" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:02.899        INVENTORY (E): Couldn't insert item @"ENTITY:473" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:440" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.104999 1.129537 0.050875> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+15:24:02.899        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:473" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:03.032     ENTITY       : SpawnEntityPrefab @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+15:24:03.032      WORLD        : InitEntities 'PreloadWorld'
+15:24:03.032       ENTITY       : Init entity @"ENTITY:542" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+15:24:03.033        INVENTORY (E): Couldn't insert item @"ENTITY:583" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+15:24:03.033        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:583" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:03.033        INVENTORY (E): Couldn't insert item @"ENTITY:584" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+15:24:03.033        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:584" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:03.033        INVENTORY (E): Couldn't insert item @"ENTITY:585" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+15:24:03.033        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:585" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:03.034        INVENTORY (E): Couldn't insert item @"ENTITY:586" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:560" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112072 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+15:24:03.034        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:586" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:14.796    ENTITY       : Create entity @"ENTITY:617227" ('StaticModelEntity','Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.xob') at <1931.796021 81.777000 5138.725098> @"{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et"
+15:24:14.796     DEFAULT   (W): World doesn't contain RadioManagerEntity to support any BaseRadioComponent.
+15:24:25.682    ENTITY       : Create entity @"ENTITY:1108685" ('StaticModelEntity') at <8831.291016 95.934265 2673.487061>
+15:24:25.682     MATERIAL     : Material load @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat"
+15:24:25.682      MATERIAL  (E): Material file not found
+15:24:25.682     MATERIAL  (E): Object @"Assets/Structures/Cultural/Calvaries/CalvaryLarge_01/CalvaryLarge_01.xob" - cannot load material @"system/wbdata/PreviewWindow/TransparentMat.emat", creating default one (class MatPBRBasic)
+15:24:37.458    ENTITY       : Create entity @"ENTITY:2305843009213697452" ('GenericEntity','Assets/Props/Military/Antennas/Antenna_R161_01/Antenna_R161_01.xob') at <9354.231445 204.427994 1162.372070>
+15:24:37.458     DEFAULT   (W): BaseRadioComponent does not have any transceiver. (Entity: @"ENTITY:2305843009213697452" ('GenericEntity','Assets/Props/Military/Antennas/Antenna_R161_01/Antenna_R161_01.xob') at <9354.231445 204.427994 1162.372070>). Only printing this message once. There're possibly more nodes with this requirement.
+15:24:38.516    ENTITY       : Create entity @"ENTITY:4611686018427387909" ('CampaignFactionManager_RHS1', SCR_CampaignFactionManager) at <10.381000 0.000000 11.292000> @"{08D7B29AEC960674}Prefabs/MP/Campaign/CampaignFactionManager_RHS.et"
+15:24:38.516     RESOURCES    : GetResourceObject @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+15:24:38.516      WORLD        : Entity prefab load @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+15:24:38.516       RESOURCES    : GetResourceObject @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+15:24:38.516        WORLD        : Entity prefab load @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+15:24:38.516         WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 16561(0x40b1)
+15:24:38.668     ENTITY       : SpawnEntityPrefab @"{0723C05E6B3DE4D7}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_MC_wear.et"
+15:24:38.668      ENTITY       : Create entity @"ENTITY:19" ('GenericEntity') at <0.000000 0.000000 0.000000>
+15:24:38.668       RESOURCES (E): Can't remap 'Assets/Characters/Uniforms/Crye_Combat_Shirt/Crye_g3_Shirt_Rolled.xob' material from 'Crye_longsleeve_multicam' to 'Assets/Characters/Uniforms/Crye_Combat_Shirt/Data/Crye_longsleeve_AOR2.emat'. Source material do not exist
+15:24:38.874     RESOURCES    : GetResourceObject @"{C9D4FE9DDCBA82A1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_XM664.et"
+15:24:38.874      WORLD        : Entity prefab load @"{C9D4FE9DDCBA82A1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_XM664.et"
+15:24:38.874       RESOURCES    : GetResourceObject @"{51A3B99DCE59C8E1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_M585.et"
+15:24:38.875        WORLD        : Entity prefab load @"{51A3B99DCE59C8E1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_M585.et"
+15:24:38.875         RESOURCES (E): Wrong GUID/name for resource @"{C5131112CC1B6469}Sounds/Weapons/_SharedData/BulletFlybys/UGL/Weapons_BulletFlybys_UGL.acp" in property "SubsonicFlybys"
+15:24:38.875       RESOURCES (E): Wrong GUID/name for resource @"{C5131112CC1B6469}Sounds/Weapons/_SharedData/BulletFlybys/UGL/Weapons_BulletFlybys_UGL.acp" in property "SubsonicFlybys"
+15:24:38.876     RESOURCES    : GetResourceObject @"{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et"
+15:24:38.876      WORLD        : Entity prefab load @"{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et"
+15:24:38.876       RESOURCES    : GetResourceObject @"{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et"
+15:24:38.876        WORLD        : Entity prefab load @"{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et"
+15:24:38.876         RESOURCES (E): Wrong GUID/name for resource @"{C5131112CC1B6469}Sounds/Weapons/_SharedData/BulletFlybys/UGL/Weapons_BulletFlybys_UGL.acp" in property "SubsonicFlybys"
+15:24:39.018     RESOURCES    : GetResourceObject @"{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et"
+15:24:39.018      WORLD        : Entity prefab load @"{4A465E25A866520E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MTT-A_Black.et"
+15:24:39.018       RESOURCES    : GetResourceObject @"{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et"
+15:24:39.018        WORLD        : Entity prefab load @"{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et"
+15:24:39.018         RESOURCES    : GetResourceObject @"{B6B8C164FD6377EA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_base.et"
+15:24:39.018          WORLD        : Entity prefab load @"{B6B8C164FD6377EA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_base.et"
+15:24:39.018           RESOURCES    : GetResourceObject @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+15:24:39.018            WORLD        : Entity prefab load @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+15:24:39.018             RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+15:24:39.018              WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+15:24:39.018               RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+15:24:39.018                WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+15:24:39.018                 WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 19148(0x4acc)
+15:24:39.179     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+15:24:39.180     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+15:24:39.338     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+15:24:39.339     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+15:24:39.373    ENTITY       : Create entity @"ENTITY:4611686018427387918" ('PreloadManager_Campaign1', BasePreloadManager) at <27.209000 0.000000 10.918000> @"{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et"
+15:24:39.373     ENTITY       : SpawnEntityPrefab @"{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Campaign_US_Player.et"
+15:24:39.373      WORLD        : InitEntities 'PreloadWorld'
+15:24:39.373       ENTITY       : Init entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/Campaign_US_Player.et"
+15:24:39.373        INVENTORY (E): Couldn't insert item @"ENTITY:51" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:39.373        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:51" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:39.374        INVENTORY (E): Couldn't insert item @"ENTITY:52" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:39.374        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:52" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:39.374        INVENTORY (E): Couldn't insert item @"ENTITY:53" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:39.374        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:53" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:39.498     ENTITY       : SpawnEntityPrefab @"{07B92B5E1A781635}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_US_Player_Variant_1.et"
+15:24:39.498      WORLD        : InitEntities 'PreloadWorld'
+15:24:39.498       ENTITY       : Init entity @"ENTITY:107" ('SCR_ChimeraCharacter','Assets/Characters/Basebody/Basebody_Male_01.xob') at <0.000000 0.000000 0.000000> @"{07B92B5E1A781635}Prefabs/Characters/Campaign/Final/PlayerVariant/Campaign_US_Player_Variant_1.et"
+15:24:39.498        INVENTORY (E): Couldn't insert item @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:128" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:39.498        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:157" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:39.498        INVENTORY (E): Couldn't insert item @"ENTITY:158" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:128" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:39.498        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:158" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:39.501        INVENTORY (E): Couldn't insert item @"ENTITY:159" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" into storage @"ENTITY:128" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162750 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+15:24:39.501        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:159" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+15:24:40.650    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+15:24:40.650    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.107000 ms
+15:24:40.650    WORLD        : InitEntities 'world'
+15:24:40.650     ENTITY       : Init entity @"ENTITY:3" ('SCR_MapEntity1', SCR_MapEntity) at <6400.000000 0.000000 6400.000000> @"{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et"
+15:24:40.650      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+15:24:43.520    WORLD        : WORLD        : NotifyEntitiesInitialized
+15:24:43.521     TERRAIN      : TERRAIN      : Initializing road networks...
+15:24:43.528     PROFILING    : Initializing road networks... took: 7.807000 ms
+15:24:43.735     INIT         : INIT         : SoundWorldInit
+15:24:43.912     PROFILING    : SoundWorldInit took: 177.002000 ms
+15:24:43.912    PROFILING    : NotifyEntitiesInitialized took: 391.521000 ms
+15:24:43.912   PROFILING    : CreateEntities took: 52800.766000 ms
+15:24:43.912  PROFILING    : CreateEntities took: 52800.850000 ms
+15:24:43.912  WORLD        : WORLD        : EOnActivate
+15:24:44.044  PROFILING    : EOnActivate took: 131.291000 ms
+15:24:44.044 PROFILING    : Game::LoadEntities took: 58642.852000 ms
+15:24:44.317 NETWORK      : RPL listen address not specified. Using default fallback.
+15:24:44.359 NETWORK      : Starting RPL server, listening on address 0.0.0.0:2001, fastValidation=true
+15:24:44.459 DEFAULT      : BattlEye Server: Loading BattlEye library from path '/reforger/battleye/BEServer_x64.so'.
+15:24:44.463 DEFAULT      : BattlEye Server: 'Initialized (v1.220, Arma Reforger 1.2.0.102)'
+15:24:44.463 DEFAULT      : BattlEye Server: Initialized.
+15:24:44.463 DEFAULT      : BattlEye Server: 'Config entry: GameID armar'
+15:24:44.463 DEFAULT      : BattlEye Server: 'Config entry: MasterPort 2001'
+15:24:45.970 BACKEND      : Server registered with address: 94.131.113.19:2001
+15:24:45.970 BACKEND      : Direct Join Code: 0638146892
+15:24:45.970 BACKEND      : Ping Site: frankfurt
+15:24:46.978 DEFAULT      : Entered online game state.
+15:24:47.301 ENTITY       : SpawnEntityPrefab @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+15:24:47.301  WORLD        : InitEntities 'world'
+15:24:47.301   ENTITY       : Init entity @"ENTITY:6917529027641084311" ('GenericEntity') at <4545.004883 19.876129 9814.588867> @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+15:24:47.301    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+15:24:47.720 ENTITY       : SpawnEntityPrefab @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+15:24:47.720  WORLD        : InitEntities 'world'
+15:24:47.720   ENTITY       : Init entity @"ENTITY:6917529027641087546" ('GenericEntity') at <3931.011963 15.148357 8488.539062> @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+15:24:47.720    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+15:24:47.767 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:47.767  WORLD        : InitEntities 'world'
+15:24:47.767   ENTITY       : Init entity @"ENTITY:6917529027641088020" ('GenericEntity') at <3908.856445 15.343848 8441.521484> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:47.767    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+15:24:47.905 ENTITY       : SpawnEntityPrefab @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+15:24:47.905  WORLD        : InitEntities 'world'
+15:24:47.905   ENTITY       : Init entity @"ENTITY:6917529027641088984" ('GenericEntity') at <5763.820801 7.919692 9629.669922> @"{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+15:24:47.905    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+15:24:48.340 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:48.340  WORLD        : InitEntities 'world'
+15:24:48.340   ENTITY       : Init entity @"ENTITY:6917529027641093862" ('GenericEntity') at <4404.414062 1.593021 11082.112305> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:48.341    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+15:24:48.415 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:48.415  WORLD        : InitEntities 'world'
+15:24:48.415   ENTITY       : Init entity @"ENTITY:6917529027641094318" ('GenericEntity') at <5800.319336 1.021584 9507.989258> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:48.415    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+15:24:48.861 ENTITY       : SpawnEntityPrefab @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:48.861  WORLD        : InitEntities 'world'
+15:24:48.862   ENTITY       : Init entity @"ENTITY:6917529027641097700" ('GenericEntity') at <4812.690918 24.823425 11993.978516> @"{B2BE9F96CF7399CC}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_USSR_01.et"
+15:24:48.862    SCRIPT    (W): There is not enough of SCR_CatalogSpawnerUserAction attached to actionManager. Some assets won't appear.
+15:24:50.322 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74D4D17D20> @"ENTITY:272896" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.323 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74C0233228> @"ENTITY:463500" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.323 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74C0233360> @"ENTITY:463506" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.324 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB0648> @"ENTITY:858977" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.324 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB0780> @"ENTITY:858982" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.325 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB08B8> @"ENTITY:858987" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.325 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB09F0> @"ENTITY:858992" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.325 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB0B28> @"ENTITY:858997" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.326 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB0C60> @"ENTITY:859002" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.326 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB0D98> @"ENTITY:859007" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.326 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB0ED0> @"ENTITY:859012" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.327 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB1008> @"ENTITY:859017" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.327 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB1140> @"ENTITY:859022" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.327 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB1278> @"ENTITY:859027" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.328 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB13B0> @"ENTITY:859032" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.328 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74A8AB14E8> @"ENTITY:859037" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.328 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74AAFEE5F8> @"ENTITY:908889" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.329 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74AAFEE730> @"ENTITY:908895" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.329 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F74AAFEE868> @"ENTITY:908901" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.508 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F74EC4909C0> @"ENTITY:6917529027641085423" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.516 SCRIPT    (W): 'SCR_SupportStationAreaMeshComponent' (GenericEntity<0x00007F74EC490470> @"ENTITY:6917529027641085405" ('GenericEntity') at <3906.988037 14.413651 8498.759766>) Component must be attached to enity with SCR_BaseSupportStationComponent! BasePrefab should not have a support Station component
+15:24:50.552 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F74FB2A19B0> @"ENTITY:6917529027641088194" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.575 SCRIPT    (W): 'SCR_SupportStationAreaMeshComponent' (GenericEntity<0x00007F74FA4AC140> @"ENTITY:6917529027641089503" ('GenericEntity') at <5748.053711 8.592275 9628.955078>) Component must be attached to enity with SCR_BaseSupportStationComponent! BasePrefab should not have a support Station component
+15:24:50.613 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F74F65D7440> @"ENTITY:6917529027641094036" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.638 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F74F65299B0> @"ENTITY:6917529027641094492" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.687 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F753B23C470> @"ENTITY:6917529027641097874" ('GenericEntity','Assets/Props/Military/Fuel/FuelPump_USSR_01/' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:24:50.754 WORLD        : Frame start
+15:24:50.754  NETWORK      : Projectiles will simulate using: EOnFrame
+15:24:50.799 WORLD        : UpdateEntities
+15:24:50.799  WORLD        : Frame
+15:24:50.799   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+15:26:54.890 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:28:54.899 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:30:54.915 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:32:54.953 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:34:54.958 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:36:54.965 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:38:54.999 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:40:55.006 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:42:55.053 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:44:55.088 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:46:55.093 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:48:55.126 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:50:55.129 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:52:55.145 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:54:55.155 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:56:55.186 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+15:58:55.199 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:00:55.221 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:02:55.239 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:04:55.245 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:06:55.273 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:08:55.305 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:10:55.321 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:12:55.338 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:14:55.367 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:16:55.369 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:18:55.389 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:20:55.391 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:22:55.407 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:24:55.413 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:26:55.427 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:28:55.437 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:30:55.459 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:32:55.461 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:34:55.473 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:36:55.519 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:38:55.541 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:40:55.552 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:42:55.557 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:44:55.561 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:46:55.584 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:48:55.595 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:50:55.608 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:52:55.649 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:54:55.658 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:56:55.681 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+16:58:55.699 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:00:55.714 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:02:55.723 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:04:55.738 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:06:55.754 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:08:55.758 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:10:55.771 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:12:55.793 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:14:55.802 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:16:55.812 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:18:55.823 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:20:55.852 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:22:55.860 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:24:55.877 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:26:55.888 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:28:55.898 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:30:55.927 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:32:55.934 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:34:55.952 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:36:55.959 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:38:55.977 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:40:55.988 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:42:56.011 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:44:56.030 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:46:56.043 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:48:56.046 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:50:56.053 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:52:56.076 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:54:56.088 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:56:56.090 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+17:58:56.106 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:00:56.118 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:02:56.152 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:04:56.157 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:06:56.199 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:08:56.210 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:10:56.215 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:12:56.229 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:14:56.265 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:16:56.303 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:18:56.342 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:20:56.359 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:22:56.367 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:24:56.377 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:26:56.398 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:28:56.410 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:30:56.433 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:32:56.450 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:34:56.463 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:36:56.467 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:38:56.517 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:40:56.533 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:42:56.545 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:44:56.556 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:46:56.557 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:48:56.580 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:50:56.585 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:52:56.593 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:54:56.620 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:56:56.646 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+18:58:56.647 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:00:56.660 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:02:56.678 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:04:56.682 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:06:56.725 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:08:56.747 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:10:56.755 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:12:56.773 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:14:56.780 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:16:56.790 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:18:56.804 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:20:56.809 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:22:56.824 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:24:56.837 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:26:56.886 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:28:56.919 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:30:56.929 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:32:56.962 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:34:56.992 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:36:57.052 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:38:57.128 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:40:57.132 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:42:57.148 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:44:57.161 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:46:57.183 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:48:57.204 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:50:57.225 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:52:57.240 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:54:57.252 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:56:57.261 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+19:58:57.275 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:00:57.286 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:02:57.303 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:04:57.442 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:06:58.124 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:08:58.965 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:10:59.231 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:12:59.780 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:15:00.155 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:17:00.920 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:19:01.608 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:21:02.126 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:23:02.628 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:25:03.246 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:27:03.923 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:29:04.441 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:31:05.083 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:33:05.699 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:35:06.172 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:37:06.551 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:39:07.282 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:41:08.058 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:43:08.298 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:45:08.850 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:47:09.687 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:49:10.103 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:51:10.681 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:53:11.387 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:55:12.089 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:57:12.837 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+20:59:13.665 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:01:14.124 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:03:14.537 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:05:15.236 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:07:15.913 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:09:16.773 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:11:17.370 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:13:18.012 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:15:18.281 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:17:18.967 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:19:19.502 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:21:20.053 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:23:20.629 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:25:21.399 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:27:22.185 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:29:22.534 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:31:23.160 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:33:23.844 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:35:23.985 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:37:24.491 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:39:24.888 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:41:25.353 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:43:25.770 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:45:26.582 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:47:27.338 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:49:27.670 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:51:28.659 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:53:29.645 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:55:30.453 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:57:31.620 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:59:32.557 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:01:33.453 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:03:34.465 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:05:35.312 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:07:36.166 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:09:37.513 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:11:38.828 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:13:40.096 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:15:41.001 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:17:42.221 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:19:43.665 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:21:44.788 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:23:45.987 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:25:46.882 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:27:47.652 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:29:48.729 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:31:49.816 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:33:50.851 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:35:52.046 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:37:53.486 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:39:54.519 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:41:55.760 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:43:57.097 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:45:58.334 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:47:59.454 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:50:00.472 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:52:01.326 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:54:02.383 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:56:03.316 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:58:04.345 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:00:05.714 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:02:06.766 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:04:07.749 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:06:09.041 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:08:09.995 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:10:10.988 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:12:12.363 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:14:13.383 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:16:14.531 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:18:15.788 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:20:17.017 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:22:18.074 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:24:19.113 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:26:20.093 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:28:21.546 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:30:22.656 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:32:24.091 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:34:25.433 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:36:26.131 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:38:27.655 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:40:28.715 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:42:30.151 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:44:31.241 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:46:32.108 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:48:33.370 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:50:34.204 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:52:35.566 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:54:36.253 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:56:37.050 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:58:38.213 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:00:39.204 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:02:40.186 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:04:41.168 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:06:42.354 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:08:43.527 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:10:44.870 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:12:45.946 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:14:47.139 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:16:48.284 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:18:49.116 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:20:50.062 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:22:51.125 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:24:52.367 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:26:53.110 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:28:54.476 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:30:55.536 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:32:56.680 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:34:57.711 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:36:58.769 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:38:59.536 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:41:00.675 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:43:02.066 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:45:03.188 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:47:04.810 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:49:09.108 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:51:13.225 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:53:16.609 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:55:20.635 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:57:25.023 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:59:29.187 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:01:33.360 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:03:37.469 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:05:41.555 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:07:44.996 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:09:48.794 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:11:53.056 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:13:57.120 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:16:00.653 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:18:04.909 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:20:09.358 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:22:13.297 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:24:17.319 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:26:20.549 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:28:24.515 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:30:27.877 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:32:31.754 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:34:35.949 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:36:39.363 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:38:43.023 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:40:47.118 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:42:50.549 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:44:54.411 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:46:58.705 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:49:02.501 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:51:06.194 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:53:10.525 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:55:14.959 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:57:19.180 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:59:23.340 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:01:27.188 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:03:31.251 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:05:35.528 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:07:39.539 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:09:43.317 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:11:47.325 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:13:51.341 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:15:54.374 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:17:58.081 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:20:02.043 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:22:06.366 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:24:09.620 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:26:13.739 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:28:17.923 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:30:22.068 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:32:26.186 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:34:29.923 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:36:33.233 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:38:37.378 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:40:41.239 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:42:44.354 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:44:47.894 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:46:52.049 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:48:56.289 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:51:00.000 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:53:04.269 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:55:08.274 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:57:12.504 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:59:16.380 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:01:20.560 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:03:24.838 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:05:28.979 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:07:32.974 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:09:37.052 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:11:40.864 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:13:44.759 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:15:48.060 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:17:51.557 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:19:55.664 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:21:58.739 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:24:01.991 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:26:06.152 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:28:10.597 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:30:14.649 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:32:18.708 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:34:22.048 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:36:25.739 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:38:29.954 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:40:33.472 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:42:37.257 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:44:41.136 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:46:45.088 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:48:49.161 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:50:53.722 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:52:57.634 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:55:01.896 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:57:05.874 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:59:09.786 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:01:14.135 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:03:18.254 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:05:22.538 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:07:26.224 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:09:29.564 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:11:33.740 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:13:38.295 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:15:42.318 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:17:46.213 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:19:50.387 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:21:54.275 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:23:57.787 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:26:01.888 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:28:05.597 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:30:09.466 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:32:13.487 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:34:17.670 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:36:21.564 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:38:25.689 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:40:29.786 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:42:33.914 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:44:38.113 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:46:41.970 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:48:45.998 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:50:49.690 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:52:53.707 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:54:57.103 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:57:01.363 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:59:05.390 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:01:08.708 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:03:12.731 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:05:16.960 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:07:20.609 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:09:24.702 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:11:28.680 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:13:32.682 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:15:36.753 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:17:39.929 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:19:43.908 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:21:47.954 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:23:51.534 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:25:55.759 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:27:59.480 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:30:03.619 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:32:07.601 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:34:10.757 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:36:14.875 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:38:19.197 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:40:22.959 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:42:27.274 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:44:31.165 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:46:35.210 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:48:39.305 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:50:42.816 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:52:46.464 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:54:50.333 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:56:54.369 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:58:58.203 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:01:01.734 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:03:04.787 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:05:08.851 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:07:12.927 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:09:16.474 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:11:19.419 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:13:23.397 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:15:26.808 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:17:30.893 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:19:35.360 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:21:38.946 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:23:43.204 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:25:47.249 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:27:51.422 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:29:55.625 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:31:59.103 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:34:02.980 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:36:07.255 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:38:10.924 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:40:14.324 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:42:18.319 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:44:22.506 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:46:26.229 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:48:30.366 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:50:34.442 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:52:38.178 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:54:42.272 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:56:46.627 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:58:51.004 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:00:55.031 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:02:59.359 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:05:03.005 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:07:06.339 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:09:10.578 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:11:14.610 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:13:17.891 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:15:21.181 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:17:25.062 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:19:29.356 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:21:33.098 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:23:37.542 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:25:41.635 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:27:45.648 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:29:49.803 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:31:53.720 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:33:57.659 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:36:01.160 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:38:05.365 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:40:09.649 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:42:13.683 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:44:17.611 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:46:22.056 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:48:26.102 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:50:29.813 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:52:33.859 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:54:38.004 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:56:41.732 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:58:45.622 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:00:49.422 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:02:53.665 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:04:57.549 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:07:01.278 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:09:04.450 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:11:08.374 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:13:12.392 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:15:16.151 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:17:19.451 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:19:23.681 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:21:27.692 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:23:31.551 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:25:35.626 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:27:39.789 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:29:43.334 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:31:47.498 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:33:51.413 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:35:55.206 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:37:59.022 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:40:02.093 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:42:05.629 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:44:09.706 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:46:13.499 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:48:17.477 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:50:20.726 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:52:24.652 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:54:28.978 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:56:32.627 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:58:36.535 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:00:40.336 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:02:44.615 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:04:48.687 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:06:52.533 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:08:55.730 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:10:58.677 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:13:02.599 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:15:06.528 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:17:10.125 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:19:14.277 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:21:18.277 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:23:22.215 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:25:25.539 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:27:29.735 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:29:33.878 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:31:37.236 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:33:41.135 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:35:44.470 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:37:48.256 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:37:51.710 BACKEND   (E): Curl error=Couldn't resolve host name
+09:37:51.720 BACKEND   (E): Http Error (SEND)
+09:37:51.738 BACKEND   (E): DS Room Heartbeat fail Timeout=300 sec
+09:37:51.738 BACKEND   (E): [RestApi] ID:[1103] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:38:14.775 BACKEND   (E): Curl error=Couldn't resolve host name
+09:38:14.784 BACKEND   (E): Http Error (SEND)
+09:38:14.801 BACKEND   (E): DS Room Heartbeat fail Timeout=217 sec
+09:38:14.801 BACKEND   (E): [RestApi] ID:[1104] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:38:37.841 BACKEND   (E): Curl error=Couldn't resolve host name
+09:38:37.850 BACKEND   (E): Http Error (SEND)
+09:38:37.867 BACKEND   (E): DS Room Heartbeat fail Timeout=194 sec
+09:38:37.868 BACKEND   (E): [RestApi] ID:[1105] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:39:00.910 BACKEND   (E): Curl error=Couldn't resolve host name
+09:39:00.916 BACKEND   (E): Http Error (SEND)
+09:39:00.933 BACKEND   (E): DS Room Heartbeat fail Timeout=171 sec
+09:39:00.933 BACKEND   (E): [RestApi] ID:[1106] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:39:23.972 BACKEND   (E): Curl error=Couldn't resolve host name
+09:39:23.982 BACKEND   (E): Http Error (SEND)
+09:39:23.999 BACKEND   (E): DS Room Heartbeat fail Timeout=148 sec
+09:39:23.999 BACKEND   (E): [RestApi] ID:[1107] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:39:47.037 BACKEND   (E): Curl error=Couldn't resolve host name
+09:39:47.047 BACKEND   (E): Http Error (SEND)
+09:39:47.065 BACKEND   (E): DS Room Heartbeat fail Timeout=125 sec
+09:39:47.065 BACKEND   (E): [RestApi] ID:[1108] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:39:52.082 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:40:10.102 BACKEND   (E): Curl error=Couldn't resolve host name
+09:40:10.119 BACKEND   (E): Http Error (SEND)
+09:40:10.136 BACKEND   (E): DS Room Heartbeat fail Timeout=102 sec
+09:40:10.136 BACKEND   (E): [RestApi] ID:[1109] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:40:33.169 BACKEND   (E): Curl error=Couldn't resolve host name
+09:40:33.179 BACKEND   (E): Http Error (SEND)
+09:40:33.196 BACKEND   (E): DS Room Heartbeat fail Timeout=79 sec
+09:40:33.196 BACKEND   (E): [RestApi] ID:[1110] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:40:56.217 BACKEND   (E): Curl error=Couldn't resolve host name
+09:40:56.228 BACKEND   (E): Http Error (SEND)
+09:40:56.246 BACKEND   (E): DS Room Heartbeat fail Timeout=55 sec
+09:40:56.246 BACKEND   (E): [RestApi] ID:[1111] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:41:19.284 BACKEND   (E): Curl error=Couldn't resolve host name
+09:41:19.294 BACKEND   (E): Http Error (SEND)
+09:41:19.312 BACKEND   (E): DS Room Heartbeat fail Timeout=32 sec
+09:41:19.312 BACKEND   (E): [RestApi] ID:[1112] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:41:42.351 BACKEND   (E): Curl error=Couldn't resolve host name
+09:41:42.360 BACKEND   (E): Http Error (SEND)
+09:41:42.377 BACKEND   (E): DS Room Heartbeat fail Timeout=9 sec
+09:41:42.377 BACKEND   (E): [RestApi] ID:[1113] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error - Cannot send request
+09:41:55.509 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+09:41:57.812 BACKEND   (W): DS Room/ Server not exist anymore, shutting down...
+09:41:57.812 BACKEND   (E): [RestApi] ID:[1114] TYPE:[EBREQ_LOBBY_DSHeartbeatS2S] Error Code:404 - Not Found, apiCode="DedicatedServerNotFound", message="Dedicated server not found"
+09:42:11.739 BACKEND   (E): [RestApi] ID:[1116] TYPE:[EBREQ_LOBBY_RoomsRemoveS2S] Error Code:404 - Not Found, apiCode="MpRoomNotFound", message="There is no room with id 3fded8d4-62c8-4810-a7ad-6ecb11d75dd3"
+09:42:12.139 DEFAULT      : BattlEye Server: Done.
+09:42:12.139 RPL          : IReplication:: Finishing...
+09:42:12.139 RPL          : rpl::Pip::ProcessNetToGame
+09:42:12.139  RPL          : IReplication: Finished
+09:42:12.144 RPL          : Pip::Destroy
+09:42:19.418 ENGINE       : Game destroyed.
+09:42:19.742 RPL          : Pip::Destroy
+09:42:19.748 RESOURCES (E): ==== Resource leaks ====
+09:42:19.748 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1

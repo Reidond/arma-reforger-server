@@ -1,0 +1,122 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-08-21_12-35-11/console.log started at 2024-08-21 12:35:11 (2024-08-21 12:35:11 UTC)
+
+12:35:11.820 ENGINE       : FileSystem: Adding relative directory '/home/profile/logs/logs_2024-08-21_12-35-11' to filesystem under name logs
+12:35:11.820 ENGINE       : FileSystem: Adding relative directory '/home/profile/profile' to filesystem under name profile
+12:35:11.824 ENGINE       : Initializing engine.
+12:35:11.824 ENGINE       : CLI Params: -config /reforger/Configs/escapists.json -backendlog -nothrow -maxFPS 60 -profile /home/profile -addonDownloadDir /reforger/workshop -addonsDir /reforger/workshop -autoreload 10 -loadSessionSave 
+12:35:11.826 ENGINE       : Addon dirs:
+12:35:11.826  ENGINE       : dir: '/reforger/workshop'
+12:35:11.826  ENGINE       : dir: './addons'
+12:35:11.826  ENGINE       : dir: '/home/profile/addons'
+12:35:11.826 ENGINE       : Available addons:
+12:35:11.826  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+12:35:11.826  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+12:35:12.014 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+12:35:12.015 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+12:35:12.015 RESOURCES    : ResourceDB: loading cache (id=0 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+12:35:12.477 RESOURCES    : ResourceDB: loading cache (id=1 name=core path=./addons/core/resourceDatabase.rdb)
+12:35:12.481 RESOURCES    : ResourceDB: loading cache (id=2 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+12:35:12.481 RESOURCES    : ResourceDB: loading cache (id=3 name=logs path=/home/profile/logs/logs_2024-08-21_12-35-11/resourceDatabase.rdb)
+12:35:12.752 ENGINE       : GameProject load
+12:35:12.752  ENGINE       : Loaded addons:
+12:35:12.752   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+12:35:12.752   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+12:35:12.755 ENGINE       : GameProject load
+12:35:12.755  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+12:35:12.755   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+12:35:12.756 ENGINE       : Loading custom engine user config '$profile:.save/settings/ReforgerEngineSettings.conf'
+12:35:12.757 INIT         : GameProject engine user settings load @"$profile:.save/settings/ReforgerEngineSettings.conf"
+12:35:12.757  ENGINE       : Engine user settings config loaded
+12:35:12.759 RENDER       : Basic screen setup:
+12:35:12.759 RENDER       :   Back buffer width x height: 0x0
+12:35:12.759 RENDER       :   Back buffer format	       : TEXFMT_UNKNOWN (0)
+12:35:12.759 RENDER       :   MSAA                      : none
+12:35:12.759 RENDER       : GPU_DUMMY (0xFFFF) (Enfusion dummy render) with 1 GPU detected, VRAM 128MB (fast 128MB), shared 128MB, driver version Unknown version, stereo not available
+12:35:12.759 RENDER       : Detected output devices:
+12:35:12.759 RENDER       :  * 1 device/s connected to Dummy:
+12:35:12.759 RENDER       :    Dummy output (Dummy device for our dummy render.), 1920x1080 (offset 0x0), 60Hz
+12:35:12.759 RENDER       :   Concurrent frames limit 2
+12:35:12.759 ENGINE       : Job system settings: coreCount=4, shortJobContextCount=4, shortJobThreadCount=3, longJobThreadCount=1
+12:35:12.978 AUDIO        : Audio device created
+12:35:12.992 ENGINE       : Initializing inputs.
+12:35:13.008 NETWORK      : Initializing networking.
+12:35:13.008 SCRIPT       : SCRIPT       : Initializing scripts
+12:35:13.009  SCRIPT       : SCRIPT       : ScriptProjectManager init
+12:35:13.009  PROFILING    : ScriptProjectManager init took: 0.035000 ms
+12:35:13.058 PROFILING    : Initializing scripts took: 48.854000 ms
+12:35:13.058 ENGINE       : Enfusion engine successfully created.
+12:35:13.063 GUI          : Using default language (en_us)
+12:35:13.063 GUI          : Loading 'en_us' localization file.
+12:35:13.063 INIT         : INIT         : Loading StringTable
+12:35:13.109 PROFILING    : Loading StringTable took: 46.059000 ms
+12:35:13.109 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+12:35:13.175  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+12:35:13.182 PROFILING    : Compiling GameLib scripts took: 73.242000 ms
+12:35:13.182 SCRIPT       : SCRIPT       : Compiling Game scripts
+12:35:16.634  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18390/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 25719fa1
+12:35:19.343 PROFILING    : Compiling Game scripts took: 6160.593000 ms
+12:35:19.346 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.0.102 built 2024-07-25 1:53:18 UTC.
+12:35:19.386 BACKEND      : Loading dedicated server config.
+12:35:19.386  BACKEND      : Server config loaded.
+12:35:19.386  BACKEND      : JSON Schema Validation:
+12:35:19.387   BACKEND      : JSON is Valid
+12:35:19.387 BACKEND      : Loading dedicated server config.
+12:35:19.387  RESOURCES    : GetResourceObject @"{24F69B20B0FD056E}Missions/Escapists_Chernarus.conf"
+12:35:19.387   RESOURCES (E): Failed to open
+12:35:19.387  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/Escapists_Chernarus.conf'!
+12:35:19.403 ENGINE       : Game successfully created.
+12:35:19.418 PLATFORM     : Save data from container 'settings' have been loaded
+12:35:19.517 PLATFORM     : Save data from container 'sessions' have been loaded
+12:35:19.518 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+12:35:19.518  ENGINE       : Game user settings config loaded
+12:35:19.518 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+12:35:19.518  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+12:35:19.518 NETWORK      : Starting dedicated server using command line args.
+12:35:25.681 BACKEND      : Addon Download started 62091192B4F9A193 - Escapists - Chernarus
+12:35:25.682 BACKEND      : Downloading 62091192B4F9A193 version 1.0.5
+12:35:25.682 BACKEND      : Addon Download started 6198EC294DEC63C0 - Bad Parachute
+12:35:25.682 BACKEND      : Downloading 6198EC294DEC63C0 version 1.0.9
+12:35:25.683 BACKEND      : Addon Download started 5F16D7E4A1CBE075 - Escapists
+12:35:25.683 BACKEND      : Downloading 5F16D7E4A1CBE075 version 1.3.18
+12:35:25.683 BACKEND      : Addon Download started 61CD68B8FAE0164C - Kex Escapists Additions
+12:35:25.683 BACKEND      : Downloading 61CD68B8FAE0164C version 0.3.5
+12:35:25.683 BACKEND      : Addon Download started 5A56FA0AC53F8C80 - ChernarusReforged
+12:35:25.683 BACKEND      : Downloading 5A56FA0AC53F8C80 version 1.0.37
+12:35:29.668 BACKEND      : Download
+12:35:29.668  BACKEND      : Downloading 3 addons:
+12:35:29.669  BACKEND      : Escapists - Chernarus: ==>__________________ 5% 3/62 MB
+12:35:29.669  BACKEND      : ChernarusReforged: >____________________ 0% 0/2634 MB
+12:35:29.669  BACKEND      : Escapists: ==>__________________ 6% 6/112 MB
+12:35:29.669  BACKEND      : Download speed 1070.25 KB/s
+12:35:39.729 BACKEND      : Download
+12:35:39.729  BACKEND      : Downloading 3 addons:
+12:35:39.729  BACKEND      : Escapists - Chernarus: ==>__________________ 5% 3/62 MB
+12:35:39.729  BACKEND      : ChernarusReforged: ==>__________________ 1% 30/2634 MB
+12:35:39.729  BACKEND      : Escapists: ==========>__________ 45% 51/112 MB
+12:35:39.729  BACKEND      : Download speed 7124.01 KB/s
+12:35:49.819 BACKEND      : Download
+12:35:49.819  BACKEND      : Downloading 2 addons:
+12:35:49.819  BACKEND      : Escapists - Chernarus: ====================> 92% 57/62 MB
+12:35:49.819  BACKEND      : ChernarusReforged: ==>__________________ 3% 99/2634 MB
+12:35:49.819  BACKEND      : Download speed 5590.07 KB/s
+12:35:59.876 BACKEND      : Download
+12:35:59.876  BACKEND      : Downloading 1 addons:
+12:35:59.876  BACKEND      : ChernarusReforged: ==>__________________ 8% 234/2634 MB
+12:35:59.877  BACKEND      : Download speed 6048.67 KB/s
+12:36:20.000 BACKEND      : Download
+12:36:20.000  BACKEND      : Downloading 1 addons:
+12:36:20.000  BACKEND      : ChernarusReforged: ======>______________ 22% 600/2634 MB
+12:36:20.000  BACKEND      : Download speed 10273.56 KB/s
+12:36:40.113 BACKEND      : Download
+12:36:40.113  BACKEND      : Downloading 1 addons:
+12:36:40.113  BACKEND      : ChernarusReforged: ========>____________ 37% 980/2634 MB
+12:36:40.113  BACKEND      : Download speed 10006.88 KB/s
+12:37:00.226 BACKEND      : Download
+12:37:00.226  BACKEND      : Downloading 1 addons:
+12:37:00.226  BACKEND      : ChernarusReforged: ==========>__________ 50% 1340/2634 MB
+12:37:00.226  BACKEND      : Download speed 11197.25 KB/s
+12:37:30.415 BACKEND      : Download
+12:37:30.415  BACKEND      : Downloading 1 addons:
+12:37:30.415  BACKEND      : ChernarusReforged: ==============>______ 64% 1709/2634 MB
+12:37:30.415  BACKEND      : Download speed 5410.41 KB/s
