@@ -1,0 +1,114 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-08-24_12-58-29/console.log started at 2024-08-24 12:58:29 (2024-08-24 12:58:29 UTC)
+
+12:58:29.999 ENGINE       : FileSystem: Adding relative directory '/home/profile/logs/logs_2024-08-24_12-58-29' to filesystem under name logs
+12:58:30.000 ENGINE       : FileSystem: Adding relative directory '/home/profile/profile' to filesystem under name profile
+12:58:30.003 ENGINE       : Initializing engine.
+12:58:30.003 ENGINE       : CLI Params: -config /reforger/Configs/redshore.json -backendlog -nothrow -maxFPS 60 -profile /home/profile -addonDownloadDir /reforger/workshop -addonsDir /reforger/workshop -autoreload 10 -loadSessionSave 
+12:58:30.007 ENGINE       : Addon dirs:
+12:58:30.007  ENGINE       : dir: '/reforger/workshop'
+12:58:30.007  ENGINE       : dir: './addons'
+12:58:30.007  ENGINE       : dir: '/home/profile/addons'
+12:58:30.007 ENGINE       : Available addons:
+12:58:30.007  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+12:58:30.007  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+12:58:30.207 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+12:58:30.209 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+12:58:30.209 RESOURCES    : ResourceDB: loading cache (id=0 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+12:58:30.659 RESOURCES    : ResourceDB: loading cache (id=1 name=core path=./addons/core/resourceDatabase.rdb)
+12:58:30.663 RESOURCES    : ResourceDB: loading cache (id=2 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+12:58:30.663 RESOURCES    : ResourceDB: loading cache (id=3 name=logs path=/home/profile/logs/logs_2024-08-24_12-58-29/resourceDatabase.rdb)
+12:58:30.935 ENGINE       : GameProject load
+12:58:30.935  ENGINE       : Loaded addons:
+12:58:30.935   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+12:58:30.935   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+12:58:30.937 ENGINE       : GameProject load
+12:58:30.937  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+12:58:30.937   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+12:58:30.937 ENGINE       : Loading custom engine user config '$profile:.save/settings/ReforgerEngineSettings.conf'
+12:58:30.938 INIT         : GameProject engine user settings load @"$profile:.save/settings/ReforgerEngineSettings.conf"
+12:58:30.938  ENGINE       : Engine user settings config loaded
+12:58:30.940 RENDER       : Basic screen setup:
+12:58:30.940 RENDER       :   Back buffer width x height: 0x0
+12:58:30.940 RENDER       :   Back buffer format	       : TEXFMT_UNKNOWN (0)
+12:58:30.940 RENDER       :   MSAA                      : none
+12:58:30.940 RENDER       : GPU_DUMMY (0xFFFF) (Enfusion dummy render) with 1 GPU detected, VRAM 128MB (fast 128MB), shared 128MB, driver version Unknown version, stereo not available
+12:58:30.940 RENDER       : Detected output devices:
+12:58:30.940 RENDER       :  * 1 device/s connected to Dummy:
+12:58:30.940 RENDER       :    Dummy output (Dummy device for our dummy render.), 1920x1080 (offset 0x0), 60Hz
+12:58:30.940 RENDER       :   Concurrent frames limit 2
+12:58:30.941 ENGINE       : Job system settings: coreCount=4, shortJobContextCount=4, shortJobThreadCount=3, longJobThreadCount=1
+12:58:31.134 AUDIO        : Audio device created
+12:58:31.143 ENGINE       : Initializing inputs.
+12:58:31.150 NETWORK      : Initializing networking.
+12:58:31.150 SCRIPT       : SCRIPT       : Initializing scripts
+12:58:31.151  SCRIPT       : SCRIPT       : ScriptProjectManager init
+12:58:31.151  PROFILING    : ScriptProjectManager init took: 0.035000 ms
+12:58:31.201 PROFILING    : Initializing scripts took: 50.868000 ms
+12:58:31.202 ENGINE       : Enfusion engine successfully created.
+12:58:31.206 GUI          : Using default language (en_us)
+12:58:31.206 GUI          : Loading 'en_us' localization file.
+12:58:31.206 INIT         : INIT         : Loading StringTable
+12:58:31.251 PROFILING    : Loading StringTable took: 44.285000 ms
+12:58:31.251 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+12:58:31.323  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+12:58:31.329 PROFILING    : Compiling GameLib scripts took: 78.419000 ms
+12:58:31.329 SCRIPT       : SCRIPT       : Compiling Game scripts
+12:58:34.616  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+12:58:37.647 PROFILING    : Compiling Game scripts took: 6317.289000 ms
+12:58:37.650 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.0.124 built 2024-08-16 15:22:11 UTC.
+12:58:37.683 BACKEND      : Loading dedicated server config.
+12:58:37.683  BACKEND      : Server config loaded.
+12:58:37.684  BACKEND      : JSON Schema Validation:
+12:58:37.684   BACKEND      : JSON is Valid
+12:58:37.684 BACKEND      : Loading dedicated server config.
+12:58:37.684  RESOURCES    : GetResourceObject @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+12:58:37.684   RESOURCES (E): Failed to open
+12:58:37.684  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/RHS_Conflict.conf'!
+12:58:37.702 ENGINE       : Game successfully created.
+12:58:37.760 PLATFORM     : Save data from container 'settings' have been loaded
+12:58:37.859 PLATFORM     : Save data from container 'sessions' have been loaded
+12:58:37.860 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+12:58:37.860  ENGINE       : Game user settings config loaded
+12:58:37.860 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+12:58:37.860  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+12:58:37.860 NETWORK      : Starting dedicated server using command line args.
+12:58:39.849 BACKEND      : Addon Download started 5DBAB91070DB7992 - Blunderbuss
+12:58:39.849 BACKEND      : Downloading 5DBAB91070DB7992 version 1.2.1
+12:58:39.849 BACKEND      : Addon Download started 5F2944B7474F043F - Disable Game Master Budgets
+12:58:39.850 BACKEND      : Downloading 5F2944B7474F043F version 1.0.1
+12:58:39.850 BACKEND      : Addon Download started 5AAAC70D754245DD - Server Admin Tools
+12:58:39.850 BACKEND      : Downloading 5AAAC70D754245DD version 1.0.61
+12:58:39.850 BACKEND      : Addon Download started 606B100247F5C709 - Bacon Loadout Editor
+12:58:39.850 BACKEND      : Downloading 606B100247F5C709 version 1.2.8
+12:58:39.850 BACKEND      : Addon Download started 5CF4A61BE1D960C6 - RHS - Status Quo Dev
+12:58:39.850 BACKEND      : Downloading 5CF4A61BE1D960C6 version 0.9.3193
+12:58:39.851 BACKEND      : Addon Download started 5994AD5A9F33BE57 - Game Master FX
+12:58:39.851 BACKEND      : Downloading 5994AD5A9F33BE57 version 1.0.92
+12:58:39.851 BACKEND      : Addon Download started 5C73156675E11A0F - GM Persistent Loadouts
+12:58:39.851 BACKEND      : Downloading 5C73156675E11A0F version 1.0.18
+12:58:48.012 BACKEND      : Download
+12:58:48.012  BACKEND      : Downloading 6 addons:
+12:58:48.012  BACKEND      : Blunderbuss: ====================> 97% 44/45 MB
+12:58:48.012  BACKEND      : Disable Game Master Budgets: ====================> 99% 7/7 MB
+12:58:48.012  BACKEND      : Server Admin Tools: ====================> 91% 0/0 MB
+12:58:48.012  BACKEND      : Bacon Loadout Editor: ====================> 96% 2/2 MB
+12:58:48.012  BACKEND      : RHS - Status Quo Dev: >____________________ 0% 10/5471 MB
+12:58:48.012  BACKEND      : Game Master FX: ==========>__________ 46% 12/26 MB
+12:58:48.012  BACKEND      : Download speed 7235.11 KB/s
+12:58:58.070 BACKEND      : Download
+12:58:58.070  BACKEND      : Downloading 5 addons:
+12:58:58.070  BACKEND      : Blunderbuss: ====================> 97% 44/45 MB
+12:58:58.070  BACKEND      : Disable Game Master Budgets: ====================> 99% 7/7 MB
+12:58:58.070  BACKEND      : Server Admin Tools: ====================> 91% 0/0 MB
+12:58:58.070  BACKEND      : Bacon Loadout Editor: ====================> 96% 2/2 MB
+12:58:58.070  BACKEND      : RHS - Status Quo Dev: ==>__________________ 4% 243/5471 MB
+12:58:58.070  BACKEND      : Download speed 13577.64 KB/s
+12:59:28.222 BACKEND      : Download
+12:59:28.223  BACKEND      : Downloading 5 addons:
+12:59:28.223  BACKEND      : Blunderbuss: ====================> 97% 44/45 MB
+12:59:28.223  BACKEND      : Disable Game Master Budgets: ====================> 99% 7/7 MB
+12:59:28.223  BACKEND      : Server Admin Tools: ====================> 91% 0/0 MB
+12:59:28.223  BACKEND      : Bacon Loadout Editor: ====================> 96% 2/2 MB
+12:59:28.223  BACKEND      : RHS - Status Quo Dev: ====>________________ 17% 974/5471 MB
+12:59:28.223  BACKEND      : Download speed 12418.54 KB/s
