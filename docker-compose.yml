@@ -9,8 +9,8 @@ services:
       - "19999:19999/udp"  # RCON
     volumes:
       - ./reforger/configs:/reforger/Configs
-      - ./reforger:/home/profile
       - ./reforger/workshop:/reforger/workshop
+      - ./reforger:/home/profile
     environment:
       - ARMA_CONFIG=rally.json
       - ARMA_MAX_FPS=60
