@@ -30,7 +30,8 @@
                 "m_fDisabledLocationsRatio": 0.35,
                 "m_fPatrolSpawnChance": 0.8,
                 "m_iCivilianPresence": 1,
-                "m_sStartingWeather": "RANDOM"
+                "m_sStartingWeather": "RANDOM",
+                "m_eStartType": "Hideout"
             }
         },
         "mods": [
