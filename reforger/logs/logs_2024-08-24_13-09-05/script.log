@@ -1,0 +1,72 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-08-24_13-09-05/script.log started at 2024-08-24 13:09:06 (2024-08-24 13:09:06 UTC)
+
+13:09:06.898 SCRIPT       : SCRIPT       : Initializing scripts
+13:09:06.898  SCRIPT       : SCRIPT       : ScriptProjectManager init
+13:09:07.095 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+13:09:07.167  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+13:09:07.175 SCRIPT       : SCRIPT       : Compiling Game scripts
+13:09:10.428  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+13:09:23.827 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+13:09:23.880  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+13:09:23.887 SCRIPT       : SCRIPT       : Compiling Game scripts
+13:09:26.805  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18261/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+13:09:40.010     SCRIPT    (W): 'SCR_PlayerListedAdminManagerComponent' Multiple instances of the 'SCR_PlayerListedAdminManagerComponent' exist in the world!
+13:09:40.010     SCRIPT    (E): More than one 'SCR_EntityCatalogManagerComponent' excist in the world! Make sure there is only 1!
+13:09:40.838      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+13:09:43.791 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6273326560> @"ENTITY:4611686018427387994" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.792 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F627350C580> @"ENTITY:4611686018427388034" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.793 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6273564140> @"ENTITY:4611686018427388091" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.794 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6273567880> @"ENTITY:4611686018427388150" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.794 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F627403D460> @"ENTITY:4611686018427388190" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.795 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F627403F440> @"ENTITY:4611686018427388234" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.796 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62740B9460> @"ENTITY:4611686018427388278" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.797 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62740BB440> @"ENTITY:4611686018427388322" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.797 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62744D5460> @"ENTITY:4611686018427388366" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.798 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62744D7440> @"ENTITY:4611686018427388410" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.799 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F627453D8A0> @"ENTITY:4611686018427388455" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.800 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274578AD0> @"ENTITY:4611686018427388516" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.800 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F627457BDD0> @"ENTITY:4611686018427388578" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.801 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62746EB110> @"ENTITY:4611686018427388642" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.802 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274731BD0> @"ENTITY:4611686018427388684" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.802 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274733770> @"ENTITY:4611686018427388726" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.803 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62747A3880> @"ENTITY:4611686018427388768" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.804 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62748D1BD0> @"ENTITY:4611686018427388810" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.804 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62748D3770> @"ENTITY:4611686018427388852" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.805 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F62749358A0> @"ENTITY:4611686018427388894" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.806 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274937440> @"ENTITY:4611686018427388934" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.806 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274996780> @"ENTITY:4611686018427388998" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.807 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274B00360> @"ENTITY:4611686018427389040" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.807 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274B03AA0> @"ENTITY:4611686018427389082" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.808 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274B49680> @"ENTITY:4611686018427389124" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.809 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274B4B220> @"ENTITY:4611686018427389166" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.809 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274BA9020> @"ENTITY:4611686018427389208" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.810 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274BAABC0> @"ENTITY:4611686018427389248" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.811 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274D1DF00> @"ENTITY:4611686018427389310" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.811 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007F6274D61240> @"ENTITY:4611686018427389372" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.812 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F62782808B8> @"ENTITY:59112" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.812 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F62782809F0> @"ENTITY:59118" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.813 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F6278280B28> @"ENTITY:59124" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.813 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F6278280C60> @"ENTITY:59130" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.813 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F627C40C3D8> @"ENTITY:109411" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.814 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F627C40C510> @"ENTITY:109416" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+13:09:43.836   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+13:09:43.836   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+13:09:43.837   SCRIPT    (E): DataCollectorComponent: StartDataCollectorSession: m_Owner is null. Can't add the EntityEvent.FRAME flag thus data collector will not work properly.
+13:09:44.915 SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+13:10:06.686   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+13:10:26.771   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
