@@ -1,0 +1,55 @@
+{
+        "a2s": {
+                "address": "0.0.0.0",
+                "port": 17777
+        },
+        "game": {
+                "name": "Красный Берег",
+                "password": "1525",
+                "passwordAdmin": "1525",
+                "admins": [],
+                "scenarioId": "{C5EAD55037EB4751}Missions/RHS_CombatOps_MSV_Flora.conf",
+                "maxPlayers": 32,
+                "visible": true,
+                "supportedPlatforms": [
+                        "PLATFORM_PC",
+                        "PLATFORM_XBL"
+                ],
+                "gameProperties": {
+                        "serverMaxViewDistance": 5000,
+                        "serverMinGrassDistance": 150,
+                        "networkViewDistance": 5000,
+                        "battlEye": true
+                },
+                "mods": [
+                        {
+                                "modId": "5DBAB91070DB7992",
+                                "name": "Blunderbuss"
+                        },
+                        {
+                                "modId": "5F2944B7474F043F",
+                                "name": "Disable Game Master Budgets"
+                        },
+                        {
+                                "modId": "5AAAC70D754245DD",
+                                "name": "Server Admin Tools"
+                        },
+                        {
+                                "modId": "606B100247F5C709",
+                                "name": "Bacon Loadout Editor"
+                        },
+                        {
+                                "modId": "5CF4A61BE1D960C6",
+                                "name": "RHS - Status Quo Dev"
+                        },
+                        {
+                                "modId": "5994AD5A9F33BE57",
+                                "name": "Game Master FX"
+                        },
+                        {
+                                "modId": "5C73156675E11A0F",
+                                "name": "GM Persistent Loadouts"
+                        }
+                ]
+        }
+}
