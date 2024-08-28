@@ -1,0 +1,65 @@
+{
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 17777
+    },
+    "game": {
+        "name": "Красный Берег",
+        "password": "1525",
+        "passwordAdmin": "1525",
+        "admins": [],
+        "scenarioId": "{B76E6CFDF056031F}Missions/Escapists_Arland.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "supportedPlatforms": [
+            "PLATFORM_PC",
+            "PLATFORM_XBL"
+        ],
+        "gameProperties": {
+            "serverMaxViewDistance": 5000,
+            "serverMinGrassDistance": 150,
+            "networkViewDistance": 5000,
+            "battlEye": true,
+            "missionHeader": {
+                "m_iPlayerCount": 12,
+                "m_sOccupyingFaction": "UK",
+                "m_sPlayerFaction": "USSR",
+                "m_eAiSkill": 80,
+                "m_eHealthType": 0,
+                "m_iStartHours": 8,
+                "m_fTimeAcceleration": 10.0,
+                "m_fDisabledLocationsRatio": 0.35,
+                "m_fPatrolSpawnChance": 0.8,
+                "m_iCivilianPresence": 1,
+                "m_sStartingWeather": "RANDOM",
+                "m_eStartType": "Hideout"
+            }
+        },
+        "mods": [
+            {
+                "modId": "5F16D7E4A1CBE075",
+                "name": "Escapists"
+            },
+            {
+                "modId": "5994AD5A9F33BE57",
+                "name": "Game Master FX"
+            },
+            {
+                "modId": "5AE50EC5B8D6F4AE",
+                "name": "British Forces"
+            },
+            {
+                "modId": "6198EC294DEC63C0",
+                "name": "Bad Parachute"
+            },
+            {
+                "modId": "61C8E7B6BAA311F2",
+                "name": "Escapists - British Forces"
+            },
+            {
+                "modId": "61CD68B8FAE0164C",
+                "name": "Kex Escapists Additions"
+            }
+        ]
+    }
+}
