@@ -1,27 +1,29 @@
 {
-        "a2s": {
-                "address": "0.0.0.0",
-                "port": 17777
-        },
-        "game": {
-                "name": "Красный Берег",
-                "password": "1525",
-                "passwordAdmin": "1525",
-                "admins": [],
-                "scenarioId": "{3AF863BEDF4B019B}Missions/MilOpsModernWarfare.conf",
-                "maxPlayers": 32,
-                "visible": true,
-                "supportedPlatforms": [
-                        "PLATFORM_PC",
-                        "PLATFORM_XBL"
-                ],
-                "gameProperties": {
-                        "serverMaxViewDistance": 5000,
-                        "serverMinGrassDistance": 150,
-                        "networkViewDistance": 5000,
-                        "battlEye": true
-                },
-                "mods": [
+	"a2s": {
+		"address": "0.0.0.0",
+		"port": 17777
+	},
+	"game": {
+		"name": "Красный Берег",
+		"password": "1525",
+		"admins": [
+			"25c9bb9d-fdd7-4be9-898e-cac20a551dd2",
+			"78439c51-f388-4fee-aa65-aca9cde8b061"
+		],
+		"scenarioId": "{3AF863BEDF4B019B}Missions/MilOpsModernWarfare.conf",
+		"maxPlayers": 32,
+		"visible": true,
+		"supportedPlatforms": [
+			"PLATFORM_PC",
+			"PLATFORM_XBL"
+		],
+		"gameProperties": {
+			"serverMaxViewDistance": 5000,
+			"serverMinGrassDistance": 150,
+			"networkViewDistance": 5000,
+			"battlEye": true
+		},
+		"mods": [
 			{
 				"modId": "595F2BF2F44836FB",
 				"name": "RHS - Status Quo"
@@ -50,6 +52,6 @@
 				"modId": "59A30ACC02650E71",
 				"name": "Night Vision System"
 			}
-                ]
-        }
+		]
+	}
 }
