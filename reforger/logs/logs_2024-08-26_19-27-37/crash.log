@@ -1,0 +1,399 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-08-26_19-27-37/crash.log started at 2024-08-26 19:28:14 (2024-08-26 19:28:14 UTC)
+
+
+
+------------------------------------
+26.08 2024 19:28:14
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:149 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:46 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 01:52:02
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:98 Function EOnEditorDeactivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:157 Function DeactivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:1856 Function ~SCR_EditorManagerEntity
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 01:58:25
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 14:03:28
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 14:17:32
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 14:23:51
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 14:54:38
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 15:04:08
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:149 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:46 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 15:11:48
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 15:23:11
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 15:28:23
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 15:34:39
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 15:58:47
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'entity'
+
+Class:      'SCR_DynamicSimulationEditorComponent'
+Function: 'EnableStreamingForEntity'
+Stack trace:
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:48 Function EnableStreamingForEntity
+scripts/Game/game.c:927 Function OnUpdate
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 16:01:40
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:149 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:46 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+27.08 2024 16:03:41
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:98 Function EOnEditorDeactivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:157 Function DeactivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:1856 Function ~SCR_EditorManagerEntity
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+28.08 2024 13:27:14
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+28.08 2024 13:33:01
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+28.08 2024 14:11:51
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:149 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:46 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+28.08 2024 14:49:44
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:98 Function EOnEditorDeactivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:157 Function DeactivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:1856 Function ~SCR_EditorManagerEntity
+
+Runtime mode
+CLI params: config /reforger/Configs/rhs_combatops_msv_flora.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
