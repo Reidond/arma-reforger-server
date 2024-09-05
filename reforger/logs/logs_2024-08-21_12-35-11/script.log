@@ -1,9 +1,0 @@
----------------------------------------------
-Log /home/profile/logs/logs_2024-08-21_12-35-11/script.log started at 2024-08-21 12:35:13 (2024-08-21 12:35:13 UTC)
-
-12:35:13.009 SCRIPT       : SCRIPT       : Initializing scripts
-12:35:13.009  SCRIPT       : SCRIPT       : ScriptProjectManager init
-12:35:13.109 SCRIPT       : SCRIPT       : Compiling GameLib scripts
-12:35:13.175  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
-12:35:13.183 SCRIPT       : SCRIPT       : Compiling Game scripts
-12:35:16.634  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18390/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 25719fa1
