@@ -34,7 +34,7 @@
                 "m_iCivilianPresence": 1,
                 "m_sStartingWeather": "RANDOM",
                 "m_eStartType": "Hideout",
-                "m_bUseMissionSetup": "0"
+                "m_bUseSetupMenu": 0
             }
         },
         "mods": [
