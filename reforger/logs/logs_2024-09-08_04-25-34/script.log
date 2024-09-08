@@ -1,0 +1,245 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-08_04-25-34/script.log started at 2024-09-08 04:25:36 (2024-09-08 04:25:36 UTC)
+
+04:25:36.197 SCRIPT       : SCRIPT       : Initializing scripts
+04:25:36.197  SCRIPT       : SCRIPT       : ScriptProjectManager init
+04:25:36.306 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+04:25:36.378  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+04:25:36.385 SCRIPT       : SCRIPT       : Compiling Game scripts
+04:25:39.749  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+04:29:08.554 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+04:29:08.620  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+04:29:08.630 SCRIPT       : SCRIPT       : Compiling Game scripts
+04:29:12.395  SCRIPT       : Module: Game; loaded 4532x files; 9430x classes; used 20061/41943 kB (47%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,SCRIPTED_AIM_MODIFIER_DEBUG,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING"; CRC32: a06a23d9
+04:29:28.662     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+04:29:28.662     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+04:29:28.674     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+04:29:28.674     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+04:29:28.900     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+04:29:28.900     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+04:29:29.462      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+04:29:30.186      SCRIPT       : ServerAdminTools.LoadConfig | Trying to load configuration file $profile:ServerAdminTools_Config.json
+04:29:30.187      SCRIPT       : ServerAdminTools | Loaded 0 repeated chat messages from config.
+04:29:30.187      SCRIPT       : ServerAdminTools | Loaded 0 scheduled chat messages from config.
+04:29:30.188      SCRIPT    (W): ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API URL or Token not specified. Events will be logged but not submitted anywhere.
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_killed
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_joined
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_conflict_base_captured
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_admin_action
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_started
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_ended
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_server_fps_low
+04:29:30.188      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_ended
+04:29:30.189      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_started
+04:29:30.189      SCRIPT       : ServerAdminTools_GamemodeComponent.EOnInit | Ready!
+04:29:32.199 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:180 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:52 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+04:29:34.201 SCRIPT       : Map load time: 84ms
+04:29:34.340 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F7759855008> @"ENTITY:59112" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:29:34.340 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F7759855140> @"ENTITY:59118" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:29:34.340 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F7759855278> @"ENTITY:59124" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:29:34.341 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F77598553B0> @"ENTITY:59130" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:29:34.341 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F775D930B28> @"ENTITY:109411" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:29:34.342 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F775D930C60> @"ENTITY:109416" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:29:34.405  SCRIPT       : RHS_CallInSupportSystem => OnInit => Startup
+04:29:34.405  SCRIPT       : RHS_CallInSupportSystem => OnInit => Additional settings found
+04:29:34.405  SCRIPT       : RHS_CallInSupportSystem => OnInit => CISS config found
+04:29:34.405  SCRIPT       : RHS_CallInSupportSystem => OnInit => CISS loaded - m_aFactionCallInsContainers.Count()=5
+04:29:34.405  SCRIPT       : RHS_CallInSupportSystem => OnInit => m_bUseResourceSystem=false
+04:29:34.405  SCRIPT       : RHS_CallInSupportSystem => OnInit => m_bRankLimitationCanBeUsed=false
+04:29:34.405  SCRIPT       : RHS_CallInSupportSystem => OnInit => End
+04:29:34.411   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+04:29:34.411   SCRIPT       : ServerAdminTools | Event serveradmintools_game_started | no data
+04:29:35.555 SCRIPT       : ScenarioFramework: ---------------------- Generating tasks -------------------
+04:29:35.560 SCRIPT       : ScenarioFramework: Creating area Area_F with Layer Task F_Kill
+04:29:35.560 SCRIPT       : ScenarioFramework: Creating area Area_E with Layer Task E_Destroy
+04:29:35.560 SCRIPT       : ScenarioFramework: Creating area Area_G with Layer Task G_ClearArea
+04:29:35.560 SCRIPT       : ScenarioFramework: ---------------------- Generation of tasks completed -------------------
+04:29:35.573 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotClearArea_7 - generating task Clear area. Description: ScenarioFramework: -> LayerTask: SlotTask SlotClearArea_7 - generating task Clear area. Description: 
+04:29:36.017 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotKill_8 - generating task Eliminate target. Description: ScenarioFramework: -> LayerTask: SlotTask SlotKill_8 - generating task Eliminate target. Description: cenarioFramework: -> LayerTask: SlotTask SlotClearArea_7 - generating task Clear area. Description: 
+04:29:36.304 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000011030360> @"ENTITY:4611686018427388213" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:29:36.389 SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_3 - generating task Destroy vehicle. Description: ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_3 - generating task Destroy vehicle. Description:  Armored Personnel Carrier
+04:29:36.404 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000012185240> @"ENTITY:4611686018427388306" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:31:34.615 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:33:34.627 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:34:18.533   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+04:34:18.533   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007F7752EFD080>
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+04:34:18.534   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.535   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+04:34:18.535   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+04:34:18.719     SCRIPT       : RHS_RadialMenu Initiated
+04:34:19.607   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+04:34:19.608   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Reidond, identityId: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+04:34:19.608   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Reidond, identity: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+04:34:41.002 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000000FEFD020> @"ENTITY:4611686018427388597" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:34:41.003 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000014B987A0> @"ENTITY:4611686018427388671" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:34:41.003 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000014B9A340> @"ENTITY:4611686018427388727" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:34:41.004 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000014C71460> @"ENTITY:4611686018427388801" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:34:41.004 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00000000153F4030> @"ENTITY:4611686018427388866" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:34:41.005 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00000000153F6450> @"ENTITY:4611686018427388936" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:34:41.005 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000015449020> @"ENTITY:4611686018427389003" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:35:34.890 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:37:34.903 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:38:48.906 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00000000175B5350> @"ENTITY:4611686018427389784" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+04:39:34.920 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:40:02.417   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+04:41:26.612   SCRIPT    (W): Trying to allocate same compartment twice!
+04:41:33.078   SCRIPT    (W): Trying to allocate same compartment twice!
+04:41:34.931 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:42:52.125   SCRIPT    (W): Trying to allocate same compartment twice!
+04:43:12.709   SCRIPT    (W): Trying to allocate same compartment twice!
+04:43:34.942 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:44:55.707   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Reidond, instigator: AI, friendly: false
+04:45:34.949 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:47:34.962 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:49:34.971 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:51:34.988 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:53:34.996 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:55:35.010 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:57:35.021 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:59:35.031 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:01:35.043 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:03:35.056 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:05:35.067 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:07:35.078 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:09:35.091 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:11:35.118 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:13:35.114 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:15:35.129 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:17:35.138 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:19:35.150 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:21:35.162 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:23:35.176 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:25:35.186 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:27:35.197 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:29:35.215 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:31:35.224 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:33:35.235 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:35:35.252 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:37:35.257 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:39:35.270 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:41:35.280 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:43:35.293 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:45:35.305 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:47:35.317 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:49:35.329 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:51:35.339 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:53:35.353 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:55:35.364 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:57:35.376 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+05:59:35.389 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:01:35.400 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:03:35.412 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:05:35.428 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:07:35.436 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:09:35.447 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:11:35.459 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:13:35.469 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:15:35.483 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:17:35.494 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:19:35.505 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:21:35.518 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:23:35.532 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:25:35.542 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:27:35.555 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:29:35.566 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:31:35.576 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:33:35.593 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:35:35.602 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:37:35.617 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:39:35.625 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:41:35.637 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:43:35.651 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:45:35.660 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:47:35.675 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:49:35.686 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:51:35.696 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:53:35.709 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:55:35.721 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:57:35.730 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+06:59:35.746 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:01:35.757 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:03:35.767 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:05:35.779 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:07:35.791 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:09:35.806 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:11:35.818 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:13:35.831 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:15:35.843 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:17:35.853 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:19:35.862 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:21:35.877 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:23:35.888 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:25:35.899 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:27:35.912 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:29:35.925 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:31:35.935 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:33:35.950 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:35:35.958 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:37:35.969 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:39:35.983 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:41:35.995 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:43:36.006 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:45:36.019 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:47:36.030 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:49:36.040 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:51:36.057 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:53:36.063 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:55:36.078 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:57:36.088 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+07:59:36.099 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:01:36.112 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:03:36.124 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:05:36.133 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:07:36.150 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:09:36.159 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:11:36.172 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:13:36.184 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:15:36.197 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:17:36.207 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:19:36.222 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:21:36.231 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:23:36.242 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:25:36.256 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:27:36.267 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:29:36.278 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:31:36.290 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+08:33:36.303 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
