@@ -12,6 +12,6 @@ services:
       - ./reforger/workshop:/reforger/workshop
       - ./reforger:/home/profile
     environment:
-      - ARMA_CONFIG=coe2_mogadishu.json
+      - ARMA_CONFIG=coe2_worthy_islands.json
       - ARMA_MAX_FPS=60
       - ARMA_PARAMS=-autoreload 10 -loadSessionSave

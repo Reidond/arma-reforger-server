@@ -1,0 +1,77 @@
+{
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 17777
+    },
+    "game": {
+        "name": "Красный Берег",
+        "password": "1525",
+        "admins": [
+            "25c9bb9d-fdd7-4be9-898e-cac20a551dd2",
+            "78439c51-f388-4fee-aa65-aca9cde8b061"
+        ],
+        "scenarioId": "{9166343CE3B6C085}Missions/COE2_Mogadishu.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "supportedPlatforms": [
+            "PLATFORM_PC",
+            "PLATFORM_XBL"
+        ],
+        "gameProperties": {
+            "serverMaxViewDistance": 5000,
+            "serverMinGrassDistance": 150,
+            "networkViewDistance": 5000,
+            "battlEye": true
+        },
+        "mods": [
+            {
+                "modId": "5CF4A61BE1D960C6",
+                "name": "RHS - Status Quo Dev"
+            },
+            {
+                "modId": "5D550926D43F1409",
+                "name": "Tactical Flava"
+            },
+            {
+                "modId": "609E8CAD8A403EA6",
+                "name": "Map Marker Menu Fix"
+            },
+            {
+                "modId": "61C769418AA32E81",
+                "name": "COE2 - Worthy Islands"
+            },
+            {
+                "modId": "60926835F4A7B0CA",
+                "name": "COE2"
+            },
+            {
+                "modId": "60C4CE4888FF4621",
+                "name": "ACE Core"
+            },
+            {
+                "modId": "5ED61DC0AFE17E8E",
+                "name": "Kex Scenario Core"
+            },
+            {
+                "modId": "596CB4A0AE84C08E",
+                "name": "Worthy Islands"
+            },
+            {
+                "modId": "5F2944B7474F043F",
+                "name": "Disable Game Master Budgets"
+            },
+            {
+                "modId": "5AAAC70D754245DD",
+                "name": "Server Admin Tools"
+            },
+            {
+                "modId": "5994AD5A9F33BE57",
+                "name": "Game Master FX"
+            },
+            {
+                "modId": "5C73156675E11A0F",
+                "name": "GM Persistent Loadouts"
+            }
+        ]
+    }
+}
