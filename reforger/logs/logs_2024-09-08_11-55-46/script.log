@@ -1,0 +1,363 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-08_11-55-46/script.log started at 2024-09-08 11:55:47 (2024-09-08 11:55:47 UTC)
+
+11:55:47.383 SCRIPT       : SCRIPT       : Initializing scripts
+11:55:47.383  SCRIPT       : SCRIPT       : ScriptProjectManager init
+11:55:47.574 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+11:55:47.647  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+11:55:47.654 SCRIPT       : SCRIPT       : Compiling Game scripts
+11:55:50.822  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+11:56:25.643 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+11:56:25.697  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+11:56:25.704 SCRIPT       : SCRIPT       : Compiling Game scripts
+11:56:29.252  SCRIPT       : Module: Game; loaded 4681x files; 9618x classes; used 20124/41943 kB (47%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,SCRIPTED_AIM_MODIFIER_DEBUG,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING"; CRC32: 6944f037
+11:56:32.732 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'm_iOrder'
+
+Class:      'SCR_EditorManagerCore'
+Function: 'SCR_EditorManagerCore'
+Stack trace:
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function SCR_EditorManagerCore
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function CreateCoresManager
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function OnAfterInit
+11:56:45.778     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+11:56:46.414     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+11:56:46.414     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+11:56:46.428     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+11:56:46.428     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+11:56:46.625     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+11:56:46.626     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+11:56:47.214      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+11:56:48.092      SCRIPT       : ServerAdminTools.LoadConfig | Trying to load configuration file $profile:ServerAdminTools_Config.json
+11:56:48.093      SCRIPT       : ServerAdminTools | Loaded 0 repeated chat messages from config.
+11:56:48.093      SCRIPT       : ServerAdminTools | Loaded 0 scheduled chat messages from config.
+11:56:48.094      SCRIPT    (W): ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API URL or Token not specified. Events will be logged but not submitted anywhere.
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_killed
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_joined
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_conflict_base_captured
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_admin_action
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_started
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_ended
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_server_fps_low
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_ended
+11:56:48.094      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_started
+11:56:48.094      SCRIPT       : ServerAdminTools_GamemodeComponent.EOnInit | Ready!
+11:56:50.397 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:180 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:52 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+scripts/Game/ACE_Core/ArmaReforgerScripted.c:25 Function OnGameStart
+11:56:52.339 SCRIPT       : Map load time: 89ms
+11:56:52.869 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F4648> @"ENTITY:233017" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.869 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F4780> @"ENTITY:233022" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.869 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F48B8> @"ENTITY:233027" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.870 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F49F0> @"ENTITY:233032" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.870 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F4B28> @"ENTITY:233037" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.870 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F4C60> @"ENTITY:233042" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.870 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F4D98> @"ENTITY:233047" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.871 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F4ED0> @"ENTITY:233052" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.871 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F5008> @"ENTITY:233057" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.871 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F5140> @"ENTITY:233062" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.871 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F5278> @"ENTITY:233067" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.872 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F53B0> @"ENTITY:233072" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.872 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F54E8> @"ENTITY:233077" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.872 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F5620> @"ENTITY:233082" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.872 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F5758> @"ENTITY:233087" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.873 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FBF325F5890> @"ENTITY:233092" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+11:56:52.955  SCRIPT       : RHS_CallInSupportSystem => OnInit => Startup
+11:56:52.956  SCRIPT       : RHS_CallInSupportSystem => OnInit => Additional settings found
+11:56:52.956  SCRIPT       : RHS_CallInSupportSystem => OnInit => CISS config found
+11:56:52.956  SCRIPT       : RHS_CallInSupportSystem => OnInit => CISS loaded - m_aFactionCallInsContainers.Count()=8
+11:56:52.956  SCRIPT       : RHS_CallInSupportSystem => OnInit => m_bUseResourceSystem=false
+11:56:52.956  SCRIPT       : RHS_CallInSupportSystem => OnInit => m_bRankLimitationCanBeUsed=false
+11:56:52.956  SCRIPT       : RHS_CallInSupportSystem => OnInit => End
+11:56:52.967   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+11:56:52.967   SCRIPT       : ServerAdminTools | Event serveradmintools_game_started | no data
+11:56:54.218 SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+11:58:08.219   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+11:58:08.219   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007FBF1DBF78D0>
+11:58:08.219   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+11:58:08.219   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+11:58:08.220   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+11:58:08.400     SCRIPT       : RHS_RadialMenu Initiated
+11:58:08.492   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+11:58:08.492   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Reidond, identityId: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+11:58:08.492   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Reidond, identity: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+11:59:01.116   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+11:59:52.167   SCRIPT       : GetCISSConfigModifier=>setting=RESOURCE
+11:59:52.167   SCRIPT       : GetCISSConfigModifier=>setting=RANK
+11:59:52.167   SCRIPT       : GetCISSConfigModifier=>setting=SQUAD_SIZE
+11:59:52.167   SCRIPT       : GetCISSConfigModifier=>setting=QUEUE
+11:59:52.167   SCRIPT       : GetCISSConfigModifier=>setting=COOLDOWN
+12:00:35.910   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+12:00:35.910   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 1
+12:00:35.911   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+12:00:35.911   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 1
+12:01:29.509   SCRIPT       : Player '1' approved vote | Vote Type: 'COE_COMMANDER_IN' | Vote value: '-1' | Count (1/3)
+12:01:29.521   SCRIPT       : ServerAdminTools | Event serveradmintools_vote_ended | winner: Reidond, type: coe_commander_in, target: none
+12:01:39.645   SCRIPT       : GetCISSConfigModifier=>setting=RESOURCE
+12:01:39.645   SCRIPT       : GetCISSConfigModifier=>setting=RANK
+12:01:39.645   SCRIPT       : GetCISSConfigModifier=>setting=SQUAD_SIZE
+12:01:39.645   SCRIPT       : GetCISSConfigModifier=>setting=QUEUE
+12:01:39.645   SCRIPT       : GetCISSConfigModifier=>setting=COOLDOWN
+12:04:12.388 SCRIPT       : <2769.437988,4.020374,2350.051758>|<2769.437988,4.020374,2350.051758>
+12:04:12.391 SCRIPT       : <2769.437988,7.077374,2350.051758>|<2769.437988,7.077374,2350.051758>
+12:04:12.399 SCRIPT    (W): 'SCR_Faction' trying to get entity list of type 'COMPOSITION' but there is no catalog with that type for faction 'CDF'
+12:04:12.399 SCRIPT    (W): 'SCR_Faction' trying to get entity list of type 'COMPOSITION' but there is no catalog with that type for faction 'CDF'
+12:04:12.399 SCRIPT    (W): 'SCR_Faction' trying to get entity list of type 'COMPOSITION' but there is no catalog with that type for faction 'CDF'
+12:04:12.399 SCRIPT    (W): 'SCR_Faction' trying to get entity list of type 'COMPOSITION' but there is no catalog with that type for faction 'CDF'
+12:04:12.399 SCRIPT    (W): 'SCR_Faction' trying to get entity list of type 'COMPOSITION' but there is no catalog with that type for faction 'CDF'
+12:04:12.399 SCRIPT    (W): 'SCR_Faction' trying to get entity list of type 'COMPOSITION' but there is no catalog with that type for faction 'CDF'
+12:04:13.483 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000015BB0580> @"ENTITY:4611686018427388343" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+12:04:13.484 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000015BB2120> @"ENTITY:4611686018427388401" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+12:04:13.484 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000015BB3CC0> @"ENTITY:4611686018427388459" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+12:04:13.485 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000015C058A0> @"ENTITY:4611686018427388517" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+12:07:52.332   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+12:07:52.332   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007FBF1DBF78D0>
+12:07:52.332   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+12:07:52.332   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+12:07:52.333   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+12:07:52.500     SCRIPT       : RHS_RadialMenu Initiated
+12:07:53.699   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 2, RplIdentity (hex): 1, name: Grizz, identityId: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+12:07:53.699   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Grizz, identity: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007FBF1DBF78D0>
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.248   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:20:24.249   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.249   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:20:24.249   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:20:24.550     SCRIPT       : RHS_RadialMenu Initiated
+14:20:25.482   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Reidond, identityId: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+14:20:25.482   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Reidond, identity: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+14:20:28.215   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+14:20:28.215   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 1
+14:20:28.215   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+14:20:28.216   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 1
+14:23:04.622   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+14:23:08.022   SCRIPT       : GetCISSConfigModifier=>setting=RESOURCE
+14:23:08.022   SCRIPT       : GetCISSConfigModifier=>setting=RANK
+14:23:08.022   SCRIPT       : GetCISSConfigModifier=>setting=SQUAD_SIZE
+14:23:08.022   SCRIPT       : GetCISSConfigModifier=>setting=QUEUE
+14:23:08.022   SCRIPT       : GetCISSConfigModifier=>setting=COOLDOWN
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007FBF1DBF78D0>
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+14:23:20.924   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:23:20.925   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:23:21.220     SCRIPT       : RHS_RadialMenu Initiated
+14:23:22.191   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 3, RplIdentity (hex): 1, name: Axon, identityId: 78439c51-f388-4fee-aa65-aca9cde8b061
+14:23:22.191   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Axon, identity: 78439c51-f388-4fee-aa65-aca9cde8b061
+14:24:15.768   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+14:24:15.770   SCRIPT       : loadout: 9768
+14:24:15.770   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+14:24:15.771   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+14:24:15.771   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+14:24:15.773   SCRIPT       : loadout: 9768
+14:24:15.773   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007FBF1DBF78D0>
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:06.877   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:29:06.878   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:06.878   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+14:29:06.878   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+14:29:07.142     SCRIPT       : RHS_RadialMenu Initiated
+14:29:08.578   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 4, RplIdentity (hex): 2, name: Koba, identityId: 4391e6e5-07bc-457e-8ac6-082d9b1aa76e
+14:29:08.578   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Koba, identity: 4391e6e5-07bc-457e-8ac6-082d9b1aa76e
+14:30:47.474   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_SaveLoadoutChonky | Saving loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF, loadout size: 11019
+14:32:21.699  SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:98 Function EOnEditorDeactivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:157 Function DeactivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:1856 Function ~SCR_EditorManagerEntity
+14:34:08.754   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Reidond, instigator: AI, friendly: false
+14:34:38.709   SCRIPT    (E): Virtual Machine Exception
+
+Reason: No suppression volume provided!
+
+<0x0000000011F8B750> SCR_ChimeraAIAgent : AI/BehaviorTrees/Chimera/Soldier/Soldier.bt
+ (RunBT : ID 0) 
+
+AI/BehaviorTrees/Chimera/Soldier/SuppressBehavior.bt
+SCR_AI Get Suppression Volume Center Position : ID 0
+
+Function: 'NodeError'
+Stack trace:
+scripts/Game/AI/Utils/NodeError.c:8 Function NodeError
+scripts/Game/AI/ScriptedNodes/Utils/SCR_AIGetSuppressionVolumePosition.c:25 Function EOnTaskSimulate
+14:50:27.267   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 4391e6e5-07bc-457e-8ac6-082d9b1aa76e, faction key RHS_AFRF
+14:50:27.268   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 4
+14:50:27.268   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 4391e6e5-07bc-457e-8ac6-082d9b1aa76e, faction key RHS_AFRF
+14:50:27.268   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_FactionAssigned | Unable to load loadout for player 4
+14:51:55.412   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Koba, instigator: AI, friendly: false
+14:57:54.979   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Koba, instigator: AI, friendly: false
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007FBF1DBF78D0>
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+17:13:24.183   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:24.184   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+17:13:24.184   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:24.184   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+17:13:24.184   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:24.184   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+17:13:24.184   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+17:13:25.451     SCRIPT       : RHS_RadialMenu Initiated
+17:13:25.749   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Reidond, identityId: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+17:13:25.749   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Reidond, identity: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+17:13:29.851   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+17:13:29.853   SCRIPT       : loadout: 11019
+17:13:29.854   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+17:13:29.854   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+17:13:29.854   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+17:13:29.855   SCRIPT       : loadout: 11019
+17:13:29.856   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+17:14:11.414   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_SaveLoadoutChonky | Saving loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF, loadout size: 11002
+17:23:43.855   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+18:17:09.214   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Reidond, instigator: Reidond, friendly: false
+18:26:21.824   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_SaveLoadoutChonky | Saving loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF, loadout size: 18250
+18:36:41.229   SCRIPT    (E): ScriptInvoker::Invoke: Incompatible parameter '0', expected 'int', got 'InventoryStorageSlot' (method 'OnParentSlotChanged')
+18:39:27.278   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Reidond, instigator: AI, friendly: false
+18:43:24.153   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Reidond, instigator: AI, friendly: false
+18:45:24.896   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Reidond, instigator: AI, friendly: false
