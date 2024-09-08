@@ -25,6 +25,14 @@
         },
         "mods": [
             {
+                "modId": "5CF4A61BE1D960C6",
+                "name": "RHS - Status Quo Dev"
+            },
+            {
+                "modId": "5D550926D43F1409",
+                "name": "Tactical Flava"
+            },
+            {
                 "modId": "609E8CAD8A403EA6",
                 "name": "Map Marker Menu Fix"
             },
@@ -59,10 +67,6 @@
             {
                 "modId": "5AAAC70D754245DD",
                 "name": "Server Admin Tools"
-            },
-            {
-                "modId": "606B100247F5C709",
-                "name": "Bacon Loadout Editor"
             },
             {
                 "modId": "5994AD5A9F33BE57",
