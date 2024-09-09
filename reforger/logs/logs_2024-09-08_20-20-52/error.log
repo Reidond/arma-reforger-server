@@ -1,0 +1,52 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-08_20-20-52/error.log started at 2024-09-08 20:20:53 (2024-09-08 20:20:53 UTC)
+
+20:20:53.650 ENGINE       : GameProject load
+20:20:53.650  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+20:20:53.650   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+20:20:59.482 BACKEND      : Loading dedicated server config.
+20:20:59.482  RESOURCES    : GetResourceObject @"{9166343CE3B6C085}Missions/COE2_Mogadishu.conf"
+20:20:59.482   RESOURCES (E): Failed to open
+20:20:59.482  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/COE2_Mogadishu.conf'!
+20:20:59.641 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+20:20:59.641  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+20:21:40.089 BACKEND   (E): Curl error=Timeout was reached
+20:21:40.135 BACKEND   (E): Fragmentizer: Download error (fragment 1003/2269)
+20:21:40.135 BACKEND   (E): Fragmentizer: Retrying download from fragment 1003/2269
+20:22:43.376 ENGINE       : GameProject load
+20:22:43.376  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+20:22:43.376   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+20:22:43.376  INIT         : GameProject load project data @"/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj"
+20:22:43.377   RESOURCES (E): Wrong GUID/name for resource @"{0AFDD005CD669892}Language/rhs_localization.st" in property "StringTableSource"
+20:22:43.377  INIT         : GameProject load project data @"/reforger/workshop/addons/TacticalFlava_5D550926D43F1409/addon.gproj"
+20:22:43.377   RESOURCES (E): Wrong GUID/name for resource @"{7CD584B46705F7ED}Language/tf_localization.st" in property "StringTableSource"
+20:22:43.377  INIT         : GameProject load project data @"/reforger/workshop/addons/ACECore_60C4CE4888FF4621/addon.gproj"
+20:22:43.377   RESOURCES (E): Wrong GUID/name for resource @"{DE0B68C7B4B0E89C}Language/ACE_localization.st" in property "StringTableSource"
+20:22:43.378  INIT         : GameProject load project data @"/reforger/workshop/addons/KexScenarioCore_5ED61DC0AFE17E8E/addon.gproj"
+20:22:43.378   RESOURCES (E): Wrong GUID/name for resource @"{C8FF460ACD54C25F}Language/KSC_localization.st" in property "StringTableSource"
+20:22:43.378  INIT         : GameProject load project data @"/reforger/workshop/addons/COE2_60926835F4A7B0CA/addon.gproj"
+20:22:43.378   RESOURCES (E): Wrong GUID/name for resource @"{C8FF460ACD54C25F}Language/KSC_localization.st" in property "StringTableSource"
+20:22:43.378   RESOURCES (E): Wrong GUID/name for resource @"{B03E06F7A63745FA}Language/COE_localization.st" in property "StringTableSource"
+20:22:51.161 BACKEND      : Loading dedicated server config.
+20:22:51.161  RESOURCES    : GetResourceObject @"{9166343CE3B6C085}Missions/COE2_Mogadishu.conf"
+20:22:51.161   RESOURCES (E): Failed to open
+20:22:51.161  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/COE2_Mogadishu.conf'!
+20:22:51.176 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'm_iOrder'
+
+Class:      'SCR_EditorManagerCore'
+Function: 'SCR_EditorManagerCore'
+Stack trace:
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function SCR_EditorManagerCore
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function CreateCoresManager
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function OnAfterInit
+20:22:51.373 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+20:22:51.373  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+20:22:51.373 RESOURCES    : GetResourceObject @"{9166343CE3B6C085}Missions/COE2_Mogadishu.conf"
+20:22:51.373  RESOURCES (E): Failed to open
+20:22:51.373 RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/COE2_Mogadishu.conf'!
+20:22:51.373 ENGINE    (E): Unable to read the mission header '{9166343CE3B6C085}Missions/COE2_Mogadishu.conf'
+20:22:51.571 ENGINE    (E): Unable to initialize the game
+20:22:51.667 RESOURCES (E): ==== Resource leaks ====
+20:22:51.667 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1
