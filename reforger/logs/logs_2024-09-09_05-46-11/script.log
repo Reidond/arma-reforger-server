@@ -1,0 +1,140 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-09_05-46-11/script.log started at 2024-09-09 05:46:12 (2024-09-09 05:46:12 UTC)
+
+05:46:12.273 SCRIPT       : SCRIPT       : Initializing scripts
+05:46:12.273  SCRIPT       : SCRIPT       : ScriptProjectManager init
+05:46:12.492 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+05:46:12.556  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+05:46:12.562 SCRIPT       : SCRIPT       : Compiling Game scripts
+05:46:15.802  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+05:46:22.399 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+05:46:22.452  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+05:46:22.461 SCRIPT       : SCRIPT       : Compiling Game scripts
+05:46:25.968  SCRIPT       : Module: Game; loaded 4681x files; 9618x classes; used 20124/41943 kB (47%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,SCRIPTED_AIM_MODIFIER_DEBUG,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING"; CRC32: 6944f037
+05:46:30.528 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'm_iOrder'
+
+Class:      'SCR_EditorManagerCore'
+Function: 'SCR_EditorManagerCore'
+Stack trace:
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function SCR_EditorManagerCore
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function CreateCoresManager
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function OnAfterInit
+05:47:01.173     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+05:47:01.767     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+05:47:01.767     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+05:47:01.781     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+05:47:01.781     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+05:47:02.012     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+05:47:02.013     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+05:47:02.775      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+05:47:04.264      SCRIPT       : ServerAdminTools.LoadConfig | Trying to load configuration file $profile:ServerAdminTools_Config.json
+05:47:04.265      SCRIPT       : ServerAdminTools | Loaded 0 repeated chat messages from config.
+05:47:04.265      SCRIPT       : ServerAdminTools | Loaded 0 scheduled chat messages from config.
+05:47:04.265      SCRIPT    (W): ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API URL or Token not specified. Events will be logged but not submitted anywhere.
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_killed
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_joined
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_conflict_base_captured
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_admin_action
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_started
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_ended
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_server_fps_low
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_ended
+05:47:04.266      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_started
+05:47:04.266      SCRIPT       : ServerAdminTools_GamemodeComponent.EOnInit | Ready!
+05:47:06.812 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:180 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:52 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+scripts/Game/ACE_Core/ArmaReforgerScripted.c:25 Function OnGameStart
+05:47:08.748 SCRIPT       : Map load time: 84ms
+05:47:09.569 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E37EF93B0> @"ENTITY:245095" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.569 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E37EF94E8> @"ENTITY:245101" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.570 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E3A64E730> @"ENTITY:271922" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.570 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E3A64E868> @"ENTITY:271927" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.571 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E3A64E9A0> @"ENTITY:271932" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.571 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E3A64EAD8> @"ENTITY:271937" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.571 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E3A64EC10> @"ENTITY:271942" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.572 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17C780> @"ENTITY:310034" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.572 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17C8B8> @"ENTITY:310039" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.572 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17C9F0> @"ENTITY:310044" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.573 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17CB28> @"ENTITY:310049" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.573 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17CC60> @"ENTITY:310054" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.573 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17CD98> @"ENTITY:310059" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.573 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17CED0> @"ENTITY:310064" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.574 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17D008> @"ENTITY:310069" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.574 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007F5E2E17D140> @"ENTITY:310074" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+05:47:09.653  SCRIPT       : RHS_CallInSupportSystem => OnInit => Startup
+05:47:09.653  SCRIPT       : RHS_CallInSupportSystem => OnInit => Additional settings found
+05:47:09.654  SCRIPT       : RHS_CallInSupportSystem => OnInit => CISS config found
+05:47:09.655  SCRIPT       : RHS_CallInSupportSystem => OnInit => CISS loaded - m_aFactionCallInsContainers.Count()=8
+05:47:09.655  SCRIPT       : RHS_CallInSupportSystem => OnInit => m_bUseResourceSystem=false
+05:47:09.655  SCRIPT       : RHS_CallInSupportSystem => OnInit => m_bRankLimitationCanBeUsed=false
+05:47:09.655  SCRIPT       : RHS_CallInSupportSystem => OnInit => End
+05:47:09.675   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+05:47:09.675   SCRIPT       : ServerAdminTools | Event serveradmintools_game_started | no data
+05:47:11.282 SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => Packing data
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => m_CallInSupportsConfig=SCR_CallInSupportContainerConfig<0x00007F5E14F0AA60>
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplSave => hasData=true
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => count=8
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=F/A-18 Bombing run
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+09:20:45.575   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.576   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Kh-55 strike
+09:20:45.576   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.576   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+09:20:45.576   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.576   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for CISContainer=Resupply crate
+09:20:45.576   SCRIPT       : RHS_AdditionalGameModeSettingsComponent => RplLoad => writing data for this container finished
+09:20:45.757     SCRIPT       : RHS_RadialMenu Initiated
+09:20:45.851   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+09:20:45.852   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Axon, identityId: 78439c51-f388-4fee-aa65-aca9cde8b061
+09:20:45.852   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Axon, identity: 78439c51-f388-4fee-aa65-aca9cde8b061
+09:21:02.271   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+09:23:37.235   SCRIPT       : GetCISSConfigModifier=>setting=RESOURCE
+09:23:37.235   SCRIPT       : GetCISSConfigModifier=>setting=RANK
+09:23:37.235   SCRIPT       : GetCISSConfigModifier=>setting=SQUAD_SIZE
+09:23:37.235   SCRIPT       : GetCISSConfigModifier=>setting=QUEUE
+09:23:37.235   SCRIPT       : GetCISSConfigModifier=>setting=COOLDOWN
+09:23:52.412   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+09:23:52.416   SCRIPT       : loadout: 9768
+09:23:52.416   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+09:23:52.416   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+09:23:52.416   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+09:23:52.418   SCRIPT       : loadout: 9768
+09:23:52.418   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+09:24:30.848   SCRIPT       : GetCISSConfigModifier=>setting=RESOURCE
+09:24:30.848   SCRIPT       : GetCISSConfigModifier=>setting=RANK
+09:24:30.848   SCRIPT       : GetCISSConfigModifier=>setting=SQUAD_SIZE
+09:24:30.848   SCRIPT       : GetCISSConfigModifier=>setting=QUEUE
+09:24:30.848   SCRIPT       : GetCISSConfigModifier=>setting=COOLDOWN

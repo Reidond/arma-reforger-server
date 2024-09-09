@@ -1,0 +1,127 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-09_11-38-11/crash.log started at 2024-09-09 11:42:03 (2024-09-09 11:42:03 UTC)
+
+
+
+------------------------------------
+09.09 2024 11:42:03
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'm_iOrder'
+
+Class:      'SCR_EditorManagerCore'
+Function: 'SCR_EditorManagerCore'
+Stack trace:
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function SCR_EditorManagerCore
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function CreateCoresManager
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function OnAfterInit
+
+Runtime mode
+CLI params: config /reforger/Configs/coe2_worthy_islands.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+09.09 2024 11:42:41
+Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:180 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:52 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+scripts/Game/ACE_Core/ArmaReforgerScripted.c:25 Function OnGameStart
+
+Runtime mode
+CLI params: config /reforger/Configs/coe2_worthy_islands.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+09.09 2024 11:49:05
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/coe2_worthy_islands.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+09.09 2024 14:44:06
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/coe2_worthy_islands.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+09.09 2024 14:45:02
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/coe2_worthy_islands.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+09.09 2024 14:59:31
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/coe2_worthy_islands.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  

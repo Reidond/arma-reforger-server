@@ -1,0 +1,23 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-08_20-20-52/script.log started at 2024-09-08 20:20:53 (2024-09-08 20:20:53 UTC)
+
+20:20:53.823 SCRIPT       : SCRIPT       : Initializing scripts
+20:20:53.823  SCRIPT       : SCRIPT       : ScriptProjectManager init
+20:20:54.023 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+20:20:54.087  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+20:20:54.094 SCRIPT       : SCRIPT       : Compiling Game scripts
+20:20:57.088  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+20:22:43.421 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+20:22:43.485  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+20:22:43.492 SCRIPT       : SCRIPT       : Compiling Game scripts
+20:22:47.458  SCRIPT       : Module: Game; loaded 4681x files; 9618x classes; used 20124/41943 kB (47%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,SCRIPTED_AIM_MODIFIER_DEBUG,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING"; CRC32: 6944f037
+20:22:51.176 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'm_iOrder'
+
+Class:      'SCR_EditorManagerCore'
+Function: 'SCR_EditorManagerCore'
+Stack trace:
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function SCR_EditorManagerCore
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function CreateCoresManager
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function OnAfterInit

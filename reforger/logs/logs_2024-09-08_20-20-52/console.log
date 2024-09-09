@@ -1,0 +1,258 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-08_20-20-52/console.log started at 2024-09-08 20:20:52 (2024-09-08 20:20:52 UTC)
+
+20:20:52.785 ENGINE       : FileSystem: Adding relative directory '/home/profile/logs/logs_2024-09-08_20-20-52' to filesystem under name logs
+20:20:52.785 ENGINE       : FileSystem: Adding relative directory '/home/profile/profile' to filesystem under name profile
+20:20:52.788 ENGINE       : Initializing engine.
+20:20:52.788 ENGINE       : CLI Params: -config /reforger/Configs/coe2_worthy_islands.json -backendlog -nothrow -maxFPS 60 -profile /home/profile -addonDownloadDir /reforger/workshop -addonsDir /reforger/workshop -autoreload 10 -loadSessionSave 
+20:20:52.790 ENGINE       : Addon dirs:
+20:20:52.790  ENGINE       : dir: '/reforger/workshop'
+20:20:52.790  ENGINE       : dir: './addons'
+20:20:52.790  ENGINE       : dir: '/home/profile/addons'
+20:20:52.790 ENGINE       : Available addons:
+20:20:52.790  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+20:20:52.790  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+20:20:52.975 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+20:20:52.977 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+20:20:52.977 RESOURCES    : ResourceDB: loading cache (id=0 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+20:20:53.384 RESOURCES    : ResourceDB: loading cache (id=1 name=core path=./addons/core/resourceDatabase.rdb)
+20:20:53.388 RESOURCES    : ResourceDB: loading cache (id=2 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+20:20:53.388 RESOURCES    : ResourceDB: loading cache (id=3 name=logs path=/home/profile/logs/logs_2024-09-08_20-20-52/resourceDatabase.rdb)
+20:20:53.648 ENGINE       : GameProject load
+20:20:53.648  ENGINE       : Loaded addons:
+20:20:53.648   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+20:20:53.648   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+20:20:53.650 ENGINE       : GameProject load
+20:20:53.650  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+20:20:53.650   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+20:20:53.651 ENGINE       : Loading custom engine user config '$profile:.save/settings/ReforgerEngineSettings.conf'
+20:20:53.651 INIT         : GameProject engine user settings load @"$profile:.save/settings/ReforgerEngineSettings.conf"
+20:20:53.651  ENGINE       : Engine user settings config loaded
+20:20:53.652 RENDER       : Basic screen setup:
+20:20:53.652 RENDER       :   Back buffer width x height: 0x0
+20:20:53.652 RENDER       :   Back buffer format	       : TEXFMT_UNKNOWN (0)
+20:20:53.652 RENDER       :   MSAA                      : none
+20:20:53.652 RENDER       : GPU_DUMMY (0xFFFF) (Enfusion dummy render) with 1 GPU detected, VRAM 128MB (fast 128MB), shared 128MB, driver version Unknown version, stereo not available
+20:20:53.652 RENDER       : Detected output devices:
+20:20:53.652 RENDER       :  * 1 device/s connected to Dummy:
+20:20:53.652 RENDER       :    Dummy output (Dummy device for our dummy render.), 1920x1080 (offset 0x0), 60Hz
+20:20:53.652 RENDER       :   Concurrent frames limit 2
+20:20:53.652 ENGINE       : Job system settings: coreCount=4, shortJobContextCount=4, shortJobThreadCount=3, longJobThreadCount=1
+20:20:53.802 AUDIO        : Audio device created
+20:20:53.813 ENGINE       : Initializing inputs.
+20:20:53.822 NETWORK      : Initializing networking.
+20:20:53.823 SCRIPT       : SCRIPT       : Initializing scripts
+20:20:53.823  SCRIPT       : SCRIPT       : ScriptProjectManager init
+20:20:53.823  PROFILING    : ScriptProjectManager init took: 0.039000 ms
+20:20:53.876 PROFILING    : Initializing scripts took: 53.540000 ms
+20:20:53.877 ENGINE       : Enfusion engine successfully created.
+20:20:53.980 GUI          : Using default language (en_us)
+20:20:53.980 GUI          : Loading 'en_us' localization file.
+20:20:53.980 INIT         : INIT         : Loading StringTable
+20:20:54.023 PROFILING    : Loading StringTable took: 42.771000 ms
+20:20:54.023 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+20:20:54.087  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+20:20:54.094 PROFILING    : Compiling GameLib scripts took: 70.201000 ms
+20:20:54.094 SCRIPT       : SCRIPT       : Compiling Game scripts
+20:20:57.087  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+20:20:59.434 PROFILING    : Compiling Game scripts took: 5340.735000 ms
+20:20:59.437 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.0.124 built 2024-08-16 15:22:11 UTC.
+20:20:59.481 BACKEND      : Loading dedicated server config.
+20:20:59.481  BACKEND      : Server config loaded.
+20:20:59.482  BACKEND      : JSON Schema Validation:
+20:20:59.482   BACKEND      : JSON is Valid
+20:20:59.482 BACKEND      : Loading dedicated server config.
+20:20:59.482  RESOURCES    : GetResourceObject @"{9166343CE3B6C085}Missions/COE2_Mogadishu.conf"
+20:20:59.482   RESOURCES (E): Failed to open
+20:20:59.482  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/COE2_Mogadishu.conf'!
+20:20:59.499 ENGINE       : Game successfully created.
+20:20:59.541 PLATFORM     : Save data from container 'settings' have been loaded
+20:20:59.640 PLATFORM     : Save data from container 'sessions' have been loaded
+20:20:59.641 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+20:20:59.641  ENGINE       : Game user settings config loaded
+20:20:59.641 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+20:20:59.641  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+20:20:59.641 NETWORK      : Starting dedicated server using command line args.
+20:21:01.929 BACKEND      : Addon Download started 61C769418AA32E81 - COE2 - Worthy Islands
+20:21:01.930 BACKEND      : Downloading 61C769418AA32E81 version 2.0.1
+20:21:01.930 BACKEND      : Addon Download started 5ED61DC0AFE17E8E - Kex Scenario Core
+20:21:01.930 BACKEND      : Updating 5ED61DC0AFE17E8E from 0.4.1 to 0.4.2
+20:21:01.931 BACKEND      : Addon Download started 596CB4A0AE84C08E - Worthy Islands
+20:21:01.931 BACKEND      : Downloading 596CB4A0AE84C08E version 0.8.84
+20:21:09.793 BACKEND      : Download
+20:21:09.794  BACKEND      : Downloading 1 addons:
+20:21:09.794  BACKEND      : Worthy Islands: ==>__________________ 6% 93/1399 MB
+20:21:09.794  BACKEND      : Download speed 9431.93 KB/s
+20:21:19.841 BACKEND      : Download
+20:21:19.841  BACKEND      : Downloading 1 addons:
+20:21:19.841  BACKEND      : Worthy Islands: ====>________________ 19% 267/1399 MB
+20:21:19.841  BACKEND      : Download speed 6799.84 KB/s
+20:21:39.935 BACKEND      : Download
+20:21:39.936  BACKEND      : Downloading 1 addons:
+20:21:39.936  BACKEND      : Worthy Islands: ======>______________ 25% 357/1399 MB
+20:21:39.936  BACKEND      : Download speed 0.00 KB/s
+20:21:40.089 BACKEND   (E): Curl error=Timeout was reached
+20:21:40.135 BACKEND   (E): Fragmentizer: Download error (fragment 1003/2269)
+20:21:40.135 BACKEND   (E): Fragmentizer: Retrying download from fragment 1003/2269
+20:21:49.990 BACKEND      : Download
+20:21:49.990  BACKEND      : Downloading 1 addons:
+20:21:49.990  BACKEND      : Worthy Islands: ========>____________ 37% 530/1399 MB
+20:21:49.990  BACKEND      : Download speed 8762.97 KB/s
+20:22:00.036 BACKEND      : Download
+20:22:00.036  BACKEND      : Downloading 1 addons:
+20:22:00.036  BACKEND      : Worthy Islands: ============>________ 57% 806/1399 MB
+20:22:00.036  BACKEND      : Download speed 15056.50 KB/s
+20:22:10.091 BACKEND      : Download
+20:22:10.091  BACKEND      : Downloading 1 addons:
+20:22:10.091  BACKEND      : Worthy Islands: ================>____ 76% 1066/1399 MB
+20:22:10.091  BACKEND      : Download speed 14515.23 KB/s
+20:22:20.143 BACKEND      : Download
+20:22:20.144  BACKEND      : Downloading 1 addons:
+20:22:20.144  BACKEND      : Worthy Islands: ==================>__ 89% 1246/1399 MB
+20:22:20.144  BACKEND      : Download speed 11835.17 KB/s
+20:22:30.196 BACKEND      : Download
+20:22:30.197  BACKEND      : Downloading 1 addons:
+20:22:30.197  BACKEND      : Worthy Islands: ====================> 100% 1399/1399 MB
+20:22:30.197  BACKEND      : Download speed 1927.57 KB/s
+20:22:40.240 BACKEND      : Download
+20:22:40.240  BACKEND      : Downloading 1 addons:
+20:22:40.241  BACKEND      : Worthy Islands: ====================> 100% 1399/1399 MB
+20:22:40.241  BACKEND      : Download speed 0.00 KB/s
+20:22:41.732 BACKEND      : Required addons are ready to use.
+20:22:42.015 ENGINE       : Game destroyed.
+20:22:42.375 ENGINE       : Addon dirs:
+20:22:42.375  ENGINE       : dir: '/reforger/workshop'
+20:22:42.375  ENGINE       : dir: './addons'
+20:22:42.375  ENGINE       : dir: '/home/profile/addons'
+20:22:42.375  ENGINE       : dir: '/reforger/workshop/addons/'
+20:22:42.375 ENGINE       : Available addons:
+20:22:42.375  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+20:22:42.375  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/ACECore_60C4CE4888FF4621/addon.gproj' guid: '60C4CE4888FF4621' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/KexScenarioCore_5ED61DC0AFE17E8E/addon.gproj' guid: '5ED61DC0AFE17E8E' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/BritishForces_5AE50EC5B8D6F4AE/addon.gproj' guid: '5AE50EC5B8D6F4AE' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/KexEscapistsAdditions_61CD68B8FAE0164C/addon.gproj' guid: '61CD68B8FAE0164C' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/WorthyIslands_596CB4A0AE84C08E/addon.gproj' guid: '596CB4A0AE84C08E' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/BadParachute_6198EC294DEC63C0/addon.gproj' guid: '6198EC294DEC63C0' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/COE2-Mogadishu_61C80A73A70724EE/addon.gproj' guid: '61C80A73A70724EE' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/COE2-WorthyIslands_61C769418AA32E81/addon.gproj' guid: '61C769418AA32E81' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/Escapists-BritishForces_61C8E7B6BAA311F2/addon.gproj' guid: '61C8E7B6BAA311F2' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/DisableGameMasterBudgets_5F2944B7474F043F/addon.gproj' guid: '5F2944B7474F043F' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/GameMasterFX_5994AD5A9F33BE57/addon.gproj' guid: '5994AD5A9F33BE57' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/TacticalFlava_5D550926D43F1409/addon.gproj' guid: '5D550926D43F1409' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/MapMarkerMenuFix_609E8CAD8A403EA6/addon.gproj' guid: '609E8CAD8A403EA6' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/Mogadishu-Somalia_5F1D02080409E128/addon.gproj' guid: '5F1D02080409E128' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/ServerAdminTools_5AAAC70D754245DD/addon.gproj' guid: '5AAAC70D754245DD' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/Escapists_5F16D7E4A1CBE075/addon.gproj' guid: '5F16D7E4A1CBE075' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/RALLYARMA_60E734A26A19663A/addon.gproj' guid: '60E734A26A19663A' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/COE2_60926835F4A7B0CA/addon.gproj' guid: '60926835F4A7B0CA' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/Blunderbuss_5DBAB91070DB7992/addon.gproj' guid: '5DBAB91070DB7992' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/ArmaTerrainCore_60B524F7A5AE96A8/addon.gproj' guid: '60B524F7A5AE96A8' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/GMPersistentLoadouts_5C73156675E11A0F/addon.gproj' guid: '5C73156675E11A0F' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/BaconLoadoutEditor_606B100247F5C709/addon.gproj' guid: '606B100247F5C709' (packed)
+20:22:42.375  ENGINE       : gproj: '/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj' guid: '5CF4A61BE1D960C6' (packed)
+20:22:42.376 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/GMPersistentLoadouts_5C73156675E11A0F/' (pak count: 1) to filesystem under name GMPersistentLoadouts
+20:22:42.377 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/GameMasterFX_5994AD5A9F33BE57/' (pak count: 1) to filesystem under name GameMasterFX
+20:22:42.378 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/ServerAdminTools_5AAAC70D754245DD/' (pak count: 1) to filesystem under name ServerAdminTools
+20:22:42.379 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/DisableGameMasterBudgets_5F2944B7474F043F/' (pak count: 1) to filesystem under name DisableGameMasterBudgets
+20:22:42.379 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/COE2-WorthyIslands_61C769418AA32E81/' (pak count: 1) to filesystem under name COE2_WorthyIslands
+20:22:42.380 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/COE2_60926835F4A7B0CA/' (pak count: 1) to filesystem under name COE2
+20:22:42.381 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/KexScenarioCore_5ED61DC0AFE17E8E/' (pak count: 1) to filesystem under name KexScenarioCore
+20:22:42.382 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/ACECore_60C4CE4888FF4621/' (pak count: 1) to filesystem under name ACE_Core
+20:22:42.387 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/WorthyIslands_596CB4A0AE84C08E/' (pak count: 1) to filesystem under name WorthyIslands
+20:22:42.387 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/MapMarkerMenuFix_609E8CAD8A403EA6/' (pak count: 1) to filesystem under name MMMF
+20:22:42.389 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/TacticalFlava_5D550926D43F1409/' (pak count: 1) to filesystem under name TacticalFlava
+20:22:42.408 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/' (pak count: 4) to filesystem under name RHSStatusQuoExperimental
+20:22:42.597 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+20:22:42.599 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+20:22:42.599 RESOURCES    : ResourceDB: loading cache (id=0 name=GMPersistentLoadouts path=/reforger/workshop/addons/GMPersistentLoadouts_5C73156675E11A0F/resourceDatabase.rdb)
+20:22:42.599 RESOURCES    : ResourceDB: loading cache (id=1 name=GameMasterFX path=/reforger/workshop/addons/GameMasterFX_5994AD5A9F33BE57/resourceDatabase.rdb)
+20:22:42.600 RESOURCES    : ResourceDB: loading cache (id=2 name=ServerAdminTools path=/reforger/workshop/addons/ServerAdminTools_5AAAC70D754245DD/resourceDatabase.rdb)
+20:22:42.601 RESOURCES    : ResourceDB: loading cache (id=3 name=DisableGameMasterBudgets path=/reforger/workshop/addons/DisableGameMasterBudgets_5F2944B7474F043F/resourceDatabase.rdb)
+20:22:42.601 RESOURCES    : ResourceDB: loading cache (id=4 name=COE2_WorthyIslands path=/reforger/workshop/addons/COE2-WorthyIslands_61C769418AA32E81/resourceDatabase.rdb)
+20:22:42.601 RESOURCES    : ResourceDB: loading cache (id=5 name=COE2 path=/reforger/workshop/addons/COE2_60926835F4A7B0CA/resourceDatabase.rdb)
+20:22:42.602 RESOURCES    : ResourceDB: loading cache (id=6 name=KexScenarioCore path=/reforger/workshop/addons/KexScenarioCore_5ED61DC0AFE17E8E/resourceDatabase.rdb)
+20:22:42.603 RESOURCES    : ResourceDB: loading cache (id=7 name=ACE_Core path=/reforger/workshop/addons/ACECore_60C4CE4888FF4621/resourceDatabase.rdb)
+20:22:42.603 RESOURCES    : ResourceDB: loading cache (id=8 name=WorthyIslands path=/reforger/workshop/addons/WorthyIslands_596CB4A0AE84C08E/resourceDatabase.rdb)
+20:22:42.604 RESOURCES    : ResourceDB: loading cache (id=9 name=MMMF path=/reforger/workshop/addons/MapMarkerMenuFix_609E8CAD8A403EA6/resourceDatabase.rdb)
+20:22:42.605 RESOURCES    : ResourceDB: loading cache (id=10 name=TacticalFlava path=/reforger/workshop/addons/TacticalFlava_5D550926D43F1409/resourceDatabase.rdb)
+20:22:42.608 RESOURCES    : ResourceDB: loading cache (id=11 name=RHSStatusQuoExperimental path=/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/resourceDatabase.rdb)
+20:22:42.651 RESOURCES    : ResourceDB: loading cache (id=12 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+20:22:43.031 RESOURCES    : ResourceDB: loading cache (id=13 name=core path=./addons/core/resourceDatabase.rdb)
+20:22:43.035 RESOURCES    : ResourceDB: loading cache (id=14 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+20:22:43.035 RESOURCES    : ResourceDB: loading cache (id=15 name=logs path=/home/profile/logs/logs_2024-09-08_20-20-52/resourceDatabase.rdb)
+20:22:43.374 ENGINE       : GameProject load
+20:22:43.374  ENGINE       : Loaded addons:
+20:22:43.374   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+20:22:43.374   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj' guid: '5CF4A61BE1D960C6'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/TacticalFlava_5D550926D43F1409/addon.gproj' guid: '5D550926D43F1409'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/MapMarkerMenuFix_609E8CAD8A403EA6/addon.gproj' guid: '609E8CAD8A403EA6'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/WorthyIslands_596CB4A0AE84C08E/addon.gproj' guid: '596CB4A0AE84C08E'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/ACECore_60C4CE4888FF4621/addon.gproj' guid: '60C4CE4888FF4621'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/KexScenarioCore_5ED61DC0AFE17E8E/addon.gproj' guid: '5ED61DC0AFE17E8E'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/COE2_60926835F4A7B0CA/addon.gproj' guid: '60926835F4A7B0CA'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/COE2-WorthyIslands_61C769418AA32E81/addon.gproj' guid: '61C769418AA32E81'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/DisableGameMasterBudgets_5F2944B7474F043F/addon.gproj' guid: '5F2944B7474F043F'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/ServerAdminTools_5AAAC70D754245DD/addon.gproj' guid: '5AAAC70D754245DD'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/GameMasterFX_5994AD5A9F33BE57/addon.gproj' guid: '5994AD5A9F33BE57'
+20:22:43.374   ENGINE       : gproj: '/reforger/workshop/addons/GMPersistentLoadouts_5C73156675E11A0F/addon.gproj' guid: '5C73156675E11A0F'
+20:22:43.376 ENGINE       : GameProject load
+20:22:43.376  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+20:22:43.376   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+20:22:43.377  INIT         : GameProject load project data @"/reforger/workshop/addons/RHS-StatusQuoDev_5CF4A61BE1D960C6/addon.gproj"
+20:22:43.377   RESOURCES (E): Wrong GUID/name for resource @"{0AFDD005CD669892}Language/rhs_localization.st" in property "StringTableSource"
+20:22:43.377  INIT         : GameProject load project data @"/reforger/workshop/addons/TacticalFlava_5D550926D43F1409/addon.gproj"
+20:22:43.377   RESOURCES (E): Wrong GUID/name for resource @"{7CD584B46705F7ED}Language/tf_localization.st" in property "StringTableSource"
+20:22:43.377  INIT         : GameProject load project data @"/reforger/workshop/addons/ACECore_60C4CE4888FF4621/addon.gproj"
+20:22:43.377   RESOURCES (E): Wrong GUID/name for resource @"{DE0B68C7B4B0E89C}Language/ACE_localization.st" in property "StringTableSource"
+20:22:43.378  INIT         : GameProject load project data @"/reforger/workshop/addons/KexScenarioCore_5ED61DC0AFE17E8E/addon.gproj"
+20:22:43.378   RESOURCES (E): Wrong GUID/name for resource @"{C8FF460ACD54C25F}Language/KSC_localization.st" in property "StringTableSource"
+20:22:43.378  INIT         : GameProject load project data @"/reforger/workshop/addons/COE2_60926835F4A7B0CA/addon.gproj"
+20:22:43.378   RESOURCES (E): Wrong GUID/name for resource @"{C8FF460ACD54C25F}Language/KSC_localization.st" in property "StringTableSource"
+20:22:43.378   RESOURCES (E): Wrong GUID/name for resource @"{B03E06F7A63745FA}Language/COE_localization.st" in property "StringTableSource"
+20:22:43.380 GUI          : Using default language (en_us)
+20:22:43.380 GUI          : Loading 'en_us' localization file.
+20:22:43.380 INIT         : INIT         : Loading StringTable
+20:22:43.421 PROFILING    : Loading StringTable took: 41.314000 ms
+20:22:43.421 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+20:22:43.484  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+20:22:43.492 PROFILING    : Compiling GameLib scripts took: 70.670000 ms
+20:22:43.492 SCRIPT       : SCRIPT       : Compiling Game scripts
+20:22:47.458  SCRIPT       : Module: Game; loaded 4681x files; 9618x classes; used 20124/41943 kB (47%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,SCRIPTED_AIM_MODIFIER_DEBUG,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING"; CRC32: 6944f037
+20:22:51.124 PROFILING    : Compiling Game scripts took: 7631.310000 ms
+20:22:51.127 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.0.124 built 2024-08-16 15:22:11 UTC.
+20:22:51.160 BACKEND      : Loading dedicated server config.
+20:22:51.160  BACKEND      : Server config loaded.
+20:22:51.160  BACKEND      : JSON Schema Validation:
+20:22:51.160   BACKEND      : JSON is Valid
+20:22:51.161 BACKEND      : Loading dedicated server config.
+20:22:51.161  RESOURCES    : GetResourceObject @"{9166343CE3B6C085}Missions/COE2_Mogadishu.conf"
+20:22:51.161   RESOURCES (E): Failed to open
+20:22:51.161  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/COE2_Mogadishu.conf'!
+20:22:51.176 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'm_iOrder'
+
+Class:      'SCR_EditorManagerCore'
+Function: 'SCR_EditorManagerCore'
+Stack trace:
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function SCR_EditorManagerCore
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function CreateCoresManager
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function OnAfterInit
+20:22:51.186 ENGINE       : Game successfully created.
+20:22:51.273 PLATFORM     : Save data from container 'settings' have been loaded
+20:22:51.372 PLATFORM     : Save data from container 'sessions' have been loaded
+20:22:51.372 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+20:22:51.372  ENGINE       : Game user settings config loaded
+20:22:51.373 PLATFORM     : InputManager user settings load from profile @"InputUserSettings.conf"
+20:22:51.373  DEFAULT   (W): Loading input settings from legacy file, which will be soon unsupported
+20:22:51.373 RESOURCES    : GetResourceObject @"{9166343CE3B6C085}Missions/COE2_Mogadishu.conf"
+20:22:51.373  RESOURCES (E): Failed to open
+20:22:51.373 RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/COE2_Mogadishu.conf'!
+20:22:51.373 ENGINE    (E): Unable to read the mission header '{9166343CE3B6C085}Missions/COE2_Mogadishu.conf'
+20:22:51.571 ENGINE    (E): Unable to initialize the game
+20:22:51.629 ENGINE       : Game destroyed.
+20:22:51.654 RPL          : Pip::Destroy
+20:22:51.667 RESOURCES (E): ==== Resource leaks ====
+20:22:51.667 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1
