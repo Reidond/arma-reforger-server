@@ -1,0 +1,289 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2024-09-16_15-19-49/script.log started at 2024-09-16 15:19:51 (2024-09-16 15:19:51 UTC)
+
+15:19:51.378 SCRIPT       : SCRIPT       : Initializing scripts
+15:19:51.378  SCRIPT       : SCRIPT       : ScriptProjectManager init
+15:19:51.596 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+15:19:51.667  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 468/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+15:19:51.676 SCRIPT       : SCRIPT       : Compiling Game scripts
+15:19:55.378  SCRIPT       : Module: Game; loaded 4191x files; 8560x classes; used 18399/41943 kB (43%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 63dd5095
+15:23:20.257 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+15:23:20.328  SCRIPT       : Module: GameLib; loaded 282x files; 509x classes; used 462/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 46b6820e
+15:23:20.336 SCRIPT       : SCRIPT       : Compiling Game scripts
+15:23:23.799  SCRIPT       : Module: Game; loaded 4681x files; 9618x classes; used 20123/41943 kB (47%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,SCRIPTED_AIM_MODIFIER_DEBUG,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING"; CRC32: 23d3d1fb
+15:23:27.326 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'm_iOrder'
+
+Class:      'SCR_EditorManagerCore'
+Function: 'SCR_EditorManagerCore'
+Stack trace:
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function SCR_EditorManagerCore
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function CreateCoresManager
+scripts/Game/Editor/Core/SCR_EditorManagerCore.c:561 Function OnAfterInit
+15:23:42.191     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+15:23:42.191     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+15:23:42.203     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+15:23:42.203     SCRIPT       : GetResourceName 'scripts/Game/EntityCatalog/EntityCatalogEntry/SCR_EntityCatalogEntry.c,325'
+15:23:42.348     SCRIPT    (W): Catalog Entry: '{DEBB01A41488DFF8}Prefabs/Weapons/Attachments/Muzzle/RHS_6P20_0_20.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+15:23:42.348     SCRIPT    (W): Catalog Entry: '{BAC59BF0DF432D43}Prefabs/Weapons/Attachments/Muzzle/RHS_PGS64.et' could not create UIinfo for inventory item. Non was found for weapon nor Inventory item data
+15:23:43.080      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+15:23:43.840      SCRIPT       : ServerAdminTools.LoadConfig | Trying to load configuration file $profile:ServerAdminTools_Config.json
+15:23:43.841      SCRIPT       : ServerAdminTools | Loaded 0 repeated chat messages from config.
+15:23:43.841      SCRIPT       : ServerAdminTools | Loaded 0 scheduled chat messages from config.
+15:23:43.842      SCRIPT    (W): ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API URL or Token not specified. Events will be logged but not submitted anywhere.
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_killed
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_player_joined
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_conflict_base_captured
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_admin_action
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_started
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_vote_ended
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_server_fps_low
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_ended
+15:23:43.842      SCRIPT       : ServerAdminTools_GameModeComponent.CreateEventHandlers | Events API: Initializing event serveradmintools_game_started
+15:23:43.842      SCRIPT       : ServerAdminTools_GamemodeComponent.EOnInit | Ready!
+15:23:46.021 SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance
+
+Class:      'RHS_GPSMapCore'
+Function: 'DumpMap'
+Stack trace:
+scripts/Game/GameCore/RHS_GPSMapCore.c:180 Function DumpMap
+scripts/Game/GameCore/RHS_GPSMapCore.c:52 Function OnGameStart
+scripts/Game/GameCore/SCR_GameCoresManager.c:31 Function OnGameStart
+scripts/Game/game.c:667 Function OnGameStart
+scripts/Game/ACE_Core/ArmaReforgerScripted.c:25 Function OnGameStart
+15:23:47.906 SCRIPT       : Map load time: 76ms
+15:23:48.285 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x00007FB098E14030> @"ENTITY:4611686018427387960" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:23:48.286 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FB0A98F6AD8> @"ENTITY:59112" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:23:48.286 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FB0A98F6C10> @"ENTITY:59118" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:23:48.287 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FB0A98F6D48> @"ENTITY:59124" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:23:48.287 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FB0A98F6E80> @"ENTITY:59130" ('SCR_DestructibleBuildingEntity','Assets/Structures/Commer' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:23:48.287 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FB0ADB1A5F8> @"ENTITY:109411" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:23:48.287 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'SCR_DestructibleBuildingEntity<0x00007FB0ADB1A730> @"ENTITY:109416" ('SCR_DestructibleBuildingEntity','Assets/Structures/Comme' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:23:48.376   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+15:23:48.377   SCRIPT       : ServerAdminTools | Event serveradmintools_game_started | no data
+15:23:49.506 SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+15:28:10.834     SCRIPT       : RHS_RadialMenu Initiated
+15:28:10.958   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+15:28:10.959   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Axon, identityId: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:28:10.959   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Axon, identity: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:28:35.447   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+15:28:46.919   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+15:28:46.923   SCRIPT       : loadout: 16890
+15:28:46.923   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:28:46.923   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:28:46.924   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+15:28:46.926   SCRIPT       : loadout: 16890
+15:28:46.926   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:33:53.485     SCRIPT       : RHS_RadialMenu Initiated
+15:33:54.557   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 2, RplIdentity (hex): 1, name: Grizz, identityId: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:33:54.557   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Grizz, identity: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:33:59.251   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity d6aafc94-0f12-47d7-abbb-67f18545fbf7, faction key RHS_AFRF
+15:33:59.255   SCRIPT       : loadout: 16473
+15:33:59.255   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:33:59.255   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:33:59.255   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity d6aafc94-0f12-47d7-abbb-67f18545fbf7, faction key RHS_AFRF
+15:33:59.258   SCRIPT       : loadout: 16473
+15:33:59.258   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:40:26.985     SCRIPT       : RHS_RadialMenu Initiated
+15:40:27.358   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 3, RplIdentity (hex): 1, name: Reidond, identityId: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:40:27.358   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Reidond, identity: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:43:05.196   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+15:43:05.201   SCRIPT       : loadout: 16470
+15:43:05.201   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:43:05.201   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:43:05.202   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+15:43:05.204   SCRIPT       : loadout: 16470
+15:43:05.205   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:43:38.545   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+15:45:22.757     SCRIPT       : RHS_RadialMenu Initiated
+15:45:23.827   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 2, RplIdentity (hex): 2, name: Grizz, identityId: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:45:23.828   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Grizz, identity: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:45:35.157   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity d6aafc94-0f12-47d7-abbb-67f18545fbf7, faction key RHS_AFRF
+15:45:35.159   SCRIPT       : loadout: 16473
+15:45:35.160   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:45:35.160   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:45:35.160   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity d6aafc94-0f12-47d7-abbb-67f18545fbf7, faction key RHS_AFRF
+15:45:35.162   SCRIPT       : loadout: 16473
+15:45:35.163   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 2, identityid: d6aafc94-0f12-47d7-abbb-67f18545fbf7
+15:46:10.678     SCRIPT       : Weapon is already equipped!
+15:46:27.926   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_SaveLoadoutChonky | Saving loadout: identity d6aafc94-0f12-47d7-abbb-67f18545fbf7, faction key RHS_AFRF, loadout size: 16399
+15:47:24.156     SCRIPT       : Weapon is already equipped!
+15:48:14.084   SCRIPT       : Player '3' approved vote | Vote Type: 'COE_COMMANDER_IN' | Vote value: '-1' | Count (1/3)
+15:48:14.084   SCRIPT       : ServerAdminTools | Event serveradmintools_vote_started | initiator: Reidond, type: coe_commander_in, target: none
+15:48:17.350   SCRIPT       : Player '1' approved vote | Vote Type: 'COE_COMMANDER_IN' | Vote value: '-1' | Count (2/3)
+15:48:23.849   SCRIPT       : Player '2' approved vote | Vote Type: 'COE_COMMANDER_IN' | Vote value: '-1' | Count (3/3)
+15:48:23.857   SCRIPT       : ServerAdminTools | Event serveradmintools_vote_ended | winner: Reidond, type: coe_commander_in, target: none
+15:49:16.616 SCRIPT       : <1020.311401,38.752750,2961.339355>|<1020.311401,38.752750,2961.339355>
+15:49:16.618 SCRIPT       : <1006.181458,38.752750,2956.953125>|<1006.181458,38.752750,2956.953125>
+15:49:16.619 SCRIPT       : <991.739258,38.752750,2952.470215>|<991.739258,38.752750,2952.470215>
+15:49:16.690 SCRIPT       : <1020.311401,38.752750,2961.339355>|<1020.311401,38.752750,2961.339355>
+15:49:16.691 SCRIPT       : <1006.181458,38.752750,2956.953125>|<1006.181458,38.752750,2956.953125>
+15:49:16.693 SCRIPT       : <991.739258,38.752750,2952.470215>|<991.739258,38.752750,2952.470215>
+15:49:17.580 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000016C99020> @"ENTITY:4611686018427389333" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:49:24.998   SCRIPT    (E): Invalid SmartAction id!
+15:50:54.880     SCRIPT       : RHS_RadialMenu Initiated
+15:50:55.118   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 3, RplIdentity (hex): 1, name: Reidond, identityId: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:50:55.118   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Reidond, identity: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:50:57.514   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+15:50:57.516   SCRIPT       : loadout: 16470
+15:50:57.517   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:50:57.517   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:50:57.517   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF
+15:50:57.519   SCRIPT       : loadout: 16470
+15:50:57.520   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 3, identityid: 25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+15:51:11.014   SCRIPT       : Player '3' approved vote | Vote Type: 'COE_COMMANDER_IN' | Vote value: '-1' | Count (1/3)
+15:51:11.014   SCRIPT       : ServerAdminTools | Event serveradmintools_vote_started | initiator: Reidond, type: coe_commander_in, target: none
+15:51:13.629   SCRIPT       : Player '2' approved vote | Vote Type: 'COE_COMMANDER_IN' | Vote value: '-1' | Count (2/3)
+15:51:17.595   SCRIPT       : Player '1' approved vote | Vote Type: 'COE_COMMANDER_IN' | Vote value: '-1' | Count (3/3)
+15:51:17.595   SCRIPT       : ServerAdminTools | Event serveradmintools_vote_ended | winner: Reidond, type: coe_commander_in, target: none
+15:51:59.234     SCRIPT       : Weapon is already equipped!
+15:53:13.420   SCRIPT       : Weapon is already equipped!
+15:53:22.542   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+15:53:50.656 SCRIPT       : <1020.311401,38.752750,2961.339355>|<1020.311401,38.752750,2961.339355>
+15:53:50.657 SCRIPT       : <1006.181458,38.752750,2956.953125>|<1006.181458,38.752750,2956.953125>
+15:53:50.658 SCRIPT       : <991.739258,38.752750,2952.470215>|<991.739258,38.752750,2952.470215>
+15:53:50.679 SCRIPT       : <1020.311401,38.752750,2961.339355>|<1020.311401,38.752750,2961.339355>
+15:53:50.680 SCRIPT       : <1006.181458,38.752750,2956.953125>|<1006.181458,38.752750,2956.953125>
+15:53:50.681 SCRIPT       : <991.739258,38.752750,2952.470215>|<991.739258,38.752750,2952.470215>
+15:53:51.565 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000016986EF0> @"ENTITY:4611686018427391827" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+15:53:56.387   SCRIPT    (E): Invalid SmartAction id!
+15:53:57.011   SCRIPT    (E): Invalid SmartAction id!
+15:56:51.580   SCRIPT    (E): Invalid SmartAction id!
+15:57:19.603   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_SaveLoadoutChonky | Saving loadout: identity 25c9bb9d-fdd7-4be9-898e-cac20a551dd2, faction key RHS_AFRF, loadout size: 16637
+15:59:39.891     SCRIPT       : RHS_RadialMenu Initiated
+15:59:40.695   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Axon, identityId: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:59:40.695   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Axon, identity: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:59:43.287   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+15:59:43.290   SCRIPT       : loadout: 16890
+15:59:43.290   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:59:43.291   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:59:43.291   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+15:59:43.294   SCRIPT       : loadout: 16890
+15:59:43.294   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+15:59:45.507   SCRIPT    (E): Invalid SmartAction id!
+15:59:46.472   SCRIPT    (E): Invalid SmartAction id!
+16:00:04.121   SCRIPT       : Weapon is already equipped!
+16:01:23.456   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+16:02:31.867   SCRIPT    (E): Invalid SmartAction id!
+16:03:18.380   SCRIPT    (E): Invalid SmartAction id!
+16:03:34.746   SCRIPT    (E): Invalid SmartAction id!
+16:04:03.946   SCRIPT    (E): Invalid SmartAction id!
+16:04:20.409   SCRIPT       : Weapon is already equipped!
+16:05:31.023   SCRIPT       : Weapon is already equipped!
+16:06:44.537   SCRIPT       : Weapon is already equipped!
+16:07:21.206   SCRIPT       : Weapon is already equipped!
+16:20:21.857   SCRIPT    (E): ScriptInvoker::Invoke: Incompatible parameter '0', expected 'int', got 'InventoryStorageSlot' (method 'OnParentSlotChanged')
+16:25:46.559   SCRIPT       : Weapon is already equipped!
+16:28:23.754   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Grizz, instigator: Grizz, friendly: false
+16:28:24.254   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Reidond, instigator: Reidond, friendly: false
+16:31:01.463   SCRIPT       : Weapon is already equipped!
+16:31:38.070 SCRIPT       : <3182.130859,10.639935,2834.542480>|<3182.130859,10.639935,2834.542480>
+16:31:38.072 SCRIPT       : <3182.130859,14.439935,2834.542480>|<3182.130859,14.439935,2834.542480>
+16:31:38.868 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x0000000019F62560> @"ENTITY:4611686018427397581" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+16:31:38.869 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000001DAE3EE0> @"ENTITY:4611686018427397631" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+16:31:38.870 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000001C2887A0> @"ENTITY:4611686018427397756" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+16:31:38.871 SCRIPT    (E): 'SCR_BaseSupportStationComponent' 'EOnInit': 'GenericEntity<0x000000001C770360> @"ENTITY:4611686018427397822" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xo' Support Station is set to use supplies  but it has no SCR_ResourceComponent
+16:32:12.426   SCRIPT       : Weapon is already equipped!
+16:33:50.653   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Axon, instigator: AI, friendly: false
+16:35:02.482   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Axon, instigator: AI, friendly: false
+16:36:16.998   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Axon, instigator: AI, friendly: false
+16:36:36.995   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Axon, instigator: AI, friendly: false
+16:54:33.958   SCRIPT    (E): Virtual Machine Exception
+
+Reason: No suppression volume provided!
+
+<0x00000000122BEF70> SCR_ChimeraAIAgent : AI/BehaviorTrees/Chimera/Soldier/Soldier.bt
+ (RunBT : ID 0) 
+
+AI/BehaviorTrees/Chimera/Soldier/SuppressBehavior.bt
+SCR_AI Get Suppression Volume Center Position : ID 0
+
+Function: 'NodeError'
+Stack trace:
+scripts/Game/AI/Utils/NodeError.c:8 Function NodeError
+scripts/Game/AI/ScriptedNodes/Utils/SCR_AIGetSuppressionVolumePosition.c:25 Function EOnTaskSimulate
+18:18:25.062     SCRIPT       : RHS_RadialMenu Initiated
+18:18:25.960   SCRIPT       : ServerAdminTools_GameModeComponent.UpdatePlayerHistory | Player joined, id: 1, RplIdentity (hex): 0, name: Axon, identityId: 78439c51-f388-4fee-aa65-aca9cde8b061
+18:18:25.960   SCRIPT       : ServerAdminTools | Event serveradmintools_player_joined | player: Axon, identity: 78439c51-f388-4fee-aa65-aca9cde8b061
+18:18:29.195   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+18:18:29.198   SCRIPT       : loadout: 16890
+18:18:29.198   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+18:18:29.198   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+18:18:29.198   SCRIPT       : GMPersistentLoadouts | SCR_ArsenalManagerComponent.GMPersistentLoadouts_LoadLoadoutChonky | Loading loadout: identity 78439c51-f388-4fee-aa65-aca9cde8b061, faction key RHS_AFRF
+18:18:29.201   SCRIPT       : loadout: 16890
+18:18:29.201   SCRIPT    (W): GMPersistentLoadouts | SCR_ArsenalManagerComponent.DoSetPlayerHasLoadout | Unable to get player faction: 1, identityid: 78439c51-f388-4fee-aa65-aca9cde8b061
+18:19:19.787   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:153 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:177 Function ToggleServer
+18:42:51.547   SCRIPT       : ServerAdminTools | Event serveradmintools_player_killed | player: Axon, instigator: Axon, friendly: false
