@@ -1,0 +1,41 @@
+{
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 17777
+    },
+    "game": {
+        "name": "Красный Берег",
+        "password": "1525",
+        "admins": [
+            "25c9bb9d-fdd7-4be9-898e-cac20a551dd2",
+            "78439c51-f388-4fee-aa65-aca9cde8b061"
+        ],
+        "scenarioId": "{691E6388556B67A5}Missions/REAPER_JustInTime.conf",
+        "maxPlayers": 8,
+        "visible": true,
+        "supportedPlatforms": [
+            "PLATFORM_PC",
+            "PLATFORM_XBL"
+        ],
+        "gameProperties": {
+            "serverMaxViewDistance": 5000,
+            "serverMinGrassDistance": 150,
+            "networkViewDistance": 5000,
+            "battlEye": true
+        },
+        "mods": [
+            {
+                "modId": "5EB139459EBF5C16",
+                "name": "CORE Pack1"
+            },
+            {
+                "modId": "61B8FA7B3BF8656B",
+                "name": "CORE Pack2"
+            },
+            {
+                "modId": "617B2ED33DE29156",
+                "name": "Just in Time"
+            }
+        ]
+    }
+}
