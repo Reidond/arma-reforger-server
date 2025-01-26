@@ -1,0 +1,548 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-01-26_02-36-43/console.log started at 2025-01-26 02:36:43 (2025-01-26 02:36:43 UTC)
+
+02:36:43.650 ENGINE       : FileSystem: Adding relative directory '/home/profile/logs/logs_2025-01-26_02-36-43' to filesystem under name logs
+02:36:43.650 ENGINE       : FileSystem: Adding relative directory '/home/profile/profile' to filesystem under name profile
+02:36:43.651 ENGINE       : Initializing engine, version 181464
+02:36:43.651 ENGINE       : CLI Params: -config /reforger/Configs/reaper_justintime.json -backendlog -nothrow -maxFPS 60 -profile /home/profile -addonDownloadDir /reforger/workshop -addonsDir /reforger/workshop -autoreload 10 -loadSessionSave 
+02:36:43.652 ENGINE       : Addon dirs:
+02:36:43.652  ENGINE       : dir: '/reforger/workshop'
+02:36:43.652  ENGINE       : dir: './addons'
+02:36:43.652  ENGINE       : dir: '/home/profile/addons'
+02:36:43.652 ENGINE       : Available addons:
+02:36:43.652  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+02:36:43.652  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+02:36:43.725 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+02:36:43.725 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+02:36:43.725 RESOURCES    : ResourceDB: loading cache (id=0 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+02:36:43.875 RESOURCES    : ResourceDB: loading cache (id=1 name=core path=./addons/core/resourceDatabase.rdb)
+02:36:43.907 RESOURCES    : ResourceDB: loading cache (id=2 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+02:36:43.907 RESOURCES    : ResourceDB: loading cache (id=3 name=logs path=/home/profile/logs/logs_2025-01-26_02-36-43/resourceDatabase.rdb)
+02:36:44.016 ENGINE       : GameProject load
+02:36:44.016  ENGINE       : Loaded addons:
+02:36:44.016   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+02:36:44.016   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+02:36:44.017 ENGINE       : GameProject load
+02:36:44.017  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+02:36:44.017   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+02:36:44.017 ENGINE       : Loading custom engine user config '$profile:.save/settings/ReforgerEngineSettings.conf'
+02:36:44.017 INIT         : GameProject engine user settings load @"$profile:.save/settings/ReforgerEngineSettings.conf"
+02:36:44.017  ENGINE       : Engine user settings config loaded
+02:36:44.018 RENDER       : Basic screen setup:
+02:36:44.018 RENDER       :   Back buffer width x height: 0x0
+02:36:44.018 RENDER       :   Back buffer format	       : TEXFMT_UNKNOWN (0)
+02:36:44.018 RENDER       :   MSAA                      : none
+02:36:44.018 RENDER       : GPU_DUMMY (0xFFFF) (Enfusion dummy render) with 1 GPU detected, VRAM 128MB (fast 128MB), shared 128MB, driver version Unknown version, stereo not available
+02:36:44.018 RENDER       : Detected output devices:
+02:36:44.018 RENDER       :  * 1 device/s connected to Dummy:
+02:36:44.018 RENDER       :    Dummy output (Dummy device for our dummy render.), 1920x1080 (offset 0x0), 60Hz
+02:36:44.018 RENDER       :   Concurrent frames limit 2
+02:36:44.018 ENGINE       : Job system settings: coreCount=8, shortJobContextCount=8, shortJobThreadCount=7, longJobThreadCount=3
+02:36:44.104 AUDIO     (E): Audio device initialization failed with error: 9
+02:36:44.108 ENGINE       : Initializing inputs.
+02:36:44.114 NETWORK      : Initializing networking.
+02:36:44.114 SCRIPT       : SCRIPT       : Initializing scripts
+02:36:44.114  SCRIPT       : SCRIPT       : ScriptProjectManager init
+02:36:44.114  PROFILING    : ScriptProjectManager init took: 0.015000 ms
+02:36:44.138 PROFILING    : Initializing scripts took: 24.334000 ms
+02:36:44.139 ENGINE       : Enfusion engine successfully created.
+02:36:44.243 GUI          : Using default language (en_us)
+02:36:44.243 GUI          : Loading 'en_us' localization file.
+02:36:44.243 INIT         : INIT         : Loading StringTable
+02:36:44.293 PROFILING    : Loading StringTable took: 50.361000 ms
+02:36:44.293 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+02:36:44.322  SCRIPT       : Module: GameLib; loaded 301x files; 528x classes; used 478/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 3bbbb874
+02:36:44.324 PROFILING    : Compiling GameLib scripts took: 30.888000 ms
+02:36:44.324 SCRIPT       : SCRIPT       : Compiling Game scripts
+02:36:45.032 SCRIPT       : Compiling Game scripts
+02:36:45.032  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+02:36:45.032  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+02:36:45.032  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+02:36:45.222  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:45.333  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+02:36:45.333  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:45.333  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:45.333  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+02:36:45.333  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:45.333  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:45.334  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:45.471  SCRIPT       : Module: Game; loaded 4395x files; 8943x classes; used 19363/41943 kB (46%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 237f9ed2
+02:36:45.997 PROFILING    : Compiling Game scripts took: 1672.708000 ms
+02:36:45.998 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.1.189 built 2025-01-21 9:02:04 UTC.
+02:36:46.012 BACKEND      : Loading dedicated server config.
+02:36:46.012  BACKEND      : Server config loaded.
+02:36:46.012  BACKEND      : JSON Schema Validation:
+02:36:46.012   BACKEND      : JSON is Valid
+02:36:46.012 BACKEND      : Loading dedicated server config.
+02:36:46.012  RESOURCES    : GetResourceObject @"{E67A344224E6BBD8}Missions/RedShore_JustInTime.conf"
+02:36:46.012   RESOURCES (E): Failed to open
+02:36:46.012  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/RedShore_JustInTime.conf'!
+02:36:46.018 ENGINE       : Game successfully created.
+02:36:46.024 PLATFORM     : Save data from container 'settings' have been loaded
+02:36:46.123 PLATFORM     : Save data from container 'sessions' have been loaded
+02:36:46.124 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+02:36:46.124  ENGINE       : Game user settings config loaded
+02:36:46.124 NETWORK      : Starting dedicated server using command line args.
+02:36:47.812 BACKEND      : Required addons are ready to use.
+02:36:48.036 ENGINE       : Game destroyed.
+02:36:48.158 ENGINE       : Addon dirs:
+02:36:48.158  ENGINE       : dir: '/reforger/workshop'
+02:36:48.158  ENGINE       : dir: './addons'
+02:36:48.158  ENGINE       : dir: '/home/profile/addons'
+02:36:48.158  ENGINE       : dir: '/reforger/workshop/addons/'
+02:36:48.158 ENGINE       : Available addons:
+02:36:48.158  ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859' (packed)
+02:36:48.158  ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C' (packed)
+02:36:48.158  ENGINE       : gproj: '/reforger/workshop/addons/RHS-StatusQuo_595F2BF2F44836FB/addon.gproj' guid: '595F2BF2F44836FB' (packed)
+02:36:48.158  ENGINE       : gproj: '/reforger/workshop/addons/REAPER_JustInTime_617B2ED33DE29156/addon.gproj' guid: '617B2ED33DE29156' (packed)
+02:36:48.158  ENGINE       : gproj: '/reforger/workshop/addons/REAPER_CORE_5EB139459EBF5C16/addon.gproj' guid: '5EB139459EBF5C16' (packed)
+02:36:48.158  ENGINE       : gproj: '/reforger/workshop/addons/REAPER_CORE_Pack2_61B8FA7B3BF8656B/addon.gproj' guid: '61B8FA7B3BF8656B' (packed)
+02:36:48.158  ENGINE       : gproj: '/reforger/workshop/addons/RedShore_JustInTime_64742241D31F0464/addon.gproj' guid: '64742241D31F0464' (packed)
+02:36:48.158 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/RedShore_JustInTime_64742241D31F0464/' (pak count: 1) to filesystem under name RedShoreJustInTime
+02:36:48.158 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/REAPER_JustInTime_617B2ED33DE29156/' (pak count: 1) to filesystem under name REAPER_JustInTime
+02:36:48.162 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/REAPER_CORE_5EB139459EBF5C16/' (pak count: 3) to filesystem under name REAPER_CORE
+02:36:48.163 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/REAPER_CORE_Pack2_61B8FA7B3BF8656B/' (pak count: 2) to filesystem under name REAPER_CORE_Pack2
+02:36:48.176 ENGINE       : FileSystem: Adding package '/reforger/workshop/addons/RHS-StatusQuo_595F2BF2F44836FB/' (pak count: 4) to filesystem under name RHSStatusQuo
+02:36:48.262 ENGINE       : FileSystem: Adding package './addons/data/' (pak count: 4) to filesystem under name ArmaReforger
+02:36:48.263 ENGINE       : FileSystem: Adding package './addons/core/' (pak count: 1) to filesystem under name core
+02:36:48.263 RESOURCES    : ResourceDB: loading cache (id=0 name=RedShoreJustInTime path=/reforger/workshop/addons/RedShore_JustInTime_64742241D31F0464/resourceDatabase.rdb)
+02:36:48.263 RESOURCES    : ResourceDB: loading cache (id=1 name=REAPER_JustInTime path=/reforger/workshop/addons/REAPER_JustInTime_617B2ED33DE29156/resourceDatabase.rdb)
+02:36:48.264 RESOURCES    : ResourceDB: loading cache (id=2 name=REAPER_CORE path=/reforger/workshop/addons/REAPER_CORE_5EB139459EBF5C16/resourceDatabase.rdb)
+02:36:48.267 RESOURCES    : ResourceDB: loading cache (id=3 name=REAPER_CORE_Pack2 path=/reforger/workshop/addons/REAPER_CORE_Pack2_61B8FA7B3BF8656B/resourceDatabase.rdb)
+02:36:48.270 RESOURCES    : ResourceDB: loading cache (id=4 name=RHSStatusQuo path=/reforger/workshop/addons/RHS-StatusQuo_595F2BF2F44836FB/resourceDatabase.rdb)
+02:36:48.289 RESOURCES    : ResourceDB: loading cache (id=5 name=ArmaReforger path=./addons/data/resourceDatabase.rdb)
+02:36:48.414 RESOURCES    : ResourceDB: loading cache (id=6 name=core path=./addons/core/resourceDatabase.rdb)
+02:36:48.415 RESOURCES    : ResourceDB: loading cache (id=7 name=profile path=/home/profile/profile/resourceDatabase.rdb)
+02:36:48.416 RESOURCES    : ResourceDB: loading cache (id=8 name=logs path=/home/profile/logs/logs_2025-01-26_02-36-43/resourceDatabase.rdb)
+02:36:48.552 ENGINE       : GameProject load
+02:36:48.552  ENGINE       : Loaded addons:
+02:36:48.552   ENGINE       : gproj: './addons/core/core.gproj' guid: '5614BBCCBB55ED1C'
+02:36:48.552   ENGINE       : gproj: './addons/data/ArmaReforger.gproj' guid: '58D0FB3206B6F859'
+02:36:48.552   ENGINE       : gproj: '/reforger/workshop/addons/RHS-StatusQuo_595F2BF2F44836FB/addon.gproj' guid: '595F2BF2F44836FB'
+02:36:48.552   ENGINE       : gproj: '/reforger/workshop/addons/REAPER_CORE_Pack2_61B8FA7B3BF8656B/addon.gproj' guid: '61B8FA7B3BF8656B'
+02:36:48.552   ENGINE       : gproj: '/reforger/workshop/addons/REAPER_CORE_5EB139459EBF5C16/addon.gproj' guid: '5EB139459EBF5C16'
+02:36:48.552   ENGINE       : gproj: '/reforger/workshop/addons/REAPER_JustInTime_617B2ED33DE29156/addon.gproj' guid: '617B2ED33DE29156'
+02:36:48.553   ENGINE       : gproj: '/reforger/workshop/addons/RedShore_JustInTime_64742241D31F0464/addon.gproj' guid: '64742241D31F0464'
+02:36:48.553 ENGINE       : GameProject load
+02:36:48.553  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+02:36:48.553   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+02:36:48.554  INIT         : GameProject load project data @"/reforger/workshop/addons/RHS-StatusQuo_595F2BF2F44836FB/addon.gproj"
+02:36:48.554   RESOURCES (E): Wrong GUID/name for resource @"{0AFDD005CD669892}Language/rhs_localization.st" in property "StringTableSource"
+02:36:48.554 GUI          : Using default language (en_us)
+02:36:48.554 GUI          : Loading 'en_us' localization file.
+02:36:48.554 INIT         : INIT         : Loading StringTable
+02:36:48.575 PROFILING    : Loading StringTable took: 21.269000 ms
+02:36:48.575 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+02:36:48.594  SCRIPT       : Module: GameLib; loaded 301x files; 528x classes; used 472/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 3bbbb874
+02:36:48.596 PROFILING    : Compiling GameLib scripts took: 20.818000 ms
+02:36:48.596 SCRIPT       : SCRIPT       : Compiling Game scripts
+02:36:49.363 SCRIPT       : Compiling Game scripts
+02:36:49.363  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+02:36:49.363  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+02:36:49.364  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+02:36:49.555  SCRIPT    (W): @"Scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:49.665  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+02:36:49.665  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:49.666  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:49.666  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+02:36:49.667  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:49.667  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:49.667  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+02:36:49.940  SCRIPT       : Module: Game; loaded 4891x files; 10212x classes; used 21734/41943 kB (51%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 9484324b
+02:36:50.814 PROFILING    : Compiling Game scripts took: 2218.054000 ms
+02:36:50.816 INIT         : Creating game instance(ArmaReforgerScripted), version 1.2.1.189 built 2025-01-21 9:02:04 UTC.
+02:36:50.825 INIT         : InputManager config load @"{795184CF9AD764DB}Configs/System/chimeraInputCommon.conf"
+02:36:50.825  INPUT     (E): InputManager: unknown key ''
+02:36:50.825  INPUT     (E): InputManager: unknown key ''
+02:36:50.825  INPUT     (E): InputManager: unknown key ''
+02:36:50.825  INPUT     (E): InputManager: unknown key ''
+02:36:50.829 BACKEND      : Loading dedicated server config.
+02:36:50.829  BACKEND      : Server config loaded.
+02:36:50.829  BACKEND      : JSON Schema Validation:
+02:36:50.829   BACKEND      : JSON is Valid
+02:36:50.836 ENGINE       : Game successfully created.
+02:36:50.888 PLATFORM     : Save data from container 'settings' have been loaded
+02:36:50.987 PLATFORM     : Save data from container 'sessions' have been loaded
+02:36:50.988 PLATFORM     : GameProject user settings load from profile @"ReforgerGameSettings.conf"
+02:36:50.988  ENGINE       : Game user settings config loaded
+02:36:50.988 WORLD        : WORLD        : Entities load @"{B9BADDD413F59CBA}Worlds/RedShore_JustInTime/RedShore_JustInTime.ent"
+02:36:51.789 WORLD        : Entities load @"{B9BADDD413F59CBA}Worlds/RedShore_JustInTime/RedShore_JustInTime.ent"
+02:36:51.789  WORLD        : Subscene load @"{552B52BC2D30A4CE}JustInTime.ent"
+02:36:51.789   WORLD        : Subscene load @"{853E92315D1D9EFE}worlds/Eden/Eden.ent"
+02:36:51.789    RESOURCES    : GetResourceObject @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+02:36:51.789     WORLD        : Entity prefab load @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+02:36:51.789      RESOURCES (E): Wrong GUID/name for resource @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat" in property "AssignedMaterial"
+02:36:52.006   WORLD        : Entity layer load @"JustInTime_Layers/AI_Montignac.layer"
+02:36:52.006    RESOURCES    : GetResourceObject @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+02:36:52.006     WORLD        : Entity prefab load @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+02:36:52.006      RESOURCES    : GetResourceObject @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+02:36:52.006       WORLD        : Entity prefab load @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+02:36:52.006        RESOURCES    : GetResourceObject @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+02:36:52.006         WORLD        : Entity prefab load @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+02:36:52.006          RESOURCES    : GetResourceObject @"{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et"
+02:36:52.006           WORLD        : Entity prefab load @"{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et"
+02:36:52.006            RESOURCES    : GetResourceObject @"{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et"
+02:36:52.006             WORLD        : Entity prefab load @"{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et"
+02:36:52.006              RESOURCES    : GetResourceObject @"{FA11A8598F401058}Prefabs/Vehicles/Core/Configs/PilotCompartment_Base.conf"
+02:36:52.006               DEFAULT      : Config load @"{FA11A8598F401058}Prefabs/Vehicles/Core/Configs/PilotCompartment_Base.conf"
+02:36:52.006                DEFAULT   (E): Unknown keyword/data 'BrakeEffect' at offset 2202(0x89a)
+02:36:52.006                DEFAULT   (E): Unknown keyword/data 'BrakeEffectReverse' at offset 2375(0x947)
+02:36:52.049 PROFILING    : Entities load took: 1060.723000 ms
+02:36:52.049 WORLD        : WORLD        : Game::LoadEntities
+02:36:52.067  NETWORK      : Enabled lag compensation, 29 frames with 100 FPS and 280 ms rewind limits.
+02:36:52.068  WORLD        : WORLD        : Preload
+02:36:52.589 RESOURCES    : Particle effect load @"Assets/Weapons/BARRETT_M107A1/Particles/M107_blast.ptc"
+02:36:52.589  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+02:36:52.589  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+02:36:52.589  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+02:36:52.589  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+02:36:52.615  PROFILING    : Preload took: 547.430000 ms
+02:36:52.615  WORLD        : WORLD        : Wait for preloading data
+02:36:52.669 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD1.ptc"
+02:36:52.669  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+02:36:52.669 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine.ptc"
+02:36:52.669  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+02:36:52.669 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD2.ptc"
+02:36:52.669  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+02:36:54.291 MATERIAL     : Material load @"{63F10E1A366AE509}Assets/Structures/BuildingsParts/Electrical/SpeakerAddon_E_01/Data/Speaker_Addon_E_01_grate.emat"
+02:36:54.291  MATERIAL     : Material load @"{63F10E1A366AE509}Assets/Structures/BuildingsParts/Electrical/SpeakerAddon_E_01/Data/Speaker_Addon_E_01_grate.emat"
+02:36:54.291   MATERIAL  (E): Unknown keyword/data 'ClutterThresholdAngle' at offset 64(0x40)
+02:36:54.820  PROFILING    : Wait for preloading data took: 2204.761000 ms
+02:36:54.820  WORLD        : WORLD        : CreateEntities
+02:36:54.820   WORLD        : WORLD        : CreateEntities
+02:36:54.820    WORLD        : WORLD        : NotifyBeforeEntitiesCreated
+02:36:54.827 WORLD        : Game::LoadEntities
+02:36:54.827  WORLD        : CreateEntities
+02:36:54.827   WORLD        : CreateEntities
+02:36:54.827    WORLD        : NotifyBeforeEntitiesCreated
+02:36:54.827     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict.conf'
+02:36:54.827      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict.conf'
+02:36:54.827       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+02:36:54.827     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_ConflictWithoutAIs.conf'
+02:36:54.827      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_ConflictWithoutAIs.conf'
+02:36:54.827       RESOURCES    : GetResourceObject @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+02:36:54.827        DEFAULT      : Config load @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+02:36:54.827         DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+02:36:54.827       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 256(0x100)
+02:36:54.828     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict_Arland.conf'
+02:36:54.828      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict_Arland.conf'
+02:36:54.828       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 766(0x2fe)
+02:36:54.829     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict_East.conf'
+02:36:54.829      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict_East.conf'
+02:36:54.829       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 278(0x116)
+02:36:54.829     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict_West.conf'
+02:36:54.829      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict_West.conf'
+02:36:54.829       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 276(0x114)
+02:36:54.831     RESOURCES    : Loaded mission headers from 7 addon(s)!
+02:36:54.831    PROFILING    : NotifyBeforeEntitiesCreated took: 11.070000 ms
+02:36:54.941    ENTITY       : Create entity @"ENTITY:1" ('world', GenericWorldEntity) at <0.000000 0.000000 0.000000>
+02:36:54.941     RESOURCES (E):   Failed to decompress memory image data. Data is not DXT.
+02:36:54.941     WORLD     (E): Shore map CPU data creation failed - decompression of DF near atlas texture failed.
+02:36:54.944     WORLD     (E): Loading of shore map failed - creation of CPU data failed
+02:36:54.945     WORLD     (E): Loading of shore map failed - post load checks failed
+02:36:54.945    ENTITY       : Create entity @"ENTITY:2" ('Eden', GenericTerrainEntity) at <0.000000 0.000000 0.000000>
+02:36:54.945     PROFILING    : PROFILING    : Terrain load
+02:36:57.149     PROFILING    : Terrain load took: 2203.990000 ms
+02:36:57.499    ENTITY       : Create entity @"ENTITY:47511" ('PreloadManager1', BasePreloadManager) at <0.033000 0.000000 -0.021000> @"{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et"
+02:36:57.499     ENTITY       : SpawnEntityPrefab @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+02:36:57.499      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.499       ENTITY       : Init entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+02:36:57.499        INVENTORY (E): Couldn't insert item @"ENTITY:55" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.499        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:55" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.499        INVENTORY (E): Couldn't insert item @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.499        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.499        INVENTORY (E): Couldn't insert item @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.500        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.525     ENTITY       : SpawnEntityPrefab @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+02:36:57.525      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.525       ENTITY       : Init entity @"ENTITY:61" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+02:36:57.526        INVENTORY (E): Couldn't insert item @"ENTITY:103" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" into storage @"ENTITY:78" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.xob') at <-0.160200 1.020988 0.135575> @"{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et" while spawning initial items inside the storage.
+02:36:57.526        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:103" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.536     ENTITY       : SpawnEntityPrefab @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+02:36:57.536      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.536       ENTITY       : Init entity @"ENTITY:105" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+02:36:57.536        INVENTORY (E): Couldn't insert item @"ENTITY:153" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.536        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:153" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.536        INVENTORY (E): Couldn't insert item @"ENTITY:154" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.536        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:154" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.536        INVENTORY (E): Couldn't insert item @"ENTITY:155" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.537        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:155" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.537        INVENTORY (E): Couldn't insert item @"ENTITY:156" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.537        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:156" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.537        INVENTORY (E): Couldn't insert item @"ENTITY:157" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.537        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:157" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.547     ENTITY       : SpawnEntityPrefab @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+02:36:57.547      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.547       ENTITY       : Init entity @"ENTITY:178" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+02:36:57.547        INVENTORY (E): Couldn't insert item @"ENTITY:228" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:199" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.547        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:228" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.547        INVENTORY (E): Couldn't insert item @"ENTITY:229" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:199" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.547        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:229" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.547        INVENTORY (E): Couldn't insert item @"ENTITY:230" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:199" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.547        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:230" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.558     ENTITY       : SpawnEntityPrefab @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+02:36:57.558      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.558       ENTITY       : Init entity @"ENTITY:234" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+02:36:57.558        INVENTORY (E): Couldn't insert item @"ENTITY:307" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:255" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.558        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:307" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.558        INVENTORY (E): Couldn't insert item @"ENTITY:308" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:255" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.558        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:308" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.575     ENTITY       : SpawnEntityPrefab @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+02:36:57.575      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.575       ENTITY       : Init entity @"ENTITY:357" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+02:36:57.576        INVENTORY (E): Couldn't insert item @"ENTITY:405" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:376" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.576        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:405" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.576        INVENTORY (E): Couldn't insert item @"ENTITY:406" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:376" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.576        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:406" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.576        INVENTORY (E): Couldn't insert item @"ENTITY:407" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:376" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+02:36:57.576        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:407" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.582     ENTITY       : SpawnEntityPrefab @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+02:36:57.582      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.582       ENTITY       : Init entity @"ENTITY:411" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+02:36:57.582        INVENTORY (E): Couldn't insert item @"ENTITY:461" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.582        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:461" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.582        INVENTORY (E): Couldn't insert item @"ENTITY:462" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.582        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:462" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.582        INVENTORY (E): Couldn't insert item @"ENTITY:463" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.582        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:463" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.583        INVENTORY (E): Couldn't insert item @"ENTITY:464" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.583        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:464" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.583        INVENTORY (E): Couldn't insert item @"ENTITY:465" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+02:36:57.583        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:465" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.623     ENTITY       : SpawnEntityPrefab @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+02:36:57.623      WORLD        : InitEntities 'PreloadWorld'
+02:36:57.623       ENTITY       : Init entity @"ENTITY:533" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+02:36:57.623        INVENTORY (E): Couldn't insert item @"ENTITY:573" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+02:36:57.623        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:573" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.623        INVENTORY (E): Couldn't insert item @"ENTITY:574" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+02:36:57.623        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:574" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.623        INVENTORY (E): Couldn't insert item @"ENTITY:575" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+02:36:57.623        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:575" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:36:57.623        INVENTORY (E): Couldn't insert item @"ENTITY:576" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+02:36:57.623        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:576" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+02:37:00.858    ENTITY       : Create entity @"ENTITY:611109" ('StaticModelEntity','Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.xob') at <1931.796021 81.777000 5138.725098> @"{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et"
+02:37:00.858     DEFAULT   (W): World doesn't contain RadioManagerEntity to support any BaseRadioComponent.
+02:37:04.191    ENTITY       : Create entity @"ENTITY:1102567" ('StaticModelEntity') at <8831.291016 95.934265 2673.487061>
+02:37:04.191     MATERIAL     : Material load @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat"
+02:37:04.191      MATERIAL  (E): Material file not found
+02:37:04.191     MATERIAL  (E): Object @"Assets/Structures/Cultural/Calvaries/CalvaryLarge_01/CalvaryLarge_01.xob" - cannot load material @"system/wbdata/PreviewWindow/TransparentMat.emat", creating default one (class MatPBRBasic)
+02:37:06.112    ENTITY       : Create entity @"ENTITY:2305843009213694425" ('Ural4320_transport1', Vehicle) at <4821.931152 169.774002 6982.250977> @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+02:37:06.112     DEFAULT   (W): BaseRadioComponent does not have any transceiver. (Entity: @"ENTITY:2305843009213694425" ('Ural4320_transport1', Vehicle) at <4821.931152 169.774002 6982.250977> @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"). Only printing this message once. There're possibly more nodes with this requirement.
+02:37:08.163    ENTITY       : Create entity @"ENTITY:2305843009213694963" ('SCR_FactionManager') at <4971.789062 2.900000 3858.123047> @"REAPER_FactionManager"
+02:37:08.163     RESOURCES    : GetResourceObject @"{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+02:37:08.163      WORLD        : Entity prefab load @"{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+02:37:08.164       RESOURCES    : GetResourceObject @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+02:37:08.164        WORLD        : Entity prefab load @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+02:37:08.164         RESOURCES    : GetResourceObject @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+02:37:08.164          WORLD        : Entity prefab load @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+02:37:08.164           WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 17107(0x42d3)
+02:37:08.213     RESOURCES    : GetResourceObject @"{EC13D4E934B2ADD8}Prefabs/Items/Demining/MineFlags/MineFlag_US.et"
+02:37:08.213      WORLD        : Entity prefab load @"{EC13D4E934B2ADD8}Prefabs/Items/Demining/MineFlags/MineFlag_US.et"
+02:37:08.213       RESOURCES    : GetResourceObject @"{37535B53F57D1632}Prefabs/Items/Demining/MineFlags/MineFlag_base.et"
+02:37:08.213        WORLD        : Entity prefab load @"{37535B53F57D1632}Prefabs/Items/Demining/MineFlags/MineFlag_base.et"
+02:37:08.213         RESOURCES (E): Wrong GUID/name for resource @"{A65C460102F07AF5}Assets/Items/Medicine/PressureBandage_01/PressureBandage_01.xob" in property "Object"
+02:37:08.318     RESOURCES    : GetResourceObject @"{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+02:37:08.318      WORLD        : Entity prefab load @"{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+02:37:08.318       RESOURCES    : GetResourceObject @"{20C37D5090E4E0E6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_base.et"
+02:37:08.318        WORLD        : Entity prefab load @"{20C37D5090E4E0E6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_base.et"
+02:37:08.318         RESOURCES    : GetResourceObject @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+02:37:08.318          WORLD        : Entity prefab load @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+02:37:08.318           RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+02:37:08.318            WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+02:37:08.318             RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+02:37:08.318              WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+02:37:08.318               WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 19174(0x4ae6)
+02:37:08.639    ENTITY       : Create entity @"ENTITY:2305843009213696642" ('SCR_DestructibleEntity') at <2228.251953 18.163221 7541.690918>
+02:37:08.639     ENTITY    (E): Destructible SCR_DestructibleEntityClass doesn't have a initial and final phase!
+02:37:08.639     DEFAULT   (E): SCR_DestructionMultiPhaseComponent can't be attached to a destructible entity @"ENTITY:2305843009213696642" ('SCR_DestructibleEntity','Assets/Props/Military/Fortification/BarbedWire/BarbedTape_Coil.xob') at <2228.251953 18.163221 7541.690918> @"{CF2D97841C514559}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_USSR_01.et"
+02:37:09.208    WORLD        : WORLD        : NotifyBeforeEntitiesInitialized
+02:37:09.208    PROFILING    : NotifyBeforeEntitiesInitialized took: 0.036000 ms
+02:37:09.208    WORLD        : InitEntities 'world'
+02:37:09.208     ENTITY       : Init entity @"ENTITY:3" ('SCR_MapEntity1', SCR_MapEntity) at <6400.000000 0.000000 6400.000000> @"{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et"
+02:37:09.208      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+02:37:10.038     ENTITY       : Init entity @"ENTITY:2305843009213698918" ('SCR_BaseTaskManager') at <4974.275879 3.146000 3857.872070> @"{5A0559B1D379BA96}Prefabs/World/REAPER_SF_TaskManager_V1.2.et"
+02:37:10.038      SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+02:37:10.040    WORLD        : WORLD        : NotifyEntitiesInitialized
+02:37:10.040     TERRAIN      : TERRAIN      : Initializing road networks...
+02:37:10.043     PROFILING    : Initializing road networks... took: 2.689000 ms
+02:37:10.099     INIT         : INIT         : SoundWorldInit
+02:37:10.151     PROFILING    : SoundWorldInit took: 52.162000 ms
+02:37:10.151    PROFILING    : NotifyEntitiesInitialized took: 110.769000 ms
+02:37:10.151   PROFILING    : CreateEntities took: 15331.379000 ms
+02:37:10.151  PROFILING    : CreateEntities took: 15331.409000 ms
+02:37:10.151  WORLD        : WORLD        : EOnActivate
+02:37:10.185  PROFILING    : EOnActivate took: 34.132000 ms
+02:37:10.186 PROFILING    : Game::LoadEntities took: 18136.757000 ms
+02:37:10.268 NETWORK      : RPL listen address not specified. Using default fallback.
+02:37:10.355 NETWORK      : Starting RPL server, listening on address 0.0.0.0:2001, fastValidation=true
+02:37:10.454 DEFAULT      : BattlEye Server: Loading BattlEye library from path '/reforger/battleye/BEServer_x64.so'.
+02:37:10.455 DEFAULT      : BattlEye Server: 'Initialized (v1.220, Arma Reforger 1.2.1.189)'
+02:37:10.455 DEFAULT      : BattlEye Server: Initialized.
+02:37:10.455 DEFAULT      : BattlEye Server: 'Config entry: GameID armar'
+02:37:10.455 DEFAULT      : BattlEye Server: 'Config entry: MasterPort 2001'
+02:37:11.549 BACKEND      : Server registered with address: 65.21.188.218:2001
+02:37:11.549 BACKEND      : Direct Join Code: 0361032076
+02:37:11.549 BACKEND      : Ping Site: frankfurt
+02:37:12.094 DEFAULT      : Entered online game state.
+02:37:12.198 SCRIPT    (W): SCR_SaveManagerCore: -loadSessionSave CLI param set to load the latest save, but none was defined for the mission 'E67A344224E6BBD8'!
+02:37:15.107 SCRIPT       : Map load time: 1715ms
+02:37:15.141 WORLD        : Frame start
+02:37:15.141  NETWORK      : Projectiles will simulate using: EOnFrame
+02:37:15.142  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+02:37:15.152 WORLD        : UpdateEntities
+02:37:15.152  WORLD        : Frame
+02:37:15.152   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+02:37:15.152   SCRIPT       : REAPER_PlayerProtectionComponent - Loading Data from file...
+02:37:15.152   SCRIPT       : REAPER_PlayerProtectionComponent - File not found. No players will be protected.
+02:37:15.153   SCRIPT       : REAPER: DataCollector (OnGameModeStart) creating fresh stats, GameModeStart!
+02:37:17.817 WORLD        : UpdateEntities
+02:37:17.817  WORLD        : FixedFrame
+02:37:17.817   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_Roadblock1_NBulding1
+02:37:18.707 ENTITY       : SpawnEntityPrefab @"{C1BC430CBC7AFDB3}Prefabs/Weapons/Explosives/TNT_Time_bomb/Time_bomb_TNT.et"
+02:37:18.707  ENTITY       : Create entity @"ENTITY:6917529027641086264" ('GenericEntity','Assets/Weapons/Explosive/Time_bomb.xob') at <0.000000 -3.367500 0.000000> @"{C1BC430CBC7AFDB3}Prefabs/Weapons/Explosives/TNT_Time_bomb/Time_bomb_TNT.et"
+02:37:18.707   RESOURCES    : GetResourceObject @"{E6D3AC3088E43C3E}Assets/Weapons/Explosives/workspace/TSh400g.asi"
+02:37:18.707    ANIMATION    : AnimSetInstanceImpl load @"{E6D3AC3088E43C3E}Assets/Weapons/Explosives/workspace/TSh400g.asi"
+02:37:18.707     RESOURCES (E): Wrong GUID/name for resource @"{C4244C677F019957}Assets/Weapons/Explosives/DemoBlock_TSh400g/anims/p_M112_IK.anm" in property "IkPose"
+02:37:18.708     RESOURCES    : GetResourceObject @"{C4244C677F019957}Assets/Weapons/Explosives/DemoBlock_TSh400g/anims/p_M112_IK.anm"
+02:37:18.708      RESOURCES (E): Failed to open
+02:37:18.974 WORLD        : UpdateEntities
+02:37:18.974  WORLD        : FixedFrame
+02:37:18.974   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_Roadblock1_NBulding3
+02:37:19.149 WORLD        : UpdateEntities
+02:37:19.149  WORLD        : FixedFrame
+02:37:19.149   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_Roadblock1_NBulding4
+02:37:19.636 WORLD        : UpdateEntities
+02:37:19.636  WORLD        : FixedFrame
+02:37:19.636   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_DeerTower1
+02:37:20.214 WORLD        : UpdateEntities
+02:37:20.214  WORLD        : FixedFrame
+02:37:20.214   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotTalkToInformant1 - generating task Find the informant. Description: ScenarioFramework: -> LayerTask: SlotTask SlotTalkToInformant1 - generating task Find the informant. Description: reful, there may be spies in the region tracking our activities.
+02:37:20.329 SCRIPT       : REAPER_SF_SlotTalkToInformant - Setup done! (with REAPER_InformantComponent)
+02:37:21.215 WORLD        : UpdateEntities
+02:37:21.215  WORLD        : FixedFrame
+02:37:21.215   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SLotAI_RoadBlock1_SIngle3
+02:38:24.180 RPL          : ServerImpl event: authenticating (identity=0x00000000, address=46.8.28.102:63022)
+02:38:24.481 RPL          : ServerImpl event: connected (identity=0x00000000)
+02:38:24.511 WORLD        : UpdateEntities
+02:38:24.511  DEFAULT      : BattlEye Server: Adding player identity=0x00000000, name='Reidond'
+02:38:24.511  DEFAULT      : BattlEye Server: 'Player #0 Reidond (46.8.28.102:63022) connected'
+02:38:24.511  DEFAULT      : BattlEye Server: Setting GUID for player identity=0x00000000, GUID=76561198117480403
+02:38:24.511  DEFAULT      : BattlEye Server: 'Player #0 Reidond - BE GUID: 0ff29685078407615ef8faeadc59b566'
+02:38:24.639 DEFAULT      : BattlEye Server: 'Connected to BE Master'
+02:38:38.575 NETWORK      : Player connected: connectionID=0
+02:38:38.576 NETWORK      : ### Connecting player: connectionID=0, Name=
+02:38:42.694 WORLD        : UpdateEntities
+02:38:42.694  RPL          : rpl::Pip::ProcessNetToGame
+02:38:42.694   NETWORK      : ### Creating player: PlayerId=1, Name=Reidond
+02:38:42.702 WORLD        : UpdateEntities
+02:38:42.702  RPL          : rpl::Pip::ProcessNetToGame
+02:38:42.702   RESOURCES    : GetResourceObject @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+02:38:42.702    WORLD        : Entity prefab load @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+02:38:42.702     RESOURCES    : GetResourceObject @"{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerControllerMP.et"
+02:38:42.702      WORLD        : Entity prefab load @"{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerControllerMP.et"
+02:38:42.702       RESOURCES    : GetResourceObject @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+02:38:42.702        WORLD        : Entity prefab load @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+02:38:42.702         RESOURCES    : GetResourceObject @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+02:38:42.702          WORLD        : Entity prefab load @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+02:38:42.702           RESOURCES    : GetResourceObject @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+02:38:42.702            WORLD        : Entity prefab load @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+02:38:42.702             RESOURCES    : GetResourceObject @"{80CC0413DDBDFCB9}Configs/ControlHints/AvailableActions.conf"
+02:38:42.702              DEFAULT      : Config load @"{80CC0413DDBDFCB9}Configs/ControlHints/AvailableActions.conf"
+02:38:42.702               RESOURCES    : GetResourceObject @"{80CC0413DDBDFCB9}Configs/ControlHints/AvailableActions.conf"
+02:38:42.702                DEFAULT      : Config load @"{80CC0413DDBDFCB9}Configs/ControlHints/AvailableActions.conf"
+02:38:42.702                 RESOURCES    : GetResourceObject @"{3BDADF72289D17FF}Configs/ControlHints/CharacterRangeAzimuth.conf"
+02:38:42.702                  DEFAULT      : Config load @"{3BDADF72289D17FF}Configs/ControlHints/CharacterRangeAzimuth.conf"
+02:38:42.702                   DEFAULT   (E): Unknown class 'SCR_CharacterIsInGadgetADSCondition' at offset 341(0x155)
+02:38:42.710   ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+02:38:42.710    ENTITY       : Create entity @"ENTITY:6917529027641090558" ('SCR_PlayerController') at <0.000000 0.000000 0.000000> @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+02:38:42.710     SCRIPT       : RHS_RadialMenu Initiated
+02:38:42.894 WORLD        : UpdateEntities
+02:38:42.894  RPL          : rpl::Pip::ProcessNetToGame
+02:38:42.894   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+02:38:42.894 WORLD        : UpdateEntities
+02:38:42.894  RPL          : rpl::Pip::ProcessNetToGame
+02:38:42.894   SCRIPT       : REAPER: DataCollector (OnPlayerConnected) new Stats created for playerID: 1
+02:38:42.902   NETWORK      : ### Updating player: PlayerId=1, Name=Reidond, IdentityId=25c9bb9d-fdd7-4be9-898e-cac20a551dd2
+02:38:42.902   NETWORK      : Players connecting: 0
+02:38:42.902   NETWORK      : Players connected: 1 / 1
+02:38:43.409 SCRIPT       : REAPER: SCR_ArsenalManagerComponent - REAPER_InitLoadoutData
+02:38:43.411 SCRIPT       : REAPER: SCR_ArsenalManagerComponent - REAPER_InitLoadoutData - Data loaded for PlayerID: 1
+02:39:09.828 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 166], link_idx: 4
+02:39:14.726 WORLD        : UpdateEntities
+02:39:14.727  RPL          : rpl::Pip::ProcessNetToGame
+02:39:14.727   NETWORK      : Player 'Reidond' signed in as server admin.
+02:39:14.731 WORLD        : UpdateEntities
+02:39:14.731  RPL          : rpl::Pip::ProcessNetToGame
+02:39:14.731   RESOURCES    : GetResourceObject @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+02:39:14.731    WORLD        : Entity prefab load @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+02:39:14.731     RESOURCES    : GetResourceObject @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+02:39:14.731      WORLD        : Entity prefab load @"{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et"
+02:39:14.731       RESOURCES    : GetResourceObject @"{28ACD0C845BE4967}Configs/Editor/PlaceableEntities/Objects/Structures_Military.conf"
+02:39:14.731        DEFAULT      : Config load @"{28ACD0C845BE4967}Configs/Editor/PlaceableEntities/Objects/Structures_Military.conf"
+02:39:14.731         RESOURCES (E): Wrong GUID/name for resource @"{57708D2841D05A01}PrefabsEditable/Auto/Structures/Military/Training/E_TargetVehicleBase_01.et" in property "m_Prefabs"
+02:39:16.193 WORLD        : UpdateEntities
+02:39:16.193  RPL          : rpl::Pip::ProcessNetToGame
+02:39:16.193   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+Scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+Scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+Scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+Scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+Scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:156 Function ActivateModeServer
+Scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:182 Function ToggleServer
+02:40:17.439 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:43:17.450 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:43:59.431 RPL          : ServerImpl event: disconnected (identity=0x00000000), group=1, reason=9
+02:43:59.431 WORLD        : UpdateEntities
+02:43:59.431  DEFAULT      : BattlEye Server: Disconnect player identity=0x00000000
+02:43:59.431  DEFAULT      : BattlEye Server: 'Player #0 Reidond disconnected'
+02:43:59.454 NETWORK      : Player disconnected: connectionID=0
+02:43:59.456 RPL       (E): RpcError: Calling a RPC from an unregistered item! itemType='script::Game::SCR_BudgetEditorComponent', rpc='OnEntityCoreBudgetUpdatedOwner'
+02:43:59.456 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+02:43:59.456 NETWORK      : Total number of players: 0
+02:46:17.457 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:49:17.467 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:52:17.477 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:55:17.486 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+02:58:17.495 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:01:17.505 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:04:17.520 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:07:17.524 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:10:17.544 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:13:17.550 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:16:17.561 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:19:17.567 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:22:17.571 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:25:17.580 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:28:17.590 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:31:17.600 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:34:17.618 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:37:17.618 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:40:17.628 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:43:17.637 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:46:17.656 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:49:17.656 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:52:17.666 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:55:17.685 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+03:58:17.685 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:01:17.702 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:04:17.713 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:07:17.723 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:10:17.733 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:13:17.733 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:16:17.741 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:19:17.757 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:22:17.760 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:25:17.771 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:28:17.789 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:31:17.797 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:34:17.808 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:37:17.807 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+04:40:17.817 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave

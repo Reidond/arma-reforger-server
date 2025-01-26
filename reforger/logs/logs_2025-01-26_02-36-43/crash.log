@@ -1,0 +1,25 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-01-26_02-36-43/crash.log started at 2025-01-26 02:39:16 (2025-01-26 02:39:16 UTC)
+
+
+
+------------------------------------
+26.01 2025 02:39:16
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+Scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+Scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+Scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+Scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+Scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:156 Function ActivateModeServer
+Scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:182 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/reaper_justintime.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
