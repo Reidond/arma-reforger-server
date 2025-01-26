@@ -25,6 +25,10 @@
         },
         "mods": [
             {
+                "modId": "595F2BF2F44836FB",
+                "name": "RHS - Status Quo"
+            },
+            {
                 "modId": "5EB139459EBF5C16",
                 "name": "CORE Pack1"
             },
@@ -35,6 +39,10 @@
             {
                 "modId": "617B2ED33DE29156",
                 "name": "Just in Time"
+            },
+            {
+                "modId": "64742241D31F0464",
+                "name": "RedShore - Just in Time"
             }
         ]
     }

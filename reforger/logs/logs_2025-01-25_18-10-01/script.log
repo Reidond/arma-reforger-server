@@ -1,0 +1,63 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-01-25_18-10-01/script.log started at 2025-01-25 18:10:01 (2025-01-25 18:10:01 UTC)
+
+18:10:01.617 SCRIPT       : SCRIPT       : Initializing scripts
+18:10:01.617  SCRIPT       : SCRIPT       : ScriptProjectManager init
+18:10:01.768 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+18:10:01.791  SCRIPT       : Module: GameLib; loaded 301x files; 528x classes; used 478/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 3bbbb874
+18:10:01.794 SCRIPT       : SCRIPT       : Compiling Game scripts
+18:10:02.528 SCRIPT       : Compiling Game scripts
+18:10:02.528  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:10:02.528  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:10:02.528  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:10:02.718  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:10:02.829  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+18:10:02.829  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:10:02.830  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:10:02.830  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+18:10:02.830  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:10:02.830  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:10:02.830  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:10:02.971  SCRIPT       : Module: Game; loaded 4395x files; 8943x classes; used 19363/41943 kB (46%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 237f9ed2
+18:11:26.988 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+18:11:27.011  SCRIPT       : Module: GameLib; loaded 301x files; 528x classes; used 472/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 3bbbb874
+18:11:27.013 SCRIPT       : SCRIPT       : Compiling Game scripts
+18:11:27.717 SCRIPT       : Compiling Game scripts
+18:11:27.717  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:11:27.717  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:11:27.717  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:11:27.917  SCRIPT    (W): @"Scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:11:28.031  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+18:11:28.031  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:11:28.031  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:11:28.031  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+18:11:28.032  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:11:28.032  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:11:28.032  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:11:28.207  SCRIPT       : Module: Game; loaded 4548x files; 9343x classes; used 20065/41943 kB (47%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 2c1f50a2
+18:11:50.326      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+18:11:51.171      SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+18:11:53.611 SCRIPT    (W): SCR_SaveManagerCore: -loadSessionSave CLI param set to load the latest save, but none was defined for the mission '691E6388556B67A5'!
+18:11:53.652  SCRIPT       : REAPER: LayerBase is randomized, all SlotBase childrens will be disabled! - RoadFromMorton_MainLayer
+18:11:53.653  SCRIPT       : REAPER: LayerBase is randomized, all SlotBase childrens will be disabled! - RoadBlock1_BarGate_layer
+18:11:53.653  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+18:11:53.664   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+18:11:53.664   SCRIPT       : REAPER_PlayerProtectionComponent - Loading Data from file...
+18:11:53.664   SCRIPT       : REAPER_PlayerProtectionComponent - File not found. No players will be protected.
+18:11:53.664   SCRIPT       : REAPER: DataCollector (OnGameModeStart) creating fresh stats, GameModeStart!
+18:11:53.743   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_RoadBlock1_tower
+18:11:55.963   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_Roadblock1_NBulding1
+18:11:56.540   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_Roadblock1_NBulding2
+18:11:57.098   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_DL4_RoadBlock1
+18:11:57.281   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_Roadblock1_NBulding4
+18:11:57.732   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_DL4_HouseLMG
+18:11:57.742   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_DeerTower1
+18:11:57.783   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotTalkToInformant3 - generating task Find the informant. Description: ScenarioFramework: -> LayerTask: SlotTask SlotTalkToInformant3 - generating task Find the informant. Description: reful, there may be spies in the region tracking our activities.
+18:11:57.896   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SlotAI_DeerTower2
+18:11:58.244 SCRIPT       : REAPER_SF_SlotTalkToInformant - Setup done!
+18:11:59.299   SCRIPT       : REAPER: Randomized SlotBase! Asset disabled! - SLotAI_RoadBlock1_SIngle3
+18:13:26.808   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+18:13:26.808   SCRIPT       : REAPER: DataCollector (OnPlayerConnected) new Stats created for playerID: 1
+18:13:27.306 SCRIPT       : REAPER: SCR_ArsenalManagerComponent - REAPER_InitLoadoutData
+18:13:31.690 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+18:14:55.754 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave

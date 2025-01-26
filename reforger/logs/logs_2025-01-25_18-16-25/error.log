@@ -1,0 +1,838 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-01-25_18-16-25/error.log started at 2025-01-25 18:16:26 (2025-01-25 18:16:26 UTC)
+
+18:16:26.320 ENGINE       : GameProject load
+18:16:26.320  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+18:16:26.320   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+18:16:26.395 AUDIO     (E): Audio device initialization failed with error: 9
+18:16:27.199 SCRIPT       : Compiling Game scripts
+18:16:27.199  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:16:27.199  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:16:27.199  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:16:27.387  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:16:27.498  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+18:16:27.498  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:16:27.498  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:16:27.498  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+18:16:27.499  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:16:27.499  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:16:27.499  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:16:28.184 BACKEND      : Loading dedicated server config.
+18:16:28.184  RESOURCES    : GetResourceObject @"{691E6388556B67A5}Missions/REAPER_JustInTime.conf"
+18:16:28.184   RESOURCES (E): Failed to open
+18:16:28.184  RESOURCES (E): MissionHeader::ReadMissionHeader cannot load the resource 'Missions/REAPER_JustInTime.conf'!
+18:18:17.539 ENGINE       : GameProject load
+18:18:17.539  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+18:18:17.539   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+18:18:17.540  INIT         : GameProject load project data @"/reforger/workshop/addons/RHS-StatusQuo_595F2BF2F44836FB/addon.gproj"
+18:18:17.540   RESOURCES (E): Wrong GUID/name for resource @"{0AFDD005CD669892}Language/rhs_localization.st" in property "StringTableSource"
+18:18:18.338 SCRIPT       : Compiling Game scripts
+18:18:18.338  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:18:18.338  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:18:18.338  SCRIPT    (W): @"Scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:18:18.549  SCRIPT    (W): @"Scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:18:18.665  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+18:18:18.665  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:18:18.665  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:18:18.665  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+18:18:18.666  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:18:18.666  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:18:18.666  SCRIPT    (W): @"Scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:18:19.897 INIT         : InputManager config load @"{795184CF9AD764DB}Configs/System/chimeraInputCommon.conf"
+18:18:19.897  INPUT     (E): InputManager: unknown key ''
+18:18:19.897  INPUT     (E): InputManager: unknown key ''
+18:18:19.897  INPUT     (E): InputManager: unknown key ''
+18:18:19.897  INPUT     (E): InputManager: unknown key ''
+18:18:20.979 WORLD        : Entities load @"{552B52BC2D30A4CE}JustInTime.ent"
+18:18:20.979  WORLD        : Subscene load @"{853E92315D1D9EFE}worlds/Eden/Eden.ent"
+18:18:20.979   RESOURCES    : GetResourceObject @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+18:18:20.979    WORLD        : Entity prefab load @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+18:18:20.979     RESOURCES (E): Wrong GUID/name for resource @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat" in property "AssignedMaterial"
+18:18:21.211  WORLD        : Entity layer load @"JustInTime_Layers/AI_Montignac.layer"
+18:18:21.211   RESOURCES    : GetResourceObject @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+18:18:21.211    WORLD        : Entity prefab load @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+18:18:21.211     RESOURCES    : GetResourceObject @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+18:18:21.211      WORLD        : Entity prefab load @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+18:18:21.211       RESOURCES    : GetResourceObject @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+18:18:21.211        WORLD        : Entity prefab load @"{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et"
+18:18:21.211         RESOURCES    : GetResourceObject @"{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et"
+18:18:21.211          WORLD        : Entity prefab load @"{E03D5609EEA6E03D}Prefabs/Vehicles/Core/Wheeled_Truck_Base.et"
+18:18:21.211           RESOURCES    : GetResourceObject @"{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et"
+18:18:21.211            WORLD        : Entity prefab load @"{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et"
+18:18:21.211             RESOURCES    : GetResourceObject @"{FA11A8598F401058}Prefabs/Vehicles/Core/Configs/PilotCompartment_Base.conf"
+18:18:21.211              DEFAULT      : Config load @"{FA11A8598F401058}Prefabs/Vehicles/Core/Configs/PilotCompartment_Base.conf"
+18:18:21.211               DEFAULT   (E): Unknown keyword/data 'BrakeEffect' at offset 2202(0x89a)
+18:18:21.211               DEFAULT   (E): Unknown keyword/data 'BrakeEffectReverse' at offset 2375(0x947)
+18:18:22.115 RESOURCES    : Particle effect load @"Assets/Weapons/BARRETT_M107A1/Particles/M107_blast.ptc"
+18:18:22.115  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+18:18:22.115  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+18:18:22.115  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+18:18:22.115  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+18:18:22.283 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD1.ptc"
+18:18:22.283  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+18:18:22.283 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine.ptc"
+18:18:22.283  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+18:18:22.284 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD2.ptc"
+18:18:22.284  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+18:18:24.772 MATERIAL     : Material load @"{63F10E1A366AE509}Assets/Structures/BuildingsParts/Electrical/SpeakerAddon_E_01/Data/Speaker_Addon_E_01_grate.emat"
+18:18:24.772  MATERIAL     : Material load @"{63F10E1A366AE509}Assets/Structures/BuildingsParts/Electrical/SpeakerAddon_E_01/Data/Speaker_Addon_E_01_grate.emat"
+18:18:24.772   MATERIAL  (E): Unknown keyword/data 'ClutterThresholdAngle' at offset 64(0x40)
+18:18:26.603 WORLD        : Game::LoadEntities
+18:18:26.603  WORLD        : CreateEntities
+18:18:26.603   WORLD        : CreateEntities
+18:18:26.603    WORLD        : NotifyBeforeEntitiesCreated
+18:18:26.603     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict.conf'
+18:18:26.604      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict.conf'
+18:18:26.604       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+18:18:26.604     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_ConflictWithoutAIs.conf'
+18:18:26.604      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_ConflictWithoutAIs.conf'
+18:18:26.604       RESOURCES    : GetResourceObject @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+18:18:26.604        DEFAULT      : Config load @"{AAD43C10045857C1}Missions/RHS_Conflict.conf"
+18:18:26.604         DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 685(0x2ad)
+18:18:26.604       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 256(0x100)
+18:18:26.605     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict_Arland.conf'
+18:18:26.605      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict_Arland.conf'
+18:18:26.605       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 766(0x2fe)
+18:18:26.605     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict_East.conf'
+18:18:26.605      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict_East.conf'
+18:18:26.605       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 278(0x116)
+18:18:26.605     RESOURCES    : GetResourceObject '$RHSStatusQuo:Missions/RHS_Conflict_West.conf'
+18:18:26.605      DEFAULT      : Config load '$RHSStatusQuo:Missions/RHS_Conflict_West.conf'
+18:18:26.605       DEFAULT   (E): Unknown keyword/data 'm_iMaximumRespawnRadios' at offset 276(0x114)
+18:18:26.731    ENTITY       : Create entity @"ENTITY:1" ('world', GenericWorldEntity) at <0.000000 0.000000 0.000000>
+18:18:26.731     RESOURCES (E):   Failed to decompress memory image data. Data is not DXT.
+18:18:26.731     WORLD     (E): Shore map CPU data creation failed - decompression of DF near atlas texture failed.
+18:18:26.733     WORLD     (E): Loading of shore map failed - creation of CPU data failed
+18:18:26.733     WORLD     (E): Loading of shore map failed - post load checks failed
+18:18:31.354    ENTITY       : Create entity @"ENTITY:47511" ('PreloadManager1', BasePreloadManager) at <0.033000 0.000000 -0.021000> @"{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et"
+18:18:31.354     ENTITY       : SpawnEntityPrefab @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+18:18:31.354      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.354       ENTITY       : Init entity @"ENTITY:1" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+18:18:31.354        INVENTORY (E): Couldn't insert item @"ENTITY:55" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.354        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:55" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.354        INVENTORY (E): Couldn't insert item @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.354        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:56" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.354        INVENTORY (E): Couldn't insert item @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:22" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.354        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:57" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.384     ENTITY       : SpawnEntityPrefab @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+18:18:31.384      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.384       ENTITY       : Init entity @"ENTITY:61" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+18:18:31.384        INVENTORY (E): Couldn't insert item @"ENTITY:103" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" into storage @"ENTITY:78" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.xob') at <-0.160200 1.020988 0.135575> @"{4F018E3CF74D8636}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249.et" while spawning initial items inside the storage.
+18:18:31.384        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:103" ('GenericEntity','Assets/Weapons/Magazines/M249/Magazine_200rnd_M249_item.xob') at <0.000000 0.000000 0.000000> @"{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.400     ENTITY       : SpawnEntityPrefab @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+18:18:31.400      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.400       ENTITY       : Init entity @"ENTITY:105" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{84029128FA6F6BB9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL.et"
+18:18:31.400        INVENTORY (E): Couldn't insert item @"ENTITY:153" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.400        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:153" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.400        INVENTORY (E): Couldn't insert item @"ENTITY:154" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.400        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:154" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.400        INVENTORY (E): Couldn't insert item @"ENTITY:155" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.400        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:155" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.400        INVENTORY (E): Couldn't insert item @"ENTITY:156" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.400        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:156" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.400        INVENTORY (E): Couldn't insert item @"ENTITY:157" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:124" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.400        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:157" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.412     ENTITY       : SpawnEntityPrefab @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+18:18:31.412      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.412       ENTITY       : Init entity @"ENTITY:178" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+18:18:31.412        INVENTORY (E): Couldn't insert item @"ENTITY:228" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:199" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.412        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:228" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.412        INVENTORY (E): Couldn't insert item @"ENTITY:229" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:199" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.412        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:229" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.412        INVENTORY (E): Couldn't insert item @"ENTITY:230" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:199" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.412        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:230" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.429     ENTITY       : SpawnEntityPrefab @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+18:18:31.429      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.429       ENTITY       : Init entity @"ENTITY:234" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+18:18:31.429        INVENTORY (E): Couldn't insert item @"ENTITY:307" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:255" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.429        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:307" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.429        INVENTORY (E): Couldn't insert item @"ENTITY:308" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:255" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.429        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:308" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.453     ENTITY       : SpawnEntityPrefab @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+18:18:31.453      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.453       ENTITY       : Init entity @"ENTITY:357" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+18:18:31.453        INVENTORY (E): Couldn't insert item @"ENTITY:405" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:376" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.453        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:405" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.453        INVENTORY (E): Couldn't insert item @"ENTITY:406" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:376" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.453        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:406" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.453        INVENTORY (E): Couldn't insert item @"ENTITY:407" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:376" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.144399 1.162781 0.105744> @"{E3154E0EAC48D67B}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.et" while spawning initial items inside the storage.
+18:18:31.453        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:407" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.461     ENTITY       : SpawnEntityPrefab @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+18:18:31.461      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.461       ENTITY       : Init entity @"ENTITY:411" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+18:18:31.461        INVENTORY (E): Couldn't insert item @"ENTITY:461" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.461        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:461" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.461        INVENTORY (E): Couldn't insert item @"ENTITY:462" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.461        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:462" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <0.000000 0.000000 0.000000> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.461        INVENTORY (E): Couldn't insert item @"ENTITY:463" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.461        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:463" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.461        INVENTORY (E): Couldn't insert item @"ENTITY:464" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.461        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:464" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.462        INVENTORY (E): Couldn't insert item @"ENTITY:465" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" into storage @"ENTITY:432" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG.xob') at <-0.105000 1.129568 0.050876> @"{0B0D67BC8F43A052}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/Pouch_ALICE_30rnd_STANAG_base.et" while spawning initial items inside the storage.
+18:18:31.462        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:465" ('GenericEntity','Assets/Weapons/Grenades/M67/Grenade_M67.xob') at <0.000000 0.000000 0.000000> @"{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.519     ENTITY       : SpawnEntityPrefab @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+18:18:31.519      WORLD        : InitEntities 'PreloadWorld'
+18:18:31.519       ENTITY       : Init entity @"ENTITY:533" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <0.000000 0.000000 0.000000> @"{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et"
+18:18:31.519        INVENTORY (E): Couldn't insert item @"ENTITY:573" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+18:18:31.520        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:573" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.520        INVENTORY (E): Couldn't insert item @"ENTITY:574" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+18:18:31.520        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:574" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.520        INVENTORY (E): Couldn't insert item @"ENTITY:575" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+18:18:31.520        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:575" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:31.520        INVENTORY (E): Couldn't insert item @"ENTITY:576" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" into storage @"ENTITY:550" ('GenericEntity','Assets/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.xob') at <-0.128100 1.112103 0.103191> @"{B6EEF03975F21E4E}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_45rnd_RPK74/Pouch_Soviet_45rnd_RPK74.et" while spawning initial items inside the storage.
+18:18:31.520        NETWORK   (W): Replication: RplComponent on entity @"ENTITY:576" ('GenericEntity','Assets/Weapons/Magazines/RPK74/Magazine_45rnd_RPK74.xob') at <0.000000 0.000000 0.000000> @"{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" destroyed during loading of the world. This might cause issues with startup sync!
+18:18:35.081    ENTITY       : Create entity @"ENTITY:611109" ('StaticModelEntity','Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.xob') at <1931.796021 81.777000 5138.725098> @"{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et"
+18:18:35.082     DEFAULT   (W): World doesn't contain RadioManagerEntity to support any BaseRadioComponent.
+18:18:38.489    ENTITY       : Create entity @"ENTITY:1102567" ('StaticModelEntity') at <8831.291016 95.934265 2673.487061>
+18:18:38.489     MATERIAL     : Material load @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat"
+18:18:38.489      MATERIAL  (E): Material file not found
+18:18:38.489     MATERIAL  (E): Object @"Assets/Structures/Cultural/Calvaries/CalvaryLarge_01/CalvaryLarge_01.xob" - cannot load material @"system/wbdata/PreviewWindow/TransparentMat.emat", creating default one (class MatPBRBasic)
+18:18:40.423    ENTITY       : Create entity @"ENTITY:2305843009213694425" ('Ural4320_transport1', Vehicle) at <4821.931152 169.774002 6982.250977> @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+18:18:40.423     DEFAULT   (W): BaseRadioComponent does not have any transceiver. (Entity: @"ENTITY:2305843009213694425" ('Ural4320_transport1', Vehicle) at <4821.931152 169.774002 6982.250977> @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"). Only printing this message once. There're possibly more nodes with this requirement.
+18:18:42.335    ENTITY       : Create entity @"ENTITY:2305843009213694963" ('SCR_FactionManager') at <4971.789062 2.900000 3858.123047> @"REAPER_FactionManager"
+18:18:42.335     RESOURCES    : GetResourceObject @"{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+18:18:42.335      WORLD        : Entity prefab load @"{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+18:18:42.335       RESOURCES    : GetResourceObject @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+18:18:42.335        WORLD        : Entity prefab load @"{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+18:18:42.335         RESOURCES    : GetResourceObject @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+18:18:42.335          WORLD        : Entity prefab load @"{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+18:18:42.335           WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 17107(0x42d3)
+18:18:42.381     RESOURCES    : GetResourceObject @"{EC13D4E934B2ADD8}Prefabs/Items/Demining/MineFlags/MineFlag_US.et"
+18:18:42.382      WORLD        : Entity prefab load @"{EC13D4E934B2ADD8}Prefabs/Items/Demining/MineFlags/MineFlag_US.et"
+18:18:42.382       RESOURCES    : GetResourceObject @"{37535B53F57D1632}Prefabs/Items/Demining/MineFlags/MineFlag_base.et"
+18:18:42.382        WORLD        : Entity prefab load @"{37535B53F57D1632}Prefabs/Items/Demining/MineFlags/MineFlag_base.et"
+18:18:42.382         RESOURCES (E): Wrong GUID/name for resource @"{A65C460102F07AF5}Assets/Items/Medicine/PressureBandage_01/PressureBandage_01.xob" in property "Object"
+18:18:42.434     RESOURCES    : GetResourceObject @"{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+18:18:42.434      WORLD        : Entity prefab load @"{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+18:18:42.434       RESOURCES    : GetResourceObject @"{20C37D5090E4E0E6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_base.et"
+18:18:42.434        WORLD        : Entity prefab load @"{20C37D5090E4E0E6}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_base.et"
+18:18:42.434         RESOURCES    : GetResourceObject @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+18:18:42.434          WORLD        : Entity prefab load @"{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+18:18:42.434           RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+18:18:42.434            WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+18:18:42.434             RESOURCES    : GetResourceObject @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+18:18:42.434              WORLD        : Entity prefab load @"{AFF6067A5CE8A852}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8_base.et"
+18:18:42.434               WORLD     (E): Unknown keyword/data 'm_bShowEffectInWB' at offset 19174(0x4ae6)
+18:18:42.669    ENTITY       : Create entity @"ENTITY:2305843009213696642" ('SCR_DestructibleEntity') at <2228.251953 18.163221 7541.690918>
+18:18:42.669     ENTITY    (E): Destructible SCR_DestructibleEntityClass doesn't have a initial and final phase!
+18:18:42.669     DEFAULT   (E): SCR_DestructionMultiPhaseComponent can't be attached to a destructible entity @"ENTITY:2305843009213696642" ('SCR_DestructibleEntity','Assets/Props/Military/Fortification/BarbedWire/BarbedTape_Coil.xob') at <2228.251953 18.163221 7541.690918> @"{CF2D97841C514559}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_USSR_01.et"
+18:18:43.164    WORLD        : InitEntities 'world'
+18:18:43.164     ENTITY       : Init entity @"ENTITY:3" ('SCR_MapEntity1', SCR_MapEntity) at <6400.000000 0.000000 6400.000000> @"{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et"
+18:18:43.164      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+18:18:43.991     ENTITY       : Init entity @"ENTITY:2305843009213698918" ('SCR_BaseTaskManager') at <4974.275879 3.146000 3857.872070> @"{5A0559B1D379BA96}Prefabs/World/REAPER_SF_TaskManager_V1.2.et"
+18:18:43.991      SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+18:18:49.219 WORLD        : UpdateEntities
+18:18:49.219  WORLD        : FixedFrame
+18:18:49.219   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x000078B75E66F438> @"ENTITY:4611686018427388798" ('SCR_AIWaypoint') at <2950.869141 72.199997 6675.652832> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_DL4_GRP1_Patrol1, exiting...
+18:18:49.219   SCRIPT    (E): ScenarioFramework: Object <0x0000000009164E60> SCR_AIGroup already exists and won't be spawned for SlotAI_DL4_GRP1, exiting...
+18:18:49.219   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000078B851522130> @"ENTITY:4611686018427388800" ('SCR_CharacterTriggerEntity') at <3859.234131 22.005001 7647.748047> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_Gravette, exiting...
+18:18:49.219   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000078B8502473A0> @"ENTITY:4611686018427388801" ('SCR_CharacterTriggerEntity') at <3245.585938 112.762001 4725.813965> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for inf1_forest_PlayerTrigger, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x000078B75E66F5A0> @"ENTITY:4611686018427388802" ('SCR_AIWaypoint') at <2873.867920 91.662994 4891.396973> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol1_informant3_W1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x000078B75E66F708> @"ENTITY:4611686018427388803" ('SCR_AIWaypoint') at <3053.002930 96.642998 4930.443848> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol2_informant3_W1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object <0x0000000008BB02B0> SCR_AIGroup already exists and won't be spawned for SlotAI_Patrol1_Informant3, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000078B850246FE0> @"ENTITY:4611686018427388805" ('SCR_CharacterTriggerEntity') at <7457.829102 137.593002 4729.647949> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_AI_Levie_Spawn_AI, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000078B850246C30> @"ENTITY:4611686018427388806" ('SCR_CharacterTriggerEntity') at <4812.486328 170.182007 6979.037109> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_Montignac, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object <0x00000000093C0A90> SCR_AIGroup already exists and won't be spawned for SlotAI_Montignac_GRP1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x000078B75E66F870> @"ENTITY:4611686018427388808" ('SCR_AIWaypoint') at <2876.953125 92.063004 4890.922852> @"{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" already exists and won't be spawned for wp_PatrolVehicle1_01, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object <0x0000000008C1A090> SCR_AIGroup already exists and won't be spawned for SlotAI_VehicleCrew_PV1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000078B8502468B0> @"ENTITY:4611686018427388810" ('SCR_CharacterTriggerEntity') at <3571.819092 115.212997 5387.312012> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for PinewoodForest_PlayerTrigger, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x000078B73BDBE890> @"ENTITY:4611686018427388811" ('GenericEntity','Assets/Props/REAPER_gun_case_medium_open.xob') at <3453.154053 167.541992 5916.647949> @"{517ED41EA269D809}Prefabs/Props/Ammoboxes/REAPER_ammobox_1.et" already exists and won't be spawned for Slot_AmmoBox_hill, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x000078B73BDBF440> @"ENTITY:4611686018427388822" ('GenericEntity','Assets/Props/REAPER_gun_case_medium_open.xob') at <7975.522949 173.502991 4485.464844> @"{517ED41EA269D809}Prefabs/Props/Ammoboxes/REAPER_ammobox_1.et" already exists and won't be spawned for Slot_AmmoBox_levie, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000020000030> @"ENTITY:4611686018427388833" ('GenericEntity','Assets/Props/REAPER_gun_case_medium_open.xob') at <4846.289062 116.378998 8055.709961> @"{517ED41EA269D809}Prefabs/Props/Ammoboxes/REAPER_ammobox_1.et" already exists and won't be spawned for Slot_AmmoBox_gorey, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000020000BE0> @"ENTITY:4611686018427388844" ('GenericEntity') at <4474.057129 58.804996 6210.633789> @"{7C8453E612E28222}Prefabs/Task/REAPER_CustomMapMarker.et" already exists and won't be spawned for Campside_TriggerMarker, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000078B850246450> @"ENTITY:4611686018427388845" ('SCR_CharacterTriggerEntity') at <5729.713867 218.979996 7072.222168> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for CarCrash_PlayerTrigger, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000020000CF0> @"ENTITY:4611686018427388846" ('GenericEntity') at <2226.717041 8.266000 6546.191895> @"{7C8453E612E28222}Prefabs/Task/REAPER_CustomMapMarker.et" already exists and won't be spawned for CS_Redon_Marker1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000078B739E0D070> @"ENTITY:4611686018427388847" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2258.531006 8.513000 6526.199707> @"{6F5A71376479B353}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_1.et" already exists and won't be spawned for SlotAI_CS_CIV1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000078B85C02A780> @"ENTITY:4611686018427388862" ('SCR_CharacterTriggerEntity') at <3452.481934 34.085999 7031.330078> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for TillersFind_PlayerTrigger, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x0000000008BB12F0> @"ENTITY:4611686018427388863" ('SCR_CharacterTriggerEntity') at <5336.585938 80.539001 6311.929199> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_PineLake, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x0000000008BB23A0> @"ENTITY:4611686018427388864" ('SCR_CharacterTriggerEntity') at <2658.799072 92.765999 5358.999023> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for LeMoule_PlayerTrigger, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x0000000008BB2BA0> @"ENTITY:4611686018427388865" ('SCR_CharacterTriggerEntity') at <4140.639160 100.851997 5358.765137> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_Treeside, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x000078B75E66FB40> @"ENTITY:4611686018427388866" ('SCR_AIWaypoint') at <3912.679932 118.534996 4879.338867> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_NBuilding1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000078B739E0D3B0> @"ENTITY:4611686018427388867" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <3894.434082 118.675995 4880.727051> @"{12186F0C7D153ECF}Prefabs/AI/SpyCharacters/AI_SpyCharacter_09.et" already exists and won't be spawned for SlotAI_Roadblock1_NBulding_SPY1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x000078B75E66FE10> @"ENTITY:4611686018427388879" ('SCR_AIWaypoint') at <3774.053955 115.531998 4964.241211> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for WP1_Patrol_RoadBlock1, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x00000000092D2440> @"ENTITY:4611686018427388880" ('SCR_CharacterTriggerEntity') at <6513.574219 17.076000 4552.054199> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for RoadStones_PlayerTrigger, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000078B73A7E54C0> @"ENTITY:4611686018427388881" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <7395.937500 136.011002 4732.560059> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_12, exiting...
+18:18:49.220   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000078B73A7E5638> @"ENTITY:4611686018427388947" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <4961.209961 2.248000 3854.800049> @"{599DFCA424399DBF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_red.et" already exists and won't be spawned for WarehouseCar1, exiting...
+18:18:51.023 WORLD        : UpdateEntities
+18:18:51.023  WORLD        : FixedFrame
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x00000000204F5C50> @"ENTITY:4611686018427388995" ('SCR_AIWaypoint') at <2969.520996 77.763000 6597.535156> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_DL4_GRP1_Patrol2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000078B73A7E57B0> @"ENTITY:4611686018427388996" ('Vehicle','Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob') at <2926.166016 75.901001 6643.996094> @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" already exists and won't be spawned for SlotVeh_DL4_URAL1, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x00000000204F7B40> @"ENTITY:4611686018427389064" ('SCR_AIWaypoint') at <2651.614014 74.937996 4851.270020> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol1_informant3_W2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x00000000204F7CA8> @"ENTITY:4611686018427389065" ('SCR_AIWaypoint') at <3053.936035 98.776993 4772.544922> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol2_informant3_W2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object <0x0000000020F5BC10> SCR_AIGroup already exists and won't be spawned for SlotAI_Patrol2_Informant3, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object <0x0000000020F6F420> SCR_AIGroup already exists and won't be spawned for SlotAI_Montignac_GRP2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x00000000204F7E10> @"ENTITY:4611686018427389068" ('SCR_AIWaypoint') at <3904.750977 104.781998 6253.502930> @"{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" already exists and won't be spawned for wp_PatrolVehicle1_02, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object <0x0000000020F84420> SCR_AIGroup already exists and won't be spawned for SlotAI_VehicleCrew_PV2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000020536CD0> @"ENTITY:4611686018427389070" ('GenericEntity') at <3456.699951 168.171997 5915.602051> @"{7C8453E612E28222}Prefabs/Task/REAPER_CustomMapMarker.et" already exists and won't be spawned for AmmoBoxMarker_hill, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000020536DE0> @"ENTITY:4611686018427389071" ('GenericEntity') at <7975.797852 173.959991 4488.854980> @"{7C8453E612E28222}Prefabs/Task/REAPER_CustomMapMarker.et" already exists and won't be spawned for AmmoBoxMarker_levie, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000020536EF0> @"ENTITY:4611686018427389072" ('GenericEntity') at <4846.277832 117.826996 8056.734863> @"{7C8453E612E28222}Prefabs/Task/REAPER_CustomMapMarker.et" already exists and won't be spawned for AmmoBoxMarker_Gorey, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x00000000202BE480> @"ENTITY:4611686018427389073" ('SCR_CharacterTriggerEntity') at <4470.206055 58.655998 6214.568848> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for Campside_PlayerTrigger, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x0000000020F996A0> @"ENTITY:4611686018427389074" ('SCR_CharacterTriggerEntity') at <2226.717041 8.266000 6546.191895> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for CS_Redon_PlayerTrigger, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000078B739E0DBD0> @"ENTITY:4611686018427389075" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2247.864014 8.158999 6518.558105> @"{C97B985FCFC3E4D6}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_2.et" already exists and won't be spawned for SlotAI_CS_CIV2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000020E30198> @"ENTITY:4611686018427389090" ('SCR_AIWaypoint') at <3897.369141 118.917000 4873.875977> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_NBuilding2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000078B739E0DF10> @"ENTITY:4611686018427389091" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <3915.246094 116.624001 4872.921875> @"{DC8C785D5281BDD3}Prefabs/AI/SpyCharacters/AI_SpyCharacter_02.et" already exists and won't be spawned for SlotAI_Roadblock1_NBulding_SPY2, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000020E30468> @"ENTITY:4611686018427389102" ('SCR_AIWaypoint') at <3781.054932 118.141998 4869.841309> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for WP2_Patrol_RoadBlock1, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object <0x00000000210C62D0> SCR_AIGroup already exists and won't be spawned for SlotAI_Group1_RoadBlock1, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000078B73A7E6370> @"ENTITY:4611686018427389104" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <7604.148438 79.937996 5516.729980> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_01, exiting...
+18:18:51.023   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000078B73A7E64E8> @"ENTITY:4611686018427389170" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <4977.327148 2.244000 3843.790039> @"{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" already exists and won't be spawned for WarehouseCar2, exiting...
+18:18:51.416 WORLD        : UpdateEntities
+18:18:51.416  WORLD        : FixedFrame
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000020E321F0> @"ENTITY:4611686018427389475" ('SCR_AIWaypoint') at <2918.864990 77.780998 6566.250000> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_DL4_GRP1_Patrol3, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00000000221CA660> @"ENTITY:4611686018427389476" ('Vehicle','Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob') at <2920.916016 76.179001 6640.423828> @"{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" already exists and won't be spawned for SlotVeh_DL4_URAL2, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000022240198> @"ENTITY:4611686018427389544" ('SCR_AIWaypoint') at <2694.114990 75.237999 4652.574707> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol1_informant3_W3, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_TimedWaypoint<0x00000000221F5450> @"ENTITY:4611686018427389545" ('SCR_TimedWaypoint') at <2871.197021 92.367996 4845.799805> @"{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" already exists and won't be spawned for SlotWP_Patrol2_informant3_W3, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x0000000022C7D720> @"ENTITY:4611686018427389546" ('SCR_CharacterTriggerEntity') at <2877.335938 97.884995 4849.841797> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_Informant3_Attack, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000078B739E0E730> @"ENTITY:4611686018427389547" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4807.781250 169.826004 6982.312988> @"{D463076156752A55}Prefabs/AI/EnemyCharacters/AI_soldier_AK74_3.et" already exists and won't be spawned for SlotAI_Montignac_gunner1, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000022240468> @"ENTITY:4611686018427389578" ('SCR_AIWaypoint') at <3499.010254 135.895004 4462.259766> @"{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" already exists and won't be spawned for wp_PatrolVehicle1_03, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00000000221CAF30> @"ENTITY:4611686018427389579" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <3190.883057 116.473999 5176.806641> @"{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" already exists and won't be spawned for SlotVeh_PatrolVehicle1, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00000000221CB0A8> @"ENTITY:4611686018427389635" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <3462.473877 167.677002 5921.980957> @"{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et" already exists and won't be spawned for SlotVeh_ammobox_hill, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00000000221CB220> @"ENTITY:4611686018427389700" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <7976.371094 173.449997 4491.113770> @"{B6D330E7E40FE7DD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_forest.et" already exists and won't be spawned for SlotVeh_levie, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000000002399EAC0> @"ENTITY:4611686018427389766" ('SCR_CharacterTriggerEntity') at <4859.017090 115.408997 8050.696777> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_Gorey, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000078B739E0EF50> @"ENTITY:4611686018427389767" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2250.854980 8.497000 6531.354980> @"{11D3F19EB64AFA8A}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_4.et" already exists and won't be spawned for SlotAI_CS_CIV3, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000022242E98> @"ENTITY:4611686018427389782" ('SCR_AIWaypoint') at <3902.936035 122.195999 4882.684082> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_NBuilding3, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000022243000> @"ENTITY:4611686018427389783" ('SCR_AIWaypoint') at <3674.260010 108.909996 4866.362305> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for WP3_Patrol_RoadBlock1, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object <0x0000000023BE6E30> SCR_AIGroup already exists and won't be spawned for SlotAI_Group2_RoadBlock1, exiting...
+18:18:51.416   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00000000221CB978> @"ENTITY:4611686018427389785" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <7064.827148 119.613998 6051.373047> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_02, exiting...
+18:18:51.417   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00000000221CBAF0> @"ENTITY:4611686018427389851" ('Vehicle','Assets/Vehicles/REAPER_RHIB/REAPER_RIB.xob') at <4924.721191 -0.319000 3850.167969> @"{2006ADD2700C6D45}Prefabs/Vehicles/RHIB/REAPER_RHIB_BK.et" already exists and won't be spawned for SlotVEH_RHIB1, exiting...
+18:18:52.509 WORLD        : UpdateEntities
+18:18:52.510  WORLD        : FixedFrame
+18:18:52.510   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00000000221E8360> @"ENTITY:4611686018427389473" ('GenericEntity','Assets/empty.xob') at <2883.066895 93.648003 4857.460938> @"{C3552E3077B439EB}Prefabs/empty_slot.et" already exists and won't be spawned for SlotTalkToInformant3, exiting...
+18:18:52.510   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x00000000215A4650> @"ENTITY:4611686018427389474" ('SCR_DefendWaypoint') at <2850.180908 91.376007 4862.478027> @"{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" already exists and won't be spawned for SlotWaypoint9, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000023B0A088> @"ENTITY:4611686018427392339" ('SCR_AIWaypoint') at <2874.120117 75.809998 6626.112793> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_DL4_GRP1_Patrol4, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x00000000251E6250> @"ENTITY:4611686018427392340" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2935.448975 76.602997 6682.097168> @"{F01A00E272A5D609}Prefabs/AI/EnemyCharacters/AI_soldier_M14_EBR_SNIPER.et" already exists and won't be spawned for SlotAI_DL4_DeerTower, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000023B0A358> @"ENTITY:4611686018427392373" ('SCR_AIWaypoint') at <2763.694092 72.255997 4618.199707> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol1_informant3_W4, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x00000000251E6590> @"ENTITY:4611686018427392374" ('AIWaypointCycle') at <2940.662109 77.561996 4648.803711> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for SlotWP_Patrol1_Informant3, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x00000000251E6730> @"ENTITY:4611686018427392375" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4809.249023 169.895004 6974.114258> @"{D463076156752A55}Prefabs/AI/EnemyCharacters/AI_soldier_AK74_3.et" already exists and won't be spawned for SlotAI_Montignac_gunner2, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000023B0A628> @"ENTITY:4611686018427392406" ('SCR_AIWaypoint') at <2606.952148 94.158997 5408.833008> @"{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" already exists and won't be spawned for wp_PatrolVehicle1_04, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x0000000027703220> @"ENTITY:4611686018427392407" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <4002.139160 103.584999 5966.510742> @"{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et" already exists and won't be spawned for SlotVeh_PatrolVehicle2, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x00000000251E6C10> @"ENTITY:4611686018427392463" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2265.771973 9.011000 6522.876953> @"{F44FBD67BAAF6DE1}Prefabs/Characters/Factions/CIV/ConstructionWorker/Character_CIV_ConstructionWorker_5.et" already exists and won't be spawned for SlotAI_CS_CIV4, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000023B0B438> @"ENTITY:4611686018427392478" ('SCR_AIWaypoint') at <3903.319092 118.676994 4884.560059> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_NBuilding4, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000023B0B5A0> @"ENTITY:4611686018427392479" ('SCR_AIWaypoint') at <3614.734863 105.613998 4851.193359> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for WP4_Patrol_RoadBlock1, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object <0x0000000028779D40> SCR_AIGroup already exists and won't be spawned for SlotAI_GRP_Wood, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x0000000027703978> @"ENTITY:4611686018427392481" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <5262.455078 65.784996 5272.750977> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_03, exiting...
+18:18:52.581   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x0000000027703AF0> @"ENTITY:4611686018427392547" ('Vehicle','Assets/Vehicles/REAPER_RHIB/REAPER_RIB.xob') at <4913.379883 -0.300000 3857.501953> @"{2006ADD2700C6D45}Prefabs/Vehicles/RHIB/REAPER_RHIB_BK.et" already exists and won't be spawned for SlotVEH_RHIB2, exiting...
+18:18:52.682 ENTITY       : SpawnEntityPrefab @"{C1BC430CBC7AFDB3}Prefabs/Weapons/Explosives/TNT_Time_bomb/Time_bomb_TNT.et"
+18:18:52.682  ENTITY       : Create entity @"ENTITY:4611686018427392856" ('GenericEntity','Assets/Weapons/Explosive/Time_bomb.xob') at <0.000000 -3.367500 0.000000> @"{C1BC430CBC7AFDB3}Prefabs/Weapons/Explosives/TNT_Time_bomb/Time_bomb_TNT.et"
+18:18:52.682   RESOURCES    : GetResourceObject @"{E6D3AC3088E43C3E}Assets/Weapons/Explosives/workspace/TSh400g.asi"
+18:18:52.682    ANIMATION    : AnimSetInstanceImpl load @"{E6D3AC3088E43C3E}Assets/Weapons/Explosives/workspace/TSh400g.asi"
+18:18:52.682     RESOURCES (E): Wrong GUID/name for resource @"{C4244C677F019957}Assets/Weapons/Explosives/DemoBlock_TSh400g/anims/p_M112_IK.anm" in property "IkPose"
+18:18:52.685     RESOURCES    : GetResourceObject @"{C4244C677F019957}Assets/Weapons/Explosives/DemoBlock_TSh400g/anims/p_M112_IK.anm"
+18:18:52.685      RESOURCES (E): Failed to open
+18:18:52.807 WORLD        : UpdateEntities
+18:18:52.807  WORLD        : FixedFrame
+18:18:52.807   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000023B096B0> @"ENTITY:4611686018427390884" ('SCR_AIWaypoint') at <2941.967041 91.833008 4885.997070> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWaypoint10, exiting...
+18:18:52.807   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x00000000251E4ED0> @"ENTITY:4611686018427390885" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2882.544922 91.276627 4862.559082> @"{E7355B7D3A76CFF3}Prefabs/Task/SlotItems/REAPER_SlotItem_informant.et" already exists and won't be spawned for SlotAI_Informant3, exiting...
+18:18:52.847 WORLD        : UpdateEntities
+18:18:52.847  WORLD        : FixedFrame
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000028655278> @"ENTITY:4611686018427393255" ('SCR_AIWaypoint') at <2918.203125 73.807999 4636.131836> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol1_informant3_W5, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x00000000251E7430> @"ENTITY:4611686018427393256" ('AIWaypointCycle') at <2813.013916 93.653000 4877.189941> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for SlotWP_Patrol2_Informant3, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x00000000251E75D0> @"ENTITY:4611686018427393257" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4812.035156 169.870010 6972.249023> @"{5DAB7F78E6543210}Prefabs/AI/EnemyCharacters/AI_soldier_AK74_1.et" already exists and won't be spawned for SlotAI_Montignac_gunner3, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000028655548> @"ENTITY:4611686018427393287" ('SCR_AIWaypoint') at <4456.457031 59.017002 6210.452148> @"{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" already exists and won't be spawned for wp_PatrolVehicle1_05, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x00000000251E7910> @"ENTITY:4611686018427393288" ('AIWaypointCycle') at <3200.730225 116.858002 5181.152832> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for wp_PatrolVehicle1_Cycle, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x00000000286556B0> @"ENTITY:4611686018427393289" ('SCR_AIWaypoint') at <3891.821045 117.802994 4885.649902> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_NBuilding5, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object <0x000000002A5782F0> SCR_AIGroup already exists and won't be spawned for SlotAI_GRP_Figari1, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x0000000029516080> @"ENTITY:4611686018427393292" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <4911.727051 53.353001 5896.771973> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_04, exiting...
+18:18:52.847   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00000000295161F8> @"ENTITY:4611686018427393358" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <5001.080078 2.207000 3865.899902> @"{599DFCA424399DBF}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_red.et" already exists and won't be spawned for WarehouseCar3, exiting...
+18:18:52.916 WORLD        : UpdateEntities
+18:18:52.916  WORLD        : FixedFrame
+18:18:52.916   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x0000000028675D48> @"ENTITY:4611686018427393242" ('SCR_DefendWaypoint') at <2872.632080 90.482002 4833.984863> @"{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" already exists and won't be spawned for SlotWaypoint11, exiting...
+18:18:52.916   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x00000000251E70F0> @"ENTITY:4611686018427393243" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2857.266846 90.761497 4870.629883> @"{8DEC69859B29BBCA}Prefabs/AI/SpyCharacters/AI_SpyCharacter_06.et" already exists and won't be spawned for SlotAI_I3_SPY1, exiting...
+18:18:53.065 WORLD        : UpdateEntities
+18:18:53.065  WORLD        : FixedFrame
+18:18:53.065   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A754B90> @"ENTITY:4611686018427393991" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2926.311035 78.040001 6550.812988> @"{68E2BF8E49E3A3F0}Prefabs/AI/EnemyCharacters/AI_Leader3.et" already exists and won't be spawned for SlotAI_DL4_RoadBlock2, exiting...
+18:18:53.065   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x0000000028657B40> @"ENTITY:4611686018427394033" ('SCR_AIWaypoint') at <2934.635010 79.046997 4663.788574> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWP_Patrol1_informant3_W6, exiting...
+18:18:53.066   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A754ED0> @"ENTITY:4611686018427394034" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4841.888184 170.353012 6995.756348> @"{865C0643B2D7C3FF}Prefabs/AI/EnemyCharacters/AI_soldier_PKM.et" already exists and won't be spawned for SlotAI_Montignac_gunner4, exiting...
+18:18:53.066   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x000000002A755210> @"ENTITY:4611686018427394066" ('AIWaypointCycle') at <2731.260254 98.311005 5315.243652> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for wp_PatrolVehicle2_Cycle, exiting...
+18:18:53.066   SCRIPT    (E): ScenarioFramework: Object <0x000000002AE8F770> SCR_AIGroup already exists and won't be spawned for SlotAI_GRP_Figari2, exiting...
+18:18:53.066   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002AC0A7D8> @"ENTITY:4611686018427394068" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <3283.229980 114.491997 5156.310059> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_05, exiting...
+18:18:53.066   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002AC0A950> @"ENTITY:4611686018427394134" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <4953.397949 2.185000 3908.091064> @"{D7C51A961BF675B2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_brown.et" already exists and won't be spawned for WarehouseCar4, exiting...
+18:18:53.120 WORLD        : UpdateEntities
+18:18:53.120  WORLD        : FixedFrame
+18:18:53.120   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x000000002A4C38D8> @"ENTITY:4611686018427393655" ('SCR_DefendWaypoint') at <2870.115967 91.026009 4859.328125> @"{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" already exists and won't be spawned for SlotWaypoint12, exiting...
+18:18:53.445 WORLD        : UpdateEntities
+18:18:53.445  WORLD        : FixedFrame
+18:18:53.445   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A755890> @"ENTITY:4611686018427395091" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <2952.599121 78.758003 6555.544922> @"{68E2BF8E49E3A3EF}Prefabs/AI/EnemyCharacters/AI_Leader5_NVG.et" already exists and won't be spawned for SlotAI_DL4_RoadBlock3, exiting...
+18:18:53.445   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A755BD0> @"ENTITY:4611686018427395130" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4824.375000 173.832001 7022.015137> @"{F01A00E272A5D609}Prefabs/AI/EnemyCharacters/AI_soldier_M14_EBR_SNIPER.et" already exists and won't be spawned for SlotAI_Montignac_sniper1, exiting...
+18:18:53.445   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A755F10> @"ENTITY:4611686018427395164" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <3826.772949 123.460999 4942.454102> @"{865C0643B2D7C3FF}Prefabs/AI/EnemyCharacters/AI_soldier_PKM.et" already exists and won't be spawned for WP_RoadBlock1_tower2, exiting...
+18:18:53.445   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D4754C0> @"ENTITY:4611686018427395195" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <2621.271240 90.453995 5345.733887> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_06, exiting...
+18:18:53.445   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000000002D89C100> @"ENTITY:4611686018427395261" ('SCR_CharacterTriggerEntity') at <4975.291016 2.964000 3872.853027> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_Warehouse_Sound, exiting...
+18:18:53.505 WORLD        : UpdateEntities
+18:18:53.505  WORLD        : FixedFrame
+18:18:53.505   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x000000002AF635C8> @"ENTITY:4611686018427394221" ('SCR_DefendWaypoint') at <2867.395020 91.803001 4870.986816> @"{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" already exists and won't be spawned for SlotWaypoint14, exiting...
+18:18:53.505   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002AFC4BF0> @"ENTITY:4611686018427394222" ('Vehicle','Assets/Vehicles/Wheeled/S105/S105_base.xob') at <2882.399902 90.089203 4834.650879> @"{8EB38BBD860DA06E}Prefabs/Vehicles/Wheeled/S105/S105_lightblue.et" already exists and won't be spawned for Slot_CAR_Informant3, exiting...
+18:18:53.540 WORLD        : UpdateEntities
+18:18:53.540  WORLD        : FixedFrame
+18:18:53.540   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A7563F0> @"ENTITY:4611686018427395548" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4803.537109 173.989014 6960.405273> @"{F01A00E272A5D609}Prefabs/AI/EnemyCharacters/AI_soldier_M14_EBR_SNIPER.et" already exists and won't be spawned for SlotAI_Montignac_sniper2, exiting...
+18:18:53.541   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x000000002A756730> @"ENTITY:4611686018427395581" ('AIWaypointCycle') at <3910.269043 118.768997 4892.627930> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for SlotWP_NBuilding_cycle, exiting...
+18:18:53.541   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D8791D0> @"ENTITY:4611686018427395582" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <3925.366211 104.647995 6238.422852> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_07, exiting...
+18:18:53.541   SCRIPT    (E): ScenarioFramework: Object SCR_CharacterTriggerEntity<0x000000002DF8F860> @"ENTITY:4611686018427395648" ('SCR_CharacterTriggerEntity') at <4930.647949 14.927999 3974.606934> @"{47D49EA6A216CFD5}Prefabs/ScenarioFramework/Triggers/TriggerCharacterSlow.et" already exists and won't be spawned for SlotTrigger_Warehouse, exiting...
+18:18:53.656 WORLD        : UpdateEntities
+18:18:53.656  WORLD        : FixedFrame
+18:18:53.656   SCRIPT    (E): Can't spawn object AI_Informant3_MainLayer - the slot has 0 activation type set instead of 1
+18:18:53.656   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x000000002D7BA4F0> @"ENTITY:4611686018427395546" ('SCR_DefendWaypoint') at <2906.336914 91.270004 4839.495117> @"{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" already exists and won't be spawned for SlotWaypoint17, exiting...
+18:18:53.656   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x000000002D87FDD0> @"ENTITY:4611686018427395547" ('GenericEntity') at <2884.583984 95.320999 4858.520020> @"{7C8453E612E28222}Prefabs/Task/REAPER_CustomMapMarker.et" already exists and won't be spawned for MapMarker_Informant3, exiting...
+18:18:53.746 WORLD        : UpdateEntities
+18:18:53.746  WORLD        : FixedFrame
+18:18:53.746   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x000000002A756F50> @"ENTITY:4611686018427395689" ('AIWaypointCycle') at <2911.162109 75.848999 6650.744141> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for SlotWP_DL4_GRP1_Cycle, exiting...
+18:18:53.746   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x000000002DDB5D48> @"ENTITY:4611686018427395690" ('SCR_DefendWaypoint') at <4813.784180 169.712006 6979.653320> @"{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" already exists and won't be spawned for SlotWP_Montignac_defendRoad, exiting...
+18:18:53.746   SCRIPT    (E): ScenarioFramework: Object SCR_AIAnimationWaypoint<0x000000002AF7B560> @"ENTITY:4611686018427395691" ('SCR_AIAnimationWaypoint') at <3913.365967 118.487999 4877.309082> @"{4481F98AAFA79B1C}Prefabs/AI/Waypoints/AIWaypoint_Animation.et" already exists and won't be spawned for SlotWP_NBuilding_sitting1, exiting...
+18:18:53.746   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D879C18> @"ENTITY:4611686018427395692" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <2810.223145 82.676994 6427.943359> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_10, exiting...
+18:18:53.746   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A757290> @"ENTITY:4611686018427395758" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4999.621094 2.691000 3904.872070> @"{64B74A7E7390DC7E}Prefabs/AI/CivilianCharacters/REAPER_CIV_09.et" already exists and won't be spawned for SlotAI_Warehouse_sit1, exiting...
+18:18:53.854 WORLD        : UpdateEntities
+18:18:53.854  WORLD        : FixedFrame
+18:18:53.854   SCRIPT    (E): ScenarioFramework: Object SCR_AIWaypoint<0x000000002DDA0B70> @"ENTITY:4611686018427395686" ('SCR_AIWaypoint') at <2869.694092 94.568008 4860.257812> @"{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" already exists and won't be spawned for SlotWaypoint18, exiting...
+18:18:53.854   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x000000002A756DB0> @"ENTITY:4611686018427395687" ('AIWaypointCycle') at <2887.425781 91.385002 4851.135742> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for SlotAI_Informant3_WP_Cycle, exiting...
+18:18:53.974 WORLD        : UpdateEntities
+18:18:53.974  WORLD        : FixedFrame
+18:18:53.974   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x000000002E07D108> @"ENTITY:4611686018427395770" ('SCR_DefendWaypoint') at <4820.177246 169.857010 7009.116211> @"{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" already exists and won't be spawned for SlotWP_Montignac_loiter, exiting...
+18:18:53.974   SCRIPT    (E): ScenarioFramework: Object SCR_AIAnimationWaypoint<0x000000002E03C760> @"ENTITY:4611686018427395771" ('SCR_AIAnimationWaypoint') at <3920.614014 113.667999 4888.278809> @"{4481F98AAFA79B1C}Prefabs/AI/Waypoints/AIWaypoint_Animation.et" already exists and won't be spawned for SlotWP_NBuilding_wallLoiter, exiting...
+18:18:53.974   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D87A1F8> @"ENTITY:4611686018427395772" ('Vehicle','Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob') at <5263.034180 65.195000 5290.057129> @"{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" already exists and won't be spawned for Slot_URAL_Figari, exiting...
+18:18:53.974   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D87A370> @"ENTITY:4611686018427395841" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <4729.957031 162.612991 7010.098145> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_08, exiting...
+18:18:53.974   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002A757910> @"ENTITY:4611686018427395907" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <4992.064941 2.969000 3908.144043> @"{971778172968D655}Prefabs/AI/CivilianCharacters/REAPER_CIV_05.et" already exists and won't be spawned for SlotAI_Warehouse_sit2, exiting...
+18:18:54.142 WORLD        : UpdateEntities
+18:18:54.142  WORLD        : FixedFrame
+18:18:54.142   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D87A950> @"ENTITY:4611686018427395919" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <3800.781982 115.720001 4961.735352> @"{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" already exists and won't be spawned for SlotVehicle_Roadblock, exiting...
+18:18:54.142   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D87AAC8> @"ENTITY:4611686018427395985" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <4852.301270 170.360001 7024.715820> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_09, exiting...
+18:18:54.142   SCRIPT    (E): ScenarioFramework: Object SCR_AIAnimationWaypoint<0x000000002E3058A0> @"ENTITY:4611686018427396051" ('SCR_AIAnimationWaypoint') at <5001.439941 2.687000 3898.364990> @"{4481F98AAFA79B1C}Prefabs/AI/Waypoints/AIWaypoint_Animation.et" already exists and won't be spawned for SlotWP_Warehouse_sit1, exiting...
+18:18:54.336 WORLD        : UpdateEntities
+18:18:54.336  WORLD        : FixedFrame
+18:18:54.336   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002E504030> @"ENTITY:4611686018427396052" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <3806.330811 115.267998 4985.712402> @"{D463076156752A55}Prefabs/AI/EnemyCharacters/AI_soldier_AK74_3.et" already exists and won't be spawned for SLotAI_RoadBlock1_SIngle1, exiting...
+18:18:54.336   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x000000002D87B398> @"ENTITY:4611686018427396083" ('Vehicle','Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob') at <5515.562012 95.589996 6091.187988> @"{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et" already exists and won't be spawned for SlotVeh_placedVehicle_11, exiting...
+18:18:54.336   SCRIPT    (E): ScenarioFramework: Object SCR_AIAnimationWaypoint<0x000000002E3069E0> @"ENTITY:4611686018427396149" ('SCR_AIAnimationWaypoint') at <4999.716309 2.739000 3896.774902> @"{4481F98AAFA79B1C}Prefabs/AI/Waypoints/AIWaypoint_Animation.et" already exists and won't be spawned for SlotWP_Warehouse_sit2, exiting...
+18:18:54.537 WORLD        : UpdateEntities
+18:18:54.537  WORLD        : FixedFrame
+18:18:54.537   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002E504510> @"ENTITY:4611686018427396150" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <3771.209961 116.181000 4994.681152> @"{865C0643B2D7C3FF}Prefabs/AI/EnemyCharacters/AI_soldier_PKM.et" already exists and won't be spawned for SLotAI_RoadBlock1_SIngle2, exiting...
+18:18:54.729 WORLD        : UpdateEntities
+18:18:54.729  WORLD        : FixedFrame
+18:18:54.729   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002E504850> @"ENTITY:4611686018427396182" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <5283.018066 65.270996 5303.779297> @"{865C0643B2D7C3FF}Prefabs/AI/EnemyCharacters/AI_soldier_PKM.et" already exists and won't be spawned for SlotAI_Figari_Single1, exiting...
+18:18:54.930 WORLD        : UpdateEntities
+18:18:54.930  WORLD        : FixedFrame
+18:18:54.930   SCRIPT    (E): ScenarioFramework: Object SCR_ChimeraCharacter<0x000000002E504B90> @"ENTITY:4611686018427396214" ('SCR_ChimeraCharacter','Assets/Character/Men/REAPER_BaseBody_Upgrade.xob') at <5256.510742 65.153999 5296.061035> @"{E12AC797F9C2BBAA}Prefabs/AI/EnemyCharacters/AI_Leader1.et" already exists and won't be spawned for SlotAI_Figari_Single2, exiting...
+18:18:55.320 WORLD        : UpdateEntities
+18:18:55.320  WORLD        : FixedFrame
+18:18:55.320   SCRIPT    (E): ScenarioFramework: Object AIWaypointCycle<0x000000002E504ED0> @"ENTITY:4611686018427396254" ('AIWaypointCycle') at <3774.387939 115.882996 4972.754395> @"{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" already exists and won't be spawned for WP_Cycle_RoadBlock1, exiting...
+18:18:55.520 WORLD        : UpdateEntities
+18:18:55.521  WORLD        : FixedFrame
+18:18:55.521   SCRIPT    (E): ScenarioFramework: Object SCR_TimedWaypoint<0x000000002E306CC0> @"ENTITY:4611686018427396255" ('SCR_TimedWaypoint') at <3826.054932 123.661995 4944.670410> @"{A88F0B6CF25BD1DE}Prefabs/AI/Waypoints/AIWaypoint_Scout.et" already exists and won't be spawned for WP_RoadBlock1_tower, exiting...
+18:18:55.737 WORLD        : UpdateEntities
+18:18:55.737  WORLD        : FixedFrame
+18:18:55.737   SCRIPT    (E): ScenarioFramework: Object SCR_DefendWaypoint<0x000000002E5A8DF8> @"ENTITY:4611686018427396256" ('SCR_DefendWaypoint') at <5278.911133 64.537994 5322.131348> @"{4ECD14650D82F5CA}Prefabs/AI/Waypoints/AIWaypoint_Loiter_CO.et" already exists and won't be spawned for SlotWP_Figari_loiter, exiting...
+18:21:32.267 WORLD        : UpdateEntities
+18:21:32.267  RPL          : rpl::Pip::ProcessNetToGame
+18:21:32.267   RESOURCES    : GetResourceObject @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+18:21:32.267    WORLD        : Entity prefab load @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+18:21:32.267     RESOURCES    : GetResourceObject @"{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerControllerMP.et"
+18:21:32.267      WORLD        : Entity prefab load @"{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerControllerMP.et"
+18:21:32.267       RESOURCES    : GetResourceObject @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+18:21:32.267        WORLD        : Entity prefab load @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+18:21:32.267         RESOURCES    : GetResourceObject @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+18:21:32.267          WORLD        : Entity prefab load @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+18:21:32.267           RESOURCES    : GetResourceObject @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+18:21:32.267            WORLD        : Entity prefab load @"{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et"
+18:21:32.267             RESOURCES    : GetResourceObject @"{80CC0413DDBDFCB9}Configs/ControlHints/AvailableActions.conf"
+18:21:32.267              DEFAULT      : Config load @"{80CC0413DDBDFCB9}Configs/ControlHints/AvailableActions.conf"
+18:21:32.267               RESOURCES    : GetResourceObject @"{3BDADF72289D17FF}Configs/ControlHints/CharacterRangeAzimuth.conf"
+18:21:32.268                DEFAULT      : Config load @"{3BDADF72289D17FF}Configs/ControlHints/CharacterRangeAzimuth.conf"
+18:21:32.268                 DEFAULT   (E): Unknown class 'SCR_CharacterIsInGadgetADSCondition' at offset 341(0x155)
+18:21:32.270   ENTITY       : SpawnEntityPrefab @"{CD2B8EF361478648}Prefabs/Characters/Core/DefaultPlayerControllerMP_ScenarioFramework.et"
+18:21:32.270    RESOURCES    : GetResourceObject @"{F7753F60AE657638}Prefabs/Characters/Factions/Debug/DebugCharacter.et"
+18:21:32.270     WORLD        : Entity prefab load @"{F7753F60AE657638}Prefabs/Characters/Factions/Debug/DebugCharacter.et"
+18:21:32.270      RESOURCES (E): Wrong GUID/name for resource @"{8F14AFE8C7D19665}Prefabs/Props/TestSite/EXPLISIONCITTIES.et" in property "Prefab"
+18:21:32.462 WORLD        : UpdateEntities
+18:21:32.462  RPL          : rpl::Pip::ProcessNetToGame
+18:21:32.462   SCRIPT    (W): Ban Settings could not be loaded from BE Storage: Relying on default config
+18:24:51.420 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:27:51.429 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:30:38.525 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+18:30:51.439 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:33:51.448 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:34:34.297 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+18:36:36.625 WORLD        : UpdateEntities
+18:36:36.625  WORLD        : Frame
+18:36:36.625   SCRIPT    (W): Agent added twice to list of animated agents!
+18:36:42.392 WORLD        : UpdateEntities
+18:36:42.392  WORLD        : Frame
+18:36:42.392   SCRIPT    (W): Agent added twice to list of animated agents!
+18:36:51.458 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:39:51.467 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:42:51.477 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:43:45.427 PATHFINDING(W): Failed to create instance of custom link! Tile: [211, 166], link_idx: 4
+18:45:51.486 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:48:51.495 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:49:37.446 WORLD        : UpdateEntities
+18:49:37.446  RPL          : rpl::Pip::ProcessNetToGame
+18:49:37.446   SCRIPT    (W): REAPER_WeaponLaserComponent - REAPER_WeaponManagerComponent not found on weaponEntity!
+18:50:51.326 WORLD        : UpdateEntities
+18:50:51.326  WORLD        : Frame
+18:50:51.326   SCRIPT    (W): Agent added twice to list of animated agents!
+18:50:51.425 WORLD        : UpdateEntities
+18:50:51.425  WORLD        : Frame
+18:50:51.425   SCRIPT    (W): Agent added twice to list of animated agents!
+18:50:56.725 WORLD        : UpdateEntities
+18:50:56.725  WORLD        : Frame
+18:50:56.725   SCRIPT    (W): Agent added twice to list of animated agents!
+18:50:58.626 WORLD        : UpdateEntities
+18:50:58.626  WORLD        : Frame
+18:50:58.626   SCRIPT    (W): Agent added twice to list of animated agents!
+18:50:58.626   SCRIPT    (E): Virtual Machine Exception
+
+Reason: Missing script reference for this agent!
+
+<0x000000002D500810> SCR_ChimeraAIAgent : AI/BehaviorTrees/Chimera/Soldier/Soldier.bt
+ (RunBT : ID 0) 
+
+AI/BehaviorTrees/Chimera/Soldier/Behavior_Animate.bt
+SCR_AI Get Animation Script Parameters : ID 0
+
+Function: 'NodeError'
+Stack trace:
+Scripts/Game/AI/Utils/NodeError.c:8 Function NodeError
+Scripts/Game/AI/ScriptedNodes/Waypoints/SCR_AIGetAnimationScriptParameters.c:24 Function EOnTaskSimulate
+18:51:51.505 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:54:51.515 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:55:19.146 WORLD        : UpdateEntities
+18:55:19.146  WORLD        : FixedFrame
+18:55:19.146   ENTITY       : SpawnEntityPrefab @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.147    ENTITY       : Create entity @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.147     SPAWN     (W): EmissiveLightSurfaceSlot couldn't find ParametricMaterialInstanceComponent at attached entity. Please check configuration of Light Manager at @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.147     SPAWN     (W): EmissiveLightSurfaceSlot couldn't find ParametricMaterialInstanceComponent at attached entity. Please check configuration of Light Manager at @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.147     SPAWN     (W): EmissiveLightSurfaceSlot couldn't find ParametricMaterialInstanceComponent at attached entity. Please check configuration of Light Manager at @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.147     DEFAULT   (E): PilotCompartmentSlot used without VehicleControllerComponent or its derivate
+18:55:19.147     DEFAULT   (E): PilotCompartmentSlot used without VehicleControllerComponent or its derivate
+18:55:19.174     SCRIPT    (W): 'SCR_RefuelAtSupportStationAction': '' is missing SCR_FuelManager!
+18:55:19.174     SCRIPT    (W): 'SCR_RefuelAtSupportStationAction': '' is missing SCR_FuelManager!
+18:55:19.174     NETWORK   (W): NwkHeliMovementComponent needs HelicopterControllerComponent to function properly!
+18:55:19.175    WORLD        : InitEntities 'world'
+18:55:19.175     ENTITY       : Init entity @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.175      DEFAULT   (E): No controller manager associated with the same hierarchy level with compartment PilotCompartmentSlot on entity @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.175      DEFAULT   (E): No controller manager associated with the same hierarchy level with compartment PilotCompartmentSlot on entity @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:55:19.175      DEFAULT   (E): No controller manager associated with the same hierarchy level with compartment CargoCompartmentSlot on entity @"ENTITY:4611686018427397200" ('Vehicle','Assets/Vehicles/Helicopters/Mi8/Mi8MT_base.xob') at <5326.349121 113.261993 3499.181152> @"{A5ABDD8AAD872F21}Prefabs/Task/SlotItems/REAPER_SlotItem_AmbientHeli_Mi8_trans_AIRBORNE.et"
+18:56:46.661 WORLD        : UpdateEntities
+18:56:46.661  WORLD        : Frame
+18:56:46.661   SCRIPT    (W): Agent added twice to list of animated agents!
+18:57:28.511 WORLD        : UpdateEntities
+18:57:28.511  WORLD        : Frame
+18:57:28.511   SCRIPT    (W): Agent added twice to list of animated agents!
+18:57:51.523 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+18:58:44.490 WORLD        : UpdateEntities
+18:58:44.490  WORLD        : Frame
+18:58:44.490   SCRIPT    (W): Agent added twice to list of animated agents!
+19:00:34.804 PATHFINDING(W): Failed to create instance of custom link! Tile: [156, 208], link_idx: 6
+19:00:39.137 PATHFINDING(W): Failed to create instance of custom link! Tile: [156, 208], link_idx: 6
+19:00:42.886 WORLD        : UpdateEntities
+19:00:42.886  WORLD        : Frame
+19:00:42.886   SCRIPT    (W): Agent added twice to list of animated agents!
+19:00:51.516 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:00:59.735 WORLD        : UpdateEntities
+19:00:59.735  WORLD        : Frame
+19:00:59.735   SCRIPT    (W): Agent added twice to list of animated agents!
+19:01:26.949 WORLD        : UpdateEntities
+19:01:26.949  WORLD        : Frame
+19:01:26.949   SCRIPT    (W): Agent added twice to list of animated agents!
+19:01:51.383 WORLD        : UpdateEntities
+19:01:51.383  WORLD        : Frame
+19:01:51.383   SCRIPT    (W): Agent added twice to list of animated agents!
+19:03:13.433 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+19:03:51.526 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:06:51.536 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:09:51.545 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:12:06.210 WORLD        : UpdateEntities
+19:12:06.210  WORLD        : FixedFrame
+19:12:06.210   NETWORK      : PerformActions
+19:12:06.210    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:12:51.554 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:15:51.564 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:18:51.573 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:19:08.594 WORLD        : UpdateEntities
+19:19:08.594  WORLD        : FixedFrame
+19:19:08.594   NETWORK      : PerformActions
+19:19:08.594    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:08.891 WORLD        : UpdateEntities
+19:19:08.892  WORLD        : FixedFrame
+19:19:08.892   NETWORK      : PerformActions
+19:19:08.892    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:16.226 WORLD        : UpdateEntities
+19:19:16.226  WORLD        : FixedFrame
+19:19:16.226   NETWORK      : PerformActions
+19:19:16.226    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:17.174 WORLD        : UpdateEntities
+19:19:17.174  WORLD        : Frame
+19:19:17.174   SCRIPT    (W): Trying to allocate same compartment twice!
+19:19:18.025 WORLD        : UpdateEntities
+19:19:18.025  WORLD        : FixedFrame
+19:19:18.025   NETWORK      : PerformActions
+19:19:18.025    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:18.459 WORLD        : UpdateEntities
+19:19:18.459  WORLD        : FixedFrame
+19:19:18.459   NETWORK      : PerformActions
+19:19:18.459    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:36.975 WORLD        : UpdateEntities
+19:19:36.975  WORLD        : FixedFrame
+19:19:36.975   NETWORK      : PerformActions
+19:19:36.975    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:37.307 WORLD        : UpdateEntities
+19:19:37.307  WORLD        : FixedFrame
+19:19:37.307   NETWORK      : PerformActions
+19:19:37.307    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:42.709 WORLD        : UpdateEntities
+19:19:42.709  WORLD        : FixedFrame
+19:19:42.709   NETWORK      : PerformActions
+19:19:42.709    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:19:43.177 WORLD        : UpdateEntities
+19:19:43.177  WORLD        : FixedFrame
+19:19:43.177   NETWORK      : PerformActions
+19:19:43.177    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:21:51.583 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:22:03.198 WORLD        : UpdateEntities
+19:22:03.198  WORLD        : FixedFrame
+19:22:03.198   ENTITY       : SpawnEntityPrefab @"{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et"
+19:22:03.198    ENTITY       : Create entity @"ENTITY:4611686018427407942" ('Vehicle','Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob') at <7454.930176 7.873993 6715.922852> @"{A5647958579A4149}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair.et"
+19:22:03.198     RESOURCES    : GetResourceObject @"{2F088A1CDD3FB2F1}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_repair_box.et"
+19:22:03.198      WORLD        : Entity prefab load @"{2F088A1CDD3FB2F1}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_repair_box.et"
+19:22:03.198       RESOURCES    : GetResourceObject @"{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.et"
+19:22:03.198        WORLD        : Entity prefab load @"{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.et"
+19:22:03.198         RESOURCES    : GetResourceObject @"{28AA7AC34FC02DC8}Prefabs/Components/SupportStations/Repair/FieldRepairSupportStation_Vehicle.ct"
+19:22:03.198          ENTITY       : Prefab load @"{28AA7AC34FC02DC8}Prefabs/Components/SupportStations/Repair/FieldRepairSupportStation_Vehicle.ct"
+19:22:03.198           RESOURCES    : GetResourceObject @"{7D67AF7165CBE2A3}Prefabs/Components/SupportStations/Repair/BaseFieldRepairSupportStation.ct"
+19:22:03.198            ENTITY       : Prefab load @"{7D67AF7165CBE2A3}Prefabs/Components/SupportStations/Repair/BaseFieldRepairSupportStation.ct"
+19:22:03.198             ENTITY    (E): Unknown keyword/data 'm_bCanMoveWithPhysics' at offset 151(0x97)
+19:24:32.454 RPL       (E): RpcError: Calling a RPC from an unregistered item! itemType='script::Game::SCR_BudgetEditorComponent', rpc='OnEntityCoreBudgetUpdatedOwner'
+19:24:51.593 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:27:51.602 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:30:27.132 WORLD        : UpdateEntities
+19:30:27.132  WORLD        : FixedFrame
+19:30:27.132   NETWORK      : PerformActions
+19:30:27.132    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:30:28.733 WORLD        : UpdateEntities
+19:30:28.733  WORLD        : FixedFrame
+19:30:28.733   NETWORK      : PerformActions
+19:30:28.733    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:30:51.611 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:33:15.660 WORLD        : UpdateEntities
+19:33:15.660  WORLD        : FixedFrame
+19:33:15.660   NETWORK      : PerformActions
+19:33:15.660    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:33:17.125 WORLD        : UpdateEntities
+19:33:17.125  WORLD        : FixedFrame
+19:33:17.125   NETWORK      : PerformActions
+19:33:17.125    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:33:51.621 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:36:02.366 WORLD        : UpdateEntities
+19:36:02.367  WORLD        : Frame
+19:36:02.367   SCRIPT    (W): Trying to allocate same compartment twice!
+19:36:05.367 WORLD        : UpdateEntities
+19:36:05.367  WORLD        : FixedFrame
+19:36:05.367   NETWORK      : PerformActions
+19:36:05.367    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:36:07.035 WORLD        : UpdateEntities
+19:36:07.035  WORLD        : FixedFrame
+19:36:07.035   NETWORK      : PerformActions
+19:36:07.035    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:36:51.630 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:38:57.226 WORLD        : UpdateEntities
+19:38:57.226  WORLD        : Frame
+19:38:57.226   SCRIPT    (W): Trying to allocate same compartment twice!
+19:38:59.612 WORLD        : UpdateEntities
+19:38:59.612  WORLD        : FixedFrame
+19:38:59.613   NETWORK      : PerformActions
+19:38:59.613    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:39:01.112 WORLD        : UpdateEntities
+19:39:01.112  WORLD        : FixedFrame
+19:39:01.112   NETWORK      : PerformActions
+19:39:01.112    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:39:51.640 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:41:19.655 WORLD        : UpdateEntities
+19:41:19.655  WORLD        : FixedFrame
+19:41:19.655   NETWORK      : PerformActions
+19:41:19.655    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:41:21.089 WORLD        : UpdateEntities
+19:41:21.089  WORLD        : FixedFrame
+19:41:21.089   NETWORK      : PerformActions
+19:41:21.089    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:41:21.189 WORLD        : UpdateEntities
+19:41:21.189  WORLD        : FixedFrame
+19:41:21.189   NETWORK      : PerformActions
+19:41:21.189    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:41:21.724 WORLD        : UpdateEntities
+19:41:21.724  WORLD        : FixedFrame
+19:41:21.724   NETWORK      : PerformActions
+19:41:21.724    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:41:23.090 WORLD        : UpdateEntities
+19:41:23.090  WORLD        : FixedFrame
+19:41:23.090   NETWORK      : PerformActions
+19:41:23.090    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:41:23.223 WORLD        : UpdateEntities
+19:41:23.223  WORLD        : FixedFrame
+19:41:23.223   NETWORK      : PerformActions
+19:41:23.223    AI        (E): GetFormationDefinition was given an invalid handler ID.
+19:42:51.649 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:45:51.659 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:48:51.668 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:49:01.968 WORLD        : UpdateEntities
+19:49:01.969  WORLD        : Frame
+19:49:01.969   SCRIPT    (W): Agent added twice to list of animated agents!
+19:49:02.802 WORLD        : UpdateEntities
+19:49:02.802  WORLD        : Frame
+19:49:02.802   SCRIPT    (W): Agent added twice to list of animated agents!
+19:49:03.501 WORLD        : UpdateEntities
+19:49:03.501  WORLD        : Frame
+19:49:03.501   SCRIPT    (W): Agent added twice to list of animated agents!
+19:49:10.669 WORLD        : UpdateEntities
+19:49:10.669  WORLD        : Frame
+19:49:10.669   SCRIPT    (W): Agent added twice to list of animated agents!
+19:49:14.553 WORLD        : UpdateEntities
+19:49:14.553  WORLD        : Frame
+19:49:14.553   SCRIPT    (W): Agent added twice to list of animated agents!
+19:49:14.670 WORLD        : UpdateEntities
+19:49:14.670  WORLD        : Frame
+19:49:14.670   SCRIPT    (W): Agent added twice to list of animated agents!
+19:51:51.678 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:52:16.312 WORLD        : UpdateEntities
+19:52:16.312  WORLD        : Frame
+19:52:16.312   SCRIPT    (W): Agent added twice to list of animated agents!
+19:52:49.894 WORLD        : UpdateEntities
+19:52:49.894  WORLD        : Frame
+19:52:49.894   SCRIPT    (W): Agent added twice to list of animated agents!
+19:53:42.792 WORLD        : UpdateEntities
+19:53:42.792  WORLD        : Frame
+19:53:42.792   SCRIPT    (W): Agent added twice to list of animated agents!
+19:54:51.687 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+19:55:50.319 WORLD        : UpdateEntities
+19:55:50.319  WORLD        : Frame
+19:55:50.319   SCRIPT    (W): Agent added twice to list of animated agents!
+19:57:51.696 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:00:51.689 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:01:25.959 RPL       (E): RpcError: Calling a RPC from an unregistered item! itemType='script::Game::SCR_BudgetEditorComponent', rpc='OnEntityCoreBudgetUpdatedOwner'
+20:01:25.959 SCRIPT    (W): Maybe a problem: DataProgression is not ready but the analytics event was requested
+20:01:28.459 RPL       (E): RpcError: Calling a RPC from an unregistered item! itemType='script::Game::SCR_BudgetEditorComponent', rpc='OnEntityCoreBudgetUpdatedOwner'
+20:03:51.699 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:06:51.708 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:09:51.718 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:12:51.727 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:15:51.736 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:18:51.746 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:21:51.755 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:24:51.765 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:27:51.774 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:30:51.784 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:33:51.794 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:36:51.803 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:39:51.813 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:42:51.822 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:45:51.831 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:48:51.840 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:51:51.850 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:54:51.859 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+20:57:51.869 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:00:51.879 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:03:51.888 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:06:51.898 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:09:51.907 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:12:51.916 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:15:51.926 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:18:51.935 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:21:51.945 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:24:51.954 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:27:51.963 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:30:51.973 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:33:51.982 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:36:51.992 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:39:52.001 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:42:52.011 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:45:52.021 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:48:52.030 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:51:52.040 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:54:52.049 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+21:57:52.059 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:00:52.068 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:03:52.078 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:06:52.087 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:09:52.096 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:12:52.106 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:15:52.116 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:18:52.125 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:21:52.134 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:24:52.144 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:27:52.153 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:30:52.162 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:33:52.172 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:36:52.182 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:39:52.191 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:42:52.200 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:45:52.210 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:48:52.219 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:51:52.229 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:54:52.238 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+22:57:52.248 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:00:51.957 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:03:51.733 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:06:51.393 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:09:51.053 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:12:50.829 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:15:50.522 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:18:50.647 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:21:50.274 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:24:50.183 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:27:49.659 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:30:49.302 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:33:48.878 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:36:48.454 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:39:48.280 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:42:47.940 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:45:47.716 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:48:47.459 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:51:47.152 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:54:46.794 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+23:57:46.637 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:00:46.480 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:03:46.106 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:06:46.149 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:09:46.042 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:12:45.885 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:15:45.711 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:18:45.620 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:21:45.529 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:24:45.423 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:27:45.415 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:30:45.524 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:33:45.434 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:36:45.310 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:39:45.153 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:42:45.146 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:45:44.905 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:48:44.631 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:51:44.141 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:54:44.185 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+00:57:43.876 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:00:43.620 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:03:43.613 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:06:43.372 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:09:43.081 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:12:42.707 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:15:42.634 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:18:42.393 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:21:42.253 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:24:42.328 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:27:42.121 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:30:41.981 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:33:41.607 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:36:41.550 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:39:41.292 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:42:41.086 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:45:40.845 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:48:40.538 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:51:40.564 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:54:40.140 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+01:57:40.016 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:00:39.710 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:03:39.351 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:06:39.195 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:09:38.937 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:12:38.797 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:15:38.739 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:18:38.616 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:21:38.392 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:24:38.285 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:27:38.144 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:30:38.054 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!
+02:33:37.963 BACKEND   (W): !!! JsonApi Var name="m_vSavePosition" double register attempt - skipping!

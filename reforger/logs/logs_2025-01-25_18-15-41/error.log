@@ -1,0 +1,33 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-01-25_18-15-41/error.log started at 2025-01-25 18:15:42 (2025-01-25 18:15:42 UTC)
+
+18:15:42.154 ENGINE       : GameProject load
+18:15:42.154  INIT         : GameProject load project data @"./addons/data/ArmaReforger.gproj"
+18:15:42.154   RESOURCES (E): Wrong GUID/name for resource @"{C014582791ECBF24}Language/localization.st" in property "StringTableSource"
+18:15:42.272 AUDIO     (E): Audio device initialization failed with error: 9
+18:15:43.192 SCRIPT       : Compiling Game scripts
+18:15:43.192  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:15:43.192  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:15:43.192  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+18:15:43.378  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:15:43.487  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+18:15:43.487  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:15:43.487  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:15:43.487  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+18:15:43.488  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:15:43.488  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:15:43.488  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+18:15:44.156 BACKEND      : Loading dedicated server config.
+18:15:44.156  BACKEND      : JSON Schema Validation:
+18:15:44.156   BACKEND      : pattern error:
+18:15:44.156    BACKEND   (E): Value of "#/game/mods/3/modId" does not match the required pattern. Value: "RHS - Status Quo"
+18:15:44.156    BACKEND   (E): RegEx Pattern: "^[0-9a-fA-F]{16}$"
+18:15:44.156    BACKEND   (E): Pattern Description: "Param must contain addon ID in format of 16 numbers or letters (A-F)."
+18:15:44.156    BACKEND   (E): Reference in schema: "#/properties/game/properties/mods/items/properties/modId"
+18:15:44.156   BACKEND   (E): JSON is invalid!
+18:15:44.156  BACKEND   (E): There are errors in server config!
+18:15:44.156 BACKEND   (E): Unable to continue with a broken DS config! Shutdown!
+18:15:44.156 ENGINE    (E): Error while initializing game.
+18:15:44.286 ENGINE    (E): Unable to initialize the game
+18:15:44.334 RESOURCES (E): ==== Resource leaks ====
+18:15:44.334 RESOURCES (E): ui/fonts/robotomono_msdf_28.edds   1

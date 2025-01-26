@@ -1,0 +1,24 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-01-25_18-16-25/crash.log started at 2025-01-25 18:50:58 (2025-01-25 18:50:58 UTC)
+
+
+
+------------------------------------
+25.01 2025 18:50:58
+Virtual Machine Exception
+
+Reason: Missing script reference for this agent!
+
+<0x000000002D500810> SCR_ChimeraAIAgent : AI/BehaviorTrees/Chimera/Soldier/Soldier.bt
+ (RunBT : ID 0) 
+
+AI/BehaviorTrees/Chimera/Soldier/Behavior_Animate.bt
+SCR_AI Get Animation Script Parameters : ID 0
+
+Function: 'NodeError'
+Stack trace:
+Scripts/Game/AI/Utils/NodeError.c:8 Function NodeError
+Scripts/Game/AI/ScriptedNodes/Waypoints/SCR_AIGetAnimationScriptParameters.c:24 Function EOnTaskSimulate
+
+Runtime mode
+CLI params: config /reforger/Configs/reaper_justintime.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
