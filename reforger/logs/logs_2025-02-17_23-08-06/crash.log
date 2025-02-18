@@ -1,0 +1,42 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-02-17_23-08-06/crash.log started at 2025-02-17 23:35:56 (2025-02-17 23:35:56 UTC)
+
+
+
+------------------------------------
+17.02 2025 23:35:56
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:156 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:182 Function ToggleServer
+
+Runtime mode
+CLI params: config /reforger/Configs/combat_ops_everon.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  
+
+
+------------------------------------
+18.02 2025 00:19:14
+Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'anim'
+
+Function: 'GetPivotName'
+Stack trace:
+scripts/Game/Entities/Preview/SCR_GenericPreviewEntity.c:147 Function GetPivotName
+scripts/Game/Entities/Preview/SCR_EditablePreviewEntity.c:166 Function GetPreviewEntries#806289
+scripts/Game/Entities/Preview/SCR_EditablePreviewEntity.c:91 Function SpawnPreviewFromEditableEntities
+scripts/Game/Editor/Components/Editor/SCR_TransformingEditorComponent.c:183 Function StartEditingServer
+
+Runtime mode
+CLI params: config /reforger/Configs/combat_ops_everon.json backendlog  nothrow  maxFPS 60 profile /home/profile addonDownloadDir /reforger/workshop addonsDir /reforger/workshop autoreload 10 loadSessionSave  

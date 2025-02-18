@@ -1,0 +1,125 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-02-17_21-40-53/script.log started at 2025-02-17 21:40:54 (2025-02-17 21:40:54 UTC)
+
+21:40:54.500 SCRIPT       : SCRIPT       : Initializing scripts
+21:40:54.500  SCRIPT       : SCRIPT       : ScriptProjectManager init
+21:40:54.577 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+21:40:54.617  SCRIPT       : Module: GameLib; loaded 301x files; 528x classes; used 478/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 3bbbb874
+21:40:54.622 SCRIPT       : SCRIPT       : Compiling Game scripts
+21:40:55.677 SCRIPT       : Compiling Game scripts
+21:40:55.677  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+21:40:55.677  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+21:40:55.678  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+21:40:55.940  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+21:40:56.089  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+21:40:56.089  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+21:40:56.089  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+21:40:56.089  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+21:40:56.090  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+21:40:56.090  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+21:40:56.090  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+21:40:56.275  SCRIPT       : Module: Game; loaded 4395x files; 8943x classes; used 19363/41943 kB (46%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 237f9ed2
+21:41:06.248      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+21:41:06.770      SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+21:41:08.851 SCRIPT    (W): SCR_SaveManagerCore: -loadSessionSave CLI param set to load the latest save, but none was defined for the mission 'DAA03C6E6099D50F'!
+21:41:08.873  SCRIPT       : ScenarioFramework: ---------------------- Generating tasks -------------------
+21:41:08.874  SCRIPT       : ScenarioFramework: Creating area Area_E with Layer Task E_Kill
+21:41:08.874  SCRIPT       : ScenarioFramework: Creating area Area_C with Layer Task C_Destroy
+21:41:08.874  SCRIPT       : ScenarioFramework: Creating area Area_D with Layer Task D_Documents
+21:41:08.874  SCRIPT       : ScenarioFramework: ---------------------- Generation of tasks completed -------------------
+21:41:08.879   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+21:41:09.384   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+21:41:09.430   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotKill_7 - generating task Eliminate target. Description: ScenarioFramework: -> LayerTask: SlotTask SlotKill_7 - generating task Eliminate target. Description: the mission 'DAA03C6E6099D50F'!
+21:41:09.547   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotPick_6 - generating task Recover intel. Description: ScenarioFramework: -> LayerTask: SlotTask SlotPick_6 - generating task Recover intel. Description:  an enemy unit may be carrying it on them, or it may be securely stored away somewhere.
+21:41:09.585   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+21:41:09.795   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask C_BTR2 - generating task Destroy vehicle. Description: ScenarioFramework: -> LayerTask: SlotTask C_BTR2 - generating task Destroy vehicle. Description:  Mi-8MT Transport Helicopter
+21:43:08.894 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:45:08.885 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:47:08.900 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:49:08.912 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:51:08.920 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:53:08.933 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:55:08.949 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:57:08.965 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+21:59:08.970 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:01:01.045   SCRIPT    (W): Trying to allocate same compartment twice!
+22:01:08.982 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:03:08.997 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:03:58.471   SCRIPT    (W): Trying to allocate same compartment twice!
+22:05:09.012 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:06:40.633   SCRIPT    (W): Trying to allocate same compartment twice!
+22:07:09.017 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:09:09.031 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:09:25.976   SCRIPT    (W): Trying to allocate same compartment twice!
+22:11:09.046 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:12:01.754   SCRIPT    (W): Trying to allocate same compartment twice!
+22:13:09.039 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:14:47.629   SCRIPT    (W): Trying to allocate same compartment twice!
+22:15:09.053 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:17:09.044 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:17:42.689   SCRIPT    (W): Trying to allocate same compartment twice!
+22:18:12.370   SCRIPT    (W): Trying to allocate same compartment twice!
+22:19:09.055 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:20:16.316   SCRIPT    (W): Trying to allocate same compartment twice!
+22:21:07.046   SCRIPT    (W): Trying to allocate same compartment twice!
+22:21:09.072 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:22:51.592   SCRIPT    (W): Trying to allocate same compartment twice!
+22:23:09.084 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:23:37.775   SCRIPT    (W): Trying to allocate same compartment twice!
+22:25:09.094 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:25:30.070   SCRIPT    (W): Trying to allocate same compartment twice!
+22:26:21.535   SCRIPT    (W): Trying to allocate same compartment twice!
+22:26:27.152   SCRIPT    (W): Trying to allocate same compartment twice!
+22:27:09.105 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:28:02.637   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotExtraction_2 - generating task Exfil. Description: ScenarioFramework: -> LayerTask: SlotTask SlotExtraction_2 - generating task Exfil. Description: ally if you'd rather avoid drawing attention to yourself.
+22:28:16.513   SCRIPT    (W): Trying to allocate same compartment twice!
+22:28:57.778   SCRIPT    (W): Trying to allocate same compartment twice!
+22:29:09.115 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:31:09.131 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:31:53.623   SCRIPT    (W): Trying to allocate same compartment twice!
+22:33:09.143 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:34:26.733   SCRIPT    (W): Trying to allocate same compartment twice!
+22:34:56.365   SCRIPT    (W): Trying to allocate same compartment twice!
+22:35:09.150 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:37:09.162 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:37:45.758   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F50D9E287A0> @"ENTITY:4611686018427388041" ('GenericEntity','Assets/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.xob') at <3285.002930 3.145000 2854.686035> @"{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" already exists and won't be spawned for SlotPick_6, exiting...
+22:38:30.871   SCRIPT    (E): DataCollectorDriveModule: The pilot from the context is not the pilot from the compartments. !!
+22:39:09.174 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:41:09.194 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:43:04.563   SCRIPT    (W): Trying to allocate same compartment twice!
+22:43:09.184 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:45:09.197 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:45:55.437   SCRIPT    (W): Trying to allocate same compartment twice!
+22:47:09.210 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:48:38.814   SCRIPT    (W): Trying to allocate same compartment twice!
+22:49:09.216 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:51:09.229 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:51:11.176   SCRIPT    (W): Trying to allocate same compartment twice!
+22:52:52.824   SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicice.
+22:53:09.244 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:54:03.168   SCRIPT    (W): Trying to allocate same compartment twice!
+22:55:09.253 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:56:57.979   SCRIPT    (W): Trying to allocate same compartment twice!
+22:57:09.264 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+22:57:59.775   SCRIPT    (W): Trying to allocate same compartment twice!
+22:59:09.279 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:01:09.293 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:02:41.615   SCRIPT    (E): ScenarioFramework: Trying to add waypoints to non existing entity! Did you select the object to spawn for SlotKill_7?
+23:03:09.300 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:03:28.948   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = POSTGAME
+23:03:28.948   SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:03:44.700      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+23:03:45.245      SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+23:03:45.637 SCRIPT    (W): SCR_SaveManagerCore: -loadSessionSave CLI param set to load the latest save, but none was defined for the mission 'DAA03C6E6099D50F'!
+23:03:45.662  SCRIPT       : ScenarioFramework: ---------------------- Generating tasks -------------------
+23:03:45.664  SCRIPT       : ScenarioFramework: Creating area Area_C with Layer Task C_Kill
+23:03:45.664  SCRIPT       : ScenarioFramework: Creating area Area_E with Layer Task E_Destroy
+23:03:45.664  SCRIPT       : ScenarioFramework: Creating area Area_B with Layer Task B_ClearArea
+23:03:45.664  SCRIPT       : ScenarioFramework: ---------------------- Generation of tasks completed -------------------
+23:03:45.669   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+23:03:45.675   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotClearArea_2 - generating task Clear area. Description: ScenarioFramework: -> LayerTask: SlotTask SlotClearArea_2 - generating task Clear area. Description:  the mission 'DAA03C6E6099D50F'!
+23:03:46.036   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:03:46.125   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotKill_6 - generating task Eliminate target. Description: ScenarioFramework: -> LayerTask: SlotTask SlotKill_6 - generating task Eliminate target. Description: cenarioFramework: -> LayerTask: SlotTask SlotClearArea_2 - generating task Clear area. Description:  the mission 'DAA03C6E6099D50F'!
+23:03:46.169   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:03:46.215   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_3 - generating task Destroy vehicle. Description: ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_3 - generating task Destroy vehicle. Description:  Armored Personnel Carrier
+23:05:45.656 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave

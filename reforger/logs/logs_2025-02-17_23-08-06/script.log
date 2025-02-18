@@ -1,0 +1,272 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-02-17_23-08-06/script.log started at 2025-02-17 23:08:07 (2025-02-17 23:08:07 UTC)
+
+23:08:07.044 SCRIPT       : SCRIPT       : Initializing scripts
+23:08:07.044  SCRIPT       : SCRIPT       : ScriptProjectManager init
+23:08:07.114 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+23:08:07.148  SCRIPT       : Module: GameLib; loaded 301x files; 528x classes; used 478/2097 kB (22%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 3bbbb874
+23:08:07.151 SCRIPT       : SCRIPT       : Compiling Game scripts
+23:08:08.200 SCRIPT       : Compiling Game scripts
+23:08:08.200  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+23:08:08.200  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+23:08:08.200  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+23:08:08.457  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,671": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+23:08:08.607  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+23:08:08.607  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+23:08:08.607  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,499": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+23:08:08.607  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,474": Variable 'enableBlock' is not used
+23:08:08.608  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1133": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+23:08:08.608  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1136": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+23:08:08.608  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1140": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+23:08:08.793  SCRIPT       : Module: Game; loaded 4395x files; 8943x classes; used 19363/41943 kB (46%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_NEARBY_CONTEXT_DISPLAY,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 237f9ed2
+23:08:35.790     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+23:08:35.790     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+23:08:35.791     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+23:08:35.791     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+23:08:36.478      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+23:08:37.759      SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+23:08:40.875 SCRIPT    (W): SCR_SaveManagerCore: -loadSessionSave CLI param set to load the latest save, but none was defined for the mission 'DFAC5FABD11F2390'!
+23:08:40.943  SCRIPT       : ScenarioFramework: Area TestArea is set to 0 activation type, but area will always spawn on Init as default
+23:08:40.943  SCRIPT       : ScenarioFramework: Area TestAreaB is set to 0 activation type, but area will always spawn on Init as default
+23:08:40.943  SCRIPT       : ScenarioFramework: ---------------------- Generating tasks -------------------
+23:08:40.951  SCRIPT       : ScenarioFramework: Creating area MilBaseLevie with Layer Task LayerTaskDeliver1
+23:08:40.951  SCRIPT       : ScenarioFramework: Creating area Figari_Area with Layer Task B_Destroy3
+23:08:40.951  SCRIPT       : ScenarioFramework: Creating area Area_CoastalBaseChotain with Layer Task A_ClearArea
+23:08:40.951  SCRIPT       : ScenarioFramework: ---------------------- Generation of tasks completed -------------------
+23:08:40.968   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+23:08:41.130   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotClearArea_1 - generating task Attack. Description: ScenarioFramework: -> LayerTask: SlotTask SlotClearArea_1 - generating task Attack. Description:  Soviets under constant pressure, and limit their ability to operate effectively on our island.
+23:08:43.903   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotPick_3 - generating task Deliver intel. Description: ScenarioFramework: -> LayerTask: SlotTask SlotPick_3 - generating task Deliver intel. Description: Josef.
+23:08:43.904   SCRIPT    (E): Can't spawn object Predefined_Doc_Position - the slot has 0 activation type set instead of 1
+23:08:43.951   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotMoveTo1 - generating task Deliver weapons. Description: ScenarioFramework: -> LayerTask: SlotTask SlotMoveTo1 - generating task Deliver weapons. Description: tigate dependencies on US ammunition.<br/>
+23:08:44.313   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_13 - generating task Destroy vehicle. Description: ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_13 - generating task Destroy vehicle. Description: 20 Command Truck
+23:09:23.444   SCRIPT       : ScenarioFramework: Selected getter entity is null
+23:10:43.288 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:12:43.299 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:14:43.313 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:15:16.136   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273BB0> @"ENTITY:4611686018427389230" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <7021.383789 102.721008 8392.514648> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot241, exiting...
+23:15:16.349   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273DD0> @"ENTITY:4611686018427389232" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <4823.916992 87.959000 4436.767578> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot242, exiting...
+23:16:43.316 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:18:43.319 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:20:43.336 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:20:43.819   SCRIPT    (W): Trying to allocate same component twice!
+23:20:51.471   SCRIPT       : ScenarioFramework: Selected getter entity is null
+23:22:43.345 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:23:03.481   SCRIPT       : ScenarioFramework: Selected getter entity is null
+23:24:43.351 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:26:43.366 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:28:43.378 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:30:43.389 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:31:15.308   SCRIPT    (W): Trying to allocate same component twice!
+23:32:43.403 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:34:14.100   SCRIPT    (W): Trying to allocate same component twice!
+23:34:14.100   SCRIPT    (W): Trying to allocate same component twice!
+23:34:43.409 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:35:35.859   SCRIPT    (E): ScenarioFramework Action: SlotAI not found for Action SCR_ScenarioFrameworkActionAI<0x00007F398A1D2B00>.
+23:35:36.018   SCRIPT    (E): ScenarioFramework Action: SlotAI not found for Action SCR_ScenarioFrameworkActionAI<0x00007F398A1D2B50>.
+23:35:56.764   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'from'
+
+Class:      'SCR_EditorSettingsEntity'
+Entity id:0
+
+Function: 'GetSkipStreamingRules'
+Stack trace:
+scripts/Game/Editor/Entities/SCR_EditorSettingsEntity.c:134 Function GetSkipStreamingRules
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:56 Function EnableStreamingForEntity
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:42 Function EnableStreaming
+scripts/Game/Editor/Components/Editor/SCR_DynamicSimulationEditorComponent.c:90 Function EOnEditorActivateServer
+scripts/Game/Editor/Entities/SCR_EditorModeEntity.c:156 Function ActivateModeServer
+scripts/Game/Editor/Entities/SCR_EditorManagerEntity.c:182 Function ToggleServer
+23:36:43.424 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:37:11.393   SCRIPT    (W): Trying to allocate same component twice!
+23:38:43.438 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:39:35.509   SCRIPT       : ScenarioFramework: Selected getter entity is null
+23:40:43.451 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:42:43.457 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:44:43.477 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:46:43.486 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:48:43.494 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:50:43.512 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:52:43.527 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:54:43.530 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:56:43.545 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:58:43.570 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+23:58:43.576   SCRIPT       : ScenarioFramework: Area Ambushed_Convoy_A is set to 0 activation type, but area will always spawn on Init as default
+23:58:43.629   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:58:43.792   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:58:43.995   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:58:44.193   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:58:44.198   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D18E0> attached on Slot471.
+23:58:44.397   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:58:44.591   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:58:44.791   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+23:58:59.577   SCRIPT       : ScenarioFramework: Area Richemont_MGs_Ran is set to 0 activation type, but area will always spawn on Init as default
+00:00:24.578   SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicice.
+00:00:43.566 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:00:43.606   SCRIPT    (E): ScenarioFramework: Object SCR_SpawnPoint<0x0000000046CBABB0> @"ENTITY:4611686018427413080" ('SCR_SpawnPoint') at <4562.170898 54.011002 5434.766113> @"{72713ED566A531F3}PrefabsEditable/SpawnPoints/E_SpawnPoint_FIA.et" already exists and won't be spawned for spawn, exiting...
+00:00:43.772   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A9DBA2670> @"ENTITY:4611686018427413081" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xob') at <3072.425781 122.134315 5342.852051> @"{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et" already exists and won't be spawned for Slot1404, exiting...
+00:00:43.873   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A9DBA0BE0> @"ENTITY:4611686018427413082" ('GenericEntity','Assets/Weapons/Rifles/M16A2/M16A2_carbine_body.xob') at <3072.259277 122.401718 5342.649414> @"{E57DBDA5C50F07FF}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_4x20.et" already exists and won't be spawned for Slot_437, exiting...
+00:00:44.040   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A9DBA1130> @"ENTITY:4611686018427413088" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <3072.425781 122.134315 5342.852051> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_438, exiting...
+00:00:44.240   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A9DBA1240> @"ENTITY:4611686018427413089" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <3072.425781 122.134315 5342.852051> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_439, exiting...
+00:00:44.440   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A9DBA1350> @"ENTITY:4611686018427413090" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <3072.425781 122.134315 5342.852051> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_440, exiting...
+00:00:44.640   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A9DBA1460> @"ENTITY:4611686018427413091" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <3072.425781 122.134315 5342.852051> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_441, exiting...
+00:00:44.840   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A9DBA1570> @"ENTITY:4611686018427413092" ('GenericEntity','Assets/Weapons/MachineGuns/M249/M249_body.xob') at <3072.164795 122.273979 5342.944824> @"{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" already exists and won't be spawned for Slot_453, exiting...
+00:00:45.255   SCRIPT    (E): ScenarioFramework Action: Maximum number of activations reached for Action SCR_ScenarioFrameworkActionWaitAndExecute<0x00007F398AF6C4A8> attached on . Action won't do anything.
+00:02:43.579 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:04:43.586 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:06:43.600 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:08:43.613 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:10:29.246   SCRIPT    (W): DataCollectorDriverModule:Update: this context's player or vehicle is null. Player ID: 2. Seems wrong
+00:10:29.246   SCRIPT    (W): DataCollectorDriverModule:Update: this context's player or vehicle is null. Player ID: 3. Seems wrong
+00:10:43.625 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:12:12.283   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273BB0> @"ENTITY:4611686018427389230" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <7021.383789 102.721008 8392.514648> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot241, exiting...
+00:12:12.495   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273DD0> @"ENTITY:4611686018427389232" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <4823.916992 87.959000 4436.767578> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot242, exiting...
+00:12:35.627   SCRIPT       : ScenarioFramework: Area Richemont_MGs_Ran is set to 0 activation type, but area will always spawn on Init as default
+00:12:43.634 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:12:51.636   SCRIPT       : ScenarioFramework: Area Guerilla_Hideout_A is set to 0 activation type, but area will always spawn on Init as default
+00:12:52.625   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1ED0> attached on Slot196.
+00:12:52.829   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F20> attached on Slot198.
+00:12:53.037   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F70> attached on Slot199.
+00:14:19.681   SCRIPT       : ScenarioFramework: Area Guerilla_Hideout_A is set to 0 activation type, but area will always spawn on Init as default
+00:14:20.683   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1ED0> attached on Slot196.
+00:14:20.879   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F20> attached on Slot198.
+00:14:21.084   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F70> attached on Slot199.
+00:14:43.659 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:15:31.705   SCRIPT       : ScenarioFramework: Area Guerilla_Hideout_A is set to 0 activation type, but area will always spawn on Init as default
+00:15:32.706   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1ED0> attached on Slot196.
+00:15:32.907   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F20> attached on Slot198.
+00:15:33.106   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F70> attached on Slot199.
+00:16:39.718   SCRIPT       : ScenarioFramework: Area Guerilla_Hideout_A is set to 0 activation type, but area will always spawn on Init as default
+00:16:40.719   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1ED0> attached on Slot196.
+00:16:40.921   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F20> attached on Slot198.
+00:16:41.120   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F70> attached on Slot199.
+00:16:43.660 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:17:11.739   SCRIPT       : ScenarioFramework: Area Guerilla_Hideout_A is set to 0 activation type, but area will always spawn on Init as default
+00:17:12.743   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1ED0> attached on Slot196.
+00:17:12.944   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F20> attached on Slot198.
+00:17:13.141   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D1F70> attached on Slot199.
+00:18:43.672 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:19:14.410   SCRIPT    (E): Virtual Machine Exception
+
+Reason: NULL pointer to instance. Variable 'anim'
+
+Function: 'GetPivotName'
+Stack trace:
+scripts/Game/Entities/Preview/SCR_GenericPreviewEntity.c:147 Function GetPivotName
+scripts/Game/Entities/Preview/SCR_EditablePreviewEntity.c:166 Function GetPreviewEntries#806289
+scripts/Game/Entities/Preview/SCR_EditablePreviewEntity.c:91 Function SpawnPreviewFromEditableEntities
+scripts/Game/Editor/Components/Editor/SCR_TransformingEditorComponent.c:183 Function StartEditingServer
+00:20:43.683 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:22:23.419   SCRIPT    (E): ScenarioFramework Action: Task not found for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D3C80> attached on DocumentsCrate.
+00:22:23.419   SCRIPT    (E): ScenarioFramework Action: Task not found for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D3CD0> attached on DocumentsCrate.
+00:22:23.419   SCRIPT    (E): ScenarioFramework Action: Task not found for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D3D20> attached on DocumentsCrate.
+00:22:23.419   SCRIPT    (E): ScenarioFramework Action: Task not found for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D3D70> attached on DocumentsCrate.
+00:22:23.419   SCRIPT    (E): ScenarioFramework Action: Task not found for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D3DC0> attached on DocumentsCrate.
+00:22:23.419   SCRIPT    (E): ScenarioFramework Action: Task not found for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D3E10> attached on DocumentsCrate.
+00:22:43.695 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:23:43.750   SCRIPT       : ScenarioFramework: Area Richemont_MGs_Ran is set to 0 activation type, but area will always spawn on Init as default
+00:24:16.417   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273BB0> @"ENTITY:4611686018427389230" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <7021.383789 102.721008 8392.514648> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot241, exiting...
+00:24:16.618   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273DD0> @"ENTITY:4611686018427389232" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <4823.916992 87.959000 4436.767578> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot242, exiting...
+00:24:17.950   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00007F3A5124F5D0> @"ENTITY:4611686018427416089" ('Vehicle','Assets/Vehicles/Wheeled/UAZ452/UAZ452_base.xob') at <5094.302734 53.666561 5469.508789> @"{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" already exists and won't be spawned for MedicalTruck_Figari, exiting...
+00:24:27.749   SCRIPT       : ScenarioFramework: Area MRT_F_Pat_Area is set to 0 activation type, but area will always spawn on Init as default
+00:24:35.750   SCRIPT       : ScenarioFramework: Area MRT_Ran_MGs is set to 0 activation type, but area will always spawn on Init as default
+00:24:43.688 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:25:07.792   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x000000003D0ACF10> @"ENTITY:4611686018427388852" ('GenericEntity','Assets/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16A2.xob') at <2850.522949 90.747002 4857.357910> @"{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et" already exists and won't be spawned for SlotPick_3, exiting...
+00:25:07.963   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x000000003D0AFAA0> @"ENTITY:4611686018427388915" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <4823.815918 87.959999 4436.631836> @"{05B993EAF472E376}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_10.et" already exists and won't be spawned for Slot561, exiting...
+00:25:08.245   SCRIPT    (E): Can't spawn object Predefined_Doc_Position - the slot has 0 activation type set instead of 1
+00:26:13.475 SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicice.
+00:26:13.476 SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicice.
+00:26:43.709 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:26:45.441   SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicice.
+00:26:59.843   SCRIPT    (E): ScenarioFramework: Object SCR_SpawnPoint<0x0000000046CBABB0> @"ENTITY:4611686018427413080" ('SCR_SpawnPoint') at <4562.170898 54.011002 5434.766113> @"{72713ED566A531F3}PrefabsEditable/SpawnPoints/E_SpawnPoint_FIA.et" already exists and won't be spawned for spawn, exiting...
+00:27:32.612   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273BB0> @"ENTITY:4611686018427389230" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <7021.383789 102.721008 8392.514648> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot241, exiting...
+00:27:32.809   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273DD0> @"ENTITY:4611686018427389232" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <4823.916992 87.959000 4436.767578> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot242, exiting...
+00:27:34.009   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00007F3A5124F5D0> @"ENTITY:4611686018427416089" ('Vehicle','Assets/Vehicles/Wheeled/UAZ452/UAZ452_base.xob') at <5094.302734 53.666561 5469.508789> @"{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" already exists and won't be spawned for MedicalTruck_Figari, exiting...
+00:28:43.717 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:30:43.733 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:32:43.738 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:33:16.519   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273BB0> @"ENTITY:4611686018427389230" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <7021.383789 102.721008 8392.514648> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot241, exiting...
+00:33:16.729   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273DD0> @"ENTITY:4611686018427389232" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <4823.916992 87.959000 4436.767578> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot242, exiting...
+00:33:18.030   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00007F3A5124F5D0> @"ENTITY:4611686018427416089" ('Vehicle','Assets/Vehicles/Wheeled/UAZ452/UAZ452_base.xob') at <5094.302734 53.666561 5469.508789> @"{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" already exists and won't be spawned for MedicalTruck_Figari, exiting...
+00:33:32.562   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00007F398A17B310> @"ENTITY:4611686018427435505" ('Vehicle','Assets/Vehicles/Wheeled/S105/S105_base.xob') at <5240.950684 55.726013 5429.385254> @"{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" already exists and won't be spawned for Slot_364, exiting...
+00:33:55.897   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+00:33:56.049   SCRIPT    (E): SCR_InstigatorContextData: instigatorType: 'INSTIGATOR_OTHER' is not supported!
+00:34:20.177   SCRIPT    (E): ScenarioFramework Randomized Spawn: Applied labels resulted in no viable prefabs to be randomly selected for Slot_262_new.
+00:34:20.187   SCRIPT    (E): ScenarioFramework Randomized Spawn: Applied labels resulted in no viable prefabs to be randomly selected for Slot_85.
+00:34:43.749 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:35:20.186   SCRIPT    (E): DataCollectorDriveModule: Pilot died but according to the compartmentManager there's no pilot. !!!
+00:36:43.764 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:38:15.887   SCRIPT    (E): ScenarioFramework: Object SCR_SpawnPoint<0x0000000046CBABB0> @"ENTITY:4611686018427413080" ('SCR_SpawnPoint') at <4562.170898 54.011002 5434.766113> @"{72713ED566A531F3}PrefabsEditable/SpawnPoints/E_SpawnPoint_FIA.et" already exists and won't be spawned for spawn, exiting...
+00:38:16.053   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F398A5DFBB0> @"ENTITY:4611686018427435029" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xob') at <4556.662109 54.048000 5439.791992> @"{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et" already exists and won't be spawned for Slot1404, exiting...
+00:38:16.321   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F398A5DFCC0> @"ENTITY:4611686018427435031" ('GenericEntity','Assets/Weapons/Rifles/M16A2/M16A2_carbine_body.xob') at <4558.484863 54.526001 5434.702148> @"{E57DBDA5C50F07FF}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_4x20.et" already exists and won't be spawned for Slot_437, exiting...
+00:38:16.487   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A93660> @"ENTITY:4611686018427435036" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.747070 54.521000 5434.957031> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_438, exiting...
+00:38:16.686   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A93EE0> @"ENTITY:4611686018427435037" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.641113 54.521000 5434.975098> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_439, exiting...
+00:38:16.886   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A92450> @"ENTITY:4611686018427435038" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.520996 54.521000 5434.996094> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_440, exiting...
+00:38:17.086   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A91020> @"ENTITY:4611686018427435039" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.384766 54.521000 5434.993164> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_441, exiting...
+00:38:17.286   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A91BD0> @"ENTITY:4611686018427435040" ('GenericEntity','Assets/Weapons/MachineGuns/M249/M249_body.xob') at <4558.882812 54.111000 5435.543945> @"{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" already exists and won't be spawned for Slot_453, exiting...
+00:38:43.784 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:40:43.791 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:42:43.797 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:44:43.809 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:45:03.902   SCRIPT    (E): ScenarioFramework: Object SCR_SpawnPoint<0x0000000046CBABB0> @"ENTITY:4611686018427413080" ('SCR_SpawnPoint') at <4562.170898 54.011002 5434.766113> @"{72713ED566A531F3}PrefabsEditable/SpawnPoints/E_SpawnPoint_FIA.et" already exists and won't be spawned for spawn, exiting...
+00:45:04.069   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F398A5DFBB0> @"ENTITY:4611686018427435029" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xob') at <4556.662109 54.048000 5439.791992> @"{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et" already exists and won't be spawned for Slot1404, exiting...
+00:45:04.202   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F398A5DFCC0> @"ENTITY:4611686018427435031" ('GenericEntity','Assets/Weapons/Rifles/M16A2/M16A2_carbine_body.xob') at <4558.484863 54.526001 5434.702148> @"{E57DBDA5C50F07FF}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_4x20.et" already exists and won't be spawned for Slot_437, exiting...
+00:45:04.369   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A93660> @"ENTITY:4611686018427435036" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.747070 54.521000 5434.957031> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_438, exiting...
+00:45:04.570   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A93EE0> @"ENTITY:4611686018427435037" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.641113 54.521000 5434.975098> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_439, exiting...
+00:45:04.769   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A92450> @"ENTITY:4611686018427435038" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.520996 54.521000 5434.996094> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_440, exiting...
+00:45:04.970   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A91020> @"ENTITY:4611686018427435039" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.384766 54.521000 5434.993164> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_441, exiting...
+00:45:05.170   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A91BD0> @"ENTITY:4611686018427435040" ('GenericEntity','Assets/Weapons/MachineGuns/M249/M249_body.xob') at <4558.882812 54.111000 5435.543945> @"{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" already exists and won't be spawned for Slot_453, exiting...
+00:46:43.819 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:48:43.832 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:50:36.500 SCRIPT    (W): SCR_InstigatorContextData: No instigator type is set on Character death. It is likely that the KillerVictimRelation will be set to OTHER_DEATH which will not punish the victim for suicice.
+00:50:43.848 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:51:19.920   SCRIPT    (E): ScenarioFramework: Object SCR_SpawnPoint<0x0000000046CBABB0> @"ENTITY:4611686018427413080" ('SCR_SpawnPoint') at <4562.170898 54.011002 5434.766113> @"{72713ED566A531F3}PrefabsEditable/SpawnPoints/E_SpawnPoint_FIA.et" already exists and won't be spawned for spawn, exiting...
+00:51:20.086   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F398A5DFBB0> @"ENTITY:4611686018427435029" ('GenericEntity','Assets/Items/Fuel/Jerrycan_01/Jerrycan_01.xob') at <4556.662109 54.048000 5439.791992> @"{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et" already exists and won't be spawned for Slot1404, exiting...
+00:51:20.287   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F398A5DFCC0> @"ENTITY:4611686018427435031" ('GenericEntity','Assets/Weapons/Rifles/M16A2/M16A2_carbine_body.xob') at <4558.484863 54.526001 5434.702148> @"{E57DBDA5C50F07FF}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_4x20.et" already exists and won't be spawned for Slot_437, exiting...
+00:51:20.453   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A93660> @"ENTITY:4611686018427435036" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.747070 54.521000 5434.957031> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_438, exiting...
+00:51:20.653   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A93EE0> @"ENTITY:4611686018427435037" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.641113 54.521000 5434.975098> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_439, exiting...
+00:51:20.853   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A92450> @"ENTITY:4611686018427435038" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.520996 54.521000 5434.996094> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_440, exiting...
+00:51:21.053   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A91020> @"ENTITY:4611686018427435039" ('GenericEntity','Assets/Weapons/Magazines/STANAG/Magazine_30rnd_STANAG.xob') at <4558.384766 54.521000 5434.993164> @"{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" already exists and won't be spawned for Slot_441, exiting...
+00:51:21.253   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x0000000046A91BD0> @"ENTITY:4611686018427435040" ('GenericEntity','Assets/Weapons/MachineGuns/M249/M249_body.xob') at <4558.882812 54.111000 5435.543945> @"{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" already exists and won't be spawned for Slot_453, exiting...
+00:52:43.860 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:54:40.228   SCRIPT    (E): ScenarioFramework Randomized Spawn: Applied labels resulted in no viable prefabs to be randomly selected for Slot_262_new.
+00:54:40.384   SCRIPT    (E): ScenarioFramework Randomized Spawn: Applied labels resulted in no viable prefabs to be randomly selected for Slot_85.
+00:54:43.870 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:56:43.886 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:58:43.900 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+00:58:55.398   SCRIPT    (E): ScenarioFramework Action: Maximum number of activations reached for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D37D0>. Action won't do anything.
+00:58:55.398   SCRIPT    (E): ScenarioFramework Action: Maximum number of activations reached for Action SCR_ScenarioFrameworkActionChangeTaskState<0x00007F398A1D37D0>. Action won't do anything.
+00:58:55.599   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotExtraction_1 - generating task Exfil. Description: ScenarioFramework: -> LayerTask: SlotTask SlotExtraction_1 - generating task Exfil. Description: ctionChangeTaskState<0x00007F398A1D37D0>. Action won't do anything.
+00:58:56.366   SCRIPT    (E): ScenarioFramework Action: Maximum number of activations reached for Action SCR_ScenarioFrameworkActionRemoveItemFromInventory<0x00007F398A1D3820>. Action won't do anything.
+00:58:56.367   SCRIPT    (E): ScenarioFramework Action: Maximum number of activations reached for Action SCR_ScenarioFrameworkActionRemoveItemFromInventory<0x00007F398A1D3820>. Action won't do anything.
+01:00:43.888 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:00:56.546   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00007F398A17B310> @"ENTITY:4611686018427435505" ('Vehicle','Assets/Vehicles/Wheeled/S105/S105_base.xob') at <5240.950684 55.726013 5429.385254> @"{A6B0D2923262E755}Prefabs/Vehicles/Wheeled/S105/S105_yellow.et" already exists and won't be spawned for Slot_364, exiting...
+01:00:56.746   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273BB0> @"ENTITY:4611686018427389230" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <7021.383789 102.721008 8392.514648> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot241, exiting...
+01:00:56.954   SCRIPT    (E): ScenarioFramework: Object GenericEntity<0x00007F3A51273DD0> @"ENTITY:4611686018427389232" ('GenericEntity','Assets/Props/Civilian/Photos/Photo_02.xob') at <4823.916992 87.959000 4436.767578> @"{FB7B837BB0F11443}Prefabs/Props/Civilian/Photos/CombatOps_Polaroid_02.et" already exists and won't be spawned for Slot242, exiting...
+01:00:58.112   SCRIPT    (E): ScenarioFramework: Object Vehicle<0x00007F3A5124F5D0> @"ENTITY:4611686018427416089" ('Vehicle','Assets/Vehicles/Wheeled/UAZ452/UAZ452_base.xob') at <5094.302734 53.666561 5469.508789> @"{43C4AF1EEBD001CE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et" already exists and won't be spawned for MedicalTruck_Figari, exiting...
+01:01:31.910   SCRIPT       : ScenarioFramework: Area Richemont_MGs_Ran is set to 0 activation type, but area will always spawn on Init as default
+01:01:35.910   SCRIPT       : ScenarioFramework: Area Ambushed_Convoy_A is set to 0 activation type, but area will always spawn on Init as default
+01:01:36.510   SCRIPT    (E): ScenarioFramework Action: Entity not found for Action SCR_ScenarioFrameworkActionKillEntity<0x00007F398A1D18E0> attached on Slot471.
+01:02:32.975   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = POSTGAME
+01:02:32.975   SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
+01:03:05.398     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+01:03:05.399     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+01:03:05.399     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+01:03:05.399     SCRIPT    (W): SCR_SaveArsenalLoadout is attached to an entity that does not have an arsenal on self or parent (if m_bAllowGetArsenalFromParent is true)!
+01:03:06.081      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+01:03:07.361      SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+01:03:08.395 SCRIPT    (W): SCR_SaveManagerCore: -loadSessionSave CLI param set to load the latest save, but none was defined for the mission 'DFAC5FABD11F2390'!
+01:03:08.454  SCRIPT       : ScenarioFramework: Area TestArea is set to 0 activation type, but area will always spawn on Init as default
+01:03:08.454  SCRIPT       : ScenarioFramework: Area TestAreaB is set to 0 activation type, but area will always spawn on Init as default
+01:03:08.454  SCRIPT       : ScenarioFramework: ---------------------- Generating tasks -------------------
+01:03:08.461  SCRIPT       : ScenarioFramework: Creating area Morton_CO with Layer Task Destroy_Morton
+01:03:08.461  SCRIPT       : ScenarioFramework: Creating area Regina_CO with Layer Task Regina_Documents
+01:03:08.461  SCRIPT       : ScenarioFramework: Creating area Figari_Area with Layer Task B_TaskKill2
+01:03:08.461  SCRIPT       : ScenarioFramework: ---------------------- Generation of tasks completed -------------------
+01:03:08.473   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME
+01:03:11.042   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotMoveTo1 - generating task Deliver weapons. Description: ScenarioFramework: -> LayerTask: SlotTask SlotMoveTo1 - generating task Deliver weapons. Description: tigate dependencies on US ammunition.<br/>
+01:03:11.402   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask C_Document_Spawn2 - generating task Deliver intel. Description: ScenarioFramework: -> LayerTask: SlotTask C_Document_Spawn2 - generating task Deliver intel. Description: te dependencies on US ammunition.<br/>
+01:03:11.772   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_15 - generating task Destroy vehicle. Description: ScenarioFramework: -> LayerTask: SlotTask SlotDestroy_15 - generating task Destroy vehicle. Description: 20 Command Truck
+01:03:11.790   SCRIPT       : ScenarioFramework: -> LayerTask: SlotTask SlotKill_6 - generating task Eliminate target. Description: ScenarioFramework: -> LayerTask: SlotTask SlotKill_6 - generating task Eliminate target. Description: -4320 Command Truck
+01:05:10.759 SCRIPT       : SCR_LatestSaveDSSessionCallback: LocalSave: .LatestSave
